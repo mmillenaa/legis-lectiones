@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+
+  <title>Garantias de Emprego e Estabilidade · Legis Lectiones</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./support-popup.css">
+  <link rel="stylesheet" href="./refs.css">
+  <link rel="stylesheet" href="./p2-quiz.css">
+  <link rel="stylesheet" href="./engagement.css">
+  <link rel="stylesheet" href="./quiz-polish.css">
+  <link rel="stylesheet" href="./result-celestial.css">
+
+  <script src="./support-popup.js" defer></script>
+  <script src="./engagement.js" defer></script>
+  <script src="./p2-quiz.js" defer></script>
+  <script src="./quick-feedback.js" defer></script>
+  <script src="./result-celestial.js" defer></script>
+</head>
+
+<body data-bank="garantias-emprego">
+  <div class="shell">
+
+    <nav class="topbar">
+      <a href="./">← Direito do Trabalho</a>
+      <div class="brand">Legis Lectiones</div>
+    </nav>
+
+    <header>
+      <div class="eyebrow">
+        Direito do Trabalho · Revisão de prova
+      </div>
+
+      <h1>Garantias de Emprego e Estabilidade</h1>
+
+      <p class="subtitle">
+        Evolução histórica da estabilidade, estabilidade decenal,
+        direitos adquiridos, dirigente sindical, CIPA, gestante,
+        acidente de trabalho, Comissões de Conciliação Prévia,
+        representantes dos empregados, dispensa discriminatória,
+        reintegração e indenização substitutiva.
+        A primeira resposta conferida fica registrada na tentativa.
+      </p>
+
+      <div
+        id="stats"
+        class="stats"
+        aria-label="Composição do banco">
+      </div>
+    </header>
+
+    <div class="toolbar quiz-ui">
+      <div class="progress-wrap">
+        <div class="progress-meta">
+          <span id="counter">Carregando…</span>
+          <span id="progressText">0% do banco concluído</span>
+        </div>
+
+        <div class="progress">
+          <span id="progressBar"></span>
+        </div>
+      </div>
+
+      <div class="tool-actions">
+        <button type="button" class="ghost" id="shuffleBtn">
+          Embaralhar
+        </button>
+
+        <button type="button" class="ghost" id="finishBtn">
+          Resultado
+        </button>
+      </div>
+    </div>
+
+    <main class="card quiz-ui" id="quizCard">
+      <div class="qhead">
+        <div class="section" id="sectionLabel"></div>
+
+        <div class="badges">
+          <span class="answer-state" id="answerState"></span>
+          <span class="type" id="typeLabel"></span>
+        </div>
+      </div>
+
+      <h2 class="prompt" id="prompt"></h2>
+
+      <div id="interactive"></div>
+
+      <div
+        class="feedback"
+        id="feedback"
+        role="status">
+      </div>
+
+      <div class="controls">
+        <button type="button" class="ghost" id="prevBtn">
+          ← Anterior
+        </button>
+
+        <div class="controls-right">
+          <button type="button" class="primary" id="checkBtn">
+            Conferir resposta
+          </button>
+
+          <button type="button" class="ghost" id="nextBtn">
+            Próxima →
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <section class="card result" id="result">
+      <div class="eyebrow">Resultado</div>
+
+      <h2>Revisão concluída</h2>
+
+      <div id="score" class="score">0%</div>
+      <p id="scoreDetail"></p>
+
+      <div class="result-actions">
+        <button type="button" id="reviewWrongBtn" class="primary">
+          Revisar erros
+        </button>
+
+        <button type="button" id="restartBtn" class="ghost">
+          Recomeçar tudo
+        </button>
+      </div>
+
+      <p class="study-note">
+        Seu progresso é salvo apenas neste navegador.
+      </p>
+    </section>
+
+    <p class="study-note">
+      Banco de revisão elaborado a partir dos capítulos
+      Estabilidade e Garantias de Emprego.
+      Os entendimentos jurisprudenciais estão identificados
+      nas explicações. Recomenda-se consultar a redação vigente
+      dos dispositivos e verbetes antes de sua aplicação.
+    </p>
+
+    <footer class="refs">
+      <strong>Referências</strong>
+
+      <p>
+        MARTINS, Sergio Pinto.
+        <em>Manual de Direito do Trabalho</em>.
+        Texto-base dos capítulos Estabilidade e
+        Garantias de Emprego.
+      </p>
+
+      <p>
+        BRASIL.
+        <em>Constituição da República Federativa do Brasil de 1988</em>.
+        Especialmente arts. 7º e 8º e art. 10 do ADCT.
+        Disponível em:
+        <a
+          href="https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          target="_blank"
+          rel="noopener">Planalto</a>.
+      </p>
+
+      <p>
+        BRASIL.
+        <em>Consolidação das Leis do Trabalho</em>.
+        Especialmente arts. 165, 391-A, 492 a 500,
+        510-D, 522, 543 e 625-B.
+        Disponível em:
+        <a
+          href="https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+          target="_blank"
+          rel="noopener">Planalto</a>.
+      </p>
+
+      <p>
+        BRASIL.
+        <em>Lei nº 8.036, de 11 de maio de 1990</em>.
+        Fundo de Garantia do Tempo de Serviço.
+        Disponível em:
+        <a
+          href="https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm"
+          target="_blank"
+          rel="noopener">Planalto</a>.
+      </p>
+
+      <p>
+        BRASIL.
+        <em>Lei nº 8.213, de 24 de julho de 1991</em>.
+        Planos de Benefícios da Previdência Social.
+        Disponível em:
+        <a
+          href="https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm"
+          target="_blank"
+          rel="noopener">Planalto</a>.
+      </p>
+
+      <p>
+        BRASIL.
+        <em>Lei Complementar nº 150, de 1º de junho de 2015</em>.
+        Contrato de trabalho doméstico.
+        Disponível em:
+        <a
+          href="https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp150.htm"
+          target="_blank"
+          rel="noopener">Planalto</a>.
+      </p>
+
+      <p>
+        TRIBUNAL SUPERIOR DO TRABALHO.
+        Súmulas 244, 339, 369, 378, 379 e 443;
+        Orientações Jurisprudenciais 365 e 399 da SBDI-1.
+        Disponível em:
+        <a
+          href="https://www.tst.jus.br/"
+          target="_blank"
+          rel="noopener">TST</a>.
+      </p>
+    </footer>
+  </div>
+
+  <!-- Cloudflare Web Analytics -->
+  <script
+    type="module"
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token":"51f24d9a0ec840c5bcb40df413a4bf46"}'>
+  </script>
+  <!-- End Cloudflare Web Analytics -->
+
+  <audio
+    id="sfxCorrect"
+    preload="auto"
+    src="../civil-procedure/correct.mp3">
+  </audio>
+
+  <audio
+    id="sfxWrong"
+    preload="auto"
+    src="../civil-procedure/wrong.mp3">
+  </audio>
+
+</body>
+</html>
