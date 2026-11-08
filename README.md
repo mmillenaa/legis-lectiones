@@ -44,7 +44,9 @@ The platform is built as a growing collection of interactive review banks. Each 
 | **07** | Organização sindical (P2) | 36 | Multiple choice, Fill gaps, True/False, Drag cards |
 | **08** | Aviso prévio | 71 | Multiple choice, Fill gaps, True/False, Drag cards |
 | **09** | Suspensão e interrupção do contrato de trabalho (P2) | 22 | Multiple choice, Fill gaps, True/False, Drag cards |
-| **Total** | **9 study modules** | **428** | **4 interactive formats** |
+| **10** | Greve | 56 | Multiple choice, Fill gaps, True/False, Drag cards |
+| **Total** | **10 study modules** | **484** | **4 interactive formats** |
+
 
 > **Other disciplines** such as *Direito Processual Civil* and *Filosofia do Direito* are also available in the archive (password-protected).
 
