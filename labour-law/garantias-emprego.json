@@ -1,0 +1,707 @@
+
+{
+  "meta": {
+    "title": "Garantias de Emprego e Estabilidade",
+    "discipline": "Direito do Trabalho",
+    "language": "pt-BR",
+    "version": "1.0",
+    "sourceNote": "Banco elaborado a partir dos capítulos Estabilidade e Garantias de Emprego fornecidos para estudo. Referências: Constituição Federal, ADCT, CLT, Lei 8.036/1990, Lei 8.213/1991, LC 150/2015 e jurisprudência trabalhista. Entendimentos jurisprudenciais devem ser conferidos quanto à vigência.",
+    "totalActivities": 48,
+    "typeCounts": {
+      "mcq": 32,
+      "fill": 8,
+      "tf": 4,
+      "drag": 4
+    }
+  },
+  "questions": [
+    {
+      "id": "GE001",
+      "section": "1. História e evolução",
+      "type": "mcq",
+      "prompt": "Qual diploma é considerado o primeiro marco normativo da estabilidade decenal no setor privado brasileiro?",
+      "options": [
+        "Lei nº 62, de 1935.",
+        "Decreto nº 4.682, de 1923.",
+        "Consolidação das Leis do Trabalho, de 1943.",
+        "Constituição Federal de 1934."
+      ],
+      "answer": 1,
+      "explanation": "O Decreto nº 4.682/1923, conhecido como Lei Eloy Chaves, assegurou proteção aos ferroviários com dez anos de serviços efetivos, condicionando a dispensa por falta grave à apuração prevista na norma."
+    },
+    {
+      "id": "GE002",
+      "section": "1. História e evolução",
+      "type": "mcq",
+      "prompt": "Segundo o art. 492 da CLT, qual requisito temporal caracterizava a estabilidade decenal?",
+      "options": [
+        "Cinco anos na mesma função.",
+        "Oito anos na mesma categoria.",
+        "Doze anos no mesmo estabelecimento.",
+        "Mais de dez anos na mesma empresa."
+      ],
+      "answer": 3,
+      "explanation": "O art. 492 da CLT previa estabilidade para o empregado com mais de dez anos de serviço na mesma empresa, admitindo dispensa nas hipóteses legalmente previstas."
+    },
+    {
+      "id": "GE003",
+      "section": "1. História e evolução",
+      "type": "mcq",
+      "prompt": "Qual característica marcou o regime constitucional de 1967 em relação à estabilidade e ao FGTS?",
+      "options": [
+        "A existência de regimes alternativos.",
+        "A proibição absoluta de dispensas.",
+        "A extinção imediata da estabilidade.",
+        "A obrigatoriedade simultânea dos regimes."
+      ],
+      "answer": 0,
+      "explanation": "A Constituição de 1967 admitia a alternatividade entre estabilidade, com indenização, e FGTS equivalente. A Constituição de 1988 superou esse sistema de opção."
+    },
+    {
+      "id": "GE004",
+      "section": "1. História e evolução",
+      "type": "mcq",
+      "prompt": "Um empregado não optante pelo FGTS já havia adquirido estabilidade decenal antes da Constituição de 1988. Qual é o tratamento jurídico desse direito?",
+      "options": [
+        "Foi extinto automaticamente em 1988.",
+        "Foi convertido em contrato temporário.",
+        "Foi preservado como direito adquirido.",
+        "Foi substituído por estabilidade sindical."
+      ],
+      "answer": 2,
+      "explanation": "O art. 14 da Lei nº 8.036/1990 ressalva o direito adquirido à estabilidade decenal, preservando situações jurídicas consolidadas antes da Constituição de 1988."
+    },
+    {
+      "id": "GE005",
+      "section": "2. Conceitos e distinções",
+      "type": "mcq",
+      "prompt": "Qual alternativa distingue corretamente garantia de emprego e estabilidade na classificação do material?",
+      "options": [
+        "A estabilidade é mais ampla que a política de emprego.",
+        "A garantia de emprego abrange medidas mais amplas de proteção.",
+        "Ambas se restringem à estabilidade decenal.",
+        "A garantia de emprego depende sempre de concurso público."
+      ],
+      "answer": 1,
+      "explanation": "Garantia de emprego é conceito mais amplo, abrangendo obtenção, manutenção e recolocação profissional. A estabilidade jurídica limita o poder de despedir."
+    },
+    {
+      "id": "GE006",
+      "section": "2. Conceitos e distinções",
+      "type": "mcq",
+      "prompt": "Por que a expressão estabilidade provisória é considerada tecnicamente inadequada pelo autor?",
+      "options": [
+        "Porque a CLT proíbe qualquer proteção temporária.",
+        "Porque a garantia depende sempre de decisão judicial.",
+        "Porque a proteção só existe no serviço público.",
+        "Porque prefere denominar a proteção temporária garantia de emprego."
+      ],
+      "answer": 3,
+      "explanation": "Sérgio Pinto Martins reserva o termo estabilidade para a proteção decenal e prefere garantia de emprego para as proteções temporárias. A expressão estabilidade provisória, contudo, é amplamente empregada pela legislação e jurisprudência."
+    },
+    {
+      "id": "GE007",
+      "section": "2. Conceitos e distinções",
+      "type": "mcq",
+      "prompt": "Qual requisito é previsto no art. 500 da CLT para validar o pedido de demissão do empregado estável?",
+      "options": [
+        "Assistência sindical ou da autoridade legalmente indicada.",
+        "Autorização unilateral do empregador.",
+        "Homologação obrigatória do Ministério Público.",
+        "Pagamento prévio de indenização pelo empregado."
+      ],
+      "answer": 0,
+      "explanation": "O art. 500 da CLT exige assistência do sindicato respectivo ou, na sua falta, da autoridade competente indicada na norma para validar o pedido de demissão do empregado estável."
+    },
+    {
+      "id": "GE008",
+      "section": "2. Conceitos e distinções",
+      "type": "mcq",
+      "prompt": "De acordo com o art. 499 da CLT, qual é a consequência do exercício de cargo de confiança para a estabilidade decenal?",
+      "options": [
+        "O tempo de serviço deixa de ser computado.",
+        "O empregado perde definitivamente o cargo efetivo.",
+        "Não há estabilidade no exercício do cargo de confiança.",
+        "O empregado adquire estabilidade após três anos."
+      ],
+      "answer": 2,
+      "explanation": "O art. 499 afasta a estabilidade no exercício de cargos de diretoria, gerência ou confiança imediata, mas preserva o cômputo do tempo de serviço e disciplina a reversão ao cargo efetivo."
+    },
+    {
+      "id": "GE009",
+      "section": "3. Dirigente sindical",
+      "type": "mcq",
+      "prompt": "Quando começa a garantia constitucional de emprego do empregado sindicalizado candidato a cargo de direção sindical?",
+      "options": [
+        "Na posse no cargo de direção.",
+        "Na comunicação do resultado eleitoral.",
+        "No primeiro ano após o mandato.",
+        "No registro da candidatura."
+      ],
+      "answer": 3,
+      "explanation": "O art. 8º, VIII, da Constituição protege o empregado sindicalizado desde o registro da candidatura e, se eleito, inclusive suplente, até um ano após o final do mandato."
+    },
+    {
+      "id": "GE010",
+      "section": "3. Dirigente sindical",
+      "type": "mcq",
+      "prompt": "Um dirigente sindical eleito termina regularmente seu mandato. Até quando se estende, em regra, sua garantia de emprego?",
+      "options": [
+        "Até seis meses depois do mandato.",
+        "Até um ano depois do mandato.",
+        "Até dois anos depois do mandato.",
+        "Somente até o dia da posse do sucessor."
+      ],
+      "answer": 1,
+      "explanation": "A Constituição Federal, art. 8º, VIII, e a CLT, art. 543, § 3º, asseguram proteção até um ano após o término do mandato, ressalvada falta grave nos termos legais."
+    },
+    {
+      "id": "GE011",
+      "section": "3. Dirigente sindical",
+      "type": "mcq",
+      "prompt": "Qual é o entendimento da Súmula 369 do TST sobre o número de dirigentes sindicais abrangidos pela estabilidade?",
+      "options": [
+        "Sete dirigentes e igual número de suplentes.",
+        "Cinco dirigentes e dois suplentes.",
+        "Todos os dirigentes, sem limitação numérica.",
+        "Três dirigentes e três suplentes."
+      ],
+      "answer": 0,
+      "explanation": "A Súmula 369, II, do TST reconhece a recepção do art. 522 da CLT e limita a estabilidade a sete dirigentes sindicais e igual número de suplentes."
+    },
+    {
+      "id": "GE012",
+      "section": "3. Dirigente sindical",
+      "type": "mcq",
+      "prompt": "Um empregado registra candidatura sindical durante o aviso prévio indenizado. Segundo a Súmula 369 do TST, qual é a consequência?",
+      "options": [
+        "A estabilidade é automaticamente prorrogada por dois anos.",
+        "O aviso prévio é convertido em suspensão contratual.",
+        "A candidatura não assegura a estabilidade sindical.",
+        "O empregado passa a ter estabilidade decenal."
+      ],
+      "answer": 2,
+      "explanation": "A Súmula 369, V, do TST afasta a garantia de emprego quando o registro da candidatura ocorre durante o aviso prévio, ainda que indenizado."
+    },
+    {
+      "id": "GE013",
+      "section": "3. Dirigente sindical",
+      "type": "mcq",
+      "prompt": "Um empregado é eleito membro do conselho fiscal de sindicato. Segundo a OJ 365 da SBDI-1 do TST, ele possui a estabilidade do dirigente sindical?",
+      "options": [
+        "Sim, por exercer qualquer cargo sindical.",
+        "Sim, desde que tenha cinco anos de serviço.",
+        "Sim, exclusivamente após o primeiro mandato.",
+        "Não, pois sua função é fiscalizar a gestão financeira."
+      ],
+      "answer": 3,
+      "explanation": "A OJ 365 afasta a estabilidade do membro de conselho fiscal, cuja competência se limita à fiscalização financeira, distinguindo-o dos dirigentes que representam a categoria."
+    },
+    {
+      "id": "GE014",
+      "section": "3. Dirigente sindical",
+      "type": "mcq",
+      "prompt": "Um dirigente sindical comete falta grave. Qual procedimento é exigido, em regra, para sua dispensa por justa causa?",
+      "options": [
+        "Comunicação verbal ao sindicato.",
+        "Inquérito judicial para apuração de falta grave.",
+        "Simples registro da falta no departamento pessoal.",
+        "Autorização da assembleia patronal."
+      ],
+      "answer": 1,
+      "explanation": "A dispensa por falta grave do dirigente sindical está sujeita ao inquérito judicial, conforme os arts. 494 e 543, § 3º, da CLT e a Súmula 379 do TST."
+    },
+    {
+      "id": "GE015",
+      "section": "4. Membros da CIPA",
+      "type": "mcq",
+      "prompt": "Qual trabalhador possui garantia de emprego prevista no art. 10, II, a, do ADCT?",
+      "options": [
+        "Qualquer empregado que participe das reuniões da CIPA.",
+        "O representante indicado exclusivamente pelo empregador.",
+        "O empregado eleito para cargo de direção da CIPA.",
+        "Todo prestador terceirizado da empresa."
+      ],
+      "answer": 2,
+      "explanation": "O ADCT protege o empregado eleito para cargo de direção da CIPA. A Súmula 339 do TST estende a garantia ao suplente eleito."
+    },
+    {
+      "id": "GE016",
+      "section": "4. Membros da CIPA",
+      "type": "mcq",
+      "prompt": "Qual é o período constitucional da garantia do empregado eleito para cargo de direção da CIPA?",
+      "options": [
+        "Do registro da candidatura até um ano após o mandato.",
+        "Da posse até cinco meses após o mandato.",
+        "Da eleição até três anos após o mandato.",
+        "Da contratação até a extinção da empresa."
+      ],
+      "answer": 0,
+      "explanation": "O art. 10, II, a, do ADCT protege desde o registro da candidatura até um ano após o final do mandato."
+    },
+    {
+      "id": "GE017",
+      "section": "4. Membros da CIPA",
+      "type": "mcq",
+      "prompt": "Um empregado suplente eleito da CIPA é dispensado sem justa causa durante o período de garantia. Qual entendimento jurisprudencial é aplicável?",
+      "options": [
+        "A garantia alcança apenas os titulares.",
+        "A garantia também protege o suplente eleito.",
+        "O suplente tem apenas direito a aviso prévio dobrado.",
+        "A proteção depende de dez anos na empresa."
+      ],
+      "answer": 1,
+      "explanation": "A Súmula 339, I, do TST e a Súmula 676 do STF reconhecem a garantia de emprego do suplente eleito da CIPA."
+    },
+    {
+      "id": "GE018",
+      "section": "4. Membros da CIPA",
+      "type": "mcq",
+      "prompt": "Segundo o art. 165 da CLT, qual fundamento pode afastar o caráter arbitrário da dispensa do empregado protegido da CIPA?",
+      "options": [
+        "Preferência pessoal do empregador.",
+        "Discordância com propostas da comissão.",
+        "Participação frequente em reuniões.",
+        "Motivo disciplinar, técnico, econômico ou financeiro."
+      ],
+      "answer": 3,
+      "explanation": "O art. 165 da CLT considera arbitrária a dispensa que não se fundar em motivo disciplinar, técnico, econômico ou financeiro, cabendo ao empregador demonstrar a razão invocada."
+    },
+    {
+      "id": "GE019",
+      "section": "5. Gestante e adoção",
+      "type": "mcq",
+      "prompt": "Qual é o período de garantia de emprego da gestante previsto no ADCT?",
+      "options": [
+        "Da comunicação ao empregador até o parto.",
+        "Da contratação até seis meses após o parto.",
+        "Da confirmação da gravidez até cinco meses após o parto.",
+        "Do início da licença-maternidade até seu término."
+      ],
+      "answer": 2,
+      "explanation": "O art. 10, II, b, do ADCT protege a empregada gestante desde a confirmação da gravidez até cinco meses após o parto."
+    },
+    {
+      "id": "GE020",
+      "section": "5. Gestante e adoção",
+      "type": "mcq",
+      "prompt": "Uma trabalhadora é dispensada sem justa causa enquanto está grávida, mas o empregador desconhece a gestação. Qual é a consequência segundo a Súmula 244 do TST?",
+      "options": [
+        "O desconhecimento não afasta o direito à proteção.",
+        "A proteção depende de comunicação escrita prévia.",
+        "A garantia somente começa após o parto.",
+        "A indenização fica limitada ao aviso prévio."
+      ],
+      "answer": 0,
+      "explanation": "A Súmula 244, I, do TST estabelece que o desconhecimento da gravidez pelo empregador não afasta o direito à indenização decorrente da estabilidade."
+    },
+    {
+      "id": "GE021",
+      "section": "5. Gestante e adoção",
+      "type": "mcq",
+      "prompt": "Uma empregada descobre a gravidez durante o aviso prévio indenizado. Qual dispositivo assegura a proteção?",
+      "options": [
+        "Art. 492 da CLT.",
+        "Art. 499 da CLT.",
+        "Art. 625-B da CLT.",
+        "Art. 391-A da CLT."
+      ],
+      "answer": 3,
+      "explanation": "O art. 391-A da CLT assegura a garantia de emprego quando a gravidez é confirmada no curso do contrato, inclusive durante o aviso prévio trabalhado ou indenizado."
+    },
+    {
+      "id": "GE022",
+      "section": "5. Gestante e adoção",
+      "type": "mcq",
+      "prompt": "A garantia de emprego da gestante pode alcançar uma empregada doméstica?",
+      "options": [
+        "Não, porque a proteção é exclusivamente urbana.",
+        "Sim, conforme a LC nº 150/2015 e o ADCT.",
+        "Somente quando o contrato for indeterminado.",
+        "Somente após cinco anos de vínculo doméstico."
+      ],
+      "answer": 1,
+      "explanation": "A empregada doméstica gestante também é protegida contra dispensa arbitrária ou sem justa causa, conforme o art. 25 da LC nº 150/2015."
+    },
+    {
+      "id": "GE023",
+      "section": "5. Gestante e adoção",
+      "type": "mcq",
+      "prompt": "Segundo a LC nº 146/2014, em caso de falecimento da genitora, a quem pode ser assegurada a garantia de emprego prevista para a gestante?",
+      "options": [
+        "A qualquer familiar que residisse com a mãe.",
+        "Exclusivamente ao empregador da genitora.",
+        "A quem detiver a guarda do filho.",
+        "Somente ao sindicato da categoria profissional."
+      ],
+      "answer": 2,
+      "explanation": "A LC nº 146/2014 estende a garantia de emprego a quem detiver a guarda do filho na hipótese de falecimento da genitora, observadas as condições legais."
+    },
+    {
+      "id": "GE024",
+      "section": "6. Acidente de trabalho",
+      "type": "mcq",
+      "prompt": "Qual é a duração mínima da garantia de emprego do acidentado prevista no art. 118 da Lei nº 8.213/1991?",
+      "options": [
+        "Doze meses após a cessação do benefício acidentário.",
+        "Seis meses após a ocorrência do acidente.",
+        "Cinco meses após a alta hospitalar.",
+        "Vinte e quatro meses após a contratação."
+      ],
+      "answer": 0,
+      "explanation": "O art. 118 assegura manutenção do contrato por no mínimo doze meses após a cessação do auxílio por incapacidade temporária de natureza acidentária, independentemente da percepção de auxílio-acidente."
+    },
+    {
+      "id": "GE025",
+      "section": "6. Acidente de trabalho",
+      "type": "mcq",
+      "prompt": "Segundo a Súmula 378, II, do TST, qual é a regra geral para a garantia de emprego decorrente de acidente de trabalho?",
+      "options": [
+        "Qualquer afastamento de um dia gera estabilidade.",
+        "Apenas o reconhecimento de culpa patronal gera proteção.",
+        "O empregado deve completar dez anos de serviço.",
+        "Exigem-se afastamento superior a quinze dias e benefício acidentário, ressalvada a exceção jurisprudencial."
+      ],
+      "answer": 3,
+      "explanation": "A Súmula 378, II, prevê como pressupostos o afastamento superior a quinze dias e a percepção do benefício acidentário, ressalvada doença profissional constatada após a dispensa com nexo causal com o trabalho. A aplicação deve considerar também a jurisprudência superveniente."
+    },
+    {
+      "id": "GE026",
+      "section": "6. Acidente de trabalho",
+      "type": "mcq",
+      "prompt": "Um empregado contratado por prazo determinado sofre acidente de trabalho e preenche os requisitos legais. Segundo a Súmula 378, III, do TST, qual é a consequência?",
+      "options": [
+        "O contrato determinado impede toda garantia.",
+        "A garantia acidentária também pode ser reconhecida.",
+        "A proteção é convertida em estabilidade sindical.",
+        "O benefício fica limitado à indenização do FGTS."
+      ],
+      "answer": 1,
+      "explanation": "A Súmula 378, III, do TST reconhece a garantia provisória decorrente de acidente de trabalho ao empregado submetido a contrato por tempo determinado."
+    },
+    {
+      "id": "GE027",
+      "section": "7. Outras garantias",
+      "type": "mcq",
+      "prompt": "Quem é protegido pela garantia prevista no art. 625-B, § 1º, da CLT nas Comissões de Conciliação Prévia?",
+      "options": [
+        "Os representantes dos empregados, titulares e suplentes.",
+        "Todos os representantes indicados pelos empregadores.",
+        "Somente os membros que presidirem a comissão.",
+        "Todos os empregados da empresa durante a conciliação."
+      ],
+      "answer": 0,
+      "explanation": "A CLT protege os representantes dos empregados nas Comissões de Conciliação Prévia, titulares e suplentes, até um ano após o final do mandato, ressalvada falta grave."
+    },
+    {
+      "id": "GE028",
+      "section": "7. Outras garantias",
+      "type": "mcq",
+      "prompt": "Qual é a garantia prevista para o membro da comissão de representantes dos empregados, nos termos do art. 510-D, § 3º, da CLT?",
+      "options": [
+        "Proteção por cinco meses após a contratação.",
+        "Estabilidade decenal após a eleição.",
+        "Proteção do registro da candidatura até um ano após o mandato.",
+        "Garantia exclusiva durante as reuniões da comissão."
+      ],
+      "answer": 2,
+      "explanation": "O art. 510-D, § 3º, protege o membro da comissão desde o registro da candidatura até um ano após o final do mandato contra despedida arbitrária."
+    },
+    {
+      "id": "GE029",
+      "section": "7. Outras garantias",
+      "type": "mcq",
+      "prompt": "Qual é o entendimento da Súmula 443 do TST sobre a dispensa de empregado com HIV ou outra doença grave que suscite estigma ou preconceito?",
+      "options": [
+        "Toda doença gera estabilidade decenal.",
+        "A dispensa é sempre válida se houver aviso prévio.",
+        "A proteção depende de cargo de direção sindical.",
+        "Presume-se discriminatória a dispensa, assegurada a reintegração quando inválida."
+      ],
+      "answer": 3,
+      "explanation": "A Súmula 443 do TST estabelece presunção de dispensa discriminatória nessas hipóteses, reconhecendo a invalidade do ato e o direito à reintegração. Trata-se de presunção que admite análise das circunstâncias do caso."
+    },
+    {
+      "id": "GE030",
+      "section": "8. Reintegração e indenização",
+      "type": "mcq",
+      "prompt": "Uma gestante foi dispensada irregularmente, mas o período de garantia terminou antes da decisão judicial. Segundo a Súmula 244, II, do TST, qual é a consequência?",
+      "options": [
+        "A garantia desaparece sem efeitos patrimoniais.",
+        "São devidos salários e direitos do período protegido.",
+        "A reintegração é obrigatória por prazo indeterminado.",
+        "A empregada passa a ter estabilidade decenal."
+      ],
+      "answer": 1,
+      "explanation": "Quando a reintegração não ocorre dentro do período de estabilidade, a garantia se restringe, em regra, aos salários e demais direitos correspondentes ao período protegido."
+    },
+    {
+      "id": "GE031",
+      "section": "8. Reintegração e indenização",
+      "type": "mcq",
+      "prompt": "O empregado ajuíza ação trabalhista depois do fim do período de garantia, mas dentro do prazo prescricional. Qual entendimento consta da OJ 399 da SBDI-1 do TST?",
+      "options": [
+        "O ajuizamento tardio caracteriza sempre abuso de direito.",
+        "A indenização depende de ação proposta antes da dispensa.",
+        "O ajuizamento posterior não configura, por si, abuso.",
+        "A ação deve ser proposta no primeiro mês de estabilidade."
+      ],
+      "answer": 2,
+      "explanation": "A OJ 399 estabelece que o ajuizamento após o período de garantia não configura abuso do direito de ação, observado o prazo prescricional constitucional."
+    },
+    {
+      "id": "GE032",
+      "section": "8. Reintegração e indenização",
+      "type": "mcq",
+      "prompt": "Qual afirmação sobre a aposentadoria espontânea é compatível com a jurisprudência consolidada do STF?",
+      "options": [
+        "Não extingue automaticamente o vínculo de emprego.",
+        "Extingue obrigatoriamente todos os contratos de trabalho.",
+        "Converte qualquer estabilidade em contrato temporário.",
+        "Dispensa a observância das garantias constitucionais."
+      ],
+      "answer": 0,
+      "explanation": "A aposentadoria espontânea não extingue automaticamente o contrato de trabalho. Por isso, não se deve reproduzir como regra geral a afirmação de que a aposentadoria, por si só, encerra a estabilidade."
+    },
+    {
+      "id": "GE033",
+      "section": "9. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "A estabilidade decenal clássica exigia mais de {{blank}} anos de serviço na mesma empresa.",
+      "answers": [["10", "dez"]],
+      "explanation": "O art. 492 da CLT estabelecia o requisito de mais de dez anos de serviço na mesma empresa."
+    },
+    {
+      "id": "GE034",
+      "section": "9. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "A garantia do dirigente sindical eleito estende-se até {{blank}} ano após o término do mandato.",
+      "answers": [["1", "um"]],
+      "explanation": "O art. 8º, VIII, da Constituição prevê proteção até um ano após o mandato."
+    },
+    {
+      "id": "GE035",
+      "section": "9. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "A gestante é protegida até {{blank}} meses após o parto.",
+      "answers": [["5", "cinco"]],
+      "explanation": "O art. 10, II, b, do ADCT estabelece cinco meses após o parto."
+    },
+    {
+      "id": "GE036",
+      "section": "9. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "A garantia de emprego do acidentado prevista no art. 118 da Lei nº 8.213/1991 dura, no mínimo, {{blank}} meses após a cessação do benefício.",
+      "answers": [["12", "doze"]],
+      "explanation": "A proteção legal mínima é de doze meses."
+    },
+    {
+      "id": "GE037",
+      "section": "9. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "A garantia de emprego do suplente eleito da CIPA é reconhecida pela Súmula {{blank}} do TST.",
+      "answers": [["339"]],
+      "explanation": "A Súmula 339, I, do TST reconhece a proteção do suplente da CIPA."
+    },
+    {
+      "id": "GE038",
+      "section": "9. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "A presunção de dispensa discriminatória de empregado com HIV ou doença grave estigmatizante é tratada na Súmula {{blank}} do TST.",
+      "answers": [["443"]],
+      "explanation": "A Súmula 443 disciplina a presunção de discriminação e a reintegração quando reconhecida a invalidade da dispensa."
+    },
+    {
+      "id": "GE039",
+      "section": "9. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "O pedido de demissão do empregado estável deve observar a assistência prevista no art. {{blank}} da CLT.",
+      "answers": [["500"]],
+      "explanation": "O art. 500 da CLT estabelece requisito especial de validade para o pedido de demissão do empregado estável."
+    },
+    {
+      "id": "GE040",
+      "section": "9. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "A proteção do empregado sindicalizado candidato a dirigente sindical está prevista no art. {{blank}}, VIII, da Constituição.",
+      "answers": [["8", "8º", "oitavo"]],
+      "explanation": "O art. 8º, VIII, da Constituição assegura a garantia de emprego sindical."
+    },
+    {
+      "id": "GE041",
+      "section": "10. Verdadeiro ou falso",
+      "type": "tf",
+      "prompt": "Julgue as afirmações sobre a evolução histórica da estabilidade.",
+      "statements": [
+        {
+          "text": "A Lei Eloy Chaves de 1923 constitui marco da estabilidade no setor privado.",
+          "answer": true
+        },
+        {
+          "text": "A estabilidade decenal da CLT dependia de apenas dois anos de serviço.",
+          "answer": false
+        },
+        {
+          "text": "A Constituição de 1988 preservou os direitos adquiridos à estabilidade decenal.",
+          "answer": true
+        },
+        {
+          "text": "A garantia de emprego é necessariamente mais restrita que a estabilidade.",
+          "answer": false
+        }
+      ],
+      "explanation": "A estabilidade decenal foi historicamente construída antes de 1988, e os direitos adquiridos foram ressalvados. Garantia de emprego é conceito mais amplo na classificação doutrinária estudada."
+    },
+    {
+      "id": "GE042",
+      "section": "10. Verdadeiro ou falso",
+      "type": "tf",
+      "prompt": "Julgue as afirmações sobre dirigente sindical e CIPA.",
+      "statements": [
+        {
+          "text": "A proteção do dirigente sindical pode começar no registro da candidatura.",
+          "answer": true
+        },
+        {
+          "text": "O suplente eleito da CIPA não possui qualquer garantia de emprego.",
+          "answer": false
+        },
+        {
+          "text": "A estabilidade sindical pode exigir inquérito judicial para apuração de falta grave.",
+          "answer": true
+        },
+        {
+          "text": "O membro do conselho fiscal possui automaticamente a estabilidade do dirigente sindical.",
+          "answer": false
+        }
+      ],
+      "explanation": "A Constituição protege dirigentes sindicais e membros eleitos da CIPA, com diferenças importantes quanto ao fundamento e ao procedimento de dispensa. A OJ 365 afasta a estabilidade do conselho fiscal sindical."
+    },
+    {
+      "id": "GE043",
+      "section": "10. Verdadeiro ou falso",
+      "type": "tf",
+      "prompt": "Julgue as afirmações sobre gestação e acidente de trabalho.",
+      "statements": [
+        {
+          "text": "O desconhecimento da gravidez pelo empregador afasta automaticamente a estabilidade.",
+          "answer": false
+        },
+        {
+          "text": "A empregada doméstica gestante também possui garantia de emprego.",
+          "answer": true
+        },
+        {
+          "text": "A garantia acidentária do art. 118 possui duração mínima de doze meses.",
+          "answer": true
+        },
+        {
+          "text": "O contrato por prazo determinado exclui necessariamente a garantia acidentária.",
+          "answer": false
+        }
+      ],
+      "explanation": "A proteção da gestante independe do conhecimento patronal. A garantia acidentária é de doze meses e pode alcançar contratos por prazo determinado."
+    },
+    {
+      "id": "GE044",
+      "section": "10. Verdadeiro ou falso",
+      "type": "tf",
+      "prompt": "Julgue as afirmações sobre outras garantias e consequências jurídicas.",
+      "statements": [
+        {
+          "text": "A Súmula 443 do TST prevê presunção de discriminação em determinadas dispensas.",
+          "answer": true
+        },
+        {
+          "text": "Os representantes patronais da Comissão de Conciliação Prévia recebem a mesma garantia do art. 625-B.",
+          "answer": false
+        },
+        {
+          "text": "O ajuizamento de ação após o período de garantia caracteriza sempre abuso.",
+          "answer": false
+        },
+        {
+          "text": "A indenização substitutiva pode abranger salários e demais direitos do período de garantia.",
+          "answer": true
+        }
+      ],
+      "explanation": "A garantia dos membros da CCP protege os representantes dos empregados. A OJ 399 afasta a tese de abuso automático pelo ajuizamento posterior, observado o prazo prescricional."
+    },
+    {
+      "id": "GE045",
+      "section": "11. Associação e classificação",
+      "type": "drag",
+      "prompt": "Associe cada categoria à duração ou ao termo final da garantia.",
+      "zones": [
+        {"id": "gestante", "label": "Gestante"},
+        {"id": "acidentado", "label": "Acidentado"},
+        {"id": "sindical", "label": "Dirigente sindical"},
+        {"id": "cipa", "label": "Membro eleito da CIPA"}
+      ],
+      "cards": [
+        {"id": "c1", "text": "Até cinco meses após o parto.", "zone": "gestante"},
+        {"id": "c2", "text": "Doze meses após a cessação do benefício acidentário.", "zone": "acidentado"},
+        {"id": "c3", "text": "Até um ano após o mandato, com proteção desde a candidatura.", "zone": "sindical"},
+        {"id": "c4", "text": "Até um ano após o mandato, conforme o ADCT.", "zone": "cipa"}
+      ],
+      "explanation": "As quatro garantias possuem fundamentos e marcos temporais distintos, ainda que algumas compartilhem o prazo de um ano após o mandato."
+    },
+    {
+      "id": "GE046",
+      "section": "11. Associação e classificação",
+      "type": "drag",
+      "prompt": "Associe cada norma à proteção correspondente.",
+      "zones": [
+        {"id": "cf8", "label": "CF, art. 8º, VIII"},
+        {"id": "adct", "label": "ADCT, art. 10, II, b"},
+        {"id": "lei8213", "label": "Lei 8.213/1991, art. 118"},
+        {"id": "clt625", "label": "CLT, art. 625-B"}
+      ],
+      "cards": [
+        {"id": "c1", "text": "Garantia do dirigente sindical.", "zone": "cf8"},
+        {"id": "c2", "text": "Garantia da empregada gestante.", "zone": "adct"},
+        {"id": "c3", "text": "Garantia do empregado acidentado.", "zone": "lei8213"},
+        {"id": "c4", "text": "Garantia dos representantes dos empregados na CCP.", "zone": "clt625"}
+      ],
+      "explanation": "A identificação da fonte normativa é fundamental para distinguir requisitos, duração e consequências da dispensa."
+    },
+    {
+      "id": "GE047",
+      "section": "11. Associação e classificação",
+      "type": "drag",
+      "prompt": "Associe cada verbete jurisprudencial ao assunto.",
+      "zones": [
+        {"id": "s244", "label": "Súmula 244 do TST"},
+        {"id": "s339", "label": "Súmula 339 do TST"},
+        {"id": "s369", "label": "Súmula 369 do TST"},
+        {"id": "s443", "label": "Súmula 443 do TST"}
+      ],
+      "cards": [
+        {"id": "c1", "text": "Proteção da gestante e consequências da dispensa.", "zone": "s244"},
+        {"id": "c2", "text": "Garantia do suplente eleito da CIPA.", "zone": "s339"},
+        {"id": "c3", "text": "Limites e requisitos da estabilidade sindical.", "zone": "s369"},
+        {"id": "c4", "text": "Presunção de dispensa discriminatória.", "zone": "s443"}
+      ],
+      "explanation": "As Súmulas 244, 339, 369 e 443 tratam de proteções distintas e são referências importantes para revisão jurisprudencial."
+    },
+    {
+      "id": "GE048",
+      "section": "11. Associação e classificação",
+      "type": "drag",
+      "prompt": "Associe cada situação à consequência jurídica mais adequada.",
+      "zones": [
+        {"id": "indenizacao", "label": "Indenização substitutiva"},
+        {"id": "inquerito", "label": "Inquérito judicial"},
+        {"id": "discriminacao", "label": "Dispensa discriminatória"},
+        {"id": "direito", "label": "Direito adquirido"}
+      ],
+      "cards": [
+        {"id": "c1", "text": "Período de estabilidade gestacional encerrado antes da reintegração.", "zone": "indenizacao"},
+        {"id": "c2", "text": "Apuração de falta grave de dirigente sindical estável.", "zone": "inquerito"},
+        {"id": "c3", "text": "Dispensa presumidamente motivada por doença grave estigmatizante.", "zone": "discriminacao"},
+        {"id": "c4", "text": "Estabilidade decenal consolidada antes da Constituição de 1988.", "zone": "direito"}
+      ],
+      "explanation": "A solução jurídica depende do fundamento da proteção. Não se deve confundir reintegração, indenização substitutiva, apuração judicial de falta grave e preservação de direito adquirido."
+    }
+  ]
+}
