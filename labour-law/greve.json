@@ -1,0 +1,834 @@
+
+{
+  "meta": {
+    "title": "Greve",
+    "discipline": "Direito do Trabalho",
+    "language": "pt-BR",
+    "version": "1.0",
+    "sourceNote": "Banco elaborado a partir do capítulo Greve fornecido para estudo, com confronto dos dispositivos da Constituição Federal e da Lei 7.783/1989. Posições controvertidas do autor são identificadas expressamente.",
+    "totalActivities": 56,
+    "typeCounts": {
+      "mcq": 40,
+      "fill": 8,
+      "tf": 4,
+      "drag": 4
+    }
+  },
+  "questions": [
+    {
+      "id": "GR001",
+      "section": "1. História e natureza jurídica",
+      "type": "mcq",
+      "prompt": "Qual tratamento a Constituição de 1937 dispensou à greve e ao lockout?",
+      "options": [
+        "Reconheceu ambos como direitos sociais.",
+        "Admitiu ambos mediante autorização judicial.",
+        "Considerou ambos recursos antissociais.",
+        "Regulamentou ambos por negociação coletiva."
+      ],
+      "answer": 2,
+      "explanation": "O art. 139 da Constituição de 1937 qualificava greve e lockout como recursos antissociais, incompatíveis com os interesses da produção nacional."
+    },
+    {
+      "id": "GR002",
+      "section": "1. História e natureza jurídica",
+      "type": "mcq",
+      "prompt": "Qual Constituição brasileira reconheceu expressamente o direito de greve após o Estado Novo?",
+      "options": [
+        "A Constituição de 1946.",
+        "A Constituição de 1937.",
+        "A Constituição de 1934.",
+        "A Constituição de 1967."
+      ],
+      "answer": 0,
+      "explanation": "A Constituição de 1946, em seu art. 158, reconheceu o direito de greve, remetendo sua regulamentação à legislação ordinária."
+    },
+    {
+      "id": "GR003",
+      "section": "1. História e natureza jurídica",
+      "type": "mcq",
+      "prompt": "Segundo o art. 9º da Constituição de 1988, quem decide a oportunidade da greve e os interesses defendidos?",
+      "options": [
+        "O sindicato patronal, mediante negociação.",
+        "A Justiça do Trabalho, mediante sentença.",
+        "O Ministério do Trabalho, por autorização.",
+        "Os trabalhadores, no exercício do direito."
+      ],
+      "answer": 3,
+      "explanation": "A titularidade constitucional do direito pertence aos trabalhadores, que decidem sobre a oportunidade e os interesses a defender."
+    },
+    {
+      "id": "GR004",
+      "section": "2. Conceito e classificação",
+      "type": "mcq",
+      "prompt": "Qual combinação caracteriza a greve na Lei nº 7.783/1989?",
+      "options": [
+        "Paralisação individual, definitiva e pacífica.",
+        "Suspensão coletiva, temporária e pacífica.",
+        "Suspensão patronal, temporária e parcial.",
+        "Paralisação coletiva, definitiva e coercitiva."
+      ],
+      "answer": 1,
+      "explanation": "O art. 2º define greve como suspensão coletiva, temporária e pacífica, total ou parcial, da prestação pessoal de serviços ao empregador."
+    },
+    {
+      "id": "GR005",
+      "section": "2. Conceito e classificação",
+      "type": "mcq",
+      "prompt": "Um empregado interrompe sozinho seu trabalho para exigir aumento. A conduta caracteriza greve?",
+      "options": [
+        "Sim, porque toda reivindicação configura greve.",
+        "Sim, se a paralisação durar mais de um dia.",
+        "Não, porque falta o elemento coletivo.",
+        "Não, porque somente sindicatos podem parar."
+      ],
+      "answer": 2,
+      "explanation": "A greve pressupõe suspensão coletiva. A paralisação individual não se enquadra no conceito legal, embora suas consequências dependam do caso concreto."
+    },
+    {
+      "id": "GR006",
+      "section": "2. Conceito e classificação",
+      "type": "mcq",
+      "prompt": "Apenas um setor de uma fábrica paralisa temporariamente as atividades. Há possibilidade de greve?",
+      "options": [
+        "Sim, porque a paralisação pode ser parcial.",
+        "Não, porque toda a empresa deve parar.",
+        "Não, porque a greve exige várias empresas.",
+        "Sim, mas somente em serviços essenciais."
+      ],
+      "answer": 0,
+      "explanation": "O art. 2º admite paralisações totais ou parciais. O movimento pode abranger apenas determinados setores da empresa."
+    },
+    {
+      "id": "GR007",
+      "section": "2. Conceito e classificação",
+      "type": "mcq",
+      "prompt": "Por que a operação tartaruga não é greve na classificação adotada pelo autor?",
+      "options": [
+        "Porque sempre depende de autorização patronal.",
+        "Porque ocorre apenas em serviços essenciais.",
+        "Porque exige negociação coletiva já concluída.",
+        "Porque há trabalho, ainda que muito lento."
+      ],
+      "answer": 3,
+      "explanation": "Para o autor, a operação tartaruga não configura greve porque não ocorre efetiva suspensão da prestação de serviços."
+    },
+    {
+      "id": "GR008",
+      "section": "2. Conceito e classificação",
+      "type": "mcq",
+      "prompt": "Qual característica distingue a greve intermitente?",
+      "options": [
+        "A paralisação ocorre de modo definitivo.",
+        "A paralisação ocorre em etapas repetidas.",
+        "Os trabalhadores apenas reduzem o ritmo.",
+        "Os empregadores interrompem a produção."
+      ],
+      "answer": 1,
+      "explanation": "A greve intermitente é caracterizada por paralisações de curta duração que podem se repetir em várias etapas."
+    },
+    {
+      "id": "GR009",
+      "section": "2. Conceito e classificação",
+      "type": "mcq",
+      "prompt": "Na distinção apresentada pelo autor, quais trabalhadores podem exercer o direito de greve?",
+      "options": [
+        "Subordinados e avulsos, não autônomos.",
+        "Autônomos e empregadores, não avulsos.",
+        "Somente trabalhadores com contrato escrito.",
+        "Somente associados ao sindicato profissional."
+      ],
+      "answer": 0,
+      "explanation": "O material admite o direito para trabalhadores subordinados e avulsos, dada a igualdade constitucional de direitos destes, distinguindo-os dos autônomos."
+    },
+    {
+      "id": "GR010",
+      "section": "3. Titularidade e procedimento",
+      "type": "mcq",
+      "prompt": "Qual distinção corresponde ao entendimento exposto sobre titularidade e instauração da greve?",
+      "options": [
+        "Empregador é titular; sindicato instaura.",
+        "Sindicato é titular; Estado instaura.",
+        "Estado é titular; trabalhadores instauram.",
+        "Trabalhadores são titulares; sindicato atua."
+      ],
+      "answer": 3,
+      "explanation": "O direito pertence aos trabalhadores. O material atribui ao sindicato profissional papel central na organização e instauração coletiva do movimento."
+    },
+    {
+      "id": "GR011",
+      "section": "3. Titularidade e procedimento",
+      "type": "mcq",
+      "prompt": "Quando a Lei nº 7.783/1989 faculta a cessação coletiva do trabalho?",
+      "options": [
+        "Antes de qualquer tentativa de negociação.",
+        "Após negociação frustrada ou arbitragem inviável.",
+        "Somente depois de sentença judicial definitiva.",
+        "Apenas após homologação pelo Ministério Público."
+      ],
+      "answer": 1,
+      "explanation": "O art. 3º exige negociação frustrada ou impossibilidade de utilização da via arbitral. Não é necessário esgotar obrigatoriamente ambas as vias."
+    },
+    {
+      "id": "GR012",
+      "section": "3. Titularidade e procedimento",
+      "type": "mcq",
+      "prompt": "Qual é a função da assembleia geral prevista no art. 4º da Lei de Greve?",
+      "options": [
+        "Fixar unilateralmente salários para a categoria.",
+        "Homologar decisões já tomadas pelo empregador.",
+        "Definir reivindicações e deliberar sobre a greve.",
+        "Substituir o sindicato patronal na negociação."
+      ],
+      "answer": 2,
+      "explanation": "A assembleia convocada pela entidade sindical define as reivindicações e delibera sobre a paralisação coletiva."
+    },
+    {
+      "id": "GR013",
+      "section": "3. Titularidade e procedimento",
+      "type": "mcq",
+      "prompt": "Na ausência de entidade sindical que represente os interessados, como se organiza a deliberação?",
+      "options": [
+        "O empregador convoca assembleia substitutiva.",
+        "A Justiça do Trabalho nomeia uma diretoria.",
+        "O Ministério Público fixa as reivindicações.",
+        "Os trabalhadores deliberam e elegem comissão."
+      ],
+      "answer": 3,
+      "explanation": "Na ausência de entidade sindical representativa, a assembleia dos trabalhadores interessados delibera e elege comissão para representá-los, conforme os arts. 4º e 5º."
+    },
+    {
+      "id": "GR014",
+      "section": "3. Titularidade e procedimento",
+      "type": "mcq",
+      "prompt": "Qual é a antecedência mínima de comunicação de greve em atividade não essencial?",
+      "options": [
+        "48 horas aos empregadores ou sindicato patronal.",
+        "24 horas aos empregadores ou sindicato patronal.",
+        "72 horas aos empregadores ou sindicato patronal.",
+        "96 horas aos empregadores ou sindicato patronal."
+      ],
+      "answer": 0,
+      "explanation": "O parágrafo único do art. 3º exige antecedência mínima de 48 horas na comunicação ao sindicato patronal ou aos empregadores."
+    },
+    {
+      "id": "GR015",
+      "section": "3. Titularidade e procedimento",
+      "type": "mcq",
+      "prompt": "Em atividades essenciais, qual comunicação antecede a paralisação?",
+      "options": [
+        "48 horas, somente ao sindicato patronal.",
+        "48 horas, aos empregadores e usuários.",
+        "72 horas, aos empregadores e usuários.",
+        "72 horas, somente ao Ministério Público."
+      ],
+      "answer": 2,
+      "explanation": "O art. 13 exige comunicação aos empregadores e usuários com antecedência mínima de 72 horas."
+    },
+    {
+      "id": "GR016",
+      "section": "4. Atividades essenciais",
+      "type": "mcq",
+      "prompt": "Qual atividade está expressamente incluída no art. 10 da Lei de Greve?",
+      "options": [
+        "Ensino superior particular.",
+        "Assistência médica hospitalar.",
+        "Comércio varejista de roupas.",
+        "Atendimento de hotéis turísticos."
+      ],
+      "answer": 1,
+      "explanation": "Assistência médica e hospitalar está expressamente prevista como atividade essencial no art. 10, II."
+    },
+    {
+      "id": "GR017",
+      "section": "4. Atividades essenciais",
+      "type": "mcq",
+      "prompt": "Qual atividade não integra, por si só, a lista expressa de essenciais do art. 10?",
+      "options": [
+        "Tratamento e abastecimento de água.",
+        "Ensino regular em escolas.",
+        "Transporte coletivo de passageiros.",
+        "Serviços funerários."
+      ],
+      "answer": 1,
+      "explanation": "A atividade escolar não integra, por si só, o rol do art. 10. Isso não elimina outros regimes específicos aplicáveis a servidores públicos."
+    },
+    {
+      "id": "GR018",
+      "section": "4. Atividades essenciais",
+      "type": "mcq",
+      "prompt": "Qual atividade bancária é mencionada expressamente no rol legal de serviços essenciais?",
+      "options": [
+        "Concessão de crédito pessoal.",
+        "Venda de produtos financeiros.",
+        "Atendimento comercial ao cliente.",
+        "Compensação bancária."
+      ],
+      "answer": 3,
+      "explanation": "O art. 10, XI, menciona a compensação bancária. Não se deve ampliar automaticamente a previsão para toda atividade comercial bancária."
+    },
+    {
+      "id": "GR019",
+      "section": "4. Atividades essenciais",
+      "type": "mcq",
+      "prompt": "Quando uma necessidade comunitária é considerada inadiável pela Lei de Greve?",
+      "options": [
+        "Quando sua falta ameaça sobrevivência, saúde ou segurança.",
+        "Quando sua falta reduz a receita da empresa atingida.",
+        "Quando sua falta compromete o lucro dos fornecedores.",
+        "Quando sua falta atrasa a negociação entre as partes."
+      ],
+      "answer": 0,
+      "explanation": "O art. 11 relaciona as necessidades inadiáveis ao perigo iminente para sobrevivência, saúde ou segurança da população."
+    },
+    {
+      "id": "GR020",
+      "section": "4. Atividades essenciais",
+      "type": "mcq",
+      "prompt": "Se não for assegurado o atendimento das necessidades inadiáveis durante greve essencial, quem deverá providenciá-lo?",
+      "options": [
+        "Somente a assembleia dos trabalhadores.",
+        "Exclusivamente o sindicato patronal.",
+        "O Poder Público, conforme a lei.",
+        "A empresa, sem qualquer participação estatal."
+      ],
+      "answer": 2,
+      "explanation": "O art. 12 determina que o Poder Público assegure a prestação dos serviços indispensáveis quando não for observado o art. 11."
+    },
+    {
+      "id": "GR021",
+      "section": "5. Manutenção de bens e direitos",
+      "type": "mcq",
+      "prompt": "Uma siderúrgica possui equipamentos que sofreriam dano irreversível se fossem totalmente desligados. Qual providência é prevista?",
+      "options": [
+        "Suspender a greve em toda a categoria.",
+        "Substituir os grevistas permanentemente.",
+        "Manter equipes para preservar os equipamentos.",
+        "Considerar automaticamente abusiva a greve."
+      ],
+      "answer": 2,
+      "explanation": "O art. 9º prevê equipes destinadas a evitar prejuízo irreparável aos bens, máquinas e equipamentos e a assegurar a retomada da atividade."
+    },
+    {
+      "id": "GR022",
+      "section": "5. Manutenção de bens e direitos",
+      "type": "mcq",
+      "prompt": "Sem acordo sobre a conservação de equipamentos indispensáveis, qual medida a lei admite durante a greve?",
+      "options": [
+        "Dissolver compulsoriamente o sindicato profissional.",
+        "Contratar diretamente os serviços de manutenção.",
+        "Substituir definitivamente todos os grevistas.",
+        "Impedir todas as reivindicações da categoria."
+      ],
+      "answer": 1,
+      "explanation": "O parágrafo único do art. 9º admite contratação direta dos serviços necessários à preservação dos bens e equipamentos quando não houver acordo."
+    },
+    {
+      "id": "GR023",
+      "section": "5. Manutenção de bens e direitos",
+      "type": "mcq",
+      "prompt": "Qual conduta corresponde ao exercício permitido de persuasão durante a greve?",
+      "options": [
+        "Bloquear fisicamente o acesso de não grevistas.",
+        "Destruir equipamentos para paralisar a empresa.",
+        "Ameaçar colegas que não aderirem ao movimento.",
+        "Distribuir panfletos e realizar piquete pacífico."
+      ],
+      "answer": 3,
+      "explanation": "O art. 6º protege meios pacíficos de persuasão, arrecadação de fundos e livre divulgação, sem violência ou impedimento do acesso."
+    },
+    {
+      "id": "GR024",
+      "section": "5. Manutenção de bens e direitos",
+      "type": "mcq",
+      "prompt": "A sabotagem de máquinas, durante uma greve, recebe qual tratamento no material?",
+      "options": [
+        "É conduta vedada pelo emprego de meios violentos.",
+        "É direito coletivo se a assembleia assim deliberar.",
+        "É modalidade regular de divulgação do movimento.",
+        "É medida permitida após a negociação frustrada."
+      ],
+      "answer": 0,
+      "explanation": "Sabotagem envolve destruição ou dano a bens e não está protegida pelo exercício pacífico do direito de greve."
+    },
+    {
+      "id": "GR025",
+      "section": "6. Efeitos contratuais e abuso",
+      "type": "mcq",
+      "prompt": "Durante greve regularmente exercida, qual é a regra sobre contratação de substitutos?",
+      "options": [
+        "É sempre permitida, sem condição legal.",
+        "É vedada, ressalvadas as exceções legais.",
+        "É obrigatória nas paralisações parciais.",
+        "É exigida quando não houver sentença."
+      ],
+      "answer": 1,
+      "explanation": "O art. 7º veda a contratação de substitutos durante a greve, ressalvadas as hipóteses legais dos arts. 9º e 14."
+    },
+    {
+      "id": "GR026",
+      "section": "6. Efeitos contratuais e abuso",
+      "type": "mcq",
+      "prompt": "Como a Lei nº 7.783/1989 classifica, em regra, os efeitos da participação em greve sobre o contrato?",
+      "options": [
+        "Extinção imediata do contrato de trabalho.",
+        "Interrupção com salário legal obrigatório.",
+        "Suspensão do contrato de trabalho.",
+        "Conversão automática em licença remunerada."
+      ],
+      "answer": 2,
+      "explanation": "O art. 7º prevê suspensão do contrato. As obrigações do período são reguladas por acordo, convenção, laudo arbitral ou decisão da Justiça do Trabalho."
+    },
+    {
+      "id": "GR027",
+      "section": "6. Efeitos contratuais e abuso",
+      "type": "mcq",
+      "prompt": "A simples adesão do empregado a uma greve constitui, por si só, falta grave?",
+      "options": [
+        "Não, conforme o entendimento do STF.",
+        "Sim, sempre que houver dias parados.",
+        "Sim, se o empregador rejeitar a pauta.",
+        "Não, mas apenas em serviços essenciais."
+      ],
+      "answer": 0,
+      "explanation": "A Súmula 316 do STF afirma que a simples adesão à greve não constitui falta grave. Atos ilícitos concretos são questão diferente."
+    },
+    {
+      "id": "GR028",
+      "section": "6. Efeitos contratuais e abuso",
+      "type": "mcq",
+      "prompt": "Qual situação caracteriza abuso do direito de greve segundo o art. 14?",
+      "options": [
+        "Paralisação pacífica após negociação frustrada.",
+        "Movimento destinado a exigir cláusula descumprida.",
+        "Movimento motivado por alteração relevante superveniente.",
+        "Manutenção indevida após acordo que resolve o conflito."
+      ],
+      "answer": 3,
+      "explanation": "O art. 14 considera abusiva a manutenção indevida da paralisação após acordo, convenção ou decisão judicial, observadas as exceções legais."
+    },
+    {
+      "id": "GR029",
+      "section": "6. Efeitos contratuais e abuso",
+      "type": "mcq",
+      "prompt": "Durante convenção coletiva em vigor, qual greve não é considerada abusiva apenas por ocorrer nessa vigência?",
+      "options": [
+        "Greve para impedir a aplicação da convenção válida.",
+        "Greve para alterar toda cláusula sem motivo novo.",
+        "Greve para substituir unilateralmente o sindicato.",
+        "Greve para exigir cumprimento de cláusula pactuada."
+      ],
+      "answer": 3,
+      "explanation": "O art. 14, parágrafo único, I, ressalva a greve que exige o cumprimento de cláusula ou condição vigente."
+    },
+    {
+      "id": "GR030",
+      "section": "6. Efeitos contratuais e abuso",
+      "type": "mcq",
+      "prompt": "Qual fato pode justificar greve durante a vigência de norma coletiva, segundo o art. 14?",
+      "options": [
+        "Fato novo que modifique substancialmente a relação laboral.",
+        "Descontentamento sem alteração nas condições de trabalho.",
+        "Interesse empresarial em encerrar a norma antecipadamente.",
+        "Troca de dirigentes sem repercussão nas condições laborais."
+      ],
+      "answer": 0,
+      "explanation": "O art. 14, parágrafo único, II, ressalva fatos novos ou acontecimentos imprevistos que modifiquem substancialmente a relação de trabalho."
+    },
+    {
+      "id": "GR031",
+      "section": "6. Efeitos contratuais e abuso",
+      "type": "mcq",
+      "prompt": "A ausência do aviso de greve legalmente exigido é exemplo de que tipo de abuso na classificação do autor?",
+      "options": [
+        "Abuso econômico por falta de pagamento.",
+        "Abuso formal por descumprir procedimento.",
+        "Abuso material por prejudicar equipamento.",
+        "Abuso sindical por falta de personalidade."
+      ],
+      "answer": 1,
+      "explanation": "A ausência de comunicação prévia exigida é exemplo de descumprimento formal das prescrições da Lei de Greve."
+    },
+    {
+      "id": "GR032",
+      "section": "6. Efeitos contratuais e abuso",
+      "type": "mcq",
+      "prompt": "Como podem ser apuradas as responsabilidades por ilícitos praticados no curso de uma greve?",
+      "options": [
+        "Somente pela legislação administrativa.",
+        "Exclusivamente pelo direito coletivo sindical.",
+        "Pelas normas trabalhistas, civis ou penais.",
+        "Apenas por decisão da assembleia sindical."
+      ],
+      "answer": 2,
+      "explanation": "O art. 15 prevê responsabilidade trabalhista, civil ou penal, conforme a conduta examinada."
+    },
+    {
+      "id": "GR033",
+      "section": "7. Setor público e lockout",
+      "type": "mcq",
+      "prompt": "O que caracteriza o lockout proibido pela Lei nº 7.783/1989?",
+      "options": [
+        "Paralisação patronal para pressionar trabalhadores.",
+        "Paralisação coletiva decidida pelos empregados.",
+        "Suspensão individual por motivo de saúde.",
+        "Interrupção do serviço por pane inevitável."
+      ],
+      "answer": 0,
+      "explanation": "O art. 17 veda paralisação promovida pelo empregador para frustrar negociação ou dificultar reivindicações dos empregados."
+    },
+    {
+      "id": "GR034",
+      "section": "7. Setor público e lockout",
+      "type": "mcq",
+      "prompt": "Qual é o efeito salarial do lockout, segundo o parágrafo único do art. 17?",
+      "options": [
+        "O contrato suspende e os salários cessam.",
+        "Os salários são devidos durante a paralisação.",
+        "O salário é devido apenas após sentença penal.",
+        "O empregado assume metade do custo da paralisação."
+      ],
+      "answer": 1,
+      "explanation": "O período de lockout assegura ao trabalhador o direito à percepção dos salários; o autor o relaciona à interrupção contratual."
+    },
+    {
+      "id": "GR035",
+      "section": "7. Setor público e lockout",
+      "type": "mcq",
+      "prompt": "Qual solução o STF adotou para o exercício da greve dos servidores públicos civis diante da omissão legislativa?",
+      "options": [
+        "Suspendeu o exercício do direito até nova emenda.",
+        "Transferiu a decisão aos sindicatos patronais.",
+        "Determinou aplicação provisória da Lei de Greve.",
+        "Substituiu a greve por dissídio individual obrigatório."
+      ],
+      "answer": 2,
+      "explanation": "Nos mandados de injunção sobre a omissão legislativa, o STF determinou a aplicação, no que couber, da Lei nº 7.783/1989 aos servidores públicos civis."
+    },
+    {
+      "id": "GR036",
+      "section": "7. Setor público e lockout",
+      "type": "mcq",
+      "prompt": "Qual categoria está constitucionalmente proibida de exercer greve?",
+      "options": [
+        "Empregados de empresas privadas.",
+        "Trabalhadores avulsos em portos.",
+        "Servidores civis de universidades.",
+        "Militares, conforme a Constituição."
+      ],
+      "answer": 3,
+      "explanation": "A Constituição, no art. 142, § 3º, IV, veda a greve aos militares. Essa proibição não se confunde com o regime dos servidores civis."
+    },
+    {
+      "id": "GR037",
+      "section": "3. Titularidade e procedimento",
+      "type": "mcq",
+      "prompt": "Na posição doutrinária expressa por Sérgio Pinto Martins, qual é o obstáculo principal à greve estritamente política?",
+      "options": [
+        "A ausência necessária de participação sindical.",
+        "A impossibilidade de o empregador atender à pauta.",
+        "A exigência de apoio de toda a categoria econômica.",
+        "A proibição expressa na Lei de Greve de 1989."
+      ],
+      "answer": 1,
+      "explanation": "O autor entende que reivindicações exclusivamente dirigidas ao governo não podem ser satisfeitas pelo empregador. Trata-se de sua interpretação doutrinária, não de proibição expressa na Lei nº 7.783/1989."
+    },
+    {
+      "id": "GR038",
+      "section": "3. Titularidade e procedimento",
+      "type": "mcq",
+      "prompt": "Na interpretação do autor, quando uma greve de solidariedade pode ser admitida?",
+      "options": [
+        "Quando envolve qualquer pauta política internacional.",
+        "Quando dispensa negociação e deliberação coletiva.",
+        "Quando envolve reivindicações relativas ao próprio vínculo.",
+        "Quando substitui permanentemente a atividade sindical."
+      ],
+      "answer": 2,
+      "explanation": "Martins admite a greve de solidariedade quando as reivindicações se relacionam aos contratos de trabalho dos envolvidos e podem ser dirigidas ao empregador."
+    },
+    {
+      "id": "GR039",
+      "section": "2. Conceito e classificação",
+      "type": "mcq",
+      "prompt": "Por que a greve de zelo não é tratada como greve no esquema classificatório do capítulo?",
+      "options": [
+        "Porque o serviço continua sendo prestado.",
+        "Porque só pode ocorrer em atividade pública.",
+        "Porque pressupõe autorização do empregador.",
+        "Porque dispensa qualquer reivindicação coletiva."
+      ],
+      "answer": 0,
+      "explanation": "Na greve de zelo, o trabalhador continua a executar suas tarefas com extremo rigor. O autor afasta sua classificação como greve por faltar paralisação."
+    },
+    {
+      "id": "GR040",
+      "section": "1. História e natureza jurídica",
+      "type": "mcq",
+      "prompt": "Qual é a natureza constitucional da greve no regime brasileiro contemporâneo?",
+      "options": [
+        "Infração penal convertida em mera tolerância.",
+        "Faculdade administrativa dependente de licença.",
+        "Prerrogativa exclusiva da entidade empregadora.",
+        "Direito social assegurado aos trabalhadores."
+      ],
+      "answer": 3,
+      "explanation": "O art. 9º da Constituição reconhece a greve como direito social dos trabalhadores. As teorias sobre liberdade, potestatividade e autodefesa são formas de análise doutrinária."
+    },
+    {
+      "id": "GR041",
+      "section": "8. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "Na greve em atividade não essencial, o aviso deve anteceder a paralisação em pelo menos {{blank}} horas.",
+      "answers": [
+        ["48", "quarenta e oito"]
+      ],
+      "explanation": "O art. 3º, parágrafo único, da Lei nº 7.783/1989 estabelece 48 horas."
+    },
+    {
+      "id": "GR042",
+      "section": "8. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "Na greve em atividade essencial, a comunicação aos empregadores e usuários exige {{blank}} horas de antecedência.",
+      "answers": [
+        ["72", "setenta e duas"]
+      ],
+      "explanation": "O art. 13 exige antecedência mínima de 72 horas e comunicação aos empregadores e usuários."
+    },
+    {
+      "id": "GR043",
+      "section": "8. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "A Lei de Greve vigente foi editada em 1989, sob o número 7.{{blank}}.",
+      "answers": [
+        ["783"]
+      ],
+      "explanation": "Trata-se da Lei nº 7.783, de 28 de junho de 1989."
+    },
+    {
+      "id": "GR044",
+      "section": "8. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "A participação regular em greve constitui, em regra, hipótese de {{blank}} do contrato de trabalho.",
+      "answers": [
+        ["suspensão", "suspensao"]
+      ],
+      "explanation": "O art. 7º prevê suspensão contratual e remete a disciplina das obrigações do período aos instrumentos indicados em lei."
+    },
+    {
+      "id": "GR045",
+      "section": "8. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "O descumprimento das prescrições da Lei de Greve pode caracterizar {{blank}} do direito de greve.",
+      "answers": [
+        ["abuso"]
+      ],
+      "explanation": "O art. 14 caracteriza hipóteses de abuso do direito de greve."
+    },
+    {
+      "id": "GR046",
+      "section": "8. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "As necessidades inadiáveis protegem a sobrevivência, a {{blank}} e a segurança da população.",
+      "answers": [
+        ["saúde", "saude"]
+      ],
+      "explanation": "O art. 11 relaciona perigo iminente à sobrevivência, saúde ou segurança."
+    },
+    {
+      "id": "GR047",
+      "section": "8. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "Antes da deflagração, deve haver tentativa de {{blank}} coletiva ou impossibilidade de recurso arbitral.",
+      "answers": [
+        ["negociação", "negociacao"]
+      ],
+      "explanation": "A negociação frustrada ou a inviabilidade da via arbitral fundamentam a cessação coletiva, nos termos do art. 3º."
+    },
+    {
+      "id": "GR048",
+      "section": "8. Prazos e conceitos — lacunas",
+      "type": "fill",
+      "prompt": "A paralisação patronal para frustrar negociação coletiva recebe o nome de {{blank}}.",
+      "answers": [
+        ["lockout", "locaute"]
+      ],
+      "explanation": "O art. 17 proíbe o lockout, preservando os direitos salariais dos empregados."
+    },
+    {
+      "id": "GR049",
+      "section": "9. Verdadeiro ou falso",
+      "type": "tf",
+      "prompt": "Julgue as afirmações sobre história e conceito de greve.",
+      "statements": [
+        {
+          "text": "A Constituição de 1937 tratava greve e lockout como recursos antissociais.",
+          "answer": true
+        },
+        {
+          "text": "A Constituição de 1946 voltou a reconhecer o direito de greve.",
+          "answer": true
+        },
+        {
+          "text": "A greve exige necessariamente paralisação total da empresa.",
+          "answer": false
+        },
+        {
+          "text": "A paralisação individual basta para caracterizar greve legal.",
+          "answer": false
+        }
+      ],
+      "explanation": "A evolução constitucional deve ser distinguida do conceito legal de suspensão coletiva, que pode ser parcial."
+    },
+    {
+      "id": "GR050",
+      "section": "9. Verdadeiro ou falso",
+      "type": "tf",
+      "prompt": "Julgue as regras de convocação e comunicação.",
+      "statements": [
+        {
+          "text": "A negociação frustrada pode anteceder legitimamente uma greve.",
+          "answer": true
+        },
+        {
+          "text": "O aviso ordinário deve ser feito com 72 horas de antecedência.",
+          "answer": false
+        },
+        {
+          "text": "Em atividade essencial, a comunicação alcança também os usuários.",
+          "answer": true
+        },
+        {
+          "text": "A ausência de sindicato elimina o direito coletivo de greve.",
+          "answer": false
+        }
+      ],
+      "explanation": "A antecedência ordinária é de 48 horas; a de atividades essenciais é de 72 horas. A lei prevê representação dos trabalhadores na ausência de entidade sindical."
+    },
+    {
+      "id": "GR051",
+      "section": "9. Verdadeiro ou falso",
+      "type": "tf",
+      "prompt": "Julgue os limites e efeitos da paralisação.",
+      "statements": [
+        {
+          "text": "A simples adesão à greve constitui justa causa trabalhista.",
+          "answer": false
+        },
+        {
+          "text": "A lei admite piquetes pacíficos de persuasão.",
+          "answer": true
+        },
+        {
+          "text": "A sabotagem de máquinas é forma regular de greve.",
+          "answer": false
+        },
+        {
+          "text": "A greve regular suspende, em regra, o contrato.",
+          "answer": true
+        }
+      ],
+      "explanation": "A adesão legítima é protegida, mas atos ilícitos não são. A greve regular suspende o contrato e não garante automaticamente o pagamento dos dias parados."
+    },
+    {
+      "id": "GR052",
+      "section": "9. Verdadeiro ou falso",
+      "type": "tf",
+      "prompt": "Julgue as situações de greve e lockout.",
+      "statements": [
+        {
+          "text": "O lockout é proibido e assegura salários no período.",
+          "answer": true
+        },
+        {
+          "text": "Todo movimento durante norma coletiva vigente é abusivo.",
+          "answer": false
+        },
+        {
+          "text": "Pode haver responsabilidade civil por dano durante a greve.",
+          "answer": true
+        },
+        {
+          "text": "Os militares têm direito constitucional irrestrito de greve.",
+          "answer": false
+        }
+      ],
+      "explanation": "Há exceções expressas à abusividade durante norma coletiva vigente; o lockout é vedado e os militares não têm direito de greve."
+    },
+    {
+      "id": "GR053",
+      "section": "10. Associação e classificação",
+      "type": "drag",
+      "prompt": "Associe cada modalidade à característica correspondente.",
+      "zones": [
+        {"id": "branca", "label": "Greve branca"},
+        {"id": "intermitente", "label": "Greve intermitente"},
+        {"id": "tartaruga", "label": "Operação tartaruga"},
+        {"id": "zelo", "label": "Greve de zelo"}
+      ],
+      "cards": [
+        {"id": "c1", "text": "Presença no posto, sem prestação de serviço.", "zone": "branca"},
+        {"id": "c2", "text": "Paralisações curtas em etapas sucessivas.", "zone": "intermitente"},
+        {"id": "c3", "text": "Prestação de serviços em ritmo muito lento.", "zone": "tartaruga"},
+        {"id": "c4", "text": "Execução de tarefas com extremo rigor.", "zone": "zelo"}
+      ],
+      "explanation": "Na classificação do autor, greve branca e intermitente podem envolver paralisação; operação tartaruga e greve de zelo não apresentam a suspensão da atividade."
+    },
+    {
+      "id": "GR054",
+      "section": "10. Associação e classificação",
+      "type": "drag",
+      "prompt": "Associe cada prazo ou número à hipótese correspondente.",
+      "zones": [
+        {"id": "h48", "label": "48 horas"},
+        {"id": "h72", "label": "72 horas"},
+        {"id": "ano1988", "label": "1988"},
+        {"id": "ano1989", "label": "1989"}
+      ],
+      "cards": [
+        {"id": "c1", "text": "Comunicação ordinária de paralisação.", "zone": "h48"},
+        {"id": "c2", "text": "Comunicação em serviço essencial.", "zone": "h72"},
+        {"id": "c3", "text": "Constituição que assegura o direito no art. 9º.", "zone": "ano1988"},
+        {"id": "c4", "text": "Ano de edição da Lei nº 7.783.", "zone": "ano1989"}
+      ],
+      "explanation": "A comunicação prévia é de 48 ou 72 horas conforme a atividade. Constituição de 1988 e Lei de Greve de 1989 são marcos distintos."
+    },
+    {
+      "id": "GR055",
+      "section": "10. Associação e classificação",
+      "type": "drag",
+      "prompt": "Associe cada situação à classificação jurídica.",
+      "zones": [
+        {"id": "essencial", "label": "Atividade essencial"},
+        {"id": "naoessencial", "label": "Fora do rol do art. 10"},
+        {"id": "inadiavel", "label": "Necessidade inadiável"}
+      ],
+      "cards": [
+        {"id": "c1", "text": "Atendimento médico e hospitalar.", "zone": "essencial"},
+        {"id": "c2", "text": "Tratamento e abastecimento de água.", "zone": "essencial"},
+        {"id": "c3", "text": "Ensino escolar considerado isoladamente.", "zone": "naoessencial"},
+        {"id": "c4", "text": "Atendimento que evita risco iminente à vida.", "zone": "inadiavel"}
+      ],
+      "explanation": "Atividade essencial decorre do rol legal; necessidade inadiável depende do risco iminente à sobrevivência, saúde ou segurança."
+    },
+    {
+      "id": "GR056",
+      "section": "10. Associação e classificação",
+      "type": "drag",
+      "prompt": "Associe cada situação ao efeito ou consequência jurídica.",
+      "zones": [
+        {"id": "suspensao", "label": "Suspensão contratual"},
+        {"id": "salarios", "label": "Salários devidos"},
+        {"id": "abuso", "label": "Possível abuso"},
+        {"id": "licito", "label": "Conduta protegida"}
+      ],
+      "cards": [
+        {"id": "c1", "text": "Participação regular em greve.", "zone": "suspensao"},
+        {"id": "c2", "text": "Paralisação patronal vedada por lockout.", "zone": "salarios"},
+        {"id": "c3", "text": "Greve deflagrada sem aviso exigido.", "zone": "abuso"},
+        {"id": "c4", "text": "Piquete pacífico de persuasão.", "zone": "licito"}
+      ],
+      "explanation": "A greve regular suspende o contrato; o lockout não afasta o dever salarial; a falta de aviso pode configurar abuso; a persuasão pacífica é permitida."
+    }
+  ]
+}
