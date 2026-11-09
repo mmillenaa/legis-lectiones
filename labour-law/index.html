@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -8,86 +9,73 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
   <style>
-    :root{
-      --bg:#08111f;
-      --deep:#050a12;
-      --text:#f4f5f8;
-      --muted:#98a4b7;
-      --violet:#ae91ff;
-      --violet-rgb:174,145,255;
-      --gold:#e6bf78;
-      --border:rgba(255,255,255,.12);
-
-      /* rgb triplet of --bg, used for the blend gradient */
-      --panel:8,17,31;
+    :root {
+      --bg: #08111f;
+      --deep: #050a12;
+      --text: #f4f5f8;
+      --muted: #98a4b7;
+      --violet: #ae91ff;
+      --violet-rgb: 174,145,255;
+      --gold: #e6bf78;
+      --border: rgba(255,255,255,.12);
+      --panel: 8,17,31;
     }
 
-    *{
-      box-sizing:border-box;
+    * {
+      box-sizing: border-box;
     }
 
-    body{
-      margin:0;
-      min-height:100vh;
-      color:var(--text);
-      font-family:"DM Sans",sans-serif;
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: "DM Sans", sans-serif;
       background:
-        radial-gradient(circle at 16% 18%,rgba(90,102,220,.18),transparent 34%),
-        radial-gradient(circle at 85% 72%,rgba(174,145,255,.13),transparent 34%),
-        linear-gradient(145deg,#0b1728,var(--bg) 46%,var(--deep));
+        radial-gradient(circle at 16% 18%, rgba(90,102,220,.18), transparent 34%),
+        radial-gradient(circle at 85% 72%, rgba(174,145,255,.13), transparent 34%),
+        linear-gradient(145deg, #0b1728, var(--bg) 46%, var(--deep));
     }
 
-    /* ---------------------------------------------------------------
-       AMBIENT VIDEO BACKGROUND
-       --------------------------------------------------------------- */
+    /* VÍDEO DE FUNDO */
 
-    .ambient-video{
-      position:fixed;
-      inset:0;
-      z-index:0;
-
-      overflow:hidden;
-
-      pointer-events:none;
+    .ambient-video {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+      pointer-events: none;
     }
 
-    .ambient-video video{
-      width:100%;
-      height:100%;
-
-      object-fit:cover;
-      object-position:center;
-
-      opacity:.34;
-
+    .ambient-video video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      opacity: .34;
       filter:
         saturate(.90)
         contrast(1.08)
         brightness(.60);
-
-      transform:scale(1.02);
+      transform: scale(1.02);
     }
 
-    .ambient-video::after{
-      content:"";
-
-      position:absolute;
-      inset:0;
-
+    .ambient-video::after {
+      content: "";
+      position: absolute;
+      inset: 0;
       background:
         radial-gradient(
           circle at 16% 18%,
           rgba(90,102,220,.14),
           transparent 34%
         ),
-
         radial-gradient(
           circle at 85% 72%,
           rgba(174,145,255,.11),
           transparent 34%
         ),
-
         linear-gradient(
           145deg,
           rgba(11,23,40,.76),
@@ -96,275 +84,245 @@
         );
     }
 
-    @media (prefers-reduced-motion: reduce){
-
-      .ambient-video{
-        display:none;
+    @media (prefers-reduced-motion: reduce) {
+      .ambient-video {
+        display: none;
       }
-
     }
 
-    .shell{
-      position:relative;
-      z-index:1;
-      width:min(1050px,calc(100% - 32px));
-      margin:auto;
-      padding:30px 0 64px;
+    /* ESTRUTURA DA PÁGINA */
+
+    .shell {
+      position: relative;
+      z-index: 1;
+      width: min(1050px, calc(100% - 32px));
+      margin: auto;
+      padding: 30px 0 64px;
     }
 
-    .top{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      margin-bottom:78px;
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 78px;
     }
 
-    .top a{
-      text-decoration:none;
-      color:var(--muted);
-      font-size:13px;
+    .top a {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 13px;
     }
 
-    .top a:hover{
-      color:#fff;
+    .top a:hover {
+      color: #fff;
     }
 
-    .brand{
-      font-size:12px;
-      letter-spacing:.17em;
-      text-transform:uppercase;
-      color:#738095;
+    .brand {
+      font-size: 12px;
+      letter-spacing: .17em;
+      text-transform: uppercase;
+      color: #738095;
     }
 
-    .eyebrow{
-      color:var(--violet);
-      font-size:12px;
-      letter-spacing:.18em;
-      text-transform:uppercase;
-      font-weight:700;
+    .eyebrow {
+      color: var(--violet);
+      font-size: 12px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      font-weight: 700;
     }
 
-    h1{
-      font-family:"Playfair Display",serif;
-      font-size:clamp(52px,8vw,88px);
-      font-weight:500;
-      letter-spacing:-.04em;
-      line-height:1;
-      margin:12px 0 18px;
-      background:linear-gradient(110deg,#fff 30%,#e4d9ff 65%,var(--violet));
-      -webkit-background-clip:text;
-      background-clip:text;
-      color:transparent;
+    h1 {
+      font-family: "Playfair Display", serif;
+      font-size: clamp(52px, 8vw, 88px);
+      font-weight: 500;
+      letter-spacing: -.04em;
+      line-height: 1;
+      margin: 12px 0 18px;
+      background: linear-gradient(
+        110deg,
+        #fff 30%,
+        #e4d9ff 65%,
+        var(--violet)
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
     }
 
-    .lead{
-      color:var(--muted);
-      max-width:660px;
-      font-size:16px;
-      line-height:1.65;
-      margin:0 0 58px;
+    .lead {
+      color: var(--muted);
+      max-width: 660px;
+      font-size: 16px;
+      line-height: 1.65;
+      margin: 0 0 58px;
     }
 
-    .label{
-      font-size:11px;
-      letter-spacing:.18em;
-      text-transform:uppercase;
-      color:#738095;
-      margin-bottom:13px;
+    .label {
+      font-size: 11px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: #738095;
+      margin-bottom: 13px;
     }
 
-    .modules{
-      display:grid;
-      gap:22px;
+    .modules {
+      display: grid;
+      gap: 22px;
     }
 
-    /* ---------------------------------------------------------------
-       CARD
-       --------------------------------------------------------------- */
+    /* CARTÕES DOS MÓDULOS */
 
-    .module{
-      position:relative;
-
-      display:grid;
-      grid-template-columns:minmax(0,1.16fr) minmax(300px,.84fr);
-      min-height:330px;
-
-      border:1px solid var(--border);
-      border-radius:24px;
-
-      overflow:hidden;
-
-      text-decoration:none;
-      color:inherit;
-
-      background:
-        linear-gradient(
-          145deg,
-          rgba(255,255,255,.06),
-          rgba(255,255,255,.022)
-        );
-
-      box-shadow:0 26px 80px rgba(0,0,0,.35);
-
+    .module {
+      position: relative;
+      display: grid;
+      grid-template-columns:
+        minmax(0, 1.16fr)
+        minmax(300px, .84fr);
+      min-height: 330px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      background: linear-gradient(
+        145deg,
+        rgba(255,255,255,.06),
+        rgba(255,255,255,.022)
+      );
+      box-shadow: 0 26px 80px rgba(0,0,0,.35);
       transition:
         transform .35s ease,
         border-color .35s ease,
         box-shadow .35s ease;
     }
 
-    .module:hover{
-      transform:translateY(-7px);
-
-      border-color:
-        rgba(var(--violet-rgb),.42);
-
+    .module:hover {
+      transform: translateY(-7px);
+      border-color: rgba(var(--violet-rgb), .42);
       box-shadow:
         0 34px 95px rgba(0,0,0,.45),
         0 0 50px rgba(var(--violet-rgb),.08);
     }
 
-    /* ---------------------------------------------------------------
-       THE BLEND
-       One single, continuous gradient across the whole card.
-       It sits above the image and below the text, so the dark panel
-       literally dissolves into the picture — no seam, no hard band.
-       --------------------------------------------------------------- */
+    /* DEGRADÊ ENTRE TEXTO E FOTOGRAFIA */
 
-    .module::after{
-      content:"";
-      position:absolute;
-      inset:0;
-      z-index:1;
-      pointer-events:none;
-
-      background:
-        linear-gradient(
-          90deg,
-          rgba(var(--panel),1)    0%,
-          rgba(var(--panel),1)   34%,
-          rgba(var(--panel),.995) 43%,
-          rgba(var(--panel),.96)  51%,
-          rgba(var(--panel),.88)  59%,
-          rgba(var(--panel),.75)  67%,
-          rgba(var(--panel),.57)  75%,
-          rgba(var(--panel),.37)  83%,
-          rgba(var(--panel),.18)  91%,
-          rgba(var(--panel),.05)  96%,
-          rgba(var(--panel),0)   100%
-        );
+    .module::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background: linear-gradient(
+        90deg,
+        rgba(var(--panel),1) 0%,
+        rgba(var(--panel),1) 34%,
+        rgba(var(--panel),.995) 43%,
+        rgba(var(--panel),.96) 51%,
+        rgba(var(--panel),.88) 59%,
+        rgba(var(--panel),.75) 67%,
+        rgba(var(--panel),.57) 75%,
+        rgba(var(--panel),.37) 83%,
+        rgba(var(--panel),.18) 91%,
+        rgba(var(--panel),.05) 96%,
+        rgba(var(--panel),0) 100%
+      );
     }
 
-    /* ---------------------------------------------------------------
-       TEXT COLUMN
-       Transparent on purpose — the card gradient is its background.
-       --------------------------------------------------------------- */
+    /* COLUNA ESQUERDA: TEXTOS */
 
-    .copy{
-      position:relative;
-      z-index:2;
-
-      padding:34px;
-
-      display:flex;
-      flex-direction:column;
-      justify-content:flex-end;
+    .copy {
+      position: relative;
+      z-index: 2;
+      padding: 34px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
     }
 
-    .num{
-      color:var(--violet);
-      font-size:12px;
-      font-weight:700;
-      letter-spacing:.12em;
-      text-transform:uppercase;
-      margin-bottom:15px;
+    .num {
+      color: var(--violet);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: 15px;
     }
 
-    h2{
-      font-family:"Playfair Display",serif;
-      font-size:35px;
-      font-weight:500;
-      line-height:1.14;
-      margin:0 0 13px;
+    h2 {
+      font-family: "Playfair Display", serif;
+      font-size: 35px;
+      font-weight: 500;
+      line-height: 1.14;
+      margin: 0 0 13px;
     }
 
-    .desc{
-      color:var(--muted);
-      line-height:1.6;
-      font-size:14px;
-      max-width:570px;
+    .desc {
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 14px;
+      max-width: 570px;
     }
 
-    .meta{
-      display:flex;
-      gap:8px;
-      flex-wrap:wrap;
-      margin-top:22px;
+    .meta {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 22px;
     }
 
-    .chip{
-      font-size:11px;
-      color:#c8d0dc;
-      border:1px solid var(--border);
-      padding:7px 9px;
-      border-radius:99px;
-      background:rgba(255,255,255,.035);
+    .chip {
+      font-size: 11px;
+      color: #c8d0dc;
+      border: 1px solid var(--border);
+      padding: 7px 9px;
+      border-radius: 99px;
+      background: rgba(255,255,255,.035);
     }
 
-    .go{
-      display:flex;
-      align-items:center;
-      gap:10px;
-      color:var(--violet);
-      font-size:12px;
-      font-weight:700;
-      letter-spacing:.07em;
-      margin-top:26px;
+    .go {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--violet);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .07em;
+      margin-top: 26px;
     }
 
-    /* ---------------------------------------------------------------
-       IMAGE
-       --------------------------------------------------------------- */
+    /* COLUNA DIREITA: IMAGENS */
 
-    .visual{
-      position:relative;
-      min-height:330px;
-      overflow:hidden;
-      background:#0a1321;
+    .visual {
+      position: relative;
+      min-height: 330px;
+      overflow: hidden;
+      background: #0a1321;
     }
 
-    .visual img{
-      position:absolute;
-      inset:0;
-
-      width:100%;
-      height:100%;
-
-      object-fit:cover;
-      object-position:center;
-
-      transform:scale(1.015);
-
+    .visual img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transform: scale(1.015);
       filter:
         saturate(.92)
         contrast(1.04)
         brightness(.86);
-
       transition:
         transform .55s ease,
         filter .4s ease;
     }
 
-    /* Only a soft vignette + a violet glow.
-       No left-to-right dark ramp here anymore —
-       the card gradient handles the blend. */
-
-    .visual::before{
-      content:"";
-      position:absolute;
-      inset:0;
-      z-index:1;
-      pointer-events:none;
-
+    .visual::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
       background:
         linear-gradient(
           180deg,
@@ -378,76 +336,132 @@
         );
     }
 
-    .module:hover .visual img{
-      transform:scale(1.055);
-
+    .module:hover .visual img {
+      transform: scale(1.055);
       filter:
         saturate(1)
         contrast(1.05)
         brightness(.94);
     }
 
+    /* ENQUADRAMENTOS INDIVIDUAIS */
+
+    .module--collective .visual img {
+      object-position: 50% 50%;
+    }
+
+    .module--union .visual img {
+      object-position: 48% 52%;
+    }
+
+    .module--confederative .visual img {
+      object-position: 50% 48%;
+    }
+
+    .module--membership .visual img {
+      object-position: 50% 54%;
+    }
+
+    .module--notice .visual img {
+      object-position: 52% 50%;
+    }
+
+    footer {
+      margin-top: 42px;
+      color: #596579;
+      text-align: center;
+      font-size: 11px;
+      letter-spacing: .05em;
+    }
+
+    /* SELO P2 — MÓDULOS 10 E 11 */
+
+    .module--p2 .visual {
+      display: grid;
+      place-items: center;
+      min-height: 330px;
+      background:
+        radial-gradient(
+          circle at 73% 36%,
+          rgba(174,145,255,.20),
+          transparent 46%
+        ),
+        radial-gradient(
+          circle at 46% 78%,
+          rgba(230,191,120,.095),
+          transparent 41%
+        ),
+        #0b1727;
+    }
+
+    .module--p2 .visual .p2-stamp {
+      position: relative;
+      z-index: 3;
+      display: grid;
+      place-items: center;
+      width: min(75%, 300px);
+      min-height: 185px;
+      text-align: center;
+      border: 1px solid rgba(230,191,120,.24);
+      border-radius: 16px;
+      color: #e7c689;
+      background: rgba(5,11,20,.36);
+      box-shadow: 0 24px 56px rgba(0,0,0,.27);
+    }
+
+    .p2-stamp strong {
+      display: block;
+      font:
+        500 clamp(60px, 8vw, 99px)/1
+        "Playfair Display", serif;
+      letter-spacing: -.06em;
+    }
+
+    .p2-stamp small {
+      display: block;
+      color: #aeb7ca;
+      font-size: 11px;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+      margin-top: 8px;
+    }
+
     /*
-      Individual framing.
+      Os módulos com fotografia também podem ter a classe
+      module--p2, mas a imagem continua na coluna direita.
     */
 
-    .module--collective .visual img{
-      object-position:50% 50%;
+    .module--p2 .visual img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
-    .module--union .visual img{
-      object-position:48% 52%;
-    }
+    /* VERSÃO PARA CELULAR */
 
-    .module--confederative .visual img{
-      object-position:50% 48%;
-    }
-
-    .module--membership .visual img{
-      object-position:50% 54%;
-    }
-
-    .module--notice .visual img{
-      object-position:52% 50%;
-    }
-
-    footer{
-      margin-top:42px;
-      color:#596579;
-      text-align:center;
-      font-size:11px;
-      letter-spacing:.05em;
-    }
-
-    /* ---------------------------------------------------------------
-       MOBILE
-       Stacked layout: the horizontal blend no longer makes sense,
-       so the picture fades vertically into the solid text panel.
-       --------------------------------------------------------------- */
-
-    @media(max-width:760px){
-
-      .top{
-        margin-bottom:50px;
+    @media (max-width: 760px) {
+      .top {
+        margin-bottom: 50px;
       }
 
-      .module{
-        grid-template-columns:1fr;
-        min-height:0;
+      .module {
+        grid-template-columns: 1fr;
+        min-height: 0;
       }
 
-      /* horizontal blend off */
-      .module::after{
-        display:none;
+      .module::after {
+        display: none;
       }
 
-      .visual{
-        min-height:240px;
-        order:-1;
+      .visual,
+      .module--p2 .visual {
+        min-height: 240px;
+        order: -1;
       }
 
-      /* image fades down into the exact panel colour */
-      .visual::before{
+      .visual::before {
         background:
           linear-gradient(
             180deg,
@@ -462,85 +476,80 @@
           );
       }
 
-      .copy{
-        padding:25px;
-        background:rgb(var(--panel));
+      .copy {
+        padding: 25px;
+        background: rgb(var(--panel));
       }
 
-      h2{
-        font-size:31px;
+      h2 {
+        font-size: 31px;
+      }
+
+      .p2-stamp strong {
+        font-size: 78px;
       }
     }
-
-    /* Próximos bancos da P2: espaço da ilustração substituído por selo tipográfico. */
-    .module--p2 .visual{display:grid;place-items:center;min-height:330px;
-      background:radial-gradient(circle at 73% 36%,rgba(174,145,255,.20),transparent 46%),
-        radial-gradient(circle at 46% 78%,rgba(230,191,120,.095),transparent 41%),#0b1727;}
-    .module--p2 .visual .p2-stamp{position:relative;z-index:3;display:grid;place-items:center;
-      width:min(75%,300px);min-height:185px;text-align:center;border:1px solid rgba(230,191,120,.24);
-      border-radius:16px;color:#e7c689;background:rgba(5,11,20,.36);box-shadow:0 24px 56px rgba(0,0,0,.27)}
-    .p2-stamp strong{display:block;font:500 clamp(60px,8vw,99px)/1 'Playfair Display',serif;letter-spacing:-.06em}
-    .p2-stamp small{display:block;color:#aeb7ca;font-size:11px;letter-spacing:.13em;text-transform:uppercase;margin-top:8px}
-    @media(max-width:760px){.module--p2 .visual{min-height:225px}.p2-stamp strong{font-size:78px}}
   </style>
-<style id="constellation-video-style">
-  body{
-    isolation:isolate;
-  }
 
-  .ambient-video{
-    position:fixed;
-    inset:0;
-    z-index:0;
-    overflow:hidden;
-    pointer-events:none;
-    background:#050a12;
-  }
+  <style id="constellation-video-style">
+    body {
+      isolation: isolate;
+    }
 
-  .ambient-video video{
-    position:absolute;
-    inset:0;
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    object-position:center;
-    opacity:.60;
-    filter:
-      saturate(.92)
-      contrast(1.08)
-      brightness(.72);
-    transform:scale(1.02);
-  }
+    .ambient-video {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+      pointer-events: none;
+      background: #050a12;
+    }
 
-  .ambient-video::after{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:
-      radial-gradient(
-        circle at 20% 20%,
-        rgba(80,100,210,.10),
-        transparent 38%
-      ),
-      linear-gradient(
-        145deg,
-        rgba(5,10,18,.34),
-        rgba(8,17,31,.46) 48%,
-        rgba(5,10,18,.62)
-      );
-  }
+    .ambient-video video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      opacity: .60;
+      filter:
+        saturate(.92)
+        contrast(1.08)
+        brightness(.72);
+      transform: scale(1.02);
+    }
 
-  .page,
-  .shell{
-    position:relative !important;
-    z-index:2 !important;
-  }
+    .ambient-video::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(
+          circle at 20% 20%,
+          rgba(80,100,210,.10),
+          transparent 38%
+        ),
+        linear-gradient(
+          145deg,
+          rgba(5,10,18,.34),
+          rgba(8,17,31,.46) 48%,
+          rgba(5,10,18,.62)
+        );
+    }
 
-  body::before,
-  body::after{
-    z-index:1 !important;
-  }
-</style>
+    .page,
+    .shell {
+      position: relative !important;
+      z-index: 2 !important;
+    }
+
+    body::before,
+    body::after {
+      z-index: 1 !important;
+    }
+  </style>
+
   <link rel="stylesheet" href="./support-popup.css">
   <script src="./support-popup.js" defer></script>
   <link rel="stylesheet" href="./engagement.css">
@@ -549,459 +558,514 @@
 
 <body>
 
+  <!-- VÍDEO DE FUNDO -->
 
-<div
-  class="ambient-video"
-  aria-hidden="true"
->
-
-  <video
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="auto"
-  >
-
-    <source
-      src="../constellations.mp4"
-      type="video/mp4"
+  <div class="ambient-video" aria-hidden="true">
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
     >
-
-  </video>
-
-</div>
-
-<div class="shell">
-
-  <div class="top">
-    <a href="../">← Legis Lectiones</a>
-    <div class="brand">Direito do Trabalho</div>
+      <source
+        src="../constellations.mp4"
+        type="video/mp4"
+      >
+    </video>
   </div>
 
+  <div class="shell">
 
-  <div class="eyebrow">
-    Módulos de estudo
-  </div>
+    <!-- CABEÇALHO -->
 
-  <h1>
-    Direito do Trabalho
-  </h1>
-
-  <p class="lead">
-    Uma coleção crescente de bancos interativos de revisão, construídos
-    com a mesma lógica de questões variadas: distratores plausíveis, prazos,
-    recuperação ativa de conceitos e retomada do conteúdo em diferentes formatos.
-  </p>
-
-    <div class="label">
-      
-  </div>
-
-  <div class="modules">
-
-
-    <!-- MODULE 01 -->
-
-    <a
-      class="module module--collective"
-      href="./convencao-acordo-coletivo.html"
-    >
-
-      <div class="copy">
-
-        <div class="num">
-          Module 01
-        </div>
-
-        <h2>
-          Convenção e acordo coletivo
-        </h2>
-
-        <div class="desc">
-          Negociação coletiva, funções, sujeitos, natureza jurídica,
-          conteúdo, ultratividade, validade e os prazos que mais se confundem.
-        </div>
-
-        <div class="meta">
-          <span class="chip">87 activities</span>
-          <span class="chip">Multiple choice</span>
-          <span class="chip">Fill the gaps</span>
-          <span class="chip">True / False</span>
-          <span class="chip">Drag cards</span>
-        </div>
-
-        <div class="go">
-          START REVIEW <span>→</span>
-        </div>
-
-      </div>
-
-
-      <div class="visual">
-
-        <img
-          src="./convencao-acordo-coletivo.png"
-          alt=""
-          aria-hidden="true"
-          fetchpriority="high"
-        >
-
-      </div>
-
-    </a>
-
-
-
-    <!-- MODULE 02 -->
-
-    <a
-      class="module module--union"
-      href="./contribuicao-sindical.html"
-    >
-
-      <div class="copy">
-
-        <div class="num">
-          Module 02
-        </div>
-
-        <h2>
-          Contribuição sindical
-        </h2>
-
-        <div class="desc">
-          Natureza, sujeitos, bases de cálculo, prazos de recolhimento,
-          destinação e isenções — com foco em compreensão.
-        </div>
-
-        <div class="meta">
-          <span class="chip">62 activities</span>
-          <span class="chip">Multiple choice</span>
-          <span class="chip">Fill the gaps</span>
-          <span class="chip">True / False</span>
-          <span class="chip">Drag cards</span>
-        </div>
-
-        <div class="go">
-          START REVIEW <span>→</span>
-        </div>
-
-      </div>
-
-
-      <div class="visual">
-
-        <img
-          src="./contribuicao-sindical.png"
-          alt=""
-          aria-hidden="true"
-          loading="lazy"
-        >
-
-      </div>
-
-    </a>
-
-
-
-    <!-- MODULE 03 -->
-
-    <a
-      class="module module--confederative"
-      href="./contribuicao-confederativa.html"
-    >
-
-      <div class="copy">
-
-        <div class="num">
-          Module 03
-        </div>
-
-        <h2>
-          Contribuição confederativa
-        </h2>
-
-        <div class="desc">
-          Distinção em relação à contribuição sindical, natureza jurídica,
-          base de incidência, exigibilidade e o entendimento sobre filiação.
-        </div>
-
-        <div class="meta">
-          <span class="chip">117 activities</span>
-          <span class="chip">Multiple choice</span>
-          <span class="chip">Fill the gaps</span>
-          <span class="chip">True / False</span>
-          <span class="chip">Drag cards</span>
-        </div>
-
-        <div class="go">
-          START REVIEW <span>→</span>
-        </div>
-
-      </div>
-
-
-      <div class="visual">
-
-        <img
-          src="./contribuicao-confederativa.png"
-          alt=""
-          aria-hidden="true"
-          loading="lazy"
-        >
-
-      </div>
-
-    </a>
-
-
-
-    <!-- MODULE 04 -->
-
-    <a
-      class="module module--membership"
-      href="./mensalidade-sindical.html"
-    >
-
-      <div class="copy">
-
-        <div class="num">
-          Module 04
-        </div>
-
-        <h2>
-          Mensalidade sindical
-        </h2>
-
-        <div class="desc">
-          Revisão orientada à compreensão: distinções entre as contribuições,
-          natureza jurídica, finalidade, cobrança e efeitos práticos.
-        </div>
-
-        <div class="meta">
-          <span class="chip">55 activities</span>
-          <span class="chip">Multiple choice</span>
-          <span class="chip">Fill the gaps</span>
-          <span class="chip">True / False</span>
-          <span class="chip">Drag cards</span>
-        </div>
-
-        <div class="go">
-          START REVIEW <span>→</span>
-        </div>
-
-      </div>
-
-
-      <div class="visual">
-
-        <img
-          src="./mensalidade-sindical.png"
-          alt=""
-          aria-hidden="true"
-          loading="lazy"
-        >
-
-      </div>
-
-    </a>
-
-
-
-    <!-- MODULE 05 · CONTEÚDO DA P2 -->
-    <a class="module module--p2" href="./contribuicao-assistencial.html">
-      <div class="copy">
-        <div class="num">Module 05 · P2</div>
-        <h2>Contribuição Assistencial</h2>
-        <div class="desc">Custos negociais, natureza, direito de oposição e prescrição.</div>
-        <div class="meta"><span class="chip">22 atividades</span><span class="chip">Múltipla escolha</span><span class="chip">Lacunas</span><span class="chip">V/F</span><span class="chip">Arrastar cartões</span></div>
-        <div class="go">START REVIEW <span>→</span></div>
-      </div>
-       <div class="visual">   <img     src="./mensalidade-sindical.png"     alt=""     aria-hidden="true"     loading="lazy"   > </div>
-    </a>
-
-
-    <!-- MODULE 06 · CONTEÚDO DA P2 -->
-    <a class="module module--p2" href="./liberdade-sindical.html">
-      <div class="copy">
-        <div class="num">Module 06 · P2</div>
-        <h2>Liberdade sindical</h2>
-        <div class="desc">Liberdade individual e coletiva, convenções da OIT e garantias.</div>
-        <div class="meta"><span class="chip">13 atividades</span><span class="chip">Múltipla escolha</span><span class="chip">Lacunas</span><span class="chip">V/F</span><span class="chip">Arrastar cartões</span></div>
-        <div class="go">START REVIEW <span>→</span></div>
-      </div>
-       <div class="visual">   <img     src="./mensalidade-sindical.png"     alt=""     aria-hidden="true"     loading="lazy"   > </div>
-    </a>
-
-
-    <!-- MODULE 07 · CONTEÚDO DA P2 -->
-    <a class="module module--p2" href="./organizacao-sindical.html">
-      <div class="copy">
-        <div class="num">Module 07 · P2</div>
-        <h2>Organização sindical</h2>
-        <div class="desc">Unicidade, categorias, enquadramento, órgãos e funções.</div>
-        <div class="meta"><span class="chip">36 atividades</span><span class="chip">Múltipla escolha</span><span class="chip">Lacunas</span><span class="chip">V/F</span><span class="chip">Arrastar cartões</span></div>
-        <div class="go">START REVIEW <span>→</span></div>
-      </div>
-       <div class="visual">   <img     src="./mensalidade-sindical.png"     alt=""     aria-hidden="true"     loading="lazy"   > </div>
-    </a>
-
-
-    <!-- MODULE 08 -->
-
-    <a
-      class="module module--notice"
-      href="./aviso-previo.html"
-    >
-
-      <div class="copy">
-
-        <div class="num">
-          Module 08
-        </div>
-
-        <h2>
-          Aviso prévio
-        </h2>
-
-        <div class="desc">
-          Conceito, tríplice natureza, cabimento, proporcionalidade,
-          efeitos no contrato, redução de jornada, reconsideração
-          e remuneração do aviso.
-        </div>
-
-        <div class="meta">
-          <span class="chip">67 activities</span>
-          <span class="chip">Multiple choice</span>
-          <span class="chip">Fill the gaps</span>
-          <span class="chip">True / False</span>
-          <span class="chip">Drag cards</span>
-        </div>
-
-        <div class="go">
-          START REVIEW <span>→</span>
-        </div>
-
-      </div>
-
-
-      <div class="visual">
-
-        <img
-          src="./aviso-previo.png"
-          alt=""
-          aria-hidden="true"
-          loading="lazy"
-        >
-
-      </div>
-
-    </a>
-
-    <!-- MODULE 09 · CONTEÚDO DA P2 -->
-    <a class="module module--p2" href="./suspensao-interrupcao-contrato.html">
-      <div class="copy">
-        <div class="num">Module 09 · P2</div>
-        <h2>Suspensão e Interrupção do Contrato</h2>
-        <div class="desc">Hipóteses e efeitos da suspensão e da interrupção contratual.</div>
-        <div class="meta"><span class="chip">22 atividades</span><span class="chip">Múltipla escolha</span><span class="chip">Lacunas</span><span class="chip">V/F</span><span class="chip">Arrastar cartões</span></div>
-        <div class="go">START REVIEW <span>→</span></div>
-      </div>
-       <div class="visual">   <img     src="./mensalidade-sindical.png"     alt=""     aria-hidden="true"     loading="lazy"   > </div>
-    </a>
-
-
-    <!-- MODULE 10 · GREVE -->
-    <a class="module module--p2" href="./greve.html">
-      <div class="copy">
-        <div class="num">Module 10 · Direito Coletivo</div>
-
-        <h2>Greve</h2>
-
-        <div class="desc">
-          Direito de greve, prazos de 48 e 72 horas,
-          atividades essenciais, abuso, efeitos contratuais
-          e lockout.
-        </div>
-
-        <div class="meta">
-          <span class="chip">56 atividades</span>
-          <span class="chip">Múltipla escolha</span>
-          <span class="chip">Lacunas</span>
-          <span class="chip">V/F</span>
-          <span class="chip">Arrastar cartões</span>
-        </div>
-
-        <div class="go">
-          START REVIEW <span>→</span>
-        </div>
-      </div>
-
-      
-<div class="visual" aria-label="Conteúdo da P2">
-  <div class="p2-stamp">
-    <div>
-      <strong>P2</strong>
-      <small>Conteúdo da P2</small>
+    <div class="top">
+      <a href="../">← Legis Lectiones</a>
+      <div class="brand">Direito do Trabalho</div>
     </div>
-  </div>
-</div>
-    </a>
 
-    
-    <!-- MODULE 11 · GARANTIAS DE EMPREGO -->
-    <a class="module module--p2" href="./garantias-emprego.html">
-      <div class="copy">
-        <div class="num">Module 11 · Direito Individual</div>
-
-        <h2>Garantias de Emprego e Estabilidade</h2>
-
-        <div class="desc">
-          Estabilidade decenal, dirigente sindical, CIPA,
-          gestante, acidente de trabalho, outras garantias
-          provisórias, dispensa discriminatória,
-          reintegração e indenização.
-        </div>
-
-        <div class="meta">
-          <span class="chip">48 atividades</span>
-          <span class="chip">Múltipla escolha</span>
-          <span class="chip">Lacunas</span>
-          <span class="chip">V/F</span>
-          <span class="chip">Arrastar cartões</span>
-        </div>
-
-        <div class="go">
-          START REVIEW <span>→</span>
-        </div>
-      </div>
-
-      <div class="visual" aria-label="Banco Garantias de Emprego">
-     
-<div class="visual" aria-label="Conteúdo da P2">
-  <div class="p2-stamp">
-    <div>
-      <strong>P2</strong>
-      <small>Conteúdo da P2</small>
+    <div class="eyebrow">
+      Módulos de estudo
     </div>
+
+    <h1>Direito do Trabalho</h1>
+
+    <p class="lead">
+      Uma coleção crescente de bancos interativos de revisão,
+      construídos com a mesma lógica de questões variadas:
+      distratores plausíveis, prazos, recuperação ativa de
+      conceitos e retomada do conteúdo em diferentes formatos.
+    </p>
+
+    <div class="label"></div>
+
+    <div class="modules">
+
+      <!-- MÓDULO 01 -->
+
+      <a
+        class="module module--collective"
+        href="./convencao-acordo-coletivo.html"
+      >
+        <div class="copy">
+          <div class="num">Module 01</div>
+
+          <h2>Convenção e acordo coletivo</h2>
+
+          <div class="desc">
+            Negociação coletiva, funções, sujeitos, natureza jurídica,
+            conteúdo, ultratividade, validade e os prazos que mais
+            se confundem.
+          </div>
+
+          <div class="meta">
+            <span class="chip">87 activities</span>
+            <span class="chip">Multiple choice</span>
+            <span class="chip">Fill the gaps</span>
+            <span class="chip">True / False</span>
+            <span class="chip">Drag cards</span>
+          </div>
+
+          <div class="go">
+            START REVIEW <span>→</span>
+          </div>
+        </div>
+
+        <div class="visual">
+          <img
+            src="./convencao-acordo-coletivo.png"
+            alt=""
+            aria-hidden="true"
+            fetchpriority="high"
+          >
+        </div>
+      </a>
+
+      <!-- MÓDULO 02 -->
+
+      <a
+        class="module module--union"
+        href="./contribuicao-sindical.html"
+      >
+        <div class="copy">
+          <div class="num">Module 02</div>
+
+          <h2>Contribuição sindical</h2>
+
+          <div class="desc">
+            Natureza, sujeitos, bases de cálculo, prazos de
+            recolhimento, destinação e isenções — com foco
+            em compreensão.
+          </div>
+
+          <div class="meta">
+            <span class="chip">62 activities</span>
+            <span class="chip">Multiple choice</span>
+            <span class="chip">Fill the gaps</span>
+            <span class="chip">True / False</span>
+            <span class="chip">Drag cards</span>
+          </div>
+
+          <div class="go">
+            START REVIEW <span>→</span>
+          </div>
+        </div>
+
+        <div class="visual">
+          <img
+            src="./contribuicao-sindical.png"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          >
+        </div>
+      </a>
+
+      <!-- MÓDULO 03 -->
+
+      <a
+        class="module module--confederative"
+        href="./contribuicao-confederativa.html"
+      >
+        <div class="copy">
+          <div class="num">Module 03</div>
+
+          <h2>Contribuição confederativa</h2>
+
+          <div class="desc">
+            Distinção em relação à contribuição sindical,
+            natureza jurídica, base de incidência,
+            exigibilidade e o entendimento sobre filiação.
+          </div>
+
+          <div class="meta">
+            <span class="chip">117 activities</span>
+            <span class="chip">Multiple choice</span>
+            <span class="chip">Fill the gaps</span>
+            <span class="chip">True / False</span>
+            <span class="chip">Drag cards</span>
+          </div>
+
+          <div class="go">
+            START REVIEW <span>→</span>
+          </div>
+        </div>
+
+        <div class="visual">
+          <img
+            src="./contribuicao-confederativa.png"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          >
+        </div>
+      </a>
+
+      <!-- MÓDULO 04 -->
+
+      <a
+        class="module module--membership"
+        href="./mensalidade-sindical.html"
+      >
+        <div class="copy">
+          <div class="num">Module 04</div>
+
+          <h2>Mensalidade sindical</h2>
+
+          <div class="desc">
+            Revisão orientada à compreensão: distinções entre
+            as contribuições, natureza jurídica, finalidade,
+            cobrança e efeitos práticos.
+          </div>
+
+          <div class="meta">
+            <span class="chip">55 activities</span>
+            <span class="chip">Multiple choice</span>
+            <span class="chip">Fill the gaps</span>
+            <span class="chip">True / False</span>
+            <span class="chip">Drag cards</span>
+          </div>
+
+          <div class="go">
+            START REVIEW <span>→</span>
+          </div>
+        </div>
+
+        <div class="visual">
+          <img
+            src="./mensalidade-sindical.png"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          >
+        </div>
+      </a>
+
+      <!-- MÓDULO 05 — IMAGEM À DIREITA -->
+
+      <a
+        class="module module--p2"
+        href="./contribuicao-assistencial.html"
+      >
+        <div class="copy">
+          <div class="num">Module 05 · P2</div>
+
+          <h2>Contribuição Assistencial</h2>
+
+          <div class="desc">
+            Custos negociais, natureza, direito de oposição
+            e prescrição.
+          </div>
+
+          <div class="meta">
+            <span class="chip">22 atividades</span>
+            <span class="chip">Múltipla escolha</span>
+            <span class="chip">Lacunas</span>
+            <span class="chip">V/F</span>
+            <span class="chip">Arrastar cartões</span>
+          </div>
+
+          <div class="go">
+            START REVIEW <span>→</span>
+          </div>
+        </div>
+
+        <div class="visual">
+          <img
+            src="./mensalidade-sindical.png"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          >
+        </div>
+      </a>
+
+      <!-- MÓDULO 06 — IMAGEM À DIREITA -->
+
+      <a
+        class="module module--p2"
+        href="./liberdade-sindical.html"
+      >
+        <div class="copy">
+          <div class="num">Module 06 · P2</div>
+
+          <h2>Liberdade sindical</h2>
+
+          <div class="desc">
+            Liberdade individual e coletiva, convenções
+            da OIT e garantias.
+          </div>
+
+          <div class="meta">
+            <span class="chip">13 atividades</span>
+            <span class="chip">Múltipla escolha</span>
+            <span class="chip">Lacunas</span>
+            <span class="chip">V/F</span>
+            <span class="chip">Arrastar cartões</span>
+          </div>
+
+          <div class="go">
+            START REVIEW <span>→</span>
+          </div>
+        </div>
+
+        <div class="visual">
+          <img
+            src="./mensalidade-sindical.png"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          >
+        </div>
+      </a>
+
+      <!-- MÓDULO 07 — IMAGEM À DIREITA -->
+
+      <a
+        class="module module--p2"
+        href="./organizacao-sindical.html"
+      >
+        <div class="copy">
+          <div class="num">Module 07 · P2</div>
+
+          <h2>Organização sindical</h2>
+
+          <div class="desc">
+            Unicidade, categorias, enquadramento,
+            órgãos e funções.
+          </div>
+
+          <div class="meta">
+            <span class="chip">36 atividades</span>
+            <span class="chip">Múltipla escolha</span>
+            <span class="chip">Lacunas</span>
+            <span class="chip">V/F</span>
+            <span class="chip">Arrastar cartões</span>
+          </div>
+
+          <div class="go">
+            START REVIEW <span>→</span>
+          </div>
+        </div>
+
+        <div class="visual">
+          <img
+            src="./mensalidade-sindical.png"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          >
+        </div>
+      </a>
+
+      <!-- MÓDULO 08 -->
+
+      <a
+        class="module module--notice"
+        href="./aviso-previo.html"
+      >
+        <div class="copy">
+          <div class="num">Module 08</div>
+
+          <h2>Aviso prévio</h2>
+
+          <div class="desc">
+            Conceito, tríplice natureza, cabimento,
+            proporcionalidade, efeitos no contrato,
+            redução de jornada, reconsideração
+            e remuneração do aviso.
+          </div>
+
+          <div class="meta">
+            <span class="chip">67 activities</span>
+            <span class="chip">Multiple choice</span>
+            <span class="chip">Fill the gaps</span>
+            <span class="chip">True / False</span>
+            <span class="chip">Drag cards</span>
+          </div>
+
+          <div class="go">
+            START REVIEW <span>→</span>
+          </div>
+        </div>
+
+        <div class="visual">
+          <img
+            src="./aviso-previo.png"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          >
+        </div>
+      </a>
+
+      <!-- MÓDULO 09 — IMAGEM À DIREITA -->
+
+      <a
+        class="module module--p2"
+        href="./suspensao-interrupcao-contrato.html"
+      >
+        <div class="copy">
+          <div class="num">Module 09 · P2</div>
+
+          <h2>Suspensão e Interrupção do Contrato</h2>
+
+          <div class="desc">
+            Hipóteses e efeitos da suspensão
+            e da interrupção contratual.
+          </div>
+
+          <div class="meta">
+            <span class="chip">22 atividades</span>
+            <span class="chip">Múltipla escolha</span>
+            <span class="chip">Lacunas</span>
+            <span class="chip">V/F</span>
+            <span class="chip">Arrastar cartões</span>
+          </div>
+
+          <div class="go">
+            START REVIEW <span>→</span>
+          </div>
+        </div>
+
+        <div class="visual">
+          <img
+            src="./mensalidade-sindical.png"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          >
+        </div>
+      </a>
+
+      <!-- MÓDULO 10 — SELO P2 -->
+
+      <a
+        class="module module--p2"
+        href="./greve.html"
+      >
+        <div class="copy">
+          <div class="num">
+            Module 10 · Direito Coletivo
+          </div>
+
+          <h2>Greve</h2>
+
+          <div class="desc">
+            Direito de greve, prazos de 48 e 72 horas,
+            atividades essenciais, abuso, efeitos
+            contratuais e lockout.
+          </div>
+
+          <div class="meta">
+            <span class="chip">56 atividades</span>
+            <span class="chip">Múltipla escolha</span>
+            <span class="chip">Lacunas</span>
+            <span class="chip">V/F</span>
+            <span class="chip">Arrastar cartões</span>
+          </div>
+
+          <div class="go">
+            START REVIEW <span>→</span>
+          </div>
+        </div>
+
+        <div
+          class="visual"
+          aria-label="Conteúdo da P2"
+        >
+          <div class="p2-stamp">
+            <div>
+              <strong>P2</strong>
+              <small>Conteúdo da P2</small>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- MÓDULO 11 — SELO P2 -->
+
+      <a
+        class="module module--p2"
+        href="./garantias-emprego.html"
+      >
+        <div class="copy">
+          <div class="num">
+            Module 11 · Direito Individual
+          </div>
+
+          <h2>Garantias de Emprego e Estabilidade</h2>
+
+          <div class="desc">
+            Estabilidade decenal, dirigente sindical, CIPA,
+            gestante, acidente de trabalho, outras garantias
+            provisórias, dispensa discriminatória,
+            reintegração e indenização.
+          </div>
+
+          <div class="meta">
+            <span class="chip">48 atividades</span>
+            <span class="chip">Múltipla escolha</span>
+            <span class="chip">Lacunas</span>
+            <span class="chip">V/F</span>
+            <span class="chip">Arrastar cartões</span>
+          </div>
+
+          <div class="go">
+            START REVIEW <span>→</span>
+          </div>
+        </div>
+
+        <div
+          class="visual"
+          aria-label="Conteúdo da P2"
+        >
+          <div class="p2-stamp">
+            <div>
+              <strong>P2</strong>
+              <small>Conteúdo da P2</small>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- RODAPÉ -->
+
+    <footer>
+      Legis Lectiones · Personal study environment
+    </footer>
+
   </div>
-</div>
 
-    </a>
-    
+  <!-- CLOUDFLARE WEB ANALYTICS -->
 
-  </div>
+  <script
+    type="module"
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token":"51f24d9a0ec840c5bcb40df413a4bf46"}'
+  ></script>
 
-
-  <footer>
-    Legis Lectiones · Personal study environment
-  </footer>
-
-</div>
-
-<!-- Cloudflare Web Analytics -->
-<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "51f24d9a0ec840c5bcb40df413a4bf46"}'></script>
-<!-- End Cloudflare Web Analytics -->
 </body>
 </html>
