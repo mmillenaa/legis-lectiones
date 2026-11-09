@@ -6,6 +6,7 @@
 
   const scriptUrl = document.currentScript?.src || window.location.href;
   const homeUrl = new URL("./", scriptUrl).href;
+  const isOjSection = window.location.pathname.toLowerCase().includes("/oj/");
 
   function isUnlocked() {
     try {
@@ -298,6 +299,10 @@
       return "Philosophy of Law";
     }
 
+    if (path.includes("/oj/")) {
+      return "OJ · Oficial de Justiça";
+    }
+
     return "Archived module";
   }
 
@@ -322,7 +327,7 @@
         </div>
 
         <div class="legacy-gate-eyebrow">
-          Archived study module
+          ${isOjSection ? "Preparação para concurso" : "Archived study module"}
         </div>
 
         <h1 id="legacy-gate-title">
@@ -330,13 +335,14 @@
         </h1>
 
         <p class="legacy-gate-copy">
-          This older study project is kept as an archive.
-          Enter the password to continue.
+          ${isOjSection
+            ? "Informe a mesma senha usada nos outros módulos protegidos para acessar o espaço OJ."
+            : "This older study project is kept as an archive. Enter the password to continue."}
         </p>
 
         <form id="legacy-gate-form">
           <label for="legacy-gate-password">
-            Password
+            ${isOjSection ? "Senha" : "Password"}
           </label>
 
           <input
@@ -350,7 +356,7 @@
           >
 
           <button type="submit">
-            Unlock archive
+            ${isOjSection ? "Acessar banco" : "Unlock archive"}
           </button>
 
           <p
@@ -364,7 +370,7 @@
           class="legacy-gate-back"
           href="${homeUrl}"
         >
-          ← Back to Law Mock Tests
+          ${isOjSection ? "← Voltar ao início" : "← Back to Law Mock Tests"}
         </a>
       </section>
     `;
@@ -383,7 +389,7 @@
       const candidateHash = await sha256(input.value);
 
       if (candidateHash !== PASSWORD_HASH) {
-        error.textContent = "Incorrect password.";
+        error.textContent = isOjSection ? "Senha incorreta." : "Incorrect password.";
         input.value = "";
         input.focus();
         return;
