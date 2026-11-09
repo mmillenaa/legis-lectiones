@@ -548,7 +548,7 @@
       display: grid;
 
       grid-template-columns:
-        repeat(3, minmax(0, 1fr));
+        repeat(4, minmax(0, 1fr));
 
       gap: 20px;
       align-items: stretch;
@@ -779,6 +779,30 @@
       --accent-rgb: 174, 145, 255;
     }
 
+    /* OJ: destaque verde-água, mantendo a identidade do portal. */
+    .card.oj {
+      --accent: #8edec4;
+      --accent-rgb: 142, 222, 196;
+      background:
+        radial-gradient(circle at 75% 24%, rgba(142,222,196,.13), transparent 58%),
+        linear-gradient(145deg, rgba(255,255,255,.075), rgba(255,255,255,.025));
+    }
+
+    .oj-monogram {
+      position: absolute;
+      z-index: 0;
+      right: -6px;
+      top: 54px;
+      color: #b2f6dd;
+      opacity: .14;
+      font-family: "Playfair Display", serif;
+      font-size: clamp(100px, 11vw, 145px);
+      letter-spacing: -.08em;
+      line-height: 1;
+      pointer-events: none;
+      user-select: none;
+    }
+
 
     /* --------------------------------
        CARD ICON
@@ -957,8 +981,8 @@
     -------------------------------- */
 
     /*
-      Mantém os três cartões lado a lado mesmo
-      em notebooks e janelas relativamente estreitas.
+      Em telas intermediárias, organiza os cartões
+      em duas colunas para manter a legibilidade.
     */
 
     @media (max-width: 900px) {
@@ -973,7 +997,7 @@
 
       .grid {
         grid-template-columns:
-          repeat(3, minmax(0, 1fr));
+          repeat(2, minmax(0, 1fr));
 
         gap: 12px;
       }
@@ -1446,6 +1470,60 @@
 
       </a>
 
+
+      <!-- OJ: OFICIAL DE JUSTIÇA -->
+
+      <a
+        class="card oj"
+        href="./oj/"
+      >
+        <div class="oj-monogram" aria-hidden="true">OJ</div>
+
+        <div class="icon" aria-hidden="true">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M3 21h18"/>
+            <path d="M6 21V9l6-5 6 5v12"/>
+            <path d="M10 21v-8h4v8"/>
+            <path d="M9 9h6"/>
+          </svg>
+        </div>
+
+        <div class="card-content">
+          <div class="legacy-status">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <rect x="4" y="10" width="16" height="11" rx="2"></rect>
+              <path d="M8 10V7a4 4 0 0 1 8 0v3"></path>
+            </svg>
+            Acesso com senha
+          </div>
+
+          <h2>OJ</h2>
+
+          <p>
+            Preparação para Oficial de Justiça · TJSP.
+            Espaço de bancos de questões e revisões de concurso.
+          </p>
+
+          <div class="card-footer">
+            <span class="start">ACESSAR BANCO</span>
+            <span class="arrow" aria-hidden="true">→</span>
+          </div>
+        </div>
+      </a>
 
     </main>
 

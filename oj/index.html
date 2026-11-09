@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="color-scheme" content="dark">
+  <title>OJ · Legis Lectiones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+  <!-- Mesmo verificador e mesma senha dos demais módulos protegidos. -->
+  <script src="../legacy-gate.js"></script>
+
+  <style>
+    :root {
+      --bg: #08111f;
+      --deep: #050a12;
+      --text: #f4f5f8;
+      --muted: #99a3b6;
+      --accent: #8edec4;
+      --border: rgba(255,255,255,.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: "DM Sans", sans-serif;
+      background:
+        radial-gradient(circle at 15% 20%,rgba(142,222,196,.12),transparent 35%),
+        radial-gradient(circle at 84% 70%,rgba(174,145,255,.12),transparent 38%),
+        linear-gradient(145deg,#0b1728,var(--bg) 45%,var(--deep));
+    }
+    .page {
+      width: min(920px,calc(100% - 32px));
+      margin: auto;
+      padding: 36px 0 80px;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .top a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .top a:hover { color: #fff; }
+    .brand {
+      text-transform: uppercase;
+      letter-spacing: .15em;
+      font-size: 11px;
+    }
+    .hero { margin-top: 90px; }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .17em;
+      text-transform: uppercase;
+    }
+    h1, h2 {
+      font-family: "Playfair Display", serif;
+      font-weight: 500;
+    }
+    h1 {
+      margin: 10px 0 14px;
+      font-size: clamp(72px,12vw,122px);
+      line-height: 1;
+      letter-spacing: -.06em;
+      color: #e8fff6;
+    }
+    .lead {
+      max-width: 590px;
+      color: #bec7d5;
+      font-size: 17px;
+      line-height: 1.7;
+    }
+    .panel {
+      margin-top: 58px;
+      padding: clamp(24px,5vw,42px);
+      border: 1px solid var(--border);
+      border-radius: 25px;
+      background: linear-gradient(145deg,rgba(255,255,255,.065),rgba(255,255,255,.02));
+      box-shadow: 0 28px 90px rgba(0,0,0,.32);
+    }
+    .panel h2 {
+      margin: 14px 0 10px;
+      font-size: clamp(28px,4vw,38px);
+    }
+    .panel p {
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 630px;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-top: 18px;
+      padding: 11px 15px;
+      border-radius: 999px;
+      border: 1px solid rgba(142,222,196,.26);
+      color: var(--accent);
+      background: rgba(142,222,196,.06);
+      font-size: 12px;
+      font-weight: 700;
+    }
+    footer {
+      margin-top: 55px;
+      text-align: center;
+      color: #68768c;
+      font-size: 12px;
+    }
+    @media (max-width: 680px) {
+      .hero { margin-top: 65px; }
+      .top { flex-wrap: wrap; }
+      .panel { margin-top: 40px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <nav class="top" aria-label="Navegação">
+      <a href="../">← Legis Lectiones</a>
+      <span class="brand">Área de estudos</span>
+    </nav>
+
+    <header class="hero">
+      <div class="eyebrow">Oficial de Justiça · TJSP</div>
+      <h1>OJ</h1>
+      <p class="lead">
+        Espaço dedicado à preparação para o concurso de Oficial de Justiça,
+        organizado para receber bancos de questões, simulados e revisões.
+      </p>
+    </header>
+
+    <section class="panel" aria-labelledby="bancos-title">
+      <div class="eyebrow">Bancos de questões</div>
+      <h2 id="bancos-title">Área em preparação</h2>
+      <p>
+        Este é o índice inicial do OJ. Os módulos de questões ainda não foram
+        adicionados; quando forem criados, seus links aparecerão aqui.
+      </p>
+      <span class="status">Estrutura pronta para novos simulados</span>
+    </section>
+
+    <footer>Legis Lectiones · Personal study environment</footer>
+  </main>
+</body>
+</html>
