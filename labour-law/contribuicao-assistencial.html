@@ -17,13 +17,41 @@
   <script src="./quick-feedback.js" defer></script>
   <link rel="stylesheet" href="./quiz-polish.css">
   <link rel="stylesheet" href="./result-celestial.css">
+  
   <script src="./result-celestial.js" defer></script>
+
+  <style>
+    .bank-cover {
+      width: min(100%, 420px);
+      aspect-ratio: 16 / 9;
+      margin-bottom: 20px;
+      overflow: hidden;
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .bank-cover img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  </style>
 </head>
+
 <body data-bank="contribuicao-assistencial">
   <div class="shell">
     <nav class="topbar"><a href="./">← Direito do Trabalho</a><div class="brand">Legis Lectiones</div></nav>
     <header>
-      <div class="eyebrow">Direito do Trabalho · Conteúdo da P2</div>
+<div class="bank-cover">
+  <img
+    src="./mensalidade-sindical.png"
+    alt="Imagem ilustrativa de mensalidade sindical"
+    loading="lazy"
+  >
+</div>
+
       <h1>Contribuição Assistencial</h1>
       <p class="subtitle">Finalidade, natureza, distinções, oposição, competência e prescrição. O material distingue posições históricas e evolução jurisprudencial. A primeira resposta conferida fica registrada na tentativa.</p>
       <div id="stats" class="stats" aria-label="Composição do banco"></div>
