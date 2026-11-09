@@ -300,7 +300,7 @@
     }
 
     if (path.includes("/oj/")) {
-      return "OJ · Oficial de Justiça";
+      return "Concurso";
     }
 
     return "Archived module";
