@@ -1,0 +1,9 @@
+PILOTO PRIVADO · OJ · LINDB
+
+1. Abra index.html no navegador.
+2. Use as 4 unidades do NEAF, os quadrinhos, a lei seca, flashcards e 30 questões.
+3. Exportar progresso produz arquivo JSON de backup.
+4. Nao publique este projeto em repositorio publico: o conteudo ficaria acessivel sem senha.
+5. Os trechos de lei são recortes centrais, e não transcrição integral; consulte link da Câmara.
+6. Este material foi elaborado para teste e não substitui o edital, professor ou lei atualizada.
+7. O arquivo OJ_LINDB_PILOTO_ABRIR_NO_NAVEGADOR.html, entregue separadamente, é autonomo e nao precisa da pasta assets.
