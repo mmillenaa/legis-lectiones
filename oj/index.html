@@ -49,8 +49,9 @@ main{min-width:0}.path{font-size:12px;color:#728199;font-weight:700;letter-spaci
   'use strict';
   const articles=window.ARTICLES;
   const $=id=>document.getElementById(id);
-  const today=()=>new Date().toISOString().slice(0,10);
-  const plusDays=(days)=>{let d=new Date();d.setHours(12,0,0,0);d.setDate(d.getDate()+days);return d.toISOString().slice(0,10)};
+  const localDate=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  const today=()=>localDate(new Date());
+  const plusDays=(days)=>{let d=new Date();d.setHours(12,0,0,0);d.setDate(d.getDate()+days);return localDate(d)};
   const KEY='legis-lectiones:oj:lindb-pilot:v1';
   let store={reviews:{},quiz:{},saved:[],lastArticle:1};
   try{const s=JSON.parse(localStorage.getItem(KEY)||'null');if(s&&s.reviews&&s.quiz)store=s;}catch(e){console.warn('Storage unavailable',e)}
