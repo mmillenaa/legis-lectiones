@@ -232,7 +232,18 @@
     $('stats').replaceChildren(...[
       `${bank.length} atividades`,`${counts.mcq} múltipla escolha`,`${counts.fill} lacunas`,`${counts.tf} V/F`,`${counts.drag} arrastar`
     ].map(t=>el('span','stat',t)));
-    if(!restore()){order=bank.map((_,i)=>i);pos=0;answers={};status={};}
+    if (!restore()) {
+      order = bank.map((_, i) => i);
+      pos = 0;
+      answers = {};
+      status = {};
+    } else if (slug === 'garantias-emprego' && order.length !== bank.length) {
+      // "Revisar erros" salva uma lista parcial em order.
+      // Ao reabrir o banco, recupera todas as questões, preservando respostas.
+      order = bank.map((_, i) => i);
+      pos = 0;
+      save();
+    }
     $('checkBtn').addEventListener('click',()=>{
       const item=current();if(locked(item))return;
       if(!hasAnswer(item)){alert('Responda todos os campos antes de conferir.');return;}
