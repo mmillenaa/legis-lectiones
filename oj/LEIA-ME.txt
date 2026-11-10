@@ -1,44 +1,47 @@
 ESTRUTURA OJ · LEGIS LECTIONES
 
-Acesso:
+NAVEGAÇÃO
 - oj/index.html: biblioteca de disciplinas e temas.
-- oj/catalogo.json: vínculo de cada tema ao seu módulo.
-- ../legacy-gate.js: formulário de senha compartilhado (barreira apenas visual, não autenticação segura).
+- oj/catalogo.json: associa cada tema ao HTML correspondente.
+- ../legacy-gate.js: formulário de senha compartilhado.
 
-MÓDULOS DISPONÍVEIS
+LEITURA UNIFICADA
+- oj/leitura.css: aparência responsiva sem colunas de memorização.
+- oj/leitura.js: conteúdo na ordem TÍTULO, LEI SECA, IMAGEM, COMENTÁRIO, EXEMPLO.
+- Imagens podem ser minimizadas pelo controle "Quadrinho ilustrativo".
+- A navegação entre cartões permanece; flashcards, revisão espaçada, favoritos
+  e botões de backup/importação foram retirados da interface.
+- A leitura guarda apenas o último cartão aberto numa chave própria do navegador.
+  O histórico anterior de revisões não é apagado, apenas não é usado pelo novo leitor.
+
+MÓDULOS
 1. oj/lindb.html
-   LINDB: 30 artigos, quadrinhos, texto legal, flashcards e revisão.
+   30 artigos e dez conjuntos de quadrinhos originais, preservados.
+   Os campos de lei seca são trechos essenciais, não necessariamente a íntegra.
+
 2. oj/cpc-normas.html + oj/cpc-normas.json
-   Direito Processual Civil: Normas Fundamentais e Aplicação.
-   17 cartões dos arts. 1º–11 e 13–15 do PDF; sem art. 12.
-   CP001–CP010 usam dez imagens próprias em oj/assets/cpc-normas-01.webp a cpc-normas-10.webp.
-   CP011–CP017 não têm ilustração atribuída.
+   17 cartões dos arts. 1º–11 e 13–15, conforme o PDF.
+   CP001–CP010: dez ilustrações já publicadas em oj/assets.
+   CP011–CP017: caminhos de imagem associados no JSON, mas os sete arquivos
+   cpc-normas-11.webp a cpc-normas-17.webp ainda NÃO estão no repositório.
+   O leitor oculta a imagem ausente sem exibir desenho genérico.
+
 3. oj/cpc-jurisdicao.html + oj/cpc-jurisdicao.json
-   30 cartões exclusivamente sobre os temas da apresentação.
-   23 com recortes de dispositivos e 7 de conceitos doutrinários identificados.
-   Sem imagens genéricas.
+   30 cartões conforme o PDF, diferenciando conceitos doutrinários de
+   transcrições e excertos normativos. Sem imagens genéricas.
+
 4. oj/improbidade.html + oj/improbidade.json
-   20 cartões: dolo; arts. 9º, 10 e 11 em quadro; art. 9º caput/incisos I–XII;
-   comparação art. 10 XIII; art. 13 e parágrafos.
-   Não inclui seção de sanções do art. 12 ausente nos PDFs.
-   A aba Mapas Mentais foi preservada, sem apontar para arquivos locais inexistentes.
+   20 cartões no recorte dos PDFs: dolo, comparação dos tipos estudados,
+   art. 9º, art. 10 XIII e art. 13. Não inventar seção de sanções do art. 12.
 
-CRITÉRIO EDITORIAL
-O PDF da aula define o recorte: não preencher artigos que não foram estudados.
-Distinguir texto normativo, excerto identificado, conceito doutrinário e explicação.
-Usar desenhos individuais que tenham correspondência direta com cada cartão;
-não reutilizar ilustrações genéricas.
-As questões devem avaliar conteúdo, requisitos, exceções e aplicação,
-não decorar o número do dispositivo.
-
-PROGRESSO
-Salvo automaticamente no localStorage. Flashcards e favoritos têm histórico próprio.
-Os três bancos restaurados usam chave de armazenamento v2, porque o conteúdo
-e os gabaritos foram corrigidos; dados antigos não são apagados do navegador,
-mas não são importados automaticamente como respostas às questões novas.
-Use o backup JSON para guardar/transferir o progresso atual.
+FONTE E FIDELIDADE
+- O PDF da aula delimita os dispositivos, temas e a ordem.
+- Nunca converter um conceito doutrinário em falsa transcrição de lei.
+- Manter identificados os excertos parciais; consultar a fonte legal completa.
+- Evitar repetir o texto legal no comentário; dar explicação sucinta.
+- Os JSONs ainda contêm alguns campos históricos de questões, mas esses campos
+  não são usados no novo leitor.
 
 PRIVACIDADE
-Este repositório é PÚBLICO. A senha em JavaScript não protege os arquivos
-contra acesso direto ao GitHub ou ao site estático. Para sigilo real, é necessária
-hospedagem com autenticação de servidor e dados fora do repositório público.
+O repositório é público. A senha JavaScript é uma barreira visual, não
+autenticação segura; os arquivos podem ser lidos diretamente pelo GitHub.
