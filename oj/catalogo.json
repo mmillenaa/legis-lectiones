@@ -10,10 +10,12 @@
           "title": "Tópicos",
           "topics": [
             {
-              "title": "Das Normas Fundamentais e da Aplicação das Normas Processuais"
+              "title": "Das Normas Fundamentais e da Aplicação das Normas Processuais",
+              "href": "./cpc-normas.html"
             },
             {
-              "title": "Jurisdição - Conceito e Características"
+              "title": "Jurisdição - Conceito e Características",
+              "href": "./cpc-jurisdicao.html"
             },
             {
               "title": "Competência"
