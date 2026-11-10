@@ -1,186 +1,47 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-module="cpc-jurisdicao">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow,noarchive">
-<title>Jurisdição · Biblioteca de estudos</title>
-<script src="../legacy-gate.js"></script>
-<style>
-:root{--ink:#1a2a43;--paper:#fff;--bg:#f4f6fa;--muted:#61728a;--border:#dce3ec;--orange:#e97838;--cream:#fff5e9;--green:#24865d;--navy:#16243b}
-*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--bg);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}button,input{font:inherit}button{cursor:pointer}button:disabled{opacity:.44;cursor:not-allowed}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #ffb56e;outline-offset:3px}a{color:#205a89}
-.top{background:var(--navy);color:#fff;display:flex;gap:14px;align-items:center;padding:13px max(16px,calc((100% - 1470px)/2));position:sticky;top:0;z-index:15;min-height:68px}.top .brand{font:700 22px Georgia,serif}.top .grow{flex:1}.top a,.top button{color:#f7faff;text-decoration:none;border:1px solid #495b78;background:transparent;padding:7px 11px;border-radius:9px;font-size:12px}.top a:hover,.top button:hover{background:#ffffff17}
-.shell{display:grid;grid-template-columns:248px minmax(0,1fr) 275px;gap:19px;padding:24px 20px 55px;max-width:1530px;margin:auto}
-.left,.right>.sheet,.paper{background:#fff;border:1px solid var(--border);border-radius:17px;box-shadow:0 12px 35px #1d2d4211}
-.left{align-self:start;position:sticky;top:85px;padding:17px}.left h2{font:600 21px Georgia,serif;margin:3px 0 13px}.hint{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#b55b29;font-weight:800}.unit{display:flex;width:100%;text-align:left;align-items:start;gap:10px;padding:12px 10px;border:1px solid transparent;background:transparent;border-radius:10px;color:#273a57;margin:5px 0}.unit:hover,.unit.active{background:#fff3e8;border-color:#f2c6a7}.unit .idx{background:#eaf0f8;width:27px;height:27px;border-radius:7px;display:grid;place-items:center;font-weight:800;color:#74849b;font-size:12px;flex:none}.unit.active .idx{background:#e87939;color:white}.unit .title{font-size:13px;font-weight:700}.unit .mini{display:block;font-size:11px;color:#758298;font-weight:400}.meter{height:7px;background:#eaf0f6;border-radius:20px;overflow:hidden;margin:10px 0}.meter span{display:block;background:linear-gradient(90deg,#e87939,#ffc86a);width:0;height:100%}.side-note{border-top:1px solid #e5ebf1;margin-top:15px;padding-top:15px;font-size:12px;color:#718198}
-.side-btn{border:1px solid var(--border);background:#fff;color:var(--ink);border-radius:9px;padding:9px 10px;margin:4px 0;width:100%;text-align:left;font-weight:650;font-size:12px}.side-btn:hover{background:#f8fafc}
-main{min-width:0}.path{color:#8491a3;font-size:12px;letter-spacing:.04em}.heading{display:flex;justify-content:space-between;align-items:center;gap:12px}.heading h1{font:500 clamp(27px,3vw,42px)/1.15 Georgia,serif;letter-spacing:-.02em;margin:7px 0}.sub{font-size:13px;color:var(--muted);margin:0 0 14px}.counter{font-size:12px;color:#49627d;border:1px solid #dce3ef;border-radius:99px;padding:6px 10px;white-space:nowrap;background:white}
-.tabs{display:flex;gap:7px;flex-wrap:wrap;border-bottom:1px solid var(--border);padding-bottom:12px;margin:15px 0}.tab{border:1px solid transparent;background:transparent;color:#566681;padding:8px 11px;border-radius:9px;font-weight:700;font-size:13px}.tab.active{background:#fff;border-color:#eeb28a;color:#ad4b1b}
-.picker{display:grid;grid-template-columns:35px minmax(0,1fr) 35px;gap:8px;align-items:center}.step{height:39px;background:#fff;border:1px solid #dae2ec;border-radius:9px;font-size:21px}.numbers{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px}.number{border:1px solid #dce3ed;border-radius:9px;background:#fff;color:#5a6982;min-height:39px;font-size:13px}.number.active{color:#b04c1e;border-color:#ef9362;background:#fff1e6;font-weight:800}.number.done:after{content:" ✓";color:var(--green)}
-.tools{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:13px 0}.save{border-radius:9px;border:1px solid #e1c4a1;background:#fff8eb;color:#a6541e;padding:8px 11px;font-weight:700}.save.on{color:#a14f18;background:#ffe9ca;border-color:#f1a872}.tools small{color:#8090a1}
-.paper{padding:21px;min-height:320px}.section-label{color:#c6632b;text-transform:uppercase;font-size:12px;letter-spacing:.12em;font-weight:800}.paper h2{font:600 clamp(23px,2.5vw,34px)/1.22 Georgia,serif;margin:8px 0 14px}.paper h3{font:600 21px Georgia,serif;margin:12px 0 5px}.paper p{line-height:1.68}
-.comic-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.tag{border-radius:99px;padding:4px 8px;background:#eaf1fa;color:#526680;font-size:11px;font-weight:700}
-.comic-strip{display:grid;grid-template-columns:1.2fr .8fr;gap:10px;margin:17px 0}
-.comic-panel{border:2px solid #182536;border-radius:9px;overflow:hidden;background:#fffdf7;position:relative}
-.comic-panel .caption{background:#ffe7bd;border-bottom:2px solid #182536;padding:8px 11px;font-size:13px;font-weight:800;min-height:43px}
-.comic-panel svg{width:100%;height:auto;display:block}
-.comic-panel .dialog{font-family:"Comic Sans MS","Comic Neue",cursive;font-weight:750;color:#253247;font-size:14px;line-height:1.35;padding:9px 12px;min-height:57px;background:#fff}
-.comic-panel:nth-child(2) .caption{background:#e1ecfb}
-.story{background:#fff6e8;border:1px solid #f4d0a4;border-radius:12px;padding:13px 16px;margin-top:12px}.story strong{color:#b25821}
-.rule{background:#edf7fc;border-left:4px solid #5b96be;padding:13px 16px;border-radius:0 12px 12px 0;margin:15px 0}.rule strong{color:#20517d}
-.trap{background:#fff2ed;border:1px solid #f2c6b2;padding:12px 14px;border-radius:10px;color:#704532;margin:13px 0}
-.buttons{display:flex;gap:9px;flex-wrap:wrap;justify-content:space-between;margin-top:18px}
-.primary,.secondary{border-radius:10px;padding:11px 15px;font-weight:750;border:1px solid #d4dce8;background:#fff;color:#263651}.primary{background:var(--orange);border-color:#d7632b;color:#fff}.primary:hover{background:#d96930}.secondary:hover{background:#f1f5fa}
-.flash{border:2px dashed #ecc393;border-radius:16px;background:#fff8eb;text-align:center;padding:33px 21px;margin:15px 0;min-height:220px;display:flex;flex-direction:column;justify-content:center;gap:12px}.flash h3{margin:0}.flash p{font-size:18px;line-height:1.58;max-width:710px;margin:4px auto}.grades{display:flex;justify-content:center;gap:9px;flex-wrap:wrap}.grades button{border:1px solid #d9dce4;background:#fff;border-radius:9px;padding:10px 12px;min-width:105px}.grades button:hover{border-color:#e37c3e}
-.answers{display:grid;gap:9px;margin:17px 0}.choice{display:flex;gap:10px;align-items:start;text-align:left;width:100%;padding:13px;border-radius:11px;border:1px solid #dee4ed;background:#fff;color:#21324d}.choice.selected{background:#fff1e8;border-color:#e88141}.choice.correct{background:#e6f6ed;border-color:#69bd8d}.choice.wrong{background:#fff0ed;border-color:#d88679}.choice .letter{flex:none;display:inline-grid;place-items:center;background:#edf0f6;width:25px;height:25px;border-radius:99px;font-size:12px;font-weight:850}
-.feedback{border:1px solid #a6d3b8;background:#ecf9f0;padding:13px;border-radius:12px}.feedback.wrong{background:#fff1ee;border-color:#e5a49d}
-.right{align-self:start;position:sticky;top:85px}.right>.sheet{padding:17px;margin-bottom:13px}.right h3{margin:0 0 8px;font-size:15px}.right p{font-size:13px;color:#607189;line-height:1.62;margin:7px 0}.right ul{list-style:none;padding:0;margin:8px 0}.right li{font-size:12px;margin:7px 0;color:#52627a}.right .accent{color:#9e511e;font-weight:800}.rrow{display:flex;justify-content:space-between;gap:9px;border-bottom:1px solid #e8ebf0;padding:8px 0;font-size:12px}.rrow:last-child{border-bottom:0}
-.review-filters{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.review-filters button{border:1px solid #dfe5ed;padding:9px 12px;border-radius:9px;background:white}.review-filters button.active{background:#fff0e3;border-color:#e89c68}
-.review-row{width:100%;border:1px solid #dce4ee;background:#fff;border-radius:12px;padding:11px 13px;margin:5px 0;text-align:left;display:flex;gap:12px;align-items:center;justify-content:space-between}.review-row:hover{border-color:#eb9a6a}.empty{padding:23px;text-align:center;background:#f8fafc;border:1px dashed #cad6e4;border-radius:12px;color:#76869d}
-.small{font-size:12px;color:var(--muted)}.source{border:1px solid #d9e0e8;border-radius:11px;padding:12px 14px;background:#f9fbfe;margin:14px 0}.source a{font-weight:700}
-@media(max-width:1230px){.shell{grid-template-columns:205px minmax(0,1fr)}.right{grid-column:2;position:static;display:grid;grid-template-columns:1fr 1fr;gap:10px}.right>.sheet{margin:0}}
-@media(max-width:780px){.top{flex-wrap:wrap;gap:9px}.shell{display:block;padding:14px}.left{position:static;margin-bottom:15px;padding:13px}.left .unit-menu{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}.unit{margin:0;padding:8px}.unit .title{font-size:12px}.unit .mini{font-size:10px}.side-note{display:block}.right{display:block}.right>.sheet{margin:13px 0}.comic-strip{grid-template-columns:1fr}.paper{padding:14px}.numbers{grid-template-columns:repeat(5,minmax(0,1fr))}.heading{align-items:start}.counter{white-space:normal}.comic-panel svg{max-height:230px}}
-.law-comic{margin:12px 0 17px;border:1px solid #d5dae3;border-radius:15px;padding:10px;background:#fff;max-width:740px}.law-comic img{display:block;width:100%;height:auto;object-fit:contain;border-radius:9px}.law-comic figcaption{color:#6d7d91;font-size:12px;margin-top:9px}.law-section{border:1px solid #b8cce0;border-left:5px solid #527ca6;background:#f6faff;padding:16px 17px;border-radius:10px;margin:17px 0}.law-kicker{color:#215b8b;font-weight:800;letter-spacing:.04em;font-size:13px}.law-section blockquote{white-space:pre-wrap;font-size:15px;line-height:1.85;color:#263950;margin:11px 0;font-family:Georgia,serif}.law-absent{border:1px solid #dce3ee;background:#f7f9fc;border-radius:10px;padding:14px;margin:12px 0}.law-absent p{margin:4px 0;color:#66748a;font-size:13px}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="color-scheme" content="light">
+  <title>Jurisdição · DPC · Legis Lectiones</title>
+  <script src="../legacy-gate.js"></script>
+  <link rel="stylesheet" href="./leitura.css">
 </head>
 <body>
-<header class="top"><span style="font-size:25px">⚖</span><span class="brand">Legis Lectiones</span><a href="./#direito-processual-civil">Direito Processual Civil</a><span class="grow"></span><button type="button" data-act="export" title="Suas respostas já são salvas automaticamente; este botão baixa uma cópia de segurança.">Fazer backup</button></header>
-<div class="shell">
-<aside class="left"><div class="hint">Direito Processual Civil</div><h2>Jurisdição</h2><div class="unit-menu" id="units"></div><div class="side-note"><strong id="completedSide">0 de 30 cartões estudados</strong><div class="meter"><span id="meter"></span></div><p>Respostas, revisões e favoritos são salvos automaticamente neste navegador.</p><button class="side-btn" data-act="export">Fazer backup do progresso</button><label class="small">Importar backup<br><input type="file" id="import" accept=".json,application/json" style="max-width:100%"></label><button class="side-btn" data-act="reset">Zerar progresso</button></div></aside>
-<main>
-<div class="path">Biblioteca / Direito Processual Civil / Código de Processo Civil</div>
-<div class="heading"><h1 id="title">Jurisdição</h1><span class="counter" id="counter"></span></div>
-<p class="sub" id="subtitle"></p>
-<div class="tabs" id="tabs"></div>
-<div class="picker" aria-label="Navegação dos cartões"><button type="button" data-act="prev-page" class="step" id="pageLeft" aria-label="Cartões anteriores">‹</button><div class="numbers" id="numbers"></div><button type="button" data-act="next-page" class="step" id="pageRight" aria-label="Próximos cartões">›</button></div>
-<div class="tools"><button type="button" data-act="save" class="save" id="save">☆ Salvar cartão</button><small id="saveHint">Cartões salvos ficam na revisão</small></div>
-<section id="content" class="paper" aria-live="polite">Carregando conteúdo…</section>
-<div class="buttons"><button type="button" class="secondary" data-act="prev" id="prev">Cartão anterior</button><button type="button" class="primary" data-act="next" id="next">Próximo cartão</button></div>
-</main>
-<aside class="right">
-<div class="sheet"><div class="hint">Para memorizar</div><h3 id="sideTitle">Regra do cartão</h3><p id="sideRule"></p><p class="accent" id="sideTrap"></p><a id="official" href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm" target="_blank" rel="noopener noreferrer">Consultar lei oficial atualizada</a></div>
-<div class="sheet"><h3>Sua memória</h3><div class="rrow"><span>Cartões revisados</span><strong id="revised">0</strong></div><div class="rrow"><span>Revisões vencidas</span><strong id="due">0</strong></div><div class="rrow"><span>Favoritos</span><strong id="favorite">0</strong></div><button class="side-btn" data-act="tab" data-val="revisar">Revisar cartões</button></div>
-<div class="sheet"><h3>Glossário do cartão</h3><p id="sideTerm"></p><p class="small">Os trechos apresentados são paráfrases de estudo. Para a redação completa, consulte a lei oficial.</p></div>
-</aside>
+<header class="site-header">
+  <span class="brand">Legis Lectiones</span>
+  <span class="crumb">Direito Processual Civil · Lei comentada e ilustrada</span>
+  <span class="spacer"></span>
+  <a href="./#direito-processual-civil" class="back">Disciplinas</a>
+</header>
+<div class="layout">
+  <aside class="sidebar" aria-label="Navegação dos conteúdos">
+    <div class="eyebrow">Sequência do material</div>
+    <h2 id="navTitle">Conteúdos</h2>
+    <details><summary>Mostrar / ocultar assuntos</summary></details>
+    <div class="groups" id="groupNav"></div>
+  </aside>
+  <main class="main">
+    <div id="context" class="context">Direito Processual Civil</div>
+    <div class="overline">Lei comentada e ilustrada</div>
+    <h1 id="articleTitle">Carregando…</h1>
+    <p id="subhead" class="subhead"></p>
+    <article id="article" class="chapter" aria-live="polite">
+      <p>Carregando conteúdo…</p>
+    </article>
+    <nav class="pager" aria-label="Navegação entre conteúdos">
+      <button type="button" id="prevBottom">Anterior</button>
+      <span id="pageNum" class="counter"></span>
+      <button type="button" id="nextBottom">Próximo</button>
+    </nav>
+    <div hidden aria-hidden="true">
+      <button id="prev"></button><button id="next"></button>
+    </div>
+  </main>
 </div>
-<script>
-(function(){
-"use strict";
-var root=document, $=function(id){return root.getElementById(id)};
-var esc=function(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})};
-var KEY="legis-lectiones:oj:cpc-jurisdicao:v2";
-var data=null, index=0, page=0, tab="historia", revealed=false, selected=null, checked=false, filter="due";
-var state={grades:{},quiz:{},saved:[],last:0};
-try{var old=JSON.parse(localStorage.getItem(KEY)||"null");if(old&&old.grades&&old.quiz)state=old}catch(e){console.warn(e)}
-if(!Array.isArray(state.saved))state.saved=[];
-var saveState=function(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){console.warn(e)}};
-var day=function(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")};
-var today=function(){return day(new Date())};
-var nextDate=function(days){var d=new Date();d.setHours(12,0,0,0);d.setDate(d.getDate()+days);return day(d)};
-var current=function(){return data.cards[index]};
-var isSaved=function(){return state.saved.includes(current().id)};
-var isDue=function(c){return state.grades[c.id]&&state.grades[c.id].due<=today()};
-var studied=function(){return data.cards.filter(function(c){return state.grades[c.id]}).length};
-var due=function(){return data.cards.filter(isDue).length};
-function comic(c){
-  if(!c.image)return "";
-  return '<figure class="law-comic"><img src="'+esc(c.image)+'" alt="Quadrinho sobre '+esc(c.normLabel||c.title)+'" loading="lazy"><figcaption>Quadrinho deste cartão · '+esc(c.normLabel||c.title)+'</figcaption></figure>';
-}
-function lawSection(c){
-  if(!c.normText)return '<div class="law-absent"><strong>Conceito apresentado no PDF</strong><p>Este tópico é doutrinário ou esquemático e não corresponde, por si só, a um dispositivo legal isolado. A explicação abaixo é didática.</p></div>';
-  return '<section class="law-section"><div class="law-kicker">Texto normativo · '+esc(c.normLabel||"Dispositivo estudado")+'</div><blockquote>'+esc(c.normText)+'</blockquote><p class="small">'+esc(c.normKind||'Redação legal pertinente ao PDF')+'</p></section>';
-}
-function fromHTML(s){return s}
-function setCard(i,nextTab){index=Math.max(0,Math.min(data.cards.length-1,i));page=Math.floor(index/5);state.last=index;if(nextTab)tab=nextTab;revealed=false;selected=null;checked=false;saveState();render();scrollTo({top:0,behavior:"instant"})}
-function markGrade(val){
-var id=current().id,prev=state.grades[id]||{interval:0,streak:0,lapses:0};
-var n=val===0?1:val===1?Math.max(1,Math.min(3,Math.round((prev.interval||1)*1.3))):Math.max(3,Math.min(90,prev.interval?Math.ceil(prev.interval*2.3):3));
-prev.due=nextDate(n);prev.interval=n;prev.last=today();prev.streak=val===0?0:prev.streak+1;prev.lapses+=(val===0?1:0);
-state.grades[id]=prev;saveState();revealed=false;render();
-}
-function renderReview(){
-var list=data.cards.filter(function(c){
- if(filter==="due")return isDue(c);
- if(filter==="new")return !state.grades[c.id];
- if(filter==="saved")return state.saved.includes(c.id);
- return Boolean(state.grades[c.id]);
-});
-var header='<h2>Revisar cartões</h2><p class="small">A fila reúne o que precisa ser recuperado de memória. Os cartões novos não são considerados atrasados.</p>';
-header+='<div class="review-filters">'+[["due","Vencidos"],["new","Novos"],["saved","Salvos"],["seen","Estudados"]].map(function(x){return '<button data-act="filter" data-val="'+x[0]+'" class="'+(filter===x[0]?"active":"")+'">'+x[1]+'</button>'}).join("")+'</div>';
-header+=list.length?list.map(function(c){return '<button class="review-row" data-act="review-card" data-val="'+data.cards.indexOf(c)+'"><span><strong>'+esc(c.id)+'</strong> · '+esc(c.title)+'</span><span class="tag">'+esc(state.grades[c.id]?state.grades[c.id].due:"Novo")+'</span></button>'}).join(""):'<div class="empty">Nenhum cartão nesta fila.</div>';
-return header;
-}
-function render(){
-if(!data)return;
-var c=current(),n=data.cards.length;
-$("title").textContent=c.title;
-$("counter").textContent="Cartão "+(index+1)+" de "+n;
-$("subtitle").textContent=c.chapter+" · "+c.source;
-$("units").innerHTML=data.groups.map(function(g,i){var inGroup=data.cards.slice(g.start,g.end);var done=inGroup.filter(function(z){return state.grades[z.id]}).length;return '<button class="unit '+(c.unit===i?"active":"")+'" data-act="unit" data-val="'+g.start+'"><span class="idx">'+(i+1)+'</span><span><span class="title">'+esc(g.title)+'</span><span class="mini">'+done+"/"+inGroup.length+" · "+esc(g.desc)+'</span></span></button>'}).join("");
-$("tabs").innerHTML=[["historia","Quadrinhos"],["regra","Lei e comentários"],["flashcard","Flashcard"],["questao","Questão"],["revisar","Revisar"]].map(function(t){return '<button class="tab '+(tab===t[0]?"active":"")+'" data-act="tab" data-val="'+t[0]+'">'+t[1]+'</button>'}).join("");
-$("numbers").innerHTML=data.cards.slice(page*5,page*5+5).map(function(x){var i=data.cards.indexOf(x);return '<button class="number '+(i===index?"active":"")+' '+(state.grades[x.id]?"done":"")+'" data-act="card" data-val="'+i+'" title="'+esc(x.title)+'">'+String(i+1).padStart(2,"0")+'</button>'}).join("");
-$("pageLeft").disabled=page===0;$("pageRight").disabled=page===Math.ceil(n/5)-1;
-$("prev").disabled=index===0;$("next").disabled=index===n-1;
-$("completedSide").textContent=studied()+" de "+n+" cartões revisados";
-$("meter").style.width=(studied()*100/n)+"%";
-$("revised").textContent=studied();$("due").textContent=due();$("favorite").textContent=state.saved.length;
-$("save").textContent=isSaved()?"★ Cartão salvo":"☆ Salvar cartão";
-$("save").classList.toggle("on",isSaved());
-$("save").setAttribute("aria-pressed",String(isSaved()));
-$("saveHint").textContent=isSaved()?"Disponível em Revisar > Salvos":"Favoritos salvos neste navegador";
-$("sideTitle").textContent=c.title;$("sideRule").textContent=c.rule;$("sideTrap").textContent="Atenção: "+c.trap;$("sideTerm").textContent=c.glossary;
-var content="";
-if(tab==="historia"){
-content='<span class="section-label">Episódio '+String(index+1).padStart(2,"0")+'</span><h2>'+esc(c.title)+'</h2>'+comic(c)+lawSection(c)+'<div class="story"><strong>O que aconteceu?</strong><p>'+esc(c.scene)+'</p></div><div class="rule"><strong>Regra para a prova</strong><p>'+esc(c.rule)+'</p></div><button class="primary" data-act="tab" data-val="flashcard">Treinar este flashcard</button>';
-}
-if(tab==="regra"){
-content='<span class="section-label">Regra e diferenciações</span><h2>'+esc(c.title)+'</h2>'+lawSection(c)+'<div class="rule"><strong>Explicação didática (não é texto de lei)</strong><p>'+esc(c.rule)+'</p></div><div class="trap"><strong>Armadilha de prova</strong><p>'+esc(c.trap)+'</p></div><div class="source"><strong>Base do cartão:</strong> '+esc(c.source)+'.<br><a href="'+esc(data.meta.sourceLegal)+'" target="_blank" rel="noopener noreferrer">Abrir o CPC no Planalto</a></div><p class="small">Não reproduzimos aqui o artigo inteiro: a leitura da lei seca deve ser feita pela fonte oficial.</p>';
-}
-if(tab==="flashcard"){
-var grade=state.grades[c.id];
-content='<span class="section-label">Recuperação ativa</span><h2>'+esc(c.title)+'</h2><div class="flash"><h3>'+(revealed?"Resposta":"Lembre sem olhar")+'</h3><p>'+esc(revealed?c.rule:c.scene)+'</p>'+(revealed?'':'<button class="primary" data-act="reveal" style="align-self:center">Revelar a resposta</button>')+'</div>';
-if(revealed)content+='<p class="small" style="text-align:center">Você conseguiu recuperar a regra corretamente?</p><div class="grades"><button data-act="grade" data-val="0">Esqueci</button><button data-act="grade" data-val="1">Difícil</button><button data-act="grade" data-val="2">Lembrei</button></div>';
-if(grade)content+='<div class="story"><strong>Revisão anterior</strong><p>Última: '+esc(grade.last)+' · Próxima: '+esc(grade.due)+'</p></div>';
-}
-if(tab==="questao"){
-content='<span class="section-label">Questão de aplicação</span><h2>'+esc(c.title)+'</h2><p style="font-weight:750;font-size:19px">'+esc(c.question)+'</p><div class="answers">'+c.options.map(function(option,i){return '<button data-act="choose" data-val="'+i+'" class="choice '+(selected===i?"selected ":"")+(checked&&i===c.answer?"correct ":"")+(checked&&selected===i&&i!==c.answer?"wrong":"")+'"><span class="letter">'+String.fromCharCode(65+i)+'</span><span>'+esc(option)+'</span></button>'}).join("")+'</div>';
-content+=checked?'<div class="feedback '+(selected===c.answer?"":"wrong")+'"><strong>'+(selected===c.answer?"Correto.":"Resposta incorreta.")+'</strong><p>'+esc(c.why)+'</p></div><button class="secondary" data-act="retry">Refazer questão</button>':'<button class="primary" data-act="check" '+(selected===null?"disabled":"")+'>Conferir resposta</button>';
-content+='<p class="small">Responda pela regra, pelo prazo ou pela consequência — não pela numeração do dispositivo.</p>';
-}
-if(tab==="revisar")content=renderReview();
-$("content").innerHTML=content;
-}
-document.addEventListener("click",function(e){
-var b=e.target.closest("[data-act]");if(!b||!data)return;
-var act=b.dataset.act,v=b.dataset.val;
-if(act==="unit")return setCard(Number(v),"historia");
-if(act==="card")return setCard(Number(v));
-if(act==="prev")return setCard(index-1);
-if(act==="next")return setCard(index+1);
-if(act==="prev-page"){page=Math.max(0,page-1);return render()}
-if(act==="next-page"){page=Math.min(Math.ceil(data.cards.length/5)-1,page+1);return render()}
-if(act==="tab"){tab=v;revealed=false;checked=false;selected=null;return render()}
-if(act==="reveal"){revealed=true;return render()}
-if(act==="save"){var id=current().id;state.saved=state.saved.includes(id)?state.saved.filter(function(x){return x!==id}):state.saved.concat(id);saveState();return render()}
-if(act==="grade")return markGrade(Number(v));
-if(act==="choose"){if(checked)return;selected=Number(v);return render()}
-if(act==="check"){if(selected===null||checked)return;checked=true;var c=current(),q=state.quiz[c.id]||{attempts:0,correct:0};q.attempts++;if(selected===c.answer)q.correct++;q.last=today();state.quiz[c.id]=q;saveState();return render()}
-if(act==="retry"){selected=null;checked=false;return render()}
-if(act==="filter"){filter=v;return render()}
-if(act==="review-card")return setCard(Number(v),"flashcard");
-if(act==="reset"){if(!confirm("Apagar todas as revisões, respostas e favoritos deste módulo?"))return;state={grades:{},quiz:{},saved:[],last:0};saveState();return setCard(0,"historia")}
-if(act==="export"){var payload={app:"OJ cpc-jurisdicao",version:1,exported:new Date().toISOString(),progress:state};var url=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:"application/json"}));var link=document.createElement("a");link.href=url;link.download="OJ_cpc-jurisdicao_progresso.json";link.click();setTimeout(function(){URL.revokeObjectURL(url)},1500);return}
-});
-$("import").addEventListener("change",async function(e){
-var file=e.target.files&&e.target.files[0];if(!file)return;
-try{var payload=JSON.parse(await file.text());if(payload.app!=="OJ cpc-jurisdicao"||!payload.progress||!payload.progress.grades||!payload.progress.quiz)throw Error("Arquivo de backup incompatível.");if(!confirm("Substituir os dados deste navegador pelos dados do backup?"))return;state=payload.progress;if(!Array.isArray(state.saved))state.saved=[];saveState();setCard(Math.min(Math.max(0,Number(state.last)||0),data.cards.length-1),"historia")}catch(err){alert(err.message)}finally{e.target.value=""}
-});
-fetch("./cpc-jurisdicao.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(function(d){
-if(!d.cards||d.cards.length!==30||d.groups.length!==5)throw Error("O catálogo do módulo está incompleto.");
-var ids=new Set(d.cards.map(function(c){return c.id}));if(ids.size!==d.cards.length)throw Error("Identificadores duplicados.");
-if(d.cards.some(function(c){return !Array.isArray(c.options)||c.options.length!==4||!Number.isInteger(c.answer)||c.answer<0||c.answer>3}))throw Error("Gabarito inválido.");
-data=d;index=Math.min(Math.max(0,Number(state.last)||0),d.cards.length-1);page=Math.floor(index/5);render();
-}).catch(function(e){$("content").innerHTML='<h2>Não foi possível carregar o módulo.</h2><p>'+esc(e.message)+'</p><p>Confira se <code>oj/cpc-jurisdicao.json</code> foi publicado.</p>';console.error(e)});
-})();
-</script>
-</body></html>
+
+<script src="./leitura.js"></script>
+</body>
+</html>
