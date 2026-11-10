@@ -52,10 +52,10 @@
   ],
   "cards": [
     {
+      "n": 1,
       "id": "IA001",
       "unit": 0,
       "chapter": "Fundamentos",
-      "art": 1,
       "title": "Dolo: erro não basta",
       "scene": "A decide uma compra pública. J pergunta se houve só falha administrativa ou intenção de alcançar resultado ilícito.",
       "rule": "Para enquadrar uma conduta como improbidade, é necessário dolo dirigido ao resultado ilícito. A simples voluntariedade ou culpa não basta.",
@@ -74,10 +74,10 @@
       "source": "Complemento da lei oficial"
     },
     {
+      "n": 2,
       "id": "IA002",
       "unit": 0,
       "chapter": "Fundamentos",
-      "art": 2,
       "title": "Três resultados jurídicos diferentes",
       "scene": "B oferece vantagem a A; em outra cena, A autoriza uso de bem público por B; J compara o que cada fato produz.",
       "rule": "A legislação diferencia enriquecimento ilícito, lesão efetiva ao erário e condutas dolosas tipificadas contra princípios administrativos.",
@@ -96,10 +96,10 @@
       "source": "Slides + complementação oficial"
     },
     {
+      "n": 3,
       "id": "IA003",
       "unit": 1,
       "chapter": "Art. 9º · Enriquecimento ilícito",
-      "art": 3,
       "title": "Presente interessado na decisão",
       "scene": "B oferece dinheiro a A para que uma decisão de A favoreça seus negócios. A recebe a vantagem indevida.",
       "rule": "Receber vantagem econômica indevida, para si ou para outra pessoa, de alguém interessado em ação ou omissão decorrente do cargo é hipótese de enriquecimento ilícito.",
@@ -118,10 +118,10 @@
       "source": "Slides do art. 9º, I"
     },
     {
+      "n": 4,
       "id": "IA004",
       "unit": 1,
       "chapter": "Art. 9º · Enriquecimento ilícito",
-      "art": 4,
       "title": "Compra acima e alienação abaixo do mercado",
       "scene": "A cobra propina de B para que a Administração compre equipamentos caros demais. Depois recebe outra para vender um bem público abaixo do mercado.",
       "rule": "O recebimento de vantagem para facilitar compra ou contratação acima do mercado e alienação ou fornecimento abaixo do mercado aparece entre as condutas do art. 9º.",
@@ -140,10 +140,10 @@
       "source": "Slides do art. 9º, II e III"
     },
     {
+      "n": 5,
       "id": "IA005",
       "unit": 1,
       "chapter": "Art. 9º · Enriquecimento ilícito",
-      "art": 5,
       "title": "A máquina pública na obra particular",
       "scene": "A leva uma máquina da prefeitura para melhorar um terreno particular. J compara o fato com a hipótese de A simplesmente autorizar que B a leve.",
       "rule": "O uso doloso de bens ou trabalho de pessoal público em obra particular é exemplo do art. 9º, IV. Permitir o uso por terceiro remete ao art. 10, XIII, se preenchidos seus pressupostos, inclusive dano efetivo.",
@@ -162,10 +162,10 @@
       "source": "Slides dos arts. 9º, IV e 10, XIII; complemento oficial"
     },
     {
+      "n": 6,
       "id": "IA006",
       "unit": 1,
       "chapter": "Art. 9º · Enriquecimento ilícito",
-      "art": 6,
       "title": "Dinheiro para tolerar atividade ilícita",
       "scene": "B promete pagamento a A para que ignore determinada atividade ilícita. A aceita a vantagem indevida.",
       "rule": "Receber ou aceitar promessa de vantagem econômica para tolerar atividade ilícita é conduta abrangida pela hipótese estudada.",
@@ -184,10 +184,10 @@
       "source": "Slides do art. 9º, V"
     },
     {
+      "n": 7,
       "id": "IA007",
       "unit": 1,
       "chapter": "Art. 9º · Enriquecimento ilícito",
-      "art": 7,
       "title": "Laudo técnico mentiroso",
       "scene": "B paga a A para declarar que uma obra possui características que ela não tem. A produz o documento falso para obter vantagem.",
       "rule": "Perceber vantagem econômica para fazer declaração técnica falsa sobre obras, serviços, quantidades ou qualidades pode configurar enriquecimento ilícito.",
@@ -206,10 +206,10 @@
       "source": "Slides do art. 9º, VI"
     },
     {
+      "n": 8,
       "id": "IA008",
       "unit": 1,
       "chapter": "Art. 9º · Enriquecimento ilícito",
-      "art": 8,
       "title": "Patrimônio incompatível com a renda",
       "scene": "J encontra bens de A muito acima dos rendimentos conhecidos. A apresenta documentos para justificar sua origem.",
       "rule": "A aquisição de bens desproporcionais à renda, decorrentes dos atos ímprobos descritos no caput, é hipótese específica, assegurada a demonstração da licitude da origem.",
@@ -228,10 +228,10 @@
       "source": "Slides do art. 9º, VII"
     },
     {
+      "n": 9,
       "id": "IA009",
       "unit": 1,
       "chapter": "Art. 9º · Enriquecimento ilícito",
-      "art": 9,
       "title": "Consultoria para interessado",
       "scene": "A ocupa função pública e aceita consultoria remunerada de B, cuja atividade pode ser afetada pelas decisões de A.",
       "rule": "Aceitar emprego, comissão ou consultoria de pessoa interessada em ação ou omissão decorrente das atribuições do agente, durante o exercício da atividade, integra as hipóteses estudadas.",
@@ -250,10 +250,10 @@
       "source": "Slides do art. 9º, VIII"
     },
     {
+      "n": 10,
       "id": "IA010",
       "unit": 1,
       "chapter": "Art. 9º · Enriquecimento ilícito",
-      "art": 10,
       "title": "Taxa informal para liberar a verba",
       "scene": "B pede a A que intermedeie a liberação de recursos públicos. A exige pagamento particular.",
       "rule": "Receber vantagem econômica para intermediar liberação ou aplicação de verba pública é conduta abrangida pela lei.",
@@ -272,10 +272,10 @@
       "source": "Slides do art. 9º, IX"
     },
     {
+      "n": 11,
       "id": "IA011",
       "unit": 1,
       "chapter": "Art. 9º · Enriquecimento ilícito",
-      "art": 11,
       "title": "Omissão vendida",
       "scene": "A deveria praticar um ato inerente ao cargo. B oferece pagamento para que A não o realize.",
       "rule": "Receber vantagem econômica para omitir ato, providência ou declaração a que o agente esteja obrigado integra a hipótese estudada.",
@@ -294,10 +294,10 @@
       "source": "Slides do art. 9º, X"
     },
     {
+      "n": 12,
       "id": "IA012",
       "unit": 1,
       "chapter": "Art. 9º · Enriquecimento ilícito",
-      "art": 12,
       "title": "Incorporar ou apenas usar recursos públicos",
       "scene": "A transfere valores públicos para seu próprio patrimônio. Em outro caso, utiliza bem público em benefício privado sem incorporá-lo definitivamente.",
       "rule": "A lei distingue incorporar bens ou valores públicos ao próprio patrimônio e utilizá-los em proveito próprio.",
@@ -316,10 +316,10 @@
       "source": "Slides do art. 9º, XI e XII"
     },
     {
+      "n": 13,
       "id": "IA013",
       "unit": 2,
       "chapter": "Comparação · Arts. 10 e 11",
-      "art": 13,
       "title": "Quem lucra e quem perde?",
       "scene": "A recebe propina para beneficiar B; em outro caso A permite que B utilize bem municipal, causando perda patrimonial comprovada.",
       "rule": "No primeiro caso, a vantagem patrimonial indevida recebida por A aponta para o art. 9º. No segundo, permitir utilização por terceiro com dano doloso efetivo pode apontar para o art. 10.",
@@ -338,10 +338,10 @@
       "source": "Slides comparativos + lei oficial"
     },
     {
+      "n": 14,
       "id": "IA014",
       "unit": 2,
       "chapter": "Comparação · Arts. 10 e 11",
-      "art": 14,
       "title": "Prejuízo deve ser comprovado",
       "scene": "Um órgão compra material acima do valor esperado. J exige verificar se houve dano efetivo aos cofres públicos e qual foi o elemento subjetivo.",
       "rule": "A modalidade de prejuízo ao erário exige conduta dolosa e perda patrimonial efetiva e comprovada.",
@@ -360,10 +360,10 @@
       "source": "Complemento da lei oficial, art. 10"
     },
     {
+      "n": 15,
       "id": "IA015",
       "unit": 2,
       "chapter": "Comparação · Arts. 10 e 11",
-      "art": 15,
       "title": "Ilegalidade não basta sozinha",
       "scene": "A descumpre uma orientação administrativa, mas J precisa verificar se a conduta integra uma hipótese legal tipificada e se existe dolo com finalidade ilícita.",
       "rule": "A modalidade relativa aos princípios administrativos não transforma qualquer ilegalidade em improbidade: requer conduta dolosa legalmente prevista e demais pressupostos.",
@@ -382,10 +382,10 @@
       "source": "Slides de visão geral + complemento oficial"
     },
     {
+      "n": 16,
       "id": "IA016",
       "unit": 3,
       "chapter": "Sanções · Art. 12",
-      "art": 16,
       "title": "A tabela dos 14, 12 e 4 anos",
       "scene": "J consulta a tabela de sanções e percebe que as três categorias não recebem limites idênticos para proibição de contratar com o poder público.",
       "rule": "O teto da proibição de contratar ou receber benefícios é de até 14 anos (enriquecimento), 12 anos (dano) e 4 anos (princípios).",
@@ -404,10 +404,10 @@
       "source": "Quadro de sanções dos slides + lei oficial"
     },
     {
+      "n": 17,
       "id": "IA017",
       "unit": 3,
       "chapter": "Sanções · Art. 12",
-      "art": 17,
       "title": "Multa: três bases diferentes",
       "scene": "J examina três condenações e encontra três bases distintas para calcular a multa civil.",
       "rule": "A multa civil corresponde ao acréscimo patrimonial ilícito (enriquecimento), ao valor do dano (erário) e a até 24 remunerações do agente (princípios), observada a disciplina legal.",
@@ -426,10 +426,10 @@
       "source": "Complemento oficial ao quadro de sanções"
     },
     {
+      "n": 18,
       "id": "IA018",
       "unit": 4,
       "chapter": "Declaração · Art. 13",
-      "art": 18,
       "title": "Documento exigido na posse e exercício",
       "scene": "A toma posse em cargo público. O setor de pessoal solicita a declaração de imposto de renda e proventos já apresentada à Receita Federal.",
       "rule": "A posse e o exercício ficam condicionados à apresentação da declaração tributária mencionada na lei, para arquivamento no setor de pessoal competente.",
@@ -448,10 +448,10 @@
       "source": "Slides e lei seca, art. 13"
     },
     {
+      "n": 19,
       "id": "IA019",
       "unit": 4,
       "chapter": "Declaração · Art. 13",
-      "art": 19,
       "title": "Quando atualizar a declaração?",
       "scene": "A apresentou a declaração ao tomar posse. Um ano depois pergunta a J se precisa atualizá-la; depois decide deixar a função.",
       "rule": "A declaração de bens será atualizada anualmente e na data em que o agente deixar o exercício do mandato, cargo, emprego ou função.",
@@ -470,10 +470,10 @@
       "source": "Slides e lei seca, art. 13, § 2º"
     },
     {
+      "n": 20,
       "id": "IA020",
       "unit": 4,
       "chapter": "Declaração · Art. 13",
-      "art": 20,
       "title": "Recusar ou declarar falsamente",
       "scene": "A deixa de apresentar a declaração no prazo determinado. Em outro caso, presta declaração falsa. J analisa as consequências.",
       "rule": "A recusa em apresentar a declaração dentro do prazo ou a apresentação de declaração falsa sujeita o agente à demissão, sem prejuízo de outras sanções cabíveis.",
