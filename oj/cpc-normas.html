@@ -88,7 +88,7 @@ function comic(c){
 }
 function lawSection(c){
   if(!c.normText)return '<div class="law-absent"><strong>Conceito apresentado no PDF</strong><p>Este tópico é doutrinário ou esquemático e não corresponde, por si só, a um dispositivo legal isolado. A explicação abaixo é didática.</p></div>';
-  return '<section class="law-section"><div class="law-kicker">Texto normativo · '+esc(c.normLabel||"Dispositivo estudado")+'</div><blockquote>'+esc(c.normText)+'</blockquote><p class="small">Transcrição do recorte normativo estudado no material fornecido.</p></section>';
+  return '<section class="law-section"><div class="law-kicker">Texto normativo · '+esc(c.normLabel||"Dispositivo estudado")+'</div><blockquote>'+esc(c.normText)+'</blockquote><p class="small">'+esc(c.normKind||'Redação legal pertinente ao PDF')+'</p></section>';
 }
 function fromHTML(s){return s}
 function setCard(i,nextTab){index=Math.max(0,Math.min(data.cards.length-1,i));page=Math.floor(index/5);state.last=index;if(nextTab)tab=nextTab;revealed=false;selected=null;checked=false;saveState();render();scrollTo({top:0,behavior:"instant"})}
