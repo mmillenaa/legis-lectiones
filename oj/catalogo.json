@@ -1,0 +1,496 @@
+{
+  "version": 1,
+  "collection": "OJ",
+  "disciplines": [
+    {
+      "id": "direito-processual-civil",
+      "title": "Direito Processual Civil",
+      "groups": [
+        {
+          "title": "Tópicos",
+          "topics": [
+            {
+              "title": "Das Normas Fundamentais e da Aplicação das Normas Processuais"
+            },
+            {
+              "title": "Jurisdição - Conceito e Características"
+            },
+            {
+              "title": "Competência"
+            },
+            {
+              "title": "Das Partes e dos Procuradores"
+            },
+            {
+              "title": "Da gratuidade da Justiça, Da Sucessão das Partes e Dos Procuradores e Da Denunciação da Lide"
+            },
+            {
+              "title": "Do Juiz e Dos Auxiliares da Justiça"
+            },
+            {
+              "title": "Do Ministério Público, Da Advocacia Pública e Da Defensoria Pública"
+            },
+            {
+              "title": "Dos Atos Processuais"
+            },
+            {
+              "title": "Da Comunicação Dos Atos Processuais"
+            },
+            {
+              "title": "Das Provas"
+            },
+            {
+              "title": "Da Coisa Julgada e Da Liquidação de Sentença"
+            },
+            {
+              "title": "Dos Procedimentos Especiais"
+            },
+            {
+              "title": "Do Processo de Execução"
+            },
+            {
+              "title": "Dos Recursos"
+            },
+            {
+              "title": "Lei 9.099/95 - Lei dos Juizados Especiais Cíveis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direito-constitucional",
+      "title": "Direito Constitucional",
+      "groups": [
+        {
+          "title": "Tópicos",
+          "topics": [
+            {
+              "title": "Princípios Fundamentais da Constituição Brasileira"
+            },
+            {
+              "title": "Direitos e Garantias Fundamentais"
+            },
+            {
+              "title": "Direitos Sociais"
+            },
+            {
+              "title": "Da Nacionalidade"
+            },
+            {
+              "title": "Direitos Políticos"
+            },
+            {
+              "title": "Da Organização do Estado"
+            },
+            {
+              "title": "Da Administração Pública"
+            },
+            {
+              "title": "Do Poder Judiciário"
+            },
+            {
+              "title": "Funções essenciais à justiça"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direito-administrativo",
+      "title": "Direito Administrativo",
+      "groups": [
+        {
+          "title": "Tópicos",
+          "topics": [
+            {
+              "title": "Lei 8.429/92 - Lei de Improbidade Administrativa"
+            },
+            {
+              "title": "Lei Nº 10.261/68 - Estatuto dos Funcionários de São Paulo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direito-civil",
+      "title": "Direito Civil",
+      "groups": [
+        {
+          "title": "Tópicos",
+          "topics": [
+            {
+              "title": "LINDB - Decreto-Lei Nº 4.657/42",
+              "href": "./lindb.html"
+            },
+            {
+              "title": "Da Personalidade e da Capacidade e Dos Direitos da Personalidade"
+            },
+            {
+              "title": "Das Pessoas Jurídicas"
+            },
+            {
+              "title": "Do Domicílio Civil"
+            },
+            {
+              "title": "Dos Bens"
+            },
+            {
+              "title": "Dos Fatos Jurídicos: Dos Negócios Jurídicos; Dos Atos Jurídicos Lícitos"
+            },
+            {
+              "title": "Da Prova"
+            },
+            {
+              "title": "Do Mandato"
+            },
+            {
+              "title": "Dos Prepostos"
+            },
+            {
+              "title": "Da Posse"
+            },
+            {
+              "title": "Do Penhor"
+            },
+            {
+              "title": "Dos Tutores e Da Curatela"
+            },
+            {
+              "title": "Do Pagamento das Dívidas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legislacao-especial",
+      "title": "Legislação Especial",
+      "groups": [
+        {
+          "title": "Tópicos",
+          "topics": [
+            {
+              "title": "Lei nº 6.830/80 - Lei de Execução Fiscal"
+            },
+            {
+              "title": "Resolução nº 354/2020 do Conselho Nacional de Justiça"
+            },
+            {
+              "title": "Lei n.º 11.608/03 - Taxa Judiciária"
+            },
+            {
+              "title": "Normas Judiciais da Corregedoria Geral da Justiça"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atualidades-pcd",
+      "title": "Atualidades e PCD",
+      "groups": [
+        {
+          "title": "Atualidades",
+          "topics": [
+            {
+              "title": "Janeiro de 2026"
+            },
+            {
+              "title": "Fevereiro de 2026"
+            },
+            {
+              "title": "Março de 2026"
+            },
+            {
+              "title": "Abril de 2026"
+            },
+            {
+              "title": "Maio de 2026"
+            },
+            {
+              "title": "Junho de 2026"
+            },
+            {
+              "title": "Julho de 2026"
+            },
+            {
+              "title": "Agosto de 2026"
+            },
+            {
+              "title": "Setembro de 2026"
+            }
+          ]
+        },
+        {
+          "title": "Direitos das Pessoas com Deficiência",
+          "topics": [
+            {
+              "title": "Estatuto das Pessoas com Deficiência"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematica",
+      "title": "Matemática",
+      "groups": [
+        {
+          "title": "Tópicos",
+          "topics": [
+            {
+              "title": "Operações com Frações"
+            },
+            {
+              "title": "Operações com Números Decimais"
+            },
+            {
+              "title": "MMC e MDC"
+            },
+            {
+              "title": "Razão e Proporção"
+            },
+            {
+              "title": "Regra de Três e Porcentagem"
+            },
+            {
+              "title": "Juros Simples"
+            },
+            {
+              "title": "Sistema Métrico e Média Aritmética"
+            },
+            {
+              "title": "Média Aritmética Ponderada"
+            },
+            {
+              "title": "Sistemas de Equações"
+            },
+            {
+              "title": "Teorema de Pitágoras"
+            },
+            {
+              "title": "Tabelas e Gráficos"
+            },
+            {
+              "title": "Noções de Geometria: Formas, Perímetros, Áreas e Volumes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raciocinio-logico",
+      "title": "Raciocínio Lógico",
+      "groups": [
+        {
+          "title": "Tópicos",
+          "topics": [
+            {
+              "title": "Raciocínio Lógico Proposicional"
+            },
+            {
+              "title": "Tabela Verdade"
+            },
+            {
+              "title": "Equivalências"
+            },
+            {
+              "title": "Negações"
+            },
+            {
+              "title": "Cadeias de Argumentação"
+            },
+            {
+              "title": "Diagramas Lógicos"
+            },
+            {
+              "title": "Teoria dos conjuntos"
+            },
+            {
+              "title": "Sequências"
+            },
+            {
+              "title": "Raciocínio Lógico Analítico"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "informatica",
+      "title": "Informática",
+      "groups": [
+        {
+          "title": "Tópicos",
+          "topics": [
+            {
+              "title": "Microsoft Windows 10 ou Superior"
+            },
+            {
+              "title": "Microsoft Word"
+            },
+            {
+              "title": "Correio Eletrônico"
+            },
+            {
+              "title": "Microsoft OneDrive"
+            },
+            {
+              "title": "Internet"
+            },
+            {
+              "title": "Microsoft Teams"
+            },
+            {
+              "title": "Microsoft Excel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lingua-portuguesa",
+      "title": "Língua Portuguesa",
+      "groups": [
+        {
+          "title": "Tópicos",
+          "topics": [
+            {
+              "title": "Morfologia"
+            },
+            {
+              "title": "Sintaxe"
+            },
+            {
+              "title": "Regência Verbal e Nominal"
+            },
+            {
+              "title": "Regência e Pronomes"
+            },
+            {
+              "title": "Emprego dos Pronomes"
+            },
+            {
+              "title": "Crase"
+            },
+            {
+              "title": "Concordância Nominal e Verbal"
+            },
+            {
+              "title": "Período composto"
+            },
+            {
+              "title": "Pontuação"
+            },
+            {
+              "title": "Compreensão e Interpretação de Texto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direito-penal",
+      "title": "Direito Penal",
+      "groups": [
+        {
+          "title": "Tópicos",
+          "topics": [
+            {
+              "title": "Conceitos Estruturais do Direito Penal"
+            },
+            {
+              "title": "Da Aplicação da Lei Penal"
+            },
+            {
+              "title": "Da Ação Penal"
+            },
+            {
+              "title": "Da Extinção da Punibilidade"
+            },
+            {
+              "title": "Dos Crimes Contra a Pessoa"
+            },
+            {
+              "title": "Dos Crimes Contra a Fé Pública"
+            },
+            {
+              "title": "Dos crimes praticados por funcionário público contra a Administração Geral"
+            },
+            {
+              "title": "Dos Crimes Praticados por Particular Contra a Administração em Geral"
+            },
+            {
+              "title": "Dos crimes contra a Administração da Justiça"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direito-processual-penal",
+      "title": "Direito Processual Penal",
+      "groups": [
+        {
+          "title": "Tópicos",
+          "topics": [
+            {
+              "title": "Da Ação Penal e Da Ação Civil"
+            },
+            {
+              "title": "Da Competência pelo Lugar da Infração"
+            },
+            {
+              "title": "Das Incompatibilidades e Impedimentos; Medidas Assecuratórias"
+            },
+            {
+              "title": "Da Prova e Interrogatório"
+            },
+            {
+              "title": "Das Testemunhas"
+            },
+            {
+              "title": "Da Busca e Da Apreensão"
+            },
+            {
+              "title": "Da Prisão, Das Medidas Cautelares e Da Liberdade Provisória"
+            },
+            {
+              "title": "Citação e Intimação"
+            },
+            {
+              "title": "Da Instrução Criminal"
+            },
+            {
+              "title": "Do Procedimento Relativo Aos Processos Da Competência Do Tribunal Do Júri"
+            },
+            {
+              "title": "Do Processo e do Julgamento dos Crimes de Responsabilidade dos Funcionários Públicos"
+            },
+            {
+              "title": "Das Nulidades e dos Recursos em Geral"
+            },
+            {
+              "title": "Habeas Corpus"
+            },
+            {
+              "title": "Medidas de Segurança e Disposições Gerais"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curso-de-testes",
+      "title": "Curso de Testes",
+      "groups": []
+    },
+    {
+      "id": "discursivas",
+      "title": "Discursivas",
+      "groups": []
+    }
+  ]
+}
