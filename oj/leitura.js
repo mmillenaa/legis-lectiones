@@ -129,7 +129,7 @@
     page.replaceChildren();
     page.append(lawBlock(item));
     const img=imageBlock(item);if(img)page.append(img);
-    const comment=section("Comentário");comment.append(node("p","copy",(item.rule||"Não há comentário adicional neste recorte.")));
+    const comment=section("Comentário");comment.append(node("p","copy",(item.comment||item.rule||"Não há comentário adicional neste recorte.")));
     page.append(comment);
     const example=section("Exemplo");const box=node("div","example");box.append(node("p","",item.scene||"Não há exemplo específico no material."));
     example.append(box);page.append(example);
