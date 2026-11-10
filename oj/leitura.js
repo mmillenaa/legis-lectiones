@@ -19,7 +19,7 @@
     return out;
   }
   function safeImage(path){
-    return typeof path==="string"&&/^\.\/assets\/[a-z0-9-]+\.(png|webp|jpg|jpeg)$/i.test(path)?path:null;
+    return typeof path==="string"&&/^\.\/assets\/[a-z0-9-]+\.(png|webp|jpg|jpeg|svg)$/i.test(path)?path:null;
   }
   function dataFromOriginal(){
     const articles=window.ARTICLES;
