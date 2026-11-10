@@ -4,7 +4,7 @@
     "subtitle": "Aula de Direito Administrativo · enriquecimento, comparações e declaração de bens",
     "version": 2,
     "updated": "2026-11-09",
-    "scope": "Foco nos PDFs enviados: art. 9º, comparação com arts. 10 e 11, quadro de sanções e art. 13. Complementação legal sinalizada.",
+    "scope": "Somente o PDF: dolo, classificação dos arts. 9º–11, art. 9º caput e incisos, comparação art. 10 XIII, art. 13 e parágrafos. Sem inventar seção de sanções do art. 12.",
     "sourceLegal": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html",
     "sourceNote": "Transcrição de dispositivos presentes no material; explicações e questões são separadas.",
     "sourceScope": "Somente o PDF: dolo, classificação dos arts. 9º–11, art. 9º caput e incisos, comparação art. 10 XIII, art. 13 e parágrafos. Sem inventar seção de sanções do art. 12."
@@ -86,8 +86,8 @@
       "glossary": "Termos do recorte: Arts. 9º, 10 e 11 — diferenças.",
       "source": "NEAF, Improbidade, arts. 9º–11",
       "normLabel": "Arts. 9º, 10 e 11 — diferenças",
-      "normText": "Art. 9º: enriquecimento ilícito mediante prática dolosa que resulte em vantagem patrimonial indevida em razão da função.\nArt. 10: ação ou omissão dolosa que enseje efetiva e comprovadamente perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação.\nArt. 11: ação ou omissão dolosa, tipificada, que atente contra os princípios da administração pública.",
-      "normKind": "excertos do PDF e requisito do caput identificado",
+      "normText": "Art. 9º (caput). Constitui ato de improbidade administrativa importando em enriquecimento ilícito auferir, mediante a prática de ato doloso, qualquer tipo de vantagem patrimonial indevida em razão do exercício de cargo, de mandato, de função, de emprego ou de atividade nas entidades referidas no art. 1º desta Lei, e notadamente:\n\nArt. 10 (caput). Constitui ato de improbidade administrativa que causa lesão ao erário qualquer ação ou omissão dolosa, que enseje, efetiva e comprovadamente, perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação dos bens ou haveres das entidades referidas no art. 1º desta Lei, e notadamente:\n\nArt. 11 (caput). Constitui ato de improbidade administrativa que atenta contra os princípios da administração pública a ação ou omissão dolosa que viole os deveres de honestidade, de imparcialidade e de legalidade, caracterizada por uma das seguintes condutas:",
+      "normKind": "transcrição dos três caputs estudados",
       "image": null
     },
     {
@@ -437,7 +437,7 @@
       "source": "NEAF, Improbidade, arts. 9º–11",
       "normLabel": "Art. 10, XIII — comparação",
       "normText": "Permitir que se utilize, em obra ou serviço particular, veículos, máquinas, equipamentos ou material de qualquer natureza, de propriedade ou à disposição de qualquer das entidades mencionadas no art. 1º desta lei, bem como o trabalho de servidor público, empregados ou terceiros contratados por essas entidades.",
-      "normKind": "excertos do PDF e requisito do caput identificado",
+      "normKind": "art. 10, XIII — aplicar em conjunto com os pressupostos do caput",
       "image": null
     },
     {
