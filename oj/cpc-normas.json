@@ -60,7 +60,8 @@
       "normLabel": "Art. 1º",
       "normText": "O processo civil será ordenado, disciplinado e interpretado conforme os valores e as normas fundamentais estabelecidos na Constituição da República Federativa do Brasil, observando-se as disposições deste Código.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-01.webp"
+      "image": "./assets/cpc-normas-01.webp",
+      "comment": "A Constituição orienta não apenas a interpretação, mas também a organização e a disciplina do processo civil. O CPC deve ser lido à luz desses valores e normas fundamentais."
     },
     {
       "id": "CP002",
@@ -84,7 +85,8 @@
       "normLabel": "Art. 2º",
       "normText": "O processo começa por iniciativa da parte e se desenvolve por impulso oficial, salvo as exceções previstas em lei.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-02.webp"
+      "image": "./assets/cpc-normas-02.webp",
+      "comment": "Separe dois momentos: a parte provoca o início do processo; uma vez instaurado, ele se desenvolve por impulso oficial, ressalvadas as exceções legais."
     },
     {
       "id": "CP003",
@@ -108,7 +110,8 @@
       "normLabel": "Art. 3º, caput",
       "normText": "Não se excluirá da apreciação jurisdicional ameaça ou lesão a direito.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-03.webp"
+      "image": "./assets/cpc-normas-03.webp",
+      "comment": "A garantia alcança tanto uma lesão já ocorrida quanto uma ameaça de lesão. Não é necessário esperar que o dano se concretize para buscar apreciação jurisdicional."
     },
     {
       "id": "CP004",
@@ -132,7 +135,8 @@
       "normLabel": "Art. 3º, § 1º",
       "normText": "É permitida a arbitragem, na forma da lei.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-04.webp"
+      "image": "./assets/cpc-normas-04.webp",
+      "comment": "A possibilidade de arbitragem convive com o acesso à Justiça. O dispositivo permite esse método de solução nos casos admitidos pela legislação."
     },
     {
       "id": "CP005",
@@ -156,7 +160,8 @@
       "normLabel": "Art. 3º, §§ 2º e 3º",
       "normText": "§ 2º O Estado promoverá, sempre que possível, a solução consensual dos conflitos.\n§ 3º A conciliação, a mediação e outros métodos de solução consensual de conflitos deverão ser estimulados por juízes, advogados, defensores públicos e membros do Ministério Público, inclusive no curso do processo judicial.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-05.webp"
+      "image": "./assets/cpc-normas-05.webp",
+      "comment": "Há duas previsões distintas: o Estado deve promover a solução consensual sempre que possível; determinados profissionais devem estimular conciliação, mediação e outros métodos, inclusive durante o processo."
     },
     {
       "id": "CP006",
@@ -180,7 +185,8 @@
       "normLabel": "Art. 4º",
       "normText": "As partes têm o direito de obter em prazo razoável a solução integral do mérito, incluída a atividade satisfativa.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-06.webp"
+      "image": "./assets/cpc-normas-06.webp",
+      "comment": "A duração razoável não se encerra no reconhecimento judicial do direito: o dispositivo inclui a atividade satisfativa, isto é, o resultado prático buscado."
     },
     {
       "id": "CP007",
@@ -204,7 +210,8 @@
       "normLabel": "Art. 5º",
       "normText": "Aquele que de qualquer forma participa do processo deve comportar-se de acordo com a boa-fé.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-07.webp"
+      "image": "./assets/cpc-normas-07.webp",
+      "comment": "A expressão «de qualquer forma participa» amplia o dever de boa-fé para além de autor e réu. Outros participantes também devem agir lealmente."
     },
     {
       "id": "CP008",
@@ -228,7 +235,8 @@
       "normLabel": "Art. 6º",
       "normText": "Todos os sujeitos do processo devem cooperar entre si para que se obtenha, em tempo razoável, decisão de mérito justa e efetiva.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-08.webp"
+      "image": "./assets/cpc-normas-08.webp",
+      "comment": "O dever de cooperação envolve todos os sujeitos do processo e tem um objetivo expresso: decisão de mérito justa e efetiva, alcançada em tempo razoável."
     },
     {
       "id": "CP009",
@@ -252,7 +260,8 @@
       "normLabel": "Art. 7º",
       "normText": "É assegurada às partes paridade de tratamento em relação ao exercício de direitos e faculdades processuais, aos meios de defesa, aos ônus, aos deveres e à aplicação de sanções processuais, competindo ao juiz zelar pelo efetivo contraditório.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-09.webp"
+      "image": "./assets/cpc-normas-09.webp",
+      "comment": "A paridade não se limita à oportunidade de defesa: inclui faculdades, ônus, deveres e sanções. Cabe ao juiz zelar pelo contraditório efetivo."
     },
     {
       "id": "CP010",
@@ -276,7 +285,8 @@
       "normLabel": "Art. 8º",
       "normText": "Ao aplicar o ordenamento jurídico, o juiz atenderá aos fins sociais e às exigências do bem comum, resguardando e promovendo a dignidade da pessoa humana e observando a proporcionalidade, a razoabilidade, a legalidade, a publicidade e a eficiência.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-10.webp"
+      "image": "./assets/cpc-normas-10.webp",
+      "comment": "O juiz deve considerar os fins sociais e o bem comum, resguardar a dignidade da pessoa humana e observar os parâmetros expressamente enumerados na norma."
     },
     {
       "id": "CP011",
@@ -300,7 +310,8 @@
       "normLabel": "Art. 9º, caput",
       "normText": "Não se proferirá decisão contra uma das partes sem que ela seja previamente ouvida.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-11.webp"
+      "image": "./assets/cpc-normas-11.webp",
+      "comment": "A regra é ouvir previamente a parte contra a qual será proferida a decisão. As hipóteses legais de dispensa da oitiva são tratadas separadamente no parágrafo único."
     },
     {
       "id": "CP012",
@@ -324,7 +335,8 @@
       "normLabel": "Art. 9º, parágrafo único",
       "normText": "O disposto no caput não se aplica:\nI - à tutela provisória de urgência;\nII - às hipóteses de tutela da evidência previstas no art. 311, incisos II e III;\nIII - à decisão prevista no art. 701.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-12.webp"
+      "image": "./assets/cpc-normas-12.webp",
+      "comment": "As exceções são específicas: tutela provisória de urgência, certas hipóteses de tutela da evidência (art. 311, II e III) e a decisão do art. 701. Não se deve ampliar automaticamente esse rol."
     },
     {
       "id": "CP013",
@@ -348,7 +360,8 @@
       "normLabel": "Art. 10",
       "normText": "O juiz não pode decidir, em grau algum de jurisdição, com base em fundamento a respeito do qual não se tenha dado às partes oportunidade de se manifestar, ainda que se trate de matéria sobre a qual deva decidir de ofício.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-13.webp"
+      "image": "./assets/cpc-normas-13.webp",
+      "comment": "Mesmo quando o fundamento envolver matéria que o juiz pode conhecer de ofício, as partes devem ter oportunidade de se manifestar antes de ele servir de base à decisão."
     },
     {
       "id": "CP014",
@@ -372,7 +385,8 @@
       "normLabel": "Art. 11",
       "normText": "Todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade.\nParágrafo único. Nos casos de segredo de justiça, pode ser autorizada a presença somente das partes, de seus advogados, de defensores públicos ou do Ministério Público.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-14.webp"
+      "image": "./assets/cpc-normas-14.webp",
+      "comment": "Publicidade e fundamentação são exigências distintas. Em segredo de justiça, pode haver limitação da presença, mas isso não dispensa fundamentar as decisões."
     },
     {
       "id": "CP015",
@@ -396,7 +410,8 @@
       "normLabel": "Art. 13",
       "normText": "A jurisdição civil será regida pelas normas processuais brasileiras, ressalvadas as disposições específicas previstas em tratados, convenções ou acordos internacionais de que o Brasil seja parte.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-15.webp"
+      "image": "./assets/cpc-normas-15.webp",
+      "comment": "A regra é utilizar normas processuais brasileiras na jurisdição civil. O próprio artigo ressalva disposições específicas de tratados, convenções ou acordos internacionais dos quais o Brasil seja parte."
     },
     {
       "id": "CP016",
@@ -420,7 +435,8 @@
       "normLabel": "Art. 14",
       "normText": "A norma processual não retroagirá e será aplicável imediatamente aos processos em curso, respeitados os atos processuais praticados e as situações jurídicas consolidadas sob a vigência da norma revogada.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-16.webp"
+      "image": "./assets/cpc-normas-16.webp",
+      "comment": "Uma norma processual nova atinge imediatamente os processos em andamento, mas não desfaz os atos já praticados nem as situações jurídicas consolidadas sob a norma anterior."
     },
     {
       "id": "CP017",
@@ -444,7 +460,8 @@
       "normLabel": "Art. 15",
       "normText": "Na ausência de normas que regulem processos eleitorais, trabalhistas ou administrativos, as disposições deste Código lhes serão aplicadas supletiva e subsidiariamente.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": "./assets/cpc-normas-17.webp"
+      "image": "./assets/cpc-normas-17.webp",
+      "comment": "O CPC pode servir de disciplina supletiva e subsidiária nos processos eleitorais, trabalhistas e administrativos quando faltar norma reguladora, conforme a hipótese prevista no artigo."
     }
   ]
 }
