@@ -127,7 +127,10 @@ $("title").textContent=c.title;
 $("counter").textContent="Cartão "+(index+1)+" de "+n;
 $("subtitle").textContent=c.chapter+" · "+c.source;
 $("units").innerHTML=data.groups.map(function(g,i){var inGroup=data.cards.slice(g.start,g.end);var done=inGroup.filter(function(z){return state.grades[z.id]}).length;return '<button class="unit '+(c.unit===i?"active":"")+'" data-act="unit" data-val="'+g.start+'"><span class="idx">'+(i+1)+'</span><span><span class="title">'+esc(g.title)+'</span><span class="mini">'+done+"/"+inGroup.length+" · "+esc(g.desc)+'</span></span></button>'}).join("");
-$("tabs").innerHTML=[["historia","Quadrinhos"],["regra","Lei e comentários"],["flashcard","Flashcard"],["questao","Questão"],["revisar","Revisar"]].map(function(t){return '<button class="tab '+(tab===t[0]?"active":"")+'" data-act="tab" data-val="'+t[0]+'">'+t[1]+'</button>'}).join("");
+
+/* MODIFICAÇÃO AQUI: Adição da aba "Mapas Mentais" na barra de navegação */
+$("tabs").innerHTML=[["historia","Quadrinhos"],["mapas","Mapas Mentais"],["regra","Lei e comentários"],["flashcard","Flashcard"],["questao","Questão"],["revisar","Revisar"]].map(function(t){return '<button class="tab '+(tab===t[0]?"active":"")+'" data-act="tab" data-val="'+t[0]+'">'+t[1]+'</button>'}).join("");
+
 $("numbers").innerHTML=data.cards.slice(page*5,page*5+5).map(function(x){var i=data.cards.indexOf(x);return '<button class="number '+(i===index?"active":"")+' '+(state.grades[x.id]?"done":"")+'" data-act="card" data-val="'+i+'" title="'+esc(x.title)+'">'+String(i+1).padStart(2,"0")+'</button>'}).join("");
 $("pageLeft").disabled=page===0;$("pageRight").disabled=page===Math.ceil(n/5)-1;
 $("prev").disabled=index===0;$("next").disabled=index===n-1;
@@ -140,9 +143,21 @@ $("save").setAttribute("aria-pressed",String(isSaved()));
 $("saveHint").textContent=isSaved()?"Disponível em Revisar > Salvos":"Favoritos salvos neste navegador";
 $("sideTitle").textContent=c.title;$("sideRule").textContent=c.rule;$("sideTrap").textContent="Atenção: "+c.trap;$("sideTerm").textContent=c.glossary;
 var content="";
+
 if(tab==="historia"){
 content='<span class="section-label">Episódio '+String(index+1).padStart(2,"0")+'</span><h2>'+esc(c.title)+'</h2>'+comic(c)+'<div class="story"><strong>O que aconteceu?</strong><p>'+esc(c.scene)+'</p></div><div class="rule"><strong>Regra para a prova</strong><p>'+esc(c.rule)+'</p></div><button class="primary" data-act="tab" data-val="flashcard">Treinar este flashcard</button>';
 }
+
+/* MODIFICAÇÃO AQUI: Lógica de renderização da nova aba com as duas imagens informadas */
+if(tab==="mapas"){
+content='<span class="section-label">Visão Geral</span><h2>Esquemas da Lei 8.429/1992</h2>'+
+'<p>Esquemas visuais consolidados para consulta rápida sobre os principais artigos, sujeitos e penalidades da Lei de Improbidade Administrativa.</p>' +
+'<div style="display:flex; flex-direction:column; gap:16px; margin: 18px 0;">' +
+'<img src="C:\\Users\\mille\\Downloads\\adm-01.png" style="width:100%; height:auto; border-radius:9px; border: 2px solid #182536; box-shadow:0 6px 15px #1d2d4222;" alt="Esquema da Lei de Improbidade Administrativa - Parte 1">' +
+'<img src="C:\\Users\\mille\\Downloads\\adm-02.png" style="width:100%; height:auto; border-radius:9px; border: 2px solid #182536; box-shadow:0 6px 15px #1d2d4222;" alt="Esquema da Lei de Improbidade Administrativa - Parte 2">' +
+'</div>';
+}
+
 if(tab==="regra"){
 content='<span class="section-label">Regra e diferenciações</span><h2>'+esc(c.title)+'</h2><div class="rule"><strong>Essência jurídica (paráfrase)</strong><p>'+esc(c.rule)+'</p></div><div class="trap"><strong>Armadilha de prova</strong><p>'+esc(c.trap)+'</p></div><div class="source"><strong>Base do cartão:</strong> '+esc(c.source)+'.<br><a href="'+esc(data.meta.sourceLegal)+'" target="_blank" rel="noopener noreferrer">Abrir Lei 8.429/1992 integral e atualizada</a></div><p class="small">Não reproduzimos aqui o artigo inteiro: a leitura da lei seca deve ser feita pela fonte oficial.</p>';
 }
