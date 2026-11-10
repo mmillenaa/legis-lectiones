@@ -68,7 +68,7 @@ main{min-width:0}.path{color:#8491a3;font-size:12px;letter-spacing:.04em}.headin
 "use strict";
 var root=document, $=function(id){return root.getElementById(id)};
 var esc=function(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})};
-var KEY="legis-lectiones:oj:cpc-normas:v1";
+var KEY="legis-lectiones:oj:cpc-normas:v2";
 var data=null, index=0, page=0, tab="historia", revealed=false, selected=null, checked=false, filter="due";
 var state={grades:{},quiz:{},saved:[],last:0};
 try{var old=JSON.parse(localStorage.getItem(KEY)||"null");if(old&&old.grades&&old.quiz)state=old}catch(e){console.warn(e)}
