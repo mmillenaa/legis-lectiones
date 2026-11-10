@@ -1,0 +1,677 @@
+{
+  "meta": {
+    "title": "Jurisdição — Conceito e Características",
+    "subtitle": "Direito Processual Civil · preparação OJ TJSP",
+    "scope": "PDF específico: conceito, natureza, características, princípios, limites, arts. 17–27 e 36 conforme os recortes dos slides.",
+    "sourceLegal": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+  },
+  "groups": [
+    {
+      "title": "Conceito e características",
+      "id": "g0",
+      "desc": "Conceito e características",
+      "start": 0,
+      "end": 6
+    },
+    {
+      "title": "Princípios",
+      "id": "g1",
+      "desc": "Princípios",
+      "start": 6,
+      "end": 18
+    },
+    {
+      "title": "Limites internacionais",
+      "id": "g2",
+      "desc": "Limites internacionais",
+      "start": 18,
+      "end": 23
+    },
+    {
+      "title": "Limites internos e ação",
+      "id": "g3",
+      "desc": "Limites internos e ação",
+      "start": 23,
+      "end": 26
+    },
+    {
+      "title": "Cooperação internacional",
+      "id": "g4",
+      "desc": "Cooperação internacional",
+      "start": 26,
+      "end": 30
+    }
+  ],
+  "cards": [
+    {
+      "id": "CP001",
+      "unit": 0,
+      "chapter": "Conceito e características",
+      "title": "Natureza da jurisdição",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Quais são os três aspectos destacados?",
+      "rule": "Expressão da soberania do Estado, função de direito público e monopólio estatal como regra.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Quais são os três aspectos destacados?",
+      "options": [
+        "Soberania, função pública e monopólio estatal como regra.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Soberania, função pública e monopólio estatal como regra.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "balanca",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP002",
+      "unit": 0,
+      "chapter": "Conceito e características",
+      "title": "Equivalentes jurisdicionais",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Quais equivalentes aparecem?",
+      "rule": "O PDF lista arbitragem, autocomposição e autotutela.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Quais equivalentes aparecem?",
+      "options": [
+        "Arbitragem, autocomposição e autotutela.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Arbitragem, autocomposição e autotutela.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "documento",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP003",
+      "unit": 0,
+      "chapter": "Conceito e características",
+      "title": "Substitutividade",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Qual característica remete à substituição da vontade das partes?",
+      "rule": "Característica da jurisdição: substituição da atuação das partes pela atuação jurisdicional.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Qual característica remete à substituição da vontade das partes?",
+      "options": [
+        "Substitutividade.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Substitutividade.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "decisao",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP004",
+      "unit": 0,
+      "chapter": "Conceito e características",
+      "title": "Definitividade",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Qual característica é associada à coisa julgada material?",
+      "rule": "Aptidão para formação da coisa julgada material.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Qual característica é associada à coisa julgada material?",
+      "options": [
+        "Definitividade.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Definitividade.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "balanca",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP005",
+      "unit": 0,
+      "chapter": "Conceito e características",
+      "title": "Inevitabilidade",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Qual característica envolve sujeição das partes?",
+      "rule": "As partes sujeitam-se à autoridade jurisdicional.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Qual característica envolve sujeição das partes?",
+      "options": [
+        "Inevitabilidade.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Inevitabilidade.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "documento",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP006",
+      "unit": 0,
+      "chapter": "Conceito e características",
+      "title": "Inércia e secundariedade",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: A inércia impede o impulso oficial posterior?",
+      "rule": "Inércia inicial, com impulso oficial posterior; secundariedade como ultima ratio na resolução de conflitos.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "A inércia impede o impulso oficial posterior?",
+      "options": [
+        "Não.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Não.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "decisao",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP007",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Inafastabilidade",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: É necessário aguardar a lesão?",
+      "rule": "CF art. 5º, XXXV; CPC art. 3º: ameaça ou lesão a direito são apreciáveis.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "É necessário aguardar a lesão?",
+      "options": [
+        "Não.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Não.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "balanca",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP008",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Inércia da jurisdição",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Qual é a regra de início?",
+      "rule": "CPC art. 2º: iniciativa da parte e impulso oficial, ressalvadas exceções.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Qual é a regra de início?",
+      "options": [
+        "Iniciativa da parte.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Iniciativa da parte.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "documento",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP009",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Juiz natural",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: É permitido tribunal de exceção?",
+      "rule": "CF art. 5º, XXXVII e LIII: vedação a tribunal de exceção e exigência de autoridade competente.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "É permitido tribunal de exceção?",
+      "options": [
+        "Não.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Não.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "decisao",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP010",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Devido processo legal",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: O que protege a garantia constitucional?",
+      "rule": "CF art. 5º, LIV; CPC art. 1º. O material menciona dimensões formal e substancial.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "O que protege a garantia constitucional?",
+      "options": [
+        "Liberdade e bens, mediante devido processo legal.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Liberdade e bens, mediante devido processo legal.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "balanca",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP011",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Contraditório e ampla defesa",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: A matéria de ofício dispensa manifestação sobre o fundamento?",
+      "rule": "CF art. 5º, LV; CPC arts. 7º, 9º e 10, com paridade, oitiva prévia e vedação de decisão-surpresa.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "A matéria de ofício dispensa manifestação sobre o fundamento?",
+      "options": [
+        "Não.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Não.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "documento",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP012",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Imparcialidade: garantias",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Cite as três garantias.",
+      "rule": "CF art. 95: vitaliciedade, inamovibilidade e irredutibilidade de subsídio, nos termos constitucionais.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Cite as três garantias.",
+      "options": [
+        "Vitaliciedade, inamovibilidade e irredutibilidade de subsídio.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Vitaliciedade, inamovibilidade e irredutibilidade de subsídio.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "decisao",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP013",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Imparcialidade: vedações",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Qual o prazo para advocacia no mesmo juízo ou tribunal após afastamento?",
+      "rule": "CF art. 95, parágrafo único: proibições relativas a outros cargos, custas, atividade partidária, auxílios e advocacia no juízo ou tribunal antes de três anos.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Qual o prazo para advocacia no mesmo juízo ou tribunal após afastamento?",
+      "options": [
+        "Três anos.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Três anos.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "balanca",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP014",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Impedimento e suspeição",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Qual artigo trata de impedimento e qual de suspeição?",
+      "rule": "O material aponta CPC arts. 144 e 145, respectivamente, sem desenvolver os incisos.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Qual artigo trata de impedimento e qual de suspeição?",
+      "options": [
+        "144 e 145, respectivamente.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "144 e 145, respectivamente.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "documento",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP015",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Publicidade e motivação",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Qual a sanção expressa para falta de fundamentação?",
+      "rule": "CF art. 93, IX; CPC art. 11: julgamentos públicos, decisões fundamentadas, pena de nulidade e disciplina do segredo de justiça.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Qual a sanção expressa para falta de fundamentação?",
+      "options": [
+        "Nulidade.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Nulidade.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "decisao",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP016",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Territorialidade",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Qual o alcance territorial referido no art. 16?",
+      "rule": "CF arts. 109 e 125; CPC art. 16: jurisdição civil exercida por juízes e tribunais em todo o território nacional, conforme o Código.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Qual o alcance territorial referido no art. 16?",
+      "options": [
+        "Todo o território nacional.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Todo o território nacional.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "balanca",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP017",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Indelegabilidade",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Qual princípio veda transferência indevida da função jurisdicional?",
+      "rule": "O slide relaciona o princípio ao art. 93 da CF e às regras da magistratura.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Qual princípio veda transferência indevida da função jurisdicional?",
+      "options": [
+        "Indelegabilidade.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Indelegabilidade.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "documento",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP018",
+      "unit": 1,
+      "chapter": "Princípios",
+      "title": "Inevitabilidade e efetividade",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: O juiz pode determinar medidas para efetivar obrigação de fazer?",
+      "rule": "O PDF menciona CPC arts. 139 e 536; art. 536 autoriza medidas necessárias à satisfação do exequente.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "O juiz pode determinar medidas para efetivar obrigação de fazer?",
+      "options": [
+        "Sim, nos termos do art. 536.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Sim, nos termos do art. 536.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "decisao",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP019",
+      "unit": 2,
+      "chapter": "Limites internacionais",
+      "title": "Art. 21 · Jurisdição concorrente",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: A nacionalidade do réu domiciliado no Brasil impede a jurisdição nacional?",
+      "rule": "Réu domiciliado no Brasil, obrigação a cumprir no Brasil ou fato/ato ocorrido no Brasil.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "A nacionalidade do réu domiciliado no Brasil impede a jurisdição nacional?",
+      "options": [
+        "Não.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Não.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "balanca",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP020",
+      "unit": 2,
+      "chapter": "Limites internacionais",
+      "title": "Art. 22 · Outras hipóteses",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: O consumidor domiciliado no Brasil aparece no art. 22?",
+      "rule": "Alimentos, relações de consumo e submissão expressa ou tácita à jurisdição brasileira, nas condições do artigo.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "O consumidor domiciliado no Brasil aparece no art. 22?",
+      "options": [
+        "Sim.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Sim.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "documento",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP021",
+      "unit": 2,
+      "chapter": "Limites internacionais",
+      "title": "Art. 24 · Ação estrangeira",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Ação estrangeira gera litispendência automática no Brasil?",
+      "rule": "Ação perante tribunal estrangeiro não induz litispendência nem impede conhecimento da causa no Brasil, ressalvados tratados e acordos.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Ação estrangeira gera litispendência automática no Brasil?",
+      "options": [
+        "Não.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Não.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "decisao",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP022",
+      "unit": 2,
+      "chapter": "Limites internacionais",
+      "title": "Art. 25 · Foro estrangeiro",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Quando o réu argui a cláusula?",
+      "rule": "Cláusula de foro exclusivo estrangeiro em contrato internacional, arguida pelo réu na contestação, conforme condições legais.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Quando o réu argui a cláusula?",
+      "options": [
+        "Na contestação.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Na contestação.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "balanca",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP023",
+      "unit": 2,
+      "chapter": "Limites internacionais",
+      "title": "Art. 23 · Jurisdição exclusiva",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Ações sobre imóveis situados no Brasil são de jurisdição exclusiva?",
+      "rule": "Ações relativas a imóveis no Brasil; hipóteses sucessórias e de partilha de bens situados no Brasil, conforme o artigo.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Ações sobre imóveis situados no Brasil são de jurisdição exclusiva?",
+      "options": [
+        "Sim.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Sim.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "documento",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP024",
+      "unit": 3,
+      "chapter": "Limites internos e ação",
+      "title": "Limites internos, subjetivos e objetivos",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: O que o PDF indica como limite interno?",
+      "rule": "Competência como medida e limite da jurisdição; critérios funcionais, materiais e territoriais; limites da coisa julgada quanto a partes, pedido e causa de pedir.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "O que o PDF indica como limite interno?",
+      "options": [
+        "A competência.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "A competência.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "decisao",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP025",
+      "unit": 3,
+      "chapter": "Limites internos e ação",
+      "title": "Arts. 17 e 18",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Quais requisitos o art. 17 exige?",
+      "rule": "Para postular exige-se interesse e legitimidade; ninguém pleiteia direito alheio em nome próprio sem autorização do ordenamento; o substituído pode intervir como assistente litisconsorcial.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Quais requisitos o art. 17 exige?",
+      "options": [
+        "Interesse e legitimidade.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Interesse e legitimidade.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "balanca",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP026",
+      "unit": 3,
+      "chapter": "Limites internos e ação",
+      "title": "Arts. 19 e 20",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: A violação do direito impede ação declaratória?",
+      "rule": "Interesse pode limitar-se a declaração de relação jurídica ou autenticidade/falsidade de documento; ação declaratória é admissível mesmo após violação do direito.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "A violação do direito impede ação declaratória?",
+      "options": [
+        "Não.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Não.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "documento",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP027",
+      "unit": 4,
+      "chapter": "Cooperação internacional",
+      "title": "Art. 26 · Princípios",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: O art. 26 exige igualdade de tratamento no acesso à justiça?",
+      "rule": "Tratados, devido processo, igualdade, publicidade com exceções, autoridade central e transmissão espontânea de informações.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "O art. 26 exige igualdade de tratamento no acesso à justiça?",
+      "options": [
+        "Sim.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Sim.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "decisao",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP028",
+      "unit": 4,
+      "chapter": "Cooperação internacional",
+      "title": "Art. 26, §§ 1º–4º",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Reciprocidade é exigida para homologação de sentença estrangeira?",
+      "rule": "Sem tratado, cooperação pode ocorrer por reciprocidade diplomática; dispensa-se reciprocidade para homologação de sentença estrangeira; respeitam-se normas fundamentais e regras da autoridade central.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Reciprocidade é exigida para homologação de sentença estrangeira?",
+      "options": [
+        "Não.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Não.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "balanca",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP029",
+      "unit": 4,
+      "chapter": "Cooperação internacional",
+      "title": "Art. 27 · Objetos",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Colheita de provas integra a cooperação?",
+      "rule": "Citação, intimação, notificação, provas, informações, homologação, cumprimento, urgência, assistência jurídica e outras medidas permitidas.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Colheita de provas integra a cooperação?",
+      "options": [
+        "Sim.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Sim.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "documento",
+      "source": "Slides Jurisdição, pp. 1–11"
+    },
+    {
+      "id": "CP030",
+      "unit": 4,
+      "chapter": "Cooperação internacional",
+      "title": "Art. 36 · Carta rogatória",
+      "scene": "A e B apresentam uma situação. J deve identificar a regra jurídica pertinente: Pode-se rever o mérito da decisão estrangeira?",
+      "rule": "Procedimento perante STJ é de jurisdição contenciosa; defesa restrita aos requisitos para eficácia no Brasil e vedação de revisão do mérito estrangeiro.",
+      "trap": "Atenção à redação e às ressalvas destacadas no PDF. Não acrescente hipóteses não apresentadas.",
+      "question": "Pode-se rever o mérito da decisão estrangeira?",
+      "options": [
+        "Não.",
+        "Não; o dispositivo não trata disso.",
+        "Apenas se as partes concordarem.",
+        "Somente após sentença transitada em julgado."
+      ],
+      "answer": 0,
+      "why": "Não.",
+      "glossary": "Consulte a formulação e os destaques do PDF correspondente.",
+      "visual": "decisao",
+      "source": "Slides Jurisdição, pp. 1–11"
+    }
+  ]
+}
