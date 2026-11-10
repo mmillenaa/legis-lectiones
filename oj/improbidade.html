@@ -68,7 +68,7 @@ main{min-width:0}.path{color:#8491a3;font-size:12px;letter-spacing:.04em}.headin
 "use strict";
 var root=document, $=function(id){return root.getElementById(id)};
 var esc=function(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})};
-var KEY="legis-lectiones:oj:improbidade:v1";
+var KEY="legis-lectiones:oj:improbidade:v2";
 var data=null, index=0, page=0, tab="historia", revealed=false, selected=null, checked=false, filter="due";
 var state={grades:{},quiz:{},saved:[],last:0};
 try{var old=JSON.parse(localStorage.getItem(KEY)||"null");if(old&&old.grades&&old.quiz)state=old}catch(e){console.warn(e)}
@@ -182,7 +182,7 @@ var file=e.target.files&&e.target.files[0];if(!file)return;
 try{var payload=JSON.parse(await file.text());if(payload.app!=="OJ Improbidade"||!payload.progress||!payload.progress.grades||!payload.progress.quiz)throw Error("Arquivo de backup incompatível.");if(!confirm("Substituir os dados deste navegador pelos dados do backup?"))return;state=payload.progress;if(!Array.isArray(state.saved))state.saved=[];saveState();setCard(Math.min(Math.max(0,Number(state.last)||0),data.cards.length-1),"historia")}catch(err){alert(err.message)}finally{e.target.value=""}
 });
 fetch("./improbidade.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(function(d){
-if(!d.cards||d.cards.length!==20||d.groups.length!==5)throw Error("O catálogo do módulo está incompleto.");
+if(!d.cards||d.cards.length!==20||d.groups.length!==4)throw Error("O catálogo do módulo está incompleto.");
 var ids=new Set(d.cards.map(function(c){return c.id}));if(ids.size!==d.cards.length)throw Error("Identificadores duplicados.");
 if(d.cards.some(function(c){return !Array.isArray(c.options)||c.options.length!==4||!Number.isInteger(c.answer)||c.answer<0||c.answer>3}))throw Error("Gabarito inválido.");
 data=d;index=Math.min(Math.max(0,Number(state.last)||0),d.cards.length-1);page=Math.floor(index/5);render();
