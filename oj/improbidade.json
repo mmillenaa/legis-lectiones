@@ -1,0 +1,495 @@
+{
+  "meta": {
+    "title": "Lei nº 8.429/1992 — Improbidade Administrativa",
+    "subtitle": "Aula de Direito Administrativo · enriquecimento, comparações e declaração de bens",
+    "version": 1,
+    "updated": "2026-11-09",
+    "scope": "Foco nos PDFs enviados: art. 9º, comparação com arts. 10 e 11, quadro de sanções e art. 13. Complementação legal sinalizada.",
+    "sourceLegal": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html",
+    "sourceNote": "Conteúdo autoral baseado nos PDFs do curso enviados pela estudante, com conferência na lei federal atualizada. Não reproduz as apostilas nem substitui a redação integral da lei."
+  },
+  "groups": [
+    {
+      "title": "Fundamentos",
+      "id": "fundamentos",
+      "desc": "Dolo e classificação dos atos",
+      "start": 0,
+      "end": 2,
+      "scene": "decisao"
+    },
+    {
+      "title": "Enriquecimento ilícito",
+      "id": "enriquecimento",
+      "desc": "As doze hipóteses estudadas do art. 9º",
+      "start": 2,
+      "end": 12,
+      "scene": "presente"
+    },
+    {
+      "title": "Comparação entre condutas",
+      "id": "comparacao",
+      "desc": "Enriquecimento, dano efetivo e princípios",
+      "start": 12,
+      "end": 15,
+      "scene": "maquina"
+    },
+    {
+      "title": "Sanções",
+      "id": "sancoes",
+      "desc": "Prazos e bases de multa",
+      "start": 15,
+      "end": 17,
+      "scene": "calendario"
+    },
+    {
+      "title": "Declaração de bens",
+      "id": "declaracao",
+      "desc": "Entrada, atualização e consequências",
+      "start": 17,
+      "end": 20,
+      "scene": "documento"
+    }
+  ],
+  "cards": [
+    {
+      "n": 1,
+      "id": "IA001",
+      "unit": 0,
+      "chapter": "Fundamentos",
+      "title": "Dolo: erro não basta",
+      "scene": "A decide uma compra pública. J pergunta se houve só falha administrativa ou intenção de alcançar resultado ilícito.",
+      "rule": "Para enquadrar uma conduta como improbidade, é necessário dolo dirigido ao resultado ilícito. A simples voluntariedade ou culpa não basta.",
+      "trap": "Erro administrativo, isoladamente, não equivale a improbidade. A conduta precisa se ajustar ao tipo legal.",
+      "question": "Qual elemento subjetivo é exigido para caracterizar, em regra, ato de improbidade administrativa?",
+      "options": [
+        "Apenas negligência",
+        "Dolo dirigido ao resultado ilícito",
+        "Simples participação no ato",
+        "Responsabilidade automática"
+      ],
+      "answer": 1,
+      "why": "A LIA reformada exige dolo e o fim ilícito, não apenas decisão voluntária.",
+      "glossary": "dolo: vontade livre e consciente de alcançar resultado ilícito",
+      "visual": "decisao",
+      "source": "Complemento da lei oficial"
+    },
+    {
+      "n": 2,
+      "id": "IA002",
+      "unit": 0,
+      "chapter": "Fundamentos",
+      "title": "Três resultados jurídicos diferentes",
+      "scene": "B oferece vantagem a A; em outra cena, A autoriza uso de bem público por B; J compara o que cada fato produz.",
+      "rule": "A legislação diferencia enriquecimento ilícito, lesão efetiva ao erário e condutas dolosas tipificadas contra princípios administrativos.",
+      "trap": "Não decore apenas os números: identifique o benefício indevido, o dano comprovado e a conduta legal específica.",
+      "question": "Qual combinação está correta?",
+      "options": [
+        "Enriquecimento / dano efetivo / atentado tipificado a princípios",
+        "Culpa / mero atraso / opinião pessoal",
+        "Só dano / só crime / só responsabilidade objetiva",
+        "Qualquer irregularidade / publicidade / lucro"
+      ],
+      "answer": 0,
+      "why": "São três núcleos jurídicos diferentes; em todos o dolo é relevante.",
+      "glossary": "erário: conjunto de recursos e bens públicos",
+      "visual": "balanca",
+      "source": "Slides + complementação oficial"
+    },
+    {
+      "n": 3,
+      "id": "IA003",
+      "unit": 1,
+      "chapter": "Art. 9º · Enriquecimento ilícito",
+      "title": "Presente interessado na decisão",
+      "scene": "B oferece dinheiro a A para que uma decisão de A favoreça seus negócios. A recebe a vantagem indevida.",
+      "rule": "Receber vantagem econômica indevida, para si ou para outra pessoa, de alguém interessado em ação ou omissão decorrente do cargo é hipótese de enriquecimento ilícito.",
+      "trap": "O ato pode beneficiar terceiro; não é necessário que o dinheiro fique definitivamente no bolso do agente.",
+      "question": "A recebe uma comissão indevida para beneficiar B em ato de ofício. O elemento central é:",
+      "options": [
+        "Apenas dano ao erário",
+        "Falta sem justificativa",
+        "Vantagem patrimonial indevida vinculada à função",
+        "Irregularidade sem dolo"
+      ],
+      "answer": 2,
+      "why": "A vantagem patrimonial indevida em razão da função é o ponto decisivo.",
+      "glossary": "ato de ofício: ação que integra as atribuições do cargo",
+      "visual": "presente",
+      "source": "Slides do art. 9º, I"
+    },
+    {
+      "n": 4,
+      "id": "IA004",
+      "unit": 1,
+      "chapter": "Art. 9º · Enriquecimento ilícito",
+      "title": "Compra acima e alienação abaixo do mercado",
+      "scene": "A cobra propina de B para que a Administração compre equipamentos caros demais. Depois recebe outra para vender um bem público abaixo do mercado.",
+      "rule": "O recebimento de vantagem para facilitar compra ou contratação acima do mercado e alienação ou fornecimento abaixo do mercado aparece entre as condutas do art. 9º.",
+      "trap": "Diferencie: preço superior na compra pública, preço inferior na venda pública; a vantagem recebida caracteriza o recorte do art. 9º.",
+      "question": "Qual situação reproduz o mecanismo estudado?",
+      "options": [
+        "Compra pública mais barata sem vantagem",
+        "Venda de bem pelo preço de mercado",
+        "Lançamento de edital regular",
+        "Agente recebe vantagem para favorecer compra por preço superior ao mercado"
+      ],
+      "answer": 3,
+      "why": "O aspecto examinável é a vantagem recebida para distorcer o preço da contratação.",
+      "glossary": "alienação: transferência de bem ou direito a terceiro",
+      "visual": "preco",
+      "source": "Slides do art. 9º, II e III"
+    },
+    {
+      "n": 5,
+      "id": "IA005",
+      "unit": 1,
+      "chapter": "Art. 9º · Enriquecimento ilícito",
+      "title": "A máquina pública na obra particular",
+      "scene": "A leva uma máquina da prefeitura para melhorar um terreno particular. J compara o fato com a hipótese de A simplesmente autorizar que B a leve.",
+      "rule": "O uso doloso de bens ou trabalho de pessoal público em obra particular é exemplo do art. 9º, IV. Permitir o uso por terceiro remete ao art. 10, XIII, se preenchidos seus pressupostos, inclusive dano efetivo.",
+      "trap": "Não basta ler usar e permitir como sinônimos: são situações diferentes e o art. 10 exige lesão patrimonial efetiva e comprovada.",
+      "question": "A utiliza diretamente equipamento público na própria obra particular. Qual palavra melhor descreve sua conduta?",
+      "options": [
+        "Utilizar em proveito particular",
+        "Apenas recomendar uso futuro",
+        "Contratar regularmente",
+        "Desconhecer o fato"
+      ],
+      "answer": 0,
+      "why": "O caso evidencia o uso direto para finalidade particular, no recorte do art. 9º.",
+      "glossary": "bem público: bem pertencente ou à disposição da Administração",
+      "visual": "maquina",
+      "source": "Slides dos arts. 9º, IV e 10, XIII; complemento oficial"
+    },
+    {
+      "n": 6,
+      "id": "IA006",
+      "unit": 1,
+      "chapter": "Art. 9º · Enriquecimento ilícito",
+      "title": "Dinheiro para tolerar atividade ilícita",
+      "scene": "B promete pagamento a A para que ignore determinada atividade ilícita. A aceita a vantagem indevida.",
+      "rule": "Receber ou aceitar promessa de vantagem econômica para tolerar atividade ilícita é conduta abrangida pela hipótese estudada.",
+      "trap": "A expressão qualquer outra atividade ilícita amplia os exemplos expressos do dispositivo.",
+      "question": "Qual alternativa melhor descreve a situação?",
+      "options": [
+        "Conselho jurídico gratuito",
+        "Aceitar promessa de pagamento para tolerar atividade ilícita",
+        "Fiscalizar sem favorecimento",
+        "Encaminhar notícia ao órgão competente"
+      ],
+      "answer": 1,
+      "why": "O recebimento ou aceitação da promessa de vantagem indevida é central.",
+      "glossary": "promessa de vantagem: compromisso de conceder benefício",
+      "visual": "presente",
+      "source": "Slides do art. 9º, V"
+    },
+    {
+      "n": 7,
+      "id": "IA007",
+      "unit": 1,
+      "chapter": "Art. 9º · Enriquecimento ilícito",
+      "title": "Laudo técnico mentiroso",
+      "scene": "B paga a A para declarar que uma obra possui características que ela não tem. A produz o documento falso para obter vantagem.",
+      "rule": "Perceber vantagem econômica para fazer declaração técnica falsa sobre obras, serviços, quantidades ou qualidades pode configurar enriquecimento ilícito.",
+      "trap": "Não confunda com erro de medição de boa-fé: a questão traz declaração falsa ligada à vantagem e ao dolo.",
+      "question": "A recebe dinheiro para falsear o peso de material entregue ao Estado. Qual elemento é decisivo?",
+      "options": [
+        "Ter feito estimativa honesta",
+        "Ser perito particular apenas",
+        "Ter assinado documento sem ler",
+        "Receber vantagem para falsidade técnica"
+      ],
+      "answer": 3,
+      "why": "O exemplo combina vantagem indevida e declaração técnica falsa.",
+      "glossary": "dado técnico: informação de medição, qualidade ou característica verificável",
+      "visual": "laudo",
+      "source": "Slides do art. 9º, VI"
+    },
+    {
+      "n": 8,
+      "id": "IA008",
+      "unit": 1,
+      "chapter": "Art. 9º · Enriquecimento ilícito",
+      "title": "Patrimônio incompatível com a renda",
+      "scene": "J encontra bens de A muito acima dos rendimentos conhecidos. A apresenta documentos para justificar sua origem.",
+      "rule": "A aquisição de bens desproporcionais à renda, decorrentes dos atos ímprobos descritos no caput, é hipótese específica, assegurada a demonstração da licitude da origem.",
+      "trap": "Patrimônio alto, isoladamente, não autoriza presumir improbidade sem os pressupostos legais.",
+      "question": "Qual proposição evita a pegadinha?",
+      "options": [
+        "Qualquer pessoa rica é ímproba",
+        "A desproporção autoriza condenação automática",
+        "A origem lícita pode ser demonstrada e o nexo legal importa",
+        "Só pode haver bem imóvel"
+      ],
+      "answer": 2,
+      "why": "O dispositivo exige o enquadramento legal e preserva a possibilidade de demonstrar origem lícita.",
+      "glossary": "licitude: conformidade com o direito",
+      "visual": "patrimonio",
+      "source": "Slides do art. 9º, VII"
+    },
+    {
+      "n": 9,
+      "id": "IA009",
+      "unit": 1,
+      "chapter": "Art. 9º · Enriquecimento ilícito",
+      "title": "Consultoria para interessado",
+      "scene": "A ocupa função pública e aceita consultoria remunerada de B, cuja atividade pode ser afetada pelas decisões de A.",
+      "rule": "Aceitar emprego, comissão ou consultoria de pessoa interessada em ação ou omissão decorrente das atribuições do agente, durante o exercício da atividade, integra as hipóteses estudadas.",
+      "trap": "O fato examinável é a relação entre o interesse privado e as atribuições públicas exercidas.",
+      "question": "Qual situação corresponde ao problema jurídico?",
+      "options": [
+        "Consultoria para interessado em decisões do próprio cargo, durante o exercício",
+        "Atividade voluntária sem conexão com o cargo",
+        "Curso de atualização oferecido pela administração",
+        "Aposentadoria sem vínculo de interesse"
+      ],
+      "answer": 0,
+      "why": "Há conflito de interesses remunerado vinculado à atuação pública.",
+      "glossary": "assessoramento: atividade de orientação ou aconselhamento técnico",
+      "visual": "consultoria",
+      "source": "Slides do art. 9º, VIII"
+    },
+    {
+      "n": 10,
+      "id": "IA010",
+      "unit": 1,
+      "chapter": "Art. 9º · Enriquecimento ilícito",
+      "title": "Taxa informal para liberar a verba",
+      "scene": "B pede a A que intermedeie a liberação de recursos públicos. A exige pagamento particular.",
+      "rule": "Receber vantagem econômica para intermediar liberação ou aplicação de verba pública é conduta abrangida pela lei.",
+      "trap": "Intermediar recursos públicos não se confunde com obter remuneração privada por fazê-lo indevidamente.",
+      "question": "Qual é a conduta típica do cenário?",
+      "options": [
+        "Apresentar prestação de contas",
+        "Receber vantagem para intermediar verba pública",
+        "Aplicar verba conforme a lei",
+        "Fiscalizar projeto regularmente"
+      ],
+      "answer": 1,
+      "why": "A vantagem particular pela intermediação de verba pública diferencia a hipótese.",
+      "glossary": "verba pública: recurso financeiro destinado a finalidade pública",
+      "visual": "dinheiro",
+      "source": "Slides do art. 9º, IX"
+    },
+    {
+      "n": 11,
+      "id": "IA011",
+      "unit": 1,
+      "chapter": "Art. 9º · Enriquecimento ilícito",
+      "title": "Omissão vendida",
+      "scene": "A deveria praticar um ato inerente ao cargo. B oferece pagamento para que A não o realize.",
+      "rule": "Receber vantagem econômica para omitir ato, providência ou declaração a que o agente esteja obrigado integra a hipótese estudada.",
+      "trap": "Omissão de ofício é diferente de mera demora involuntária: a situação envolve vantagem recebida e dolo.",
+      "question": "Qual detalhe torna a omissão relevante neste exemplo?",
+      "options": [
+        "Falta de tinta na impressora",
+        "Férias regulares",
+        "Pedido escrito de informação",
+        "Pagamento indevido para deixar de praticar ato obrigatório"
+      ],
+      "answer": 3,
+      "why": "A omissão foi negociada em troca de vantagem indevida.",
+      "glossary": "omissão: não realização de ato juridicamente exigido",
+      "visual": "documento",
+      "source": "Slides do art. 9º, X"
+    },
+    {
+      "n": 12,
+      "id": "IA012",
+      "unit": 1,
+      "chapter": "Art. 9º · Enriquecimento ilícito",
+      "title": "Incorporar ou apenas usar recursos públicos",
+      "scene": "A transfere valores públicos para seu próprio patrimônio. Em outro caso, utiliza bem público em benefício privado sem incorporá-lo definitivamente.",
+      "rule": "A lei distingue incorporar bens ou valores públicos ao próprio patrimônio e utilizá-los em proveito próprio.",
+      "trap": "Incorporar pressupõe integração patrimonial; usar pode ocorrer sem transferência definitiva de propriedade.",
+      "question": "Qual conduta é exemplo de incorporação?",
+      "options": [
+        "Apenas observar uma máquina",
+        "Guardar um bem para conferência",
+        "Fazer verba pública ingressar no patrimônio pessoal",
+        "Solicitar devolução de equipamento"
+      ],
+      "answer": 2,
+      "why": "Incorporação significa integrar ao patrimônio; uso em proveito próprio é categoria distinta.",
+      "glossary": "incorporar: integrar ao próprio patrimônio",
+      "visual": "patrimonio",
+      "source": "Slides do art. 9º, XI e XII"
+    },
+    {
+      "n": 13,
+      "id": "IA013",
+      "unit": 2,
+      "chapter": "Comparação · Arts. 10 e 11",
+      "title": "Quem lucra e quem perde?",
+      "scene": "A recebe propina para beneficiar B; em outro caso A permite que B utilize bem municipal, causando perda patrimonial comprovada.",
+      "rule": "No primeiro caso, a vantagem patrimonial indevida recebida por A aponta para o art. 9º. No segundo, permitir utilização por terceiro com dano doloso efetivo pode apontar para o art. 10.",
+      "trap": "A comparação dos slides é didática: o tipo jurídico depende do conjunto de elementos, não apenas de quem ficou com o dinheiro.",
+      "question": "Se A permite uso particular de bem público, sem vantagem recebida, mas com dano efetivo e dolo, qual núcleo ganha destaque?",
+      "options": [
+        "Lesão ao erário",
+        "Meramente enriquecimento de A",
+        "Direito eleitoral",
+        "Ignorância da lei"
+      ],
+      "answer": 0,
+      "why": "Permitir utilização danosa por terceiro remete à hipótese de lesão ao erário.",
+      "glossary": "dano efetivo: perda patrimonial real e comprovável",
+      "visual": "maquina",
+      "source": "Slides comparativos + lei oficial"
+    },
+    {
+      "n": 14,
+      "id": "IA014",
+      "unit": 2,
+      "chapter": "Comparação · Arts. 10 e 11",
+      "title": "Prejuízo deve ser comprovado",
+      "scene": "Um órgão compra material acima do valor esperado. J exige verificar se houve dano efetivo aos cofres públicos e qual foi o elemento subjetivo.",
+      "rule": "A modalidade de prejuízo ao erário exige conduta dolosa e perda patrimonial efetiva e comprovada.",
+      "trap": "Mero descumprimento de formalidade não se converte automaticamente em dano ao erário; a análise depende de prova.",
+      "question": "Qual condição não pode faltar para a modalidade de prejuízo ao erário?",
+      "options": [
+        "Ter havido reclamação anônima",
+        "Perda patrimonial efetiva e comprovada",
+        "Apenas suspeita genérica",
+        "Erro leve de cálculo"
+      ],
+      "answer": 1,
+      "why": "O caput da hipótese de lesão exige dano efetivo comprovado e dolo.",
+      "glossary": "malbaratamento: gasto ou uso prejudicial dos recursos",
+      "visual": "preco",
+      "source": "Complemento da lei oficial, art. 10"
+    },
+    {
+      "n": 15,
+      "id": "IA015",
+      "unit": 2,
+      "chapter": "Comparação · Arts. 10 e 11",
+      "title": "Ilegalidade não basta sozinha",
+      "scene": "A descumpre uma orientação administrativa, mas J precisa verificar se a conduta integra uma hipótese legal tipificada e se existe dolo com finalidade ilícita.",
+      "rule": "A modalidade relativa aos princípios administrativos não transforma qualquer ilegalidade em improbidade: requer conduta dolosa legalmente prevista e demais pressupostos.",
+      "trap": "Os slides apresentam a categoria geral; o detalhamento do rol de condutas foi conferido na redação legal atualizada.",
+      "question": "Qual raciocínio é juridicamente mais correto?",
+      "options": [
+        "Qualquer falha formal já é improbidade",
+        "Apenas publicidade irregular pode ser improbidade",
+        "A culpa basta, desde que o servidor seja efetivo",
+        "É preciso identificar a conduta legalmente tipificada e seu dolo"
+      ],
+      "answer": 3,
+      "why": "A regra atual não permite condenar por mera ilegalidade genérica.",
+      "glossary": "tipicidade: necessidade de correspondência com previsão legal",
+      "visual": "balanca",
+      "source": "Slides de visão geral + complemento oficial"
+    },
+    {
+      "n": 16,
+      "id": "IA016",
+      "unit": 3,
+      "chapter": "Sanções · Art. 12",
+      "title": "A tabela dos 14, 12 e 4 anos",
+      "scene": "J consulta a tabela de sanções e percebe que as três categorias não recebem limites idênticos para proibição de contratar com o poder público.",
+      "rule": "O teto da proibição de contratar ou receber benefícios é de até 14 anos (enriquecimento), 12 anos (dano) e 4 anos (princípios).",
+      "trap": "Para suspensão de direitos políticos, a lei prevê até 14 anos na primeira categoria e até 12 na segunda; não prevê essa sanção específica na terceira.",
+      "question": "Qual sequência corresponde aos tetos da proibição de contratar (enriquecimento / dano / princípios)?",
+      "options": [
+        "14 / 12 / 4 anos",
+        "4 / 12 / 14 anos",
+        "12 / 14 / 12 anos",
+        "14 / 14 / 14 anos"
+      ],
+      "answer": 0,
+      "why": "Memorize a escada 14 → 12 → 4, sem transferir automaticamente os mesmos efeitos para todas as sanções.",
+      "glossary": "teto: limite máximo permitido",
+      "visual": "calendario",
+      "source": "Quadro de sanções dos slides + lei oficial"
+    },
+    {
+      "n": 17,
+      "id": "IA017",
+      "unit": 3,
+      "chapter": "Sanções · Art. 12",
+      "title": "Multa: três bases diferentes",
+      "scene": "J examina três condenações e encontra três bases distintas para calcular a multa civil.",
+      "rule": "A multa civil corresponde ao acréscimo patrimonial ilícito (enriquecimento), ao valor do dano (erário) e a até 24 remunerações do agente (princípios), observada a disciplina legal.",
+      "trap": "Não aplique automaticamente perda da função pública ou suspensão dos direitos políticos à categoria dos princípios: o rol de sanções do art. 12, III, é diferente.",
+      "question": "Na modalidade de violação dos princípios, qual é a base da multa civil na lei atual?",
+      "options": [
+        "Sempre o valor do contrato",
+        "Até 24 vezes o valor da remuneração do agente",
+        "O valor da propina necessariamente",
+        "Exatamente 12 vezes o dano"
+      ],
+      "answer": 1,
+      "why": "A base da multa na categoria dos princípios é a remuneração do agente, com teto de 24 vezes.",
+      "glossary": "multa civil: sanção pecuniária fixada judicialmente",
+      "visual": "dinheiro",
+      "source": "Complemento oficial ao quadro de sanções"
+    },
+    {
+      "n": 18,
+      "id": "IA018",
+      "unit": 4,
+      "chapter": "Declaração · Art. 13",
+      "title": "Documento exigido na posse e exercício",
+      "scene": "A toma posse em cargo público. O setor de pessoal solicita a declaração de imposto de renda e proventos já apresentada à Receita Federal.",
+      "rule": "A posse e o exercício ficam condicionados à apresentação da declaração tributária mencionada na lei, para arquivamento no setor de pessoal competente.",
+      "trap": "Não é uma declaração genérica inventada pelo órgão: a lei faz referência à declaração apresentada à Receita Federal.",
+      "question": "Qual documento é exigido nessa hipótese?",
+      "options": [
+        "Somente extrato de conta bancária",
+        "Currículo atualizado",
+        "Declaração de imposto de renda e proventos apresentada à Receita Federal",
+        "Certidão de nascimento do servidor"
+      ],
+      "answer": 2,
+      "why": "A regra exige a declaração tributária encaminhada à Receita Federal.",
+      "glossary": "arquivamento: guarda formal do documento pelo serviço de pessoal",
+      "visual": "documento",
+      "source": "Slides e lei seca, art. 13"
+    },
+    {
+      "n": 19,
+      "id": "IA019",
+      "unit": 4,
+      "chapter": "Declaração · Art. 13",
+      "title": "Quando atualizar a declaração?",
+      "scene": "A apresentou a declaração ao tomar posse. Um ano depois pergunta a J se precisa atualizá-la; depois decide deixar a função.",
+      "rule": "A declaração de bens será atualizada anualmente e na data em que o agente deixar o exercício do mandato, cargo, emprego ou função.",
+      "trap": "Existem dois marcos, cumulativos: atualização anual e apresentação ao encerrar o exercício.",
+      "question": "A declaração deve ser atualizada:",
+      "options": [
+        "Só quando o agente enriquecer",
+        "Só se houver investigação",
+        "A cada dez anos",
+        "Anualmente e na data de saída do exercício"
+      ],
+      "answer": 3,
+      "why": "A conjunção 'e' torna os dois momentos relevantes.",
+      "glossary": "atualização: renovação das informações declaradas",
+      "visual": "calendario",
+      "source": "Slides e lei seca, art. 13, § 2º"
+    },
+    {
+      "n": 20,
+      "id": "IA020",
+      "unit": 4,
+      "chapter": "Declaração · Art. 13",
+      "title": "Recusar ou declarar falsamente",
+      "scene": "A deixa de apresentar a declaração no prazo determinado. Em outro caso, presta declaração falsa. J analisa as consequências.",
+      "rule": "A recusa em apresentar a declaração dentro do prazo ou a apresentação de declaração falsa sujeita o agente à demissão, sem prejuízo de outras sanções cabíveis.",
+      "trap": "A norma contempla ambas as condutas: recusa em prazo devido OU declaração falsa.",
+      "question": "Qual consequência a lei expressamente prevê para essas hipóteses?",
+      "options": [
+        "Somente advertência verbal",
+        "Demissão, sem prejuízo de outras sanções",
+        "Apenas multa equivalente ao salário",
+        "Suspensão obrigatória de férias"
+      ],
+      "answer": 1,
+      "why": "A penalidade expressa é a demissão, sem prejuízo de outras sanções cabíveis.",
+      "glossary": "declaração falsa: informação patrimonial apresentada sem correspondência com a verdade",
+      "visual": "documento",
+      "source": "Slides e lei seca, art. 13, § 3º"
+    }
+  ]
+}
