@@ -102,7 +102,7 @@ footer{margin-top:45px;color:#8592a5;font-size:12px;text-align:center}
       +'<p class="lead">Selecione uma disciplina para ver seus temas. A organização acompanha a sequência de aulas; os materiais serão acrescentados gradualmente.</p>'
       +'<div class="statline"><span class="stat"><strong>'+ds.length+'</strong> disciplinas</span>'
       +'<span class="stat"><strong>'+totalCount()+'</strong> temas catalogados</span>'
-      +'<span class="stat"><strong>1</strong> módulo disponível: LINDB</span></div>'
+      +'<span class="stat"><strong>'+ds.reduce((n,d)=>n+activeCount(d),0)+'</strong> módulos disponíveis</span></div>'
       +'<label class="searchwrap">'+searchIcon+'<input id="search" type="search" placeholder="Buscar disciplina ou tema" aria-label="Buscar disciplina ou tema" autocomplete="off"></label>'
       +'<div class="grid" id="folders">'+ds.map(card).join('')+'</div>'
       +'<div class="blank hidden" id="none">Nenhuma disciplina ou tema corresponde à busca.</div>';
