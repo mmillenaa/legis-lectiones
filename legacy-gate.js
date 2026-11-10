@@ -300,7 +300,7 @@
     }
 
     if (path.includes("/oj/")) {
-      return "Concurso";
+      return "Outros";
     }
 
     return "Archived module";
