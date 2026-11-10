@@ -1,32 +1,44 @@
 ESTRUTURA OJ · LEGIS LECTIONES
 
-1. oj/index.html
-   Biblioteca de estudos: disciplinas e temas cadastrados.
+Acesso:
+- oj/index.html: biblioteca de disciplinas e temas.
+- oj/catalogo.json: vínculo de cada tema ao seu módulo.
+- ../legacy-gate.js: formulário de senha compartilhado (barreira apenas visual, não autenticação segura).
 
-2. oj/catalogo.json
-   Catálogo que contém as 14 disciplinas e seus tópicos, na ordem do curso.
-   Para acrescentar novos conteúdos, atribua ao tópico um campo "href"
-   apontando para a página HTML do respectivo módulo.
+MÓDULOS DISPONÍVEIS
+1. oj/lindb.html
+   LINDB: 30 artigos, quadrinhos, texto legal, flashcards e revisão.
+2. oj/cpc-normas.html + oj/cpc-normas.json
+   Direito Processual Civil: Normas Fundamentais e Aplicação.
+   17 cartões dos arts. 1º–11 e 13–15 do PDF; sem art. 12.
+   CP001–CP010 usam dez imagens próprias em oj/assets/cpc-normas-01.webp a cpc-normas-10.webp.
+   CP011–CP017 não têm ilustração atribuída.
+3. oj/cpc-jurisdicao.html + oj/cpc-jurisdicao.json
+   30 cartões exclusivamente sobre os temas da apresentação.
+   23 com recortes de dispositivos e 7 de conceitos doutrinários identificados.
+   Sem imagens genéricas.
+4. oj/improbidade.html + oj/improbidade.json
+   20 cartões: dolo; arts. 9º, 10 e 11 em quadro; art. 9º caput/incisos I–XII;
+   comparação art. 10 XIII; art. 13 e parágrafos.
+   Não inclui seção de sanções do art. 12 ausente nos PDFs.
+   A aba Mapas Mentais foi preservada, sem apontar para arquivos locais inexistentes.
 
-3. oj/lindb.html
-   Módulo interativo da LINDB com 30 artigos, quadrinhos, flashcards,
-   questões e revisão espaçada. As dez ilustrações ficam em oj/assets/.
+CRITÉRIO EDITORIAL
+O PDF da aula define o recorte: não preencher artigos que não foram estudados.
+Distinguir texto normativo, excerto identificado, conceito doutrinário e explicação.
+Usar desenhos individuais que tenham correspondência direta com cada cartão;
+não reutilizar ilustrações genéricas.
+As questões devem avaliar conteúdo, requisitos, exceções e aplicação,
+não decorar o número do dispositivo.
 
-4. oj/legacy-gate.js? NÃO.
-   O formulário de senha compartilhado fica em ../legacy-gate.js,
-   carregado por oj/index.html e oj/lindb.html.
+PROGRESSO
+Salvo automaticamente no localStorage. Flashcards e favoritos têm histórico próprio.
+Os três bancos restaurados usam chave de armazenamento v2, porque o conteúdo
+e os gabaritos foram corrigidos; dados antigos não são apagados do navegador,
+mas não são importados automaticamente como respostas às questões novas.
+Use o backup JSON para guardar/transferir o progresso atual.
 
-5. PROGRESSO
-   O módulo LINDB salva revisões, respostas, favoritos e último artigo
-   automaticamente no localStorage do navegador. Use o botão de backup
-   JSON para transferir ou recuperar esse progresso.
-
-6. SEGURANÇA
-   O GitHub é público. O bloqueio JavaScript é visual e NÃO impede que
-   terceiros leiam o código e os arquivos. Para privacidade efetiva,
-   use hospedagem com autenticação do lado do servidor/Cloudflare Access
-   e mantenha materiais privados fora deste repositório.
-
-7. TEMAS FUTUROS
-   Os temas sem "href" em oj/catalogo.json aparecem como "Em preparação".
-   Curso de Testes e Discursivas ficam reservados até receber novos temas.
+PRIVACIDADE
+Este repositório é PÚBLICO. A senha em JavaScript não protege os arquivos
+contra acesso direto ao GitHub ou ao site estático. Para sigilo real, é necessária
+hospedagem com autenticação de servidor e dados fora do repositório público.
