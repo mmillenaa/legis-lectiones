@@ -1,9 +1,32 @@
-PILOTO PRIVADO · OJ · LINDB
+ESTRUTURA OJ · LEGIS LECTIONES
 
-1. Abra index.html no navegador.
-2. Use as 4 unidades do NEAF, os quadrinhos, a lei seca, flashcards e 30 questões.
-3. Exportar progresso produz arquivo JSON de backup.
-4. Nao publique este projeto em repositorio publico: o conteudo ficaria acessivel sem senha.
-5. Os trechos de lei são recortes centrais, e não transcrição integral; consulte link da Câmara.
-6. Este material foi elaborado para teste e não substitui o edital, professor ou lei atualizada.
-7. O arquivo OJ_LINDB_PILOTO_ABRIR_NO_NAVEGADOR.html, entregue separadamente, é autonomo e nao precisa da pasta assets.
+1. oj/index.html
+   Biblioteca de estudos: disciplinas e temas cadastrados.
+
+2. oj/catalogo.json
+   Catálogo que contém as 14 disciplinas e seus tópicos, na ordem do curso.
+   Para acrescentar novos conteúdos, atribua ao tópico um campo "href"
+   apontando para a página HTML do respectivo módulo.
+
+3. oj/lindb.html
+   Módulo interativo da LINDB com 30 artigos, quadrinhos, flashcards,
+   questões e revisão espaçada. As dez ilustrações ficam em oj/assets/.
+
+4. oj/legacy-gate.js? NÃO.
+   O formulário de senha compartilhado fica em ../legacy-gate.js,
+   carregado por oj/index.html e oj/lindb.html.
+
+5. PROGRESSO
+   O módulo LINDB salva revisões, respostas, favoritos e último artigo
+   automaticamente no localStorage do navegador. Use o botão de backup
+   JSON para transferir ou recuperar esse progresso.
+
+6. SEGURANÇA
+   O GitHub é público. O bloqueio JavaScript é visual e NÃO impede que
+   terceiros leiam o código e os arquivos. Para privacidade efetiva,
+   use hospedagem com autenticação do lado do servidor/Cloudflare Access
+   e mantenha materiais privados fora deste repositório.
+
+7. TEMAS FUTUROS
+   Os temas sem "href" em oj/catalogo.json aparecem como "Em preparação".
+   Curso de Testes e Discursivas ficam reservados até receber novos temas.
