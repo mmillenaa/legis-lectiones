@@ -60,3 +60,14 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline-color:#ffc082!i
 .quiz-summary{border-top:1px solid #394658;margin-top:15px;padding:13px 0;color:#b6c4d5;font-size:13px}
 .quiz-lower{display:flex;flex-wrap:wrap;gap:13px;margin-top:13px}
 @media(max-width:650px){.quiz-toolbar{align-items:stretch;flex-direction:column}.quiz-filter select{width:100%}.quiz-option{padding:12px}}
+
+
+/* Biblioteca OJ: disposição dos atalhos em telas estreitas */
+@media(max-width:650px){
+ .topic-row{flex-wrap:wrap;gap:7px 9px!important}
+ .topic-row .topic-text{flex:1 1 calc(100% - 45px);min-width:0}
+ .topic-row .topic-status{margin-left:31px}
+ .topic-row .quiz-link{margin-left:auto}
+ .top{gap:8px}
+ .top a{white-space:nowrap}
+}
