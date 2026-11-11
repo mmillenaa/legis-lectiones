@@ -67,7 +67,6 @@ footer{margin-top:45px;color:#8592a5;font-size:12px;text-align:center}
   <span class="logo">OJ · Legis Lectiones</span>
   <span class="detail">Biblioteca de estudos</span>
   <span class="space"></span>
-  <a href="./questoes.html" title="Banco de questões de lei seca">Banco de questões</a>
   <a href="../" title="Página inicial">Legis Lectiones</a>
 </header>
 <main class="wrap">
@@ -89,7 +88,7 @@ footer{margin-top:45px;color:#8592a5;font-size:12px;text-align:center}
   let catalog=null;
   const totalCount=()=>catalog.disciplines.reduce((sum,d)=>sum+topics(d).length,0);
   const activeCount=d=>topics(d).filter(t=>Boolean(t.href)).length;
-  const safeHref=x=>typeof x==="string"&&/^\.\/[a-z0-9/_-]+\.html$/.test(x)?x:null;
+  const safeHref=x=>typeof x==="string"&&/^\.\/[a-z0-9/_-]+\.html(?:\?modulo=[a-z0-9-]+)?$/.test(x)?x:null;
   const findSelected=()=>catalog.disciplines.find(d=>d.id===decodeURIComponent(location.hash.slice(1)))||null;
   function card(d,index){
     const n=topics(d).length,active=activeCount(d);
@@ -124,11 +123,9 @@ footer{margin-top:45px;color:#8592a5;font-size:12px;text-align:center}
     const groups=d.groups.map(group=>{
       const rows=group.topics.map(t=>{
         const number=String(++index).padStart(2,"0"),href=safeHref(t.href);
-        const hasQuiz=Boolean(href)&&["./lindb.html","./cpc-normas.html","./cpc-jurisdicao.html","./improbidade.html"].includes(href);
         return '<li class="topic-row'+(href?' active':'')+'"><span class="topic-index">'+number+'</span>'
           +(href?'<a class="topic-text" href="'+esc(href)+'">'+esc(t.title)+'</a>':'<span class="topic-text">'+esc(t.title)+'</span>')
-          +'<span class="topic-status">'+(href?'Abrir conteúdo':'Em preparação')+'</span>'
-          +(hasQuiz?'<a class="quiz-link" href="./questoes.html?modulo='+encodeURIComponent(href.slice(2,-5))+'">Questões</a>':'')+'</li>';
+          +'<span class="topic-status">'+(href?'Abrir conteúdo':'Em preparação')+'</span>'+'</li>';
       }).join("");
       return '<section class="topic-panel"><h2>'+esc(group.title)+'</h2><ol class="topic-list">'+rows+'</ol></section>';
     }).join("");
