@@ -68,7 +68,7 @@
       "normLabel": "Conceito de jurisdição",
       "normText": null,
       "normKind": "conceito doutrinário do PDF",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-01.webp"
     },
     {
       "id": "CP002",
@@ -92,7 +92,7 @@
       "normLabel": "Equivalentes jurisdicionais",
       "normText": null,
       "normKind": "conceito doutrinário do PDF",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-01.webp"
     },
     {
       "id": "CP003",
@@ -116,7 +116,7 @@
       "normLabel": "Substitutividade",
       "normText": null,
       "normKind": "conceito doutrinário do PDF",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-02.webp"
     },
     {
       "id": "CP004",
@@ -140,7 +140,7 @@
       "normLabel": "Definitividade",
       "normText": null,
       "normKind": "conceito doutrinário do PDF",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-02.webp"
     },
     {
       "id": "CP005",
@@ -164,7 +164,7 @@
       "normLabel": "Inevitabilidade",
       "normText": null,
       "normKind": "conceito doutrinário do PDF",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-02.webp"
     },
     {
       "id": "CP006",
@@ -188,7 +188,7 @@
       "normLabel": "Inércia e secundariedade",
       "normText": null,
       "normKind": "conceito doutrinário do PDF",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-02.webp"
     },
     {
       "id": "CP007",
@@ -212,7 +212,7 @@
       "normLabel": "CF, art. 5º, XXXV; CPC, art. 3º",
       "normText": "A lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito.\nCPC, art. 3º: Não se excluirá da apreciação jurisdicional ameaça ou lesão a direito.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-03.webp"
     },
     {
       "id": "CP008",
@@ -236,7 +236,7 @@
       "normLabel": "CPC, art. 2º",
       "normText": "O processo começa por iniciativa da parte e se desenvolve por impulso oficial, salvo as exceções previstas em lei.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-04.webp"
     },
     {
       "id": "CP009",
@@ -260,7 +260,7 @@
       "normLabel": "CF, art. 5º, XXXVII e LIII",
       "normText": "XXXVII - não haverá juízo ou tribunal de exceção;\nLIII - ninguém será processado nem sentenciado senão pela autoridade competente.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-05.webp"
     },
     {
       "id": "CP010",
@@ -284,7 +284,7 @@
       "normLabel": "CF, art. 5º, LIV; CPC, art. 1º",
       "normText": "LIV - ninguém será privado da liberdade ou de seus bens sem o devido processo legal.\nCPC, art. 1º: O processo civil será ordenado, disciplinado e interpretado conforme os valores e as normas fundamentais estabelecidos na Constituição da República Federativa do Brasil, observando-se as disposições deste Código.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-06.webp"
     },
     {
       "id": "CP011",
@@ -308,7 +308,7 @@
       "normLabel": "CF, art. 5º, LV; CPC, arts. 7º, 9º e 10",
       "normText": "LV - aos litigantes, em processo judicial ou administrativo, e aos acusados em geral são assegurados o contraditório e ampla defesa, com os meios e recursos a ela inerentes.\nCPC, art. 9º: Não se proferirá decisão contra uma das partes sem que ela seja previamente ouvida.\nCPC, art. 10: O juiz não pode decidir, em grau algum de jurisdição, com base em fundamento a respeito do qual não se tenha dado às partes oportunidade de se manifestar, ainda que se trate de matéria sobre a qual deva decidir de ofício.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-07.webp"
     },
     {
       "id": "CP012",
@@ -332,7 +332,7 @@
       "normLabel": "CF, art. 95, incisos I–III",
       "normText": "I - vitaliciedade, que, no primeiro grau, só será adquirida após dois anos de exercício [...];\nII - inamovibilidade, salvo por motivo de interesse público, na forma do art. 93, VIII;\nIII - irredutibilidade de subsídio, ressalvado o disposto na Constituição.",
       "normKind": "excerto identificado — texto integral no link oficial",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-08.webp"
     },
     {
       "id": "CP013",
@@ -356,7 +356,7 @@
       "normLabel": "CF, art. 95, parágrafo único, incisos I–V",
       "normText": "I - exercer, ainda que em disponibilidade, outro cargo ou função, salvo uma de magistério;\nII - receber, a qualquer título ou pretexto, custas ou participação em processo;\nIII - dedicar-se à atividade político-partidária;\nIV - receber, a qualquer título ou pretexto, auxílios ou contribuições de pessoas físicas, entidades públicas ou privadas, ressalvadas as exceções previstas em lei;\nV - exercer a advocacia no juízo ou tribunal do qual se afastou, antes de decorridos três anos do afastamento do cargo por aposentadoria ou exoneração.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-08.webp"
     },
     {
       "id": "CP014",
@@ -380,7 +380,7 @@
       "normLabel": "CPC, arts. 144 e 145 (caputs)",
       "normText": "Art. 144. Há impedimento do juiz, sendo-lhe vedado exercer suas funções no processo:\nArt. 145. Há suspeição do juiz:",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-08.webp"
     },
     {
       "id": "CP015",
@@ -404,7 +404,7 @@
       "normLabel": "CPC, art. 11",
       "normText": "Todos os julgamentos dos órgãos do Poder Judiciário serão públicos, e fundamentadas todas as decisões, sob pena de nulidade.\nParágrafo único. Nos casos de segredo de justiça, pode ser autorizada a presença somente das partes, de seus advogados, de defensores públicos ou do Ministério Público.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-09.webp"
     },
     {
       "id": "CP016",
@@ -428,7 +428,7 @@
       "normLabel": "CPC, art. 16",
       "normText": "A jurisdição civil é exercida pelos juízes e pelos tribunais em todo o território nacional, conforme as disposições deste Código.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-10.webp"
     },
     {
       "id": "CP017",
@@ -452,7 +452,7 @@
       "normLabel": "CF, art. 93 (caput)",
       "normText": "Lei complementar, de iniciativa do Supremo Tribunal Federal, disporá sobre o Estatuto da Magistratura, observados os seguintes princípios:",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-10.webp"
     },
     {
       "id": "CP018",
@@ -476,7 +476,7 @@
       "normLabel": "CPC, arts. 139, IX, e 536 (trechos)",
       "normText": "Art. 139, IX - determinar o suprimento de pressupostos processuais e o saneamento de outros vícios processuais.\nArt. 536. No cumprimento de sentença que reconheça a exigibilidade de obrigação de fazer ou de não fazer, o juiz poderá, de ofício ou a requerimento, para a efetivação da tutela específica ou a obtenção de tutela pelo resultado prático equivalente, determinar as medidas necessárias à satisfação do exequente.",
       "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "image": "./assets/dpc-jurisdicao-10.webp"
     },
     {
       "id": "CP019",
@@ -499,8 +499,7 @@
       "source": "NEAF · Jurisdição, p. 8",
       "normLabel": "CPC, art. 21, incisos I–III",
       "normText": "Compete à autoridade judiciária brasileira processar e julgar as ações em que:\nI - o réu, qualquer que seja a sua nacionalidade, estiver domiciliado no Brasil;\nII - no Brasil tiver de ser cumprida a obrigação;\nIII - o fundamento seja fato ocorrido ou ato praticado no Brasil.",
-      "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "normKind": "transcrição do recorte normativo estudado"
     },
     {
       "id": "CP020",
@@ -523,8 +522,7 @@
       "source": "NEAF · Jurisdição, p. 8",
       "normLabel": "CPC, art. 22, incisos I–III",
       "normText": "Compete, ainda, à autoridade judiciária brasileira processar e julgar as ações:\nI - de alimentos, quando o credor tiver domicílio ou residência no Brasil, ou o réu mantiver vínculos no Brasil [...];\nII - decorrentes de relações de consumo, quando o consumidor tiver domicílio ou residência no Brasil;\nIII - em que as partes, expressa ou tacitamente, se submeterem à jurisdição nacional.",
-      "normKind": "excerto identificado — texto integral no link oficial",
-      "image": null
+      "normKind": "excerto identificado — texto integral no link oficial"
     },
     {
       "id": "CP021",
@@ -547,8 +545,7 @@
       "source": "NEAF · Jurisdição, p. 8",
       "normLabel": "CPC, art. 24 (caput)",
       "normText": "A ação proposta perante tribunal estrangeiro não induz litispendência e não obsta a que a autoridade judiciária brasileira conheça da mesma causa e das que lhe são conexas, ressalvadas as disposições em contrário de tratados internacionais e acordos bilaterais em vigor no Brasil.",
-      "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "normKind": "transcrição do recorte normativo estudado"
     },
     {
       "id": "CP022",
@@ -571,8 +568,7 @@
       "source": "NEAF · Jurisdição, p. 8",
       "normLabel": "CPC, art. 25 (caput)",
       "normText": "Não compete à autoridade judiciária brasileira o processamento e o julgamento da ação quando houver cláusula de eleição de foro exclusivo estrangeiro em contrato internacional, arguida pelo réu na contestação.",
-      "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "normKind": "transcrição do recorte normativo estudado"
     },
     {
       "id": "CP023",
@@ -595,8 +591,7 @@
       "source": "NEAF · Jurisdição, p. 9",
       "normLabel": "CPC, art. 23, incisos I–III",
       "normText": "Compete à autoridade judiciária brasileira, com exclusão de qualquer outra:\nI - conhecer de ações relativas a imóveis situados no Brasil;\nII - em matéria de sucessão hereditária, proceder à confirmação de testamento particular e ao inventário e à partilha de bens situados no Brasil, ainda que o autor da herança seja de nacionalidade estrangeira ou tenha domicílio fora do território nacional;\nIII - em divórcio, separação judicial ou dissolução de união estável, proceder à partilha de bens situados no Brasil, ainda que o titular seja de nacionalidade estrangeira ou tenha domicílio fora do território nacional.",
-      "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "normKind": "transcrição do recorte normativo estudado"
     },
     {
       "id": "CP024",
@@ -619,8 +614,7 @@
       "source": "NEAF · Jurisdição, p. 9",
       "normLabel": "Limites internos e subjetivos",
       "normText": null,
-      "normKind": "conceito doutrinário do PDF",
-      "image": null
+      "normKind": "conceito doutrinário do PDF"
     },
     {
       "id": "CP025",
@@ -643,8 +637,7 @@
       "source": "NEAF · Jurisdição, p. 9",
       "normLabel": "CPC, arts. 17 e 18",
       "normText": "Art. 17. Para postular em juízo é necessário ter interesse e legitimidade.\nArt. 18. Ninguém poderá pleitear direito alheio em nome próprio, salvo quando autorizado pelo ordenamento jurídico.\nParágrafo único. Havendo substituição processual, o substituído poderá intervir como assistente litisconsorcial.",
-      "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "normKind": "transcrição do recorte normativo estudado"
     },
     {
       "id": "CP026",
@@ -667,8 +660,7 @@
       "source": "NEAF · Jurisdição, p. 10",
       "normLabel": "CPC, arts. 19 e 20",
       "normText": "Art. 19. O interesse do autor pode limitar-se à declaração:\nI - da existência, da inexistência ou do modo de ser de uma relação jurídica;\nII - da autenticidade ou da falsidade de documento.\nArt. 20. É admissível a ação meramente declaratória, ainda que tenha ocorrido a violação do direito.",
-      "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "normKind": "transcrição do recorte normativo estudado"
     },
     {
       "id": "CP027",
@@ -691,8 +683,7 @@
       "source": "NEAF · Jurisdição, p. 10",
       "normLabel": "CPC, art. 26, incisos I–V",
       "normText": "A cooperação jurídica internacional será regida por tratado de que o Brasil faz parte e observará:\nI - o respeito às garantias do devido processo legal no Estado requerente;\nII - a igualdade de tratamento entre nacionais e estrangeiros [...] em relação ao acesso à justiça e à tramitação dos processos, assegurando-se assistência judiciária aos necessitados;\nIII - a publicidade processual, exceto nas hipóteses de sigilo [...];\nIV - a existência de autoridade central para recepção e transmissão dos pedidos de cooperação;\nV - a espontaneidade na transmissão de informações a autoridades estrangeiras.",
-      "normKind": "excerto identificado — texto integral no link oficial",
-      "image": null
+      "normKind": "excerto identificado — texto integral no link oficial"
     },
     {
       "id": "CP028",
@@ -715,8 +706,7 @@
       "source": "NEAF · Jurisdição, p. 10",
       "normLabel": "CPC, art. 26, §§ 1º–4º",
       "normText": "§ 1º Na ausência de tratado, a cooperação jurídica internacional poderá realizar-se com base em reciprocidade, manifestada por via diplomática.\n§ 2º Não se exigirá a reciprocidade referida no § 1º para homologação de sentença estrangeira.\n§ 3º Na cooperação jurídica internacional não será admitida a prática de atos que contrariem ou que produzam resultados incompatíveis com as normas fundamentais que regem o Estado brasileiro.\n§ 4º O Ministério da Justiça exercerá as funções de autoridade central na ausência de designação específica.",
-      "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "normKind": "transcrição do recorte normativo estudado"
     },
     {
       "id": "CP029",
@@ -739,8 +729,7 @@
       "source": "NEAF · Jurisdição, p. 11",
       "normLabel": "CPC, art. 27, incisos I–VI",
       "normText": "A cooperação jurídica internacional terá por objeto:\nI - citação, intimação e notificação judicial e extrajudicial;\nII - colheita de provas e obtenção de informações;\nIII - homologação e cumprimento de decisão;\nIV - concessão de medida judicial de urgência;\nV - assistência jurídica internacional;\nVI - qualquer outra medida judicial ou extrajudicial não proibida pela lei brasileira.",
-      "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "normKind": "transcrição do recorte normativo estudado"
     },
     {
       "id": "CP030",
@@ -763,8 +752,7 @@
       "source": "NEAF · Jurisdição, p. 11",
       "normLabel": "CPC, art. 36 e §§ 1º–2º",
       "normText": "O procedimento da carta rogatória perante o Superior Tribunal de Justiça é de jurisdição contenciosa e deve assegurar às partes as garantias do devido processo legal.\n§ 1º A defesa restringir-se-á à discussão quanto ao atendimento dos requisitos para que o pronunciamento judicial estrangeiro produza efeitos no Brasil.\n§ 2º Em qualquer hipótese, é vedada a revisão do mérito do pronunciamento judicial estrangeiro pela autoridade judiciária brasileira.",
-      "normKind": "transcrição do recorte normativo estudado",
-      "image": null
+      "normKind": "transcrição do recorte normativo estudado"
     }
   ]
 }
