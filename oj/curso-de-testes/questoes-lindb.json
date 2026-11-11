@@ -1,0 +1,723 @@
+{
+  "version": 1,
+  "module": "lindb",
+  "title": "Direito Civil · LINDB",
+  "description": "Questões sobre o texto legal que consta do módulo; não abrangem trechos ou artigos ausentes do material.",
+  "source": "LINDB — trechos de cada artigo",
+  "questions": [
+    {
+      "id": "lindb-01-a",
+      "card": 1,
+      "title": "Art. 1 · Quando a lei começa a valer?",
+      "legalLabel": "Art. 1",
+      "legalText": "Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada.",
+      "question": "Uma lei foi publicada sem indicar data de início da vigência. Em regra, quando passa a vigorar no Brasil?",
+      "options": [
+        "Na data da assinatura",
+        "45 dias depois da publicação oficial",
+        "Três meses depois, necessariamente",
+        "Somente quando um juiz autorizar"
+      ],
+      "answer": 1,
+      "explanation": "A regra brasileira é de 45 dias; não confunda com os três meses para obrigatoriedade no exterior, quando admitida.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-01-b",
+      "card": 1,
+      "title": "Art. 1 · Quando a lei começa a valer?",
+      "legalLabel": "Art. 1",
+      "legalText": "Salvo disposição contrária, a lei começa a vigorar em todo o país quarenta e cinco dias depois de oficialmente publicada.",
+      "question": "Uma lei sem cláusula específica de vigência foi publicada oficialmente. Qual é a vacatio legis geral indicada no trecho da LINDB?",
+      "options": [
+        "Quinze dias.",
+        "Trinta dias.",
+        "Quarenta e cinco dias.",
+        "Noventa dias."
+      ],
+      "answer": 2,
+      "explanation": "O art. 1º menciona quarenta e cinco dias, salvo disposição contrária.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-02-a",
+      "card": 2,
+      "title": "Art. 2 · Lei nova e lei antiga",
+      "legalLabel": "Art. 2",
+      "legalText": "Não se destinando à vigência temporária, a lei terá vigor até que outra a modifique ou revogue.",
+      "question": "Segundo o trecho do art. 2º, por quanto tempo permanece em vigor uma lei que não se destina à vigência temporária?",
+      "options": [
+        "Apenas por um ano.",
+        "Até que outra a modifique ou revogue.",
+        "Até a primeira consulta pública.",
+        "Somente durante o mandato do governante."
+      ],
+      "answer": 1,
+      "explanation": "O trecho legal preserva a vigência até modificação ou revogação por outra lei.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-03-a",
+      "card": 3,
+      "title": "Art. 3 · “Eu não sabia!”",
+      "legalLabel": "Art. 3",
+      "legalText": "Ninguém se escusa de cumprir a lei, alegando que não a conhece.",
+      "question": "Qual alegação, por si só, não dispensa H de cumprir uma lei aplicável?",
+      "options": [
+        "Desconhecimento da lei",
+        "Existência de decisão transitada em julgado",
+        "Revogação expressa da norma",
+        "Inconstitucionalidade reconhecida no caso"
+      ],
+      "answer": 0,
+      "explanation": "O art. 3º afasta a desculpa genérica de desconhecimento; isso não significa que lei revogada seja exigível.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-04-a",
+      "card": 4,
+      "title": "Art. 4 · A lei deixou uma lacuna",
+      "legalLabel": "Art. 4",
+      "legalText": "Quando a lei for omissa, o juiz decidirá o caso de acordo com a analogia, os costumes e os princípios gerais de direito.",
+      "question": "Para lidar com omissão da lei, J pode recorrer a qual conjunto?",
+      "options": [
+        "Portarias, entrevistas e vontade pessoal",
+        "Analogia, costumes e princípios gerais do direito",
+        "Somente precedentes estrangeiros",
+        "Apenas analogia, vedadas outras fontes"
+      ],
+      "answer": 1,
+      "explanation": "A LINDB cita expressamente analogia, costumes e princípios gerais de direito.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-04-b",
+      "card": 4,
+      "title": "Art. 4 · A lei deixou uma lacuna",
+      "legalLabel": "Art. 4",
+      "legalText": "Quando a lei for omissa, o juiz decidirá o caso de acordo com a analogia, os costumes e os princípios gerais de direito.",
+      "question": "Na omissão da lei, qual técnica o juiz pode utilizar conforme o texto estudado?",
+      "options": [
+        "Analogia, costumes e princípios gerais do direito.",
+        "Somente opinião pessoal.",
+        "Somente consulta à imprensa.",
+        "Exclusivamente jurisprudência estrangeira."
+      ],
+      "answer": 0,
+      "explanation": "O art. 4º enumera esses instrumentos.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-05-a",
+      "card": 5,
+      "title": "Art. 5 · A lei e o bem comum",
+      "legalLabel": "Art. 5",
+      "legalText": "Na aplicação da lei, o juiz atenderá aos fins sociais a que ela se dirige e às exigências do bem comum.",
+      "question": "Ao aplicar uma lei, que dois critérios J deve considerar expressamente?",
+      "options": [
+        "Fins sociais e exigências do bem comum",
+        "Somente arrecadação e lucro",
+        "Preferência pessoal e conveniência",
+        "Unicamente a lei estrangeira"
+      ],
+      "answer": 0,
+      "explanation": "O art. 5º aponta fins sociais e exigências do bem comum como critérios interpretativos.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-06-a",
+      "card": 6,
+      "title": "Art. 6 · O passado protegido",
+      "legalLabel": "Art. 6",
+      "legalText": "A Lei em vigor terá efeito imediato e geral, respeitados o ato jurídico perfeito, o direito adquirido e a coisa julgada.",
+      "question": "Qual trio deve ser respeitado quando entra em vigor uma lei nova?",
+      "options": [
+        "Prazo judicial, multa e denúncia",
+        "Ato jurídico perfeito, direito adquirido e coisa julgada",
+        "Somente contratos e multas",
+        "Apenas decisões ainda recorríveis"
+      ],
+      "answer": 1,
+      "explanation": "O ato jurídico perfeito já se consumou sob lei vigente; direito adquirido integra a esfera do titular; coisa julgada é a decisão sem recurso cabível.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-06-b",
+      "card": 6,
+      "title": "Art. 6 · O passado protegido",
+      "legalLabel": "Art. 6",
+      "legalText": "A Lei em vigor terá efeito imediato e geral, respeitados o ato jurídico perfeito, o direito adquirido e a coisa julgada.",
+      "question": "Qual conjunto é protegido quando uma nova lei entra em vigor?",
+      "options": [
+        "Ato jurídico perfeito, direito adquirido e coisa julgada.",
+        "Somente contratos públicos.",
+        "Somente atos ainda não praticados.",
+        "Apenas decisões provisórias."
+      ],
+      "answer": 0,
+      "explanation": "O art. 6º enumera os três.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-07-a",
+      "card": 7,
+      "title": "Art. 7 · A pessoa que mudou de país",
+      "legalLabel": "Art. 7",
+      "legalText": "A lei do país em que domiciliada a pessoa determina as regras sobre o começo e o fim da personalidade, o nome, a capacidade e os direitos de família.",
+      "question": "Para definir a capacidade civil de B em contexto internacional, qual conexão é a regra geral?",
+      "options": [
+        "Sua nacionalidade, sempre",
+        "O país onde foi lavrado o documento",
+        "O país de seu domicílio",
+        "O país em que ocorreu a última viagem"
+      ],
+      "answer": 2,
+      "explanation": "O art. 7º adota, em regra, a lei do domicílio para os assuntos enumerados.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-07-b",
+      "card": 7,
+      "title": "Art. 7 · A pessoa que mudou de país",
+      "legalLabel": "Art. 7",
+      "legalText": "A lei do país em que domiciliada a pessoa determina as regras sobre o começo e o fim da personalidade, o nome, a capacidade e os direitos de família.",
+      "question": "Para o começo da personalidade e capacidade civil no plano internacional, qual é a conexão geral mencionada?",
+      "options": [
+        "O país do domicílio da pessoa.",
+        "O país da última viagem.",
+        "O país em que nasceu qualquer familiar.",
+        "O país do juiz."
+      ],
+      "answer": 0,
+      "explanation": "O art. 7º usa o domicílio.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-08-a",
+      "card": 8,
+      "title": "Art. 8 · Onde está o bem?",
+      "legalLabel": "Art. 8",
+      "legalText": "Para qualificar os bens e regular as relações a eles concernentes, aplicar-se-á a lei do país em que estiverem situados.",
+      "question": "Um imóvel de H fica no país X. Como regra de conexão, aplica-se:",
+      "options": [
+        "A lei do país X, onde o imóvel está situado",
+        "A lei do país de nascimento do proprietário",
+        "A lei escolhida pelo vizinho",
+        "Sempre a lei brasileira"
+      ],
+      "answer": 0,
+      "explanation": "O art. 8º aplica a lei da situação do bem; não esqueça as exceções dos §§1º e 2º para móveis em transporte e penhor.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-09-a",
+      "card": 9,
+      "title": "Art. 9 · Contrato entre países",
+      "legalLabel": "Art. 9",
+      "legalText": "Para qualificar e reger as obrigações, aplicar-se-á a lei do país em que se constituírem.",
+      "question": "De acordo com a regra de conexão indicada no trecho do art. 9º, qual lei rege as obrigações?",
+      "options": [
+        "A lei do país em que a obrigação se constituiu.",
+        "A lei do país onde nasceu o credor.",
+        "A lei da sede de qualquer tribunal.",
+        "A lei mais recente do país do devedor."
+      ],
+      "answer": 0,
+      "explanation": "O trecho estudado adota o país em que a obrigação se constitui.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-10-a",
+      "card": 10,
+      "title": "Art. 10 · Herança com bens em dois países",
+      "legalLabel": "Art. 10",
+      "legalText": "A sucessão por morte ou por ausência obedece à lei do país em que domiciliado o defunto ou o desaparecido, qualquer que seja a natureza e a situação dos bens.",
+      "question": "Qual é o principal critério de conexão para a sucessão internacional?",
+      "options": [
+        "Domicílio do falecido ou desaparecido",
+        "Local de cada bem, sem exceções",
+        "País onde nasceu o primeiro herdeiro",
+        "Nacionalidade do inventariante"
+      ],
+      "answer": 0,
+      "explanation": "O art. 10 usa o domicílio do falecido; o §1º prevê regra protetiva referente a bens no Brasil e familiares brasileiros.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-11-a",
+      "card": 11,
+      "title": "Art. 11 · Fundação estrangeira no Brasil",
+      "legalLabel": "Art. 11",
+      "legalText": "As organizações destinadas a fins de interesse coletivo [...] obedecem à lei do Estado em que se constituírem.",
+      "question": "A lei que rege originalmente uma fundação constituída no país X é, como regra:",
+      "options": [
+        "A do país com mais filiais",
+        "A do Estado em que foi constituída",
+        "A do local de nascimento do diretor",
+        "Sempre a de qualquer país em que atuar"
+      ],
+      "answer": 1,
+      "explanation": "O art. 11 usa o Estado de constituição; a instalação no Brasil depende da aprovação exigida pelo §1º.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-12-a",
+      "card": 12,
+      "title": "Art. 12 · Quem pode julgar?",
+      "legalLabel": "Art. 12",
+      "legalText": "É competente a autoridade judiciária brasileira, quando for o réu domiciliado no Brasil ou aqui tiver de ser cumprida a obrigação.",
+      "question": "Qual situação consta como hipótese de competência da autoridade judiciária brasileira no trecho do art. 12?",
+      "options": [
+        "Quando o réu estiver domiciliado no Brasil.",
+        "Quando o autor preferir sempre a lei brasileira.",
+        "Quando o bem estiver situado em qualquer país, sem exceções.",
+        "Quando as partes não possuírem vínculo com o Brasil."
+      ],
+      "answer": 0,
+      "explanation": "O texto menciona réu domiciliado no Brasil ou obrigação que deva ser cumprida aqui.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-13-a",
+      "card": 13,
+      "title": "Art. 13 · Provas vindas do exterior",
+      "legalLabel": "Art. 13",
+      "legalText": "A prova dos fatos ocorridos em país estrangeiro rege-se pela lei que nele vigorar, quanto ao ônus e aos meios de produzir-se.",
+      "question": "Qual lei rege, em princípio, os meios de prova de fatos ocorridos no país X?",
+      "options": [
+        "A lei do país X, respeitado o limite brasileiro de admissibilidade",
+        "Sempre a lei brasileira sem distinção",
+        "A lei do país de domicílio do juiz",
+        "A lei que o autor preferir"
+      ],
+      "answer": 0,
+      "explanation": "O art. 13 distingue lei do local do fato e limite de admissibilidade perante tribunais brasileiros.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-14-a",
+      "card": 14,
+      "title": "Art. 14 · O juiz não conhece a lei estrangeira",
+      "legalLabel": "Art. 14",
+      "legalText": "Não conhecendo a lei estrangeira, poderá o juiz exigir de quem a invoca prova do texto e da vigência.",
+      "question": "O juiz pode exigir de B que demonstre:",
+      "options": [
+        "Só a tradução do contrato",
+        "Texto e vigência da lei estrangeira invocada",
+        "A opinião de três testemunhas",
+        "A publicação da lei brasileira"
+      ],
+      "answer": 1,
+      "explanation": "O art. 14 menciona exatamente texto e vigência, e emprega o verbo “poderá”.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-14-b",
+      "card": 14,
+      "title": "Art. 14 · O juiz não conhece a lei estrangeira",
+      "legalLabel": "Art. 14",
+      "legalText": "Não conhecendo a lei estrangeira, poderá o juiz exigir de quem a invoca prova do texto e da vigência.",
+      "question": "Ao invocar lei estrangeira desconhecida pelo juiz, o que a parte pode ser chamada a demonstrar?",
+      "options": [
+        "Texto e vigência da norma estrangeira.",
+        "Somente sua nacionalidade.",
+        "A concordância do réu com qualquer tradução.",
+        "A idade do magistrado."
+      ],
+      "answer": 0,
+      "explanation": "O art. 14 exige prova do texto e da vigência quando solicitada.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-15-a",
+      "card": 15,
+      "title": "Art. 15 · Uma sentença cruza a fronteira",
+      "legalLabel": "Art. 15",
+      "legalText": "O art. 15 enumera requisitos da sentença estrangeira, incluindo competência, citação/revelia, trânsito em julgado, tradução e homologação (quando exigível).",
+      "question": "Qual grupo de condições aparece no resumo normativo estudado sobre sentença estrangeira?",
+      "options": [
+        "Competência, citação, trânsito em julgado e tradução, entre outros requisitos.",
+        "Apenas a vontade do autor.",
+        "Somente o registro em cartório brasileiro.",
+        "Uma autorização sempre concedida pelo juiz de primeiro grau."
+      ],
+      "answer": 0,
+      "explanation": "O resumo contém requisitos processuais; a competência constitucional atual para homologação, quando exigida, é questão distinta.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-16-a",
+      "card": 16,
+      "title": "Art. 16 · A lei estrangeira aponta para outra lei",
+      "legalLabel": "Art. 16",
+      "legalText": "Quando [...] se houver de aplicar a lei estrangeira, ter-se-á em vista a disposição desta, sem considerar-se qualquer remissão por ela feita a outra lei.",
+      "question": "Se a lei estrangeira aplicável remeter o caso à lei de outro país, a regra da LINDB é:",
+      "options": [
+        "Seguir todas as remissões indefinidamente",
+        "Desconsiderar a remissão",
+        "Aplicar sempre a lei brasileira",
+        "Devolver a escolha às partes"
+      ],
+      "answer": 1,
+      "explanation": "O art. 16 impede o reenvio na solução prevista pela LINDB.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-16-b",
+      "card": 16,
+      "title": "Art. 16 · A lei estrangeira aponta para outra lei",
+      "legalLabel": "Art. 16",
+      "legalText": "Quando [...] se houver de aplicar a lei estrangeira, ter-se-á em vista a disposição desta, sem considerar-se qualquer remissão por ela feita a outra lei.",
+      "question": "A lei estrangeira aplicável remete a norma de outro país. O que indica o trecho da LINDB?",
+      "options": [
+        "Seguir indefinidamente as remissões.",
+        "Não considerar a remissão a outra lei.",
+        "Sempre aplicar direito penal brasileiro.",
+        "Deixar a escolha ao cartório."
+      ],
+      "answer": 1,
+      "explanation": "A remissão é desconsiderada pelo art. 16.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-17-a",
+      "card": 17,
+      "title": "Art. 17 · Três portas de proteção",
+      "legalLabel": "Art. 17",
+      "legalText": "As leis, atos e sentenças de outro país [...] não terão eficácia no Brasil, quando ofenderem a soberania nacional, a ordem pública e os bons costumes.",
+      "question": "Qual conjunto pode impedir eficácia de um ato estrangeiro no Brasil?",
+      "options": [
+        "Lucro, sigilo comercial e publicidade",
+        "Soberania nacional, ordem pública e bons costumes",
+        "Tributação, férias e salário",
+        "Apenas ausência de testemunhas"
+      ],
+      "answer": 1,
+      "explanation": "Os três limites estão expressos no art. 17.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-18-a",
+      "card": 18,
+      "title": "Art. 18 · B no consulado brasileiro",
+      "legalLabel": "Art. 18",
+      "legalText": "Tratando-se de brasileiros, são competentes as autoridades consulares brasileiras para lhes celebrar o casamento e os mais atos de Registro Civil e de tabelionato.",
+      "question": "Qual situação, dentre as seguintes, pode ser realizada por autoridade consular brasileira observados os requisitos legais?",
+      "options": [
+        "Divórcio consensual com filhos menores, sem qualquer cautela",
+        "Registro de nascimento nos casos previstos",
+        "Qualquer sentença criminal estrangeira",
+        "Aprovação de todas as leis estrangeiras"
+      ],
+      "answer": 1,
+      "explanation": "O art. 18 abrange atos de registro civil e tabelionato e disciplina o divórcio consensual consular em hipóteses específicas.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-19-a",
+      "card": 19,
+      "title": "Art. 19 · Uma regra histórica de transição",
+      "legalLabel": "Art. 19",
+      "legalText": "Reputam-se válidos todos os atos indicados no artigo anterior [...] desde que satisfaçam todos os requisitos legais.",
+      "question": "Segundo o trecho disponível do art. 19, os atos nele indicados são reputados válidos quando:",
+      "options": [
+        "Satisfazem todos os requisitos legais.",
+        "São praticados oralmente sem exigências.",
+        "Decorre qualquer prazo de dez dias.",
+        "São aceitos por um particular, mesmo em desacordo com a lei."
+      ],
+      "answer": 0,
+      "explanation": "A redação disponibilizada condiciona a validade aos requisitos legais.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-20-a",
+      "card": 20,
+      "title": "Art. 20 · A consequência também importa",
+      "legalLabel": "Art. 20",
+      "legalText": "Não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão.",
+      "question": "Uma decisão fundada apenas no “interesse público” abstrato, ignorando os efeitos concretos, contraria qual exigência?",
+      "options": [
+        "Consideração das consequências práticas",
+        "Exigência de prova de lei estrangeira",
+        "Prazo de 45 dias",
+        "Aplicação automática de lei antiga"
+      ],
+      "answer": 0,
+      "explanation": "O art. 20 exige consideração de consequências e motivação da necessidade e adequação da medida.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-20-b",
+      "card": 20,
+      "title": "Art. 20 · A consequência também importa",
+      "legalLabel": "Art. 20",
+      "legalText": "Não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão.",
+      "question": "Decisão baseada em valores jurídicos abstratos deve considerar o quê?",
+      "options": [
+        "Somente a preferência da autoridade.",
+        "As consequências práticas da decisão.",
+        "Exclusivamente o prazo de prescrição.",
+        "Somente a publicidade do ato."
+      ],
+      "answer": 1,
+      "explanation": "O art. 20 exige consideração das consequências práticas.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-21-a",
+      "card": 21,
+      "title": "Art. 21 · Anular exige explicar o depois",
+      "legalLabel": "Art. 21",
+      "legalText": "A decisão [...] que decretar a invalidação de ato, contrato, ajuste, processo ou norma administrativa deverá indicar de modo expresso suas consequências jurídicas e administrativas.",
+      "question": "Ao invalidar um ato administrativo, o que a decisão precisa indicar expressamente?",
+      "options": [
+        "Somente a opinião pessoal do julgador",
+        "A marca do equipamento utilizado",
+        "Consequências jurídicas e administrativas",
+        "O prazo de 90 dias para qualquer recurso"
+      ],
+      "answer": 2,
+      "explanation": "O art. 21 exige indicar consequências e, se cabível, condições proporcionais de regularização.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-21-b",
+      "card": 21,
+      "title": "Art. 21 · Anular exige explicar o depois",
+      "legalLabel": "Art. 21",
+      "legalText": "A decisão [...] que decretar a invalidação de ato, contrato, ajuste, processo ou norma administrativa deverá indicar de modo expresso suas consequências jurídicas e administrativas.",
+      "question": "Uma decisão que invalida ato administrativo deve indicar expressamente:",
+      "options": [
+        "Consequências jurídicas e administrativas.",
+        "A profissão do advogado.",
+        "Somente o valor da causa.",
+        "A preferência pessoal do agente."
+      ],
+      "answer": 0,
+      "explanation": "O art. 21 assim estabelece.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-22-a",
+      "card": 22,
+      "title": "Art. 22 · O gestor diante de obstáculos",
+      "legalLabel": "Art. 22",
+      "legalText": "Na interpretação de normas sobre gestão pública, serão considerados os obstáculos e as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo.",
+      "question": "Ao avaliar a atuação de G, o julgador deve considerar:",
+      "options": [
+        "Apenas o resultado ideal, ignorando obstáculos",
+        "Obstáculos reais e exigências das políticas públicas",
+        "Somente o salário do gestor",
+        "Exclusivamente a idade do gestor"
+      ],
+      "answer": 1,
+      "explanation": "O art. 22 exige contextualização real, mas não elimina direitos dos administrados nem responsabilidade por irregularidades.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-22-b",
+      "card": 22,
+      "title": "Art. 22 · O gestor diante de obstáculos",
+      "legalLabel": "Art. 22",
+      "legalText": "Na interpretação de normas sobre gestão pública, serão considerados os obstáculos e as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo.",
+      "question": "Ao interpretar normas sobre gestão pública, o julgador deve considerar:",
+      "options": [
+        "Apenas uma gestão ideal e sem obstáculos.",
+        "Obstáculos e dificuldades reais do gestor e exigências das políticas públicas.",
+        "Somente a eleição mais próxima.",
+        "Apenas a renda do gestor."
+      ],
+      "answer": 1,
+      "explanation": "O art. 22 identifica obstáculos reais e exigências das políticas públicas.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-23-a",
+      "card": 23,
+      "title": "Art. 23 · Nova interpretação, nova exigência",
+      "legalLabel": "Art. 23",
+      "legalText": "A decisão [...] que estabelecer interpretação ou orientação nova sobre norma de conteúdo indeterminado [...] deverá prever regime de transição quando indispensável.",
+      "question": "Quando a nova orientação impõe dever inesperado e exige adaptação para cumprimento proporcional, a autoridade deve:",
+      "options": [
+        "Criar regime de transição, se indispensável",
+        "Ignorar a mudança",
+        "Pedir homologação do STF",
+        "Impor multa automática sem motivação"
+      ],
+      "answer": 0,
+      "explanation": "O regime de transição é condicionado à indispensabilidade, não obrigatório em toda modificação interpretativa.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-23-b",
+      "card": 23,
+      "title": "Art. 23 · Nova interpretação, nova exigência",
+      "legalLabel": "Art. 23",
+      "legalText": "A decisão [...] que estabelecer interpretação ou orientação nova sobre norma de conteúdo indeterminado [...] deverá prever regime de transição quando indispensável.",
+      "question": "Orientação nova sobre norma de conteúdo indeterminado impõe novo dever. Se indispensável à adaptação, o que deve ser previsto?",
+      "options": [
+        "Regime de transição.",
+        "Revogação obrigatória da Constituição.",
+        "Punição automática do gestor.",
+        "Homologação de sentença estrangeira."
+      ],
+      "answer": 0,
+      "explanation": "O art. 23 prevê regime de transição quando indispensável.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-24-a",
+      "card": 24,
+      "title": "Art. 24 · Não julgue ontem com a régua de amanhã",
+      "legalLabel": "Art. 24",
+      "legalText": "A revisão [...] levará em conta as orientações gerais da época, sendo vedado que, com base em mudança posterior [...] se declarem inválidas situações plenamente constituídas.",
+      "question": "Uma situação foi plenamente constituída seguindo orientação geral antiga. A mudança posterior, por si só:",
+      "options": [
+        "Invalida sempre o ato",
+        "Não autoriza invalidá-la apenas por essa mudança",
+        "Torna o ato crime",
+        "Reabre automaticamente coisa julgada"
+      ],
+      "answer": 1,
+      "explanation": "O art. 24 preserva a confiança nas orientações gerais vigentes ao tempo da produção do ato.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-25-a",
+      "card": 25,
+      "title": "Art. 25 · Aqui houve veto",
+      "legalLabel": "Art. 25",
+      "legalText": "Art. 25. (VETADO).",
+      "question": "Qual afirmação sobre o art. 25 da LINDB está correta?",
+      "options": [
+        "Fixa o prazo de 25 dias",
+        "Traz regra expressa de competência",
+        "Foi vetado",
+        "Revoga integralmente o art. 24"
+      ],
+      "answer": 2,
+      "explanation": "Artigo vetado não fornece regra aplicável.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-26-a",
+      "card": 26,
+      "title": "Art. 26 · Compromisso para resolver incerteza",
+      "legalLabel": "Art. 26",
+      "legalText": "[...] poderá [...] celebrar compromisso com os interessados [...] o qual só produzirá efeitos a partir de sua publicação oficial.",
+      "question": "Quando começa a produzir efeitos o compromisso previsto no art. 26?",
+      "options": [
+        "Na conversa informal entre os envolvidos",
+        "A partir da publicação oficial",
+        "Sempre 45 dias depois do acordo",
+        "Somente ao fim de um mandato"
+      ],
+      "answer": 1,
+      "explanation": "A eficácia do compromisso depende da publicação oficial, além dos demais requisitos legais.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-26-b",
+      "card": 26,
+      "title": "Art. 26 · Compromisso para resolver incerteza",
+      "legalLabel": "Art. 26",
+      "legalText": "[...] poderá [...] celebrar compromisso com os interessados [...] o qual só produzirá efeitos a partir de sua publicação oficial.",
+      "question": "Quando o compromisso referido no art. 26 produz efeitos?",
+      "options": [
+        "Desde a conversa informal.",
+        "A partir de sua publicação oficial.",
+        "Sempre após cinco anos.",
+        "Somente após sentença penal."
+      ],
+      "answer": 1,
+      "explanation": "O próprio texto exige publicação oficial.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-27-a",
+      "card": 27,
+      "title": "Art. 27 · Compensar vantagens e perdas injustas",
+      "legalLabel": "Art. 27",
+      "legalText": "A decisão do processo [...] poderá impor compensação por benefícios indevidos ou prejuízos anormais ou injustos.",
+      "question": "Qual possibilidade está prevista no trecho estudado do art. 27?",
+      "options": [
+        "Impor compensação por benefícios indevidos ou prejuízos anormais ou injustos.",
+        "Dispensar qualquer motivação de decisão.",
+        "Impedir o julgamento de ações judiciais.",
+        "Eliminar a exigência de demonstração de prejuízo em toda hipótese."
+      ],
+      "answer": 0,
+      "explanation": "O dispositivo menciona expressamente compensação nessas hipóteses.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-28-a",
+      "card": 28,
+      "title": "Art. 28 · Erro comum não é erro grosseiro",
+      "legalLabel": "Art. 28",
+      "legalText": "O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro.",
+      "question": "Qual dupla constitui o critério expresso para responsabilidade pessoal de G?",
+      "options": [
+        "Atraso e impopularidade",
+        "Qualquer erro e qualquer crítica",
+        "Dolo ou erro grosseiro",
+        "Mudança legislativa e vacatio"
+      ],
+      "answer": 2,
+      "explanation": "O art. 28 utiliza dolo ou erro grosseiro; não equipare automaticamente erro leve a erro grosseiro.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-28-b",
+      "card": 28,
+      "title": "Art. 28 · Erro comum não é erro grosseiro",
+      "legalLabel": "Art. 28",
+      "legalText": "O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro.",
+      "question": "Segundo o art. 28, em quais situações o agente responde pessoalmente por decisões ou opiniões técnicas?",
+      "options": [
+        "Qualquer desacordo de opinião.",
+        "Dolo ou erro grosseiro.",
+        "Toda irregularidade formal, sem distinção.",
+        "Qualquer mudança posterior de lei."
+      ],
+      "answer": 1,
+      "explanation": "O dispositivo exige dolo ou erro grosseiro.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "lindb-29-a",
+      "card": 29,
+      "title": "Art. 29 · A população é ouvida",
+      "legalLabel": "Art. 29",
+      "legalText": "A edição de atos normativos por autoridade administrativa [...] poderá ser precedida de consulta pública para manifestação de interessados.",
+      "question": "Conforme a regra geral do art. 29, a consulta pública antes do ato normativo:",
+      "options": [
+        "É sempre obrigatória sem exceção",
+        "É proibida por meio eletrônico",
+        "Pode ocorrer, com preferência por meio eletrônico",
+        "Só pode ser realizada pelo Judiciário"
+      ],
+      "answer": 2,
+      "explanation": "O verbo legal é “poderá”. Consulta pública, quando adotada, deve ser considerada na decisão e ter minuta, prazo e condições.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "lindb-30-a",
+      "card": 30,
+      "title": "Art. 30 · Estabilidade na aplicação das normas",
+      "legalLabel": "Art. 30",
+      "legalText": "As autoridades públicas devem atuar para aumentar a segurança jurídica na aplicação das normas, inclusive por meio de regulamentos, súmulas administrativas e respostas a consultas.",
+      "question": "Os instrumentos previstos no art. 30 vinculam o órgão ou entidade destinatário:",
+      "options": [
+        "Somente durante 24 horas",
+        "Até ulterior revisão",
+        "Pelo prazo fixo de cinco meses",
+        "Jamais, pois são sempre mera opinião"
+      ],
+      "answer": 1,
+      "explanation": "O parágrafo único do art. 30 atribui caráter vinculante ao órgão ou entidade destinatário, até revisão.",
+      "origin": "recorte legal do módulo"
+    }
+  ]
+}
