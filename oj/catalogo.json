@@ -488,7 +488,33 @@
     {
       "id": "curso-de-testes",
       "title": "Curso de Testes",
-      "groups": []
+      "groups": [
+        {
+          "title": "Bancos de questões",
+          "topics": [
+            {
+              "title": "Todos os conteúdos · 121 questões",
+              "href": "./curso-de-testes/questoes.html"
+            },
+            {
+              "title": "Direito Civil · LINDB · 42 questões",
+              "href": "./curso-de-testes/questoes.html?modulo=lindb"
+            },
+            {
+              "title": "DPC · Normas Fundamentais · 23 questões",
+              "href": "./curso-de-testes/questoes.html?modulo=cpc-normas"
+            },
+            {
+              "title": "DPC · Jurisdição · 30 questões",
+              "href": "./curso-de-testes/questoes.html?modulo=cpc-jurisdicao"
+            },
+            {
+              "title": "Direito Administrativo · Improbidade · 26 questões",
+              "href": "./curso-de-testes/questoes.html?modulo=improbidade"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "discursivas",
