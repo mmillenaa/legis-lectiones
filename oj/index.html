@@ -52,6 +52,8 @@ h1{font-family:Georgia,serif;font-weight:600;letter-spacing:-.035em;font-size:cl
 .topic-row.active .topic-status{color:#15724e;border-color:#a3d9be;background:#e9f8ef}
 .topic-row a{text-decoration:none;color:#94420c;font-weight:750;border-bottom:1px solid transparent}
 .topic-row a:hover{border-color:#94420c}
+.topic-row .quiz-link{flex:none;border:1px solid #b78560;border-radius:9px;padding:5px 9px;font-size:12px;background:#3a2b25;color:#ffd2ae;font-weight:750}
+.topic-row .quiz-link:hover{background:#52372b;color:#fff;border-color:#e7a978}
 .blank{border:1px dashed #cbd7e4;background:#f7f9fc;color:#63728b;border-radius:13px;padding:24px}
 .hidden{display:none!important}
 footer{margin-top:45px;color:#8592a5;font-size:12px;text-align:center}
@@ -65,6 +67,7 @@ footer{margin-top:45px;color:#8592a5;font-size:12px;text-align:center}
   <span class="logo">OJ · Legis Lectiones</span>
   <span class="detail">Biblioteca de estudos</span>
   <span class="space"></span>
+  <a href="./questoes.html" title="Banco de questões de lei seca">Banco de questões</a>
   <a href="../" title="Página inicial">Legis Lectiones</a>
 </header>
 <main class="wrap">
@@ -121,9 +124,11 @@ footer{margin-top:45px;color:#8592a5;font-size:12px;text-align:center}
     const groups=d.groups.map(group=>{
       const rows=group.topics.map(t=>{
         const number=String(++index).padStart(2,"0"),href=safeHref(t.href);
+        const hasQuiz=Boolean(href)&&["./lindb.html","./cpc-normas.html","./cpc-jurisdicao.html","./improbidade.html"].includes(href);
         return '<li class="topic-row'+(href?' active':'')+'"><span class="topic-index">'+number+'</span>'
           +(href?'<a class="topic-text" href="'+esc(href)+'">'+esc(t.title)+'</a>':'<span class="topic-text">'+esc(t.title)+'</span>')
-          +'<span class="topic-status">'+(href?'Abrir conteúdo':'Em preparação')+'</span></li>';
+          +'<span class="topic-status">'+(href?'Abrir conteúdo':'Em preparação')+'</span>'
+          +(hasQuiz?'<a class="quiz-link" href="./questoes.html?modulo='+encodeURIComponent(href.slice(2,-5))+'">Questões</a>':'')+'</li>';
       }).join("");
       return '<section class="topic-panel"><h2>'+esc(group.title)+'</h2><ol class="topic-list">'+rows+'</ol></section>';
     }).join("");
