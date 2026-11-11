@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="color-scheme" content="dark">
+<title>Questões de lei seca · OJ</title>
+<script src="../../legacy-gate.js"></script>
+<link rel="stylesheet" href="../leitura.css">
+<link rel="stylesheet" href="../noite.css">
+<style>
+.quiz-shell{max-width:960px;margin:0 auto;padding:27px 18px 72px}
+.quiz-nav{display:flex;align-items:center;gap:14px;background:#0b121e;padding:12px max(18px,calc((100vw - 960px)/2));border-bottom:1px solid #2b3848}
+.quiz-nav .brand{color:#fff}.quiz-nav a{font-size:13px;font-weight:700;color:#b8d4f5;text-decoration:none}
+.quiz-nav a:hover{text-decoration:underline}
+.quiz-nav .spacer{flex:1}
+.quiz-shell h1{margin:4px 0 8px}
+.quiz-shell .subtitle{color:#aebfd0;margin:0 0 17px;font-size:14px}
+.quiz-sel{display:flex;gap:10px;flex-wrap:wrap;align-items:end;margin:12px 0}
+.quiz-sel label{display:grid;gap:5px;flex:1;min-width:205px;font-size:12px;font-weight:750;color:#cbd6e5}
+.quiz-sel select{min-width:0;width:100%;background:#1b2838;color:#edf3fc;border:1px solid #49576a;border-radius:10px;padding:12px;font-size:14px}
+.quiz-topline{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:9px;margin:12px 0;color:#aebed1;font-size:13px}
+.quiz-stat{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.quiz-source{color:#9bb1c7;font-size:12px;margin-top:13px}
+.quiz-source a{color:#a8d5ff}
+.quiz-answer-heading{font-size:13px;text-transform:uppercase;letter-spacing:.09em;font-weight:800;color:#cbd8e9;margin:14px 0 4px}
+.quiz-card{margin-top:12px;min-height:330px}
+.quiz-card h2{margin:9px 0 19px}
+.quiz-option{cursor:pointer}
+.quiz-option:disabled{cursor:default}
+.quiz-prompt{font-size:17px;line-height:1.65;color:#eff4fc;margin:9px 0 18px}
+.quiz-details{border:1px solid #3c5368;border-radius:10px;background:#1a2837;margin:12px 0;color:#d8e5f3}
+.quiz-details summary{padding:10px 13px;font-size:13px;cursor:pointer;font-weight:750;color:#b6d6f5}
+.quiz-details pre{white-space:pre-wrap;font:13px/1.7 system-ui,sans-serif;margin:0;padding:13px;border-top:1px solid #34485d}
+.quiz-empty{background:#182534;padding:20px;border-radius:13px;border:1px solid #435367}
+.quiz-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:15px}
+@media(max-width:560px){.quiz-shell{padding:17px 12px 44px}.quiz-nav{gap:8px;padding:12px}.quiz-nav .brand{font-size:18px}.quiz-shell h1{font-size:30px}.quiz-option{padding:12px}.quiz-actions{justify-content:space-between}}
+</style>
+</head>
+<body>
+<header class="quiz-nav">
+  <span class="brand">Legis Lectiones</span>
+  <span class="spacer"></span>
+  <a href="../">Disciplinas</a>
+  <a id="backToRead" href="./">Voltar à leitura</a>
+</header>
+<main class="quiz-shell">
+  <div class="overline">OJ · Treino de prova</div>
+  <h1>Questões de lei seca</h1>
+  <p class="subtitle">Questões objetivas elaboradas a partir dos trechos normativos presentes nos módulos, com correção imediata e acesso à redação utilizada.</p>
+  <div class="quiz-sel">
+    <label>Conteúdo
+      <select id="moduleSelect" aria-label="Selecionar conteúdo">
+        <option value="lindb">Direito Civil · LINDB</option>
+        <option value="cpc-normas">DPC · Normas Fundamentais</option>
+        <option value="cpc-jurisdicao">DPC · Jurisdição</option>
+        <option value="improbidade">Direito Administrativo · Improbidade</option>
+        <option value="todos">Todos os conteúdos</option>
+      </select>
+    </label>
+    <label>Parte do conteúdo
+      <select id="topicSelect" aria-label="Selecionar assunto"><option value="todos">Todos os assuntos</option></select>
+    </label>
+  </div>
+  <div class="quiz-topline">
+    <div id="progressLabel">Carregando questões…</div>
+    <div class="quiz-stat"><span id="scoreLabel"></span><button type="button" id="retryWrong" class="quiz-action" hidden>Refazer erradas</button><button type="button" id="reset" class="quiz-action">Reiniciar</button></div>
+  </div>
+  <div class="quiz-progress" aria-hidden="true"><span id="progressBar" style="width:0"></span></div>
+  <section class="quiz-card" id="questionBox" aria-live="polite">Carregando banco de questões…</section>
+  <nav class="quiz-controls" aria-label="Navegação do banco">
+    <button type="button" id="prevQuestion">Anterior</button>
+    <span class="counter" id="questionCounter"></span>
+    <button type="button" id="nextQuestion" class="primary">Próxima</button>
+  </nav>
+  <p class="quiz-source">As questões abrangem apenas os dispositivos transcritos ou resumidos nos materiais cadastrados. Tópicos exclusivamente doutrinários não foram classificados como lei seca. Confira a redação integral da legislação para estudar exceções não incluídas no recorte.</p>
+</main>
+<script src="./questoes.js"></script>
+</body>
+</html>
