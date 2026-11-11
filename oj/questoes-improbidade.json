@@ -1,0 +1,451 @@
+{
+  "version": 1,
+  "module": "improbidade",
+  "title": "Direito Administrativo · Improbidade",
+  "description": "Questões sobre o texto legal que consta do módulo; não abrangem trechos ou artigos ausentes do material.",
+  "source": "Lei nº 8.429/1992 conforme o recorte do material",
+  "questions": [
+    {
+      "id": "improbidade-01-a",
+      "card": 1,
+      "title": "Dolo e tipicidade",
+      "legalLabel": "Condutas dolosas tipificadas",
+      "legalText": "Art. 1º, § 1º: Consideram-se atos de improbidade administrativa as condutas dolosas tipificadas nos arts. 9º, 10 e 11 desta Lei, ressalvados tipos previstos em leis especiais.",
+      "question": "Para que uma conduta se enquadre nas modalidades estudadas, qual elemento subjetivo é essencial?",
+      "options": [
+        "Dolo; a mera culpa não basta.",
+        "Simples erro formal.",
+        "Responsabilidade automática por ocupar cargo.",
+        "Qualquer decisão administrativa desfavorável."
+      ],
+      "answer": 0,
+      "explanation": "Dolo; a mera culpa não basta.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-02-a",
+      "card": 2,
+      "title": "Três modalidades: enriquecimento, dano e princípios",
+      "legalLabel": "Arts. 9º, 10 e 11 — diferenças",
+      "legalText": "Art. 9º (caput). Constitui ato de improbidade administrativa importando em enriquecimento ilícito auferir, mediante a prática de ato doloso, qualquer tipo de vantagem patrimonial indevida em razão do exercício de cargo, de mandato, de função, de emprego ou de atividade nas entidades referidas no art. 1º desta Lei, e notadamente:\n\nArt. 10 (caput). Constitui ato de improbidade administrativa que causa lesão ao erário qualquer ação ou omissão dolosa, que enseje, efetiva e comprovadamente, perda patrimonial, desvio, apropriação, malbaratamento ou dilapidação dos bens ou haveres das entidades referidas no art. 1º desta Lei, e notadamente:\n\nArt. 11 (caput). Constitui ato de improbidade administrativa que atenta contra os princípios da administração pública a ação ou omissão dolosa que viole os deveres de honestidade, de imparcialidade e de legalidade, caracterizada por uma das seguintes condutas:",
+      "question": "Qual distinção reproduz o quadro do PDF?",
+      "options": [
+        "Todas as modalidades exigem enriquecimento pessoal do agente.",
+        "Art. 9º: vantagem indevida; art. 10: dano efetivo; art. 11: violação dolosa tipificada de princípios.",
+        "O dano presumido basta sempre para o art. 10.",
+        "Qualquer infração administrativa constitui art. 11."
+      ],
+      "answer": 1,
+      "explanation": "Art. 9º: vantagem indevida; art. 10: dano efetivo; art. 11: violação dolosa tipificada de princípios.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-03-a",
+      "card": 3,
+      "title": "Enriquecimento ilícito: regra geral",
+      "legalLabel": "Art. 9º — caput",
+      "legalText": "Constitui ato de improbidade administrativa importando em enriquecimento ilícito auferir, mediante a prática de ato doloso, qualquer tipo de vantagem patrimonial indevida em razão do exercício de cargo, de mandato, de função, de emprego ou de atividade nas entidades referidas no art. 1º desta Lei, e notadamente:",
+      "question": "Qual é o núcleo do enriquecimento ilícito no caput do art. 9º?",
+      "options": [
+        "Qualquer enriquecimento comprovadamente lícito.",
+        "Todo prejuízo contábil causado por terceiro sem participação do agente.",
+        "Auferir vantagem patrimonial indevida mediante prática dolosa em razão da função.",
+        "Qualquer conduta culposa de servidor."
+      ],
+      "answer": 2,
+      "explanation": "Auferir vantagem patrimonial indevida mediante prática dolosa em razão da função.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-04-a",
+      "card": 4,
+      "title": "Vantagem recebida de interessado",
+      "legalLabel": "Art. 9º, I",
+      "legalText": "Receber, para si ou para outrem, dinheiro, bem móvel ou imóvel, ou qualquer outra vantagem econômica, direta ou indireta, a título de comissão, percentagem, gratificação ou presente de quem tenha interesse, direto ou indireto, que possa ser atingido ou amparado por ação ou omissão decorrente das atribuições do agente público.",
+      "question": "A recebe presente de B, interessado em decisão de sua atribuição, como vantagem indevida. Qual elemento é central?",
+      "options": [
+        "A existência de presente simbólico sem vínculo funcional.",
+        "A simples amizade sem interesse na atuação do agente.",
+        "Somente o dano causado diretamente ao erário.",
+        "A vantagem de interessado em ato ou omissão decorrente da função."
+      ],
+      "answer": 3,
+      "explanation": "A vantagem de interessado em ato ou omissão decorrente da função.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-04-b",
+      "card": 4,
+      "title": "Vantagem recebida de interessado",
+      "legalLabel": "Art. 9º, I",
+      "legalText": "Receber, para si ou para outrem, dinheiro, bem móvel ou imóvel, ou qualquer outra vantagem econômica, direta ou indireta, a título de comissão, percentagem, gratificação ou presente de quem tenha interesse, direto ou indireto, que possa ser atingido ou amparado por ação ou omissão decorrente das atribuições do agente público.",
+      "question": "A vantagem indevida recebida pelo agente, na hipótese estudada, pode beneficiar outra pessoa?",
+      "options": [
+        "Não, apenas o próprio agente.",
+        "Sim, para si ou para outrem.",
+        "Somente o órgão público.",
+        "Somente um familiar de primeiro grau."
+      ],
+      "answer": 1,
+      "explanation": "O inciso I emprega a expressão 'para si ou para outrem'.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "improbidade-05-a",
+      "card": 5,
+      "title": "Compra pública acima do mercado",
+      "legalLabel": "Art. 9º, II",
+      "legalText": "Perceber vantagem econômica, direta ou indireta, para facilitar a aquisição, permuta ou locação de bem móvel ou imóvel, ou a contratação de serviços pelas entidades referidas no art. 1º por preço superior ao valor de mercado.",
+      "question": "A recebe vantagem para facilitar compra pública acima do valor de mercado. Qual situação é examinada?",
+      "options": [
+        "Vantagem ligada à aquisição ou contratação acima do preço de mercado.",
+        "Alienação pública por valor superior ao de mercado.",
+        "Compra regular pelo preço competitivo sem benefício pessoal.",
+        "Recusa de presente indevido."
+      ],
+      "answer": 0,
+      "explanation": "Vantagem ligada à aquisição ou contratação acima do preço de mercado.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-05-b",
+      "card": 5,
+      "title": "Compra pública acima do mercado",
+      "legalLabel": "Art. 9º, II",
+      "legalText": "Perceber vantagem econômica, direta ou indireta, para facilitar a aquisição, permuta ou locação de bem móvel ou imóvel, ou a contratação de serviços pelas entidades referidas no art. 1º por preço superior ao valor de mercado.",
+      "question": "Na vantagem para facilitar aquisição ou contratação pública, o inciso II destaca qual distorção de preço?",
+      "options": [
+        "Preço superior ao mercado.",
+        "Preço necessariamente igual ao mercado.",
+        "Preço inferior ao mercado.",
+        "Ausência de qualquer preço."
+      ],
+      "answer": 0,
+      "explanation": "O inciso II indica preço superior ao valor de mercado.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "improbidade-06-a",
+      "card": 6,
+      "title": "Venda ou serviço público abaixo do mercado",
+      "legalLabel": "Art. 9º, III",
+      "legalText": "Perceber vantagem econômica, direta ou indireta, para facilitar a alienação, permuta ou locação de bem público ou o fornecimento de serviço por ente estatal por preço inferior ao valor de mercado.",
+      "question": "O inciso III se refere à vantagem recebida para facilitar:",
+      "options": [
+        "Compra pública com preço superior ao mercado.",
+        "Alienação, permuta, locação ou fornecimento estatal abaixo do valor de mercado.",
+        "Contratação de assessoramento sem interesse envolvido.",
+        "Aplicação imediata de lei processual."
+      ],
+      "answer": 1,
+      "explanation": "Alienação, permuta, locação ou fornecimento estatal abaixo do valor de mercado.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-06-b",
+      "card": 6,
+      "title": "Venda ou serviço público abaixo do mercado",
+      "legalLabel": "Art. 9º, III",
+      "legalText": "Perceber vantagem econômica, direta ou indireta, para facilitar a alienação, permuta ou locação de bem público ou o fornecimento de serviço por ente estatal por preço inferior ao valor de mercado.",
+      "question": "Na vantagem por facilitar alienação de bem público, o inciso III menciona preço:",
+      "options": [
+        "Superior ao mercado.",
+        "Inferior ao mercado.",
+        "Sempre equivalente à avaliação.",
+        "Fixado pelo agente sem qualquer referência."
+      ],
+      "answer": 1,
+      "explanation": "O inciso III aponta preço inferior ao valor de mercado.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "improbidade-07-a",
+      "card": 7,
+      "title": "Uso de bem ou trabalho público em atividade particular",
+      "legalLabel": "Art. 9º, IV",
+      "legalText": "Utilizar, em obra ou serviço particular, qualquer bem móvel, de propriedade ou à disposição de qualquer das entidades referidas no art. 1º desta Lei, bem como o trabalho de servidores, de empregados ou de terceiros contratados por essas entidades.",
+      "question": "A utiliza diretamente máquina pública em obra particular. Qual conduta o inciso IV descreve?",
+      "options": [
+        "Apenas elaboração de projeto público regular.",
+        "Somente cessão gratuita autorizada conforme lei.",
+        "Uso de bem móvel ou trabalho de pessoal público em obra ou serviço particular.",
+        "Recebimento de verba previdenciária legítima."
+      ],
+      "answer": 2,
+      "explanation": "Uso de bem móvel ou trabalho de pessoal público em obra ou serviço particular.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-08-a",
+      "card": 8,
+      "title": "Vantagem para tolerar atividade ilícita",
+      "legalLabel": "Art. 9º, V",
+      "legalText": "Receber vantagem econômica de qualquer natureza, direta ou indireta, para tolerar a exploração ou a prática de jogos de azar, de lenocínio, de narcotráfico, de contrabando, de usura ou de qualquer outra atividade ilícita, ou aceitar promessa de tal vantagem.",
+      "question": "A recebe vantagem para tolerar atividade ilícita de B. Qual hipótese corresponde ao inciso V?",
+      "options": [
+        "Aplicar sanção regularmente à atividade ilícita.",
+        "Fiscalizar e comunicar o ilícito ao órgão competente.",
+        "Receber salário pelo exercício regular do cargo.",
+        "Receber ou aceitar promessa de benefício para tolerar a prática ilícita."
+      ],
+      "answer": 3,
+      "explanation": "Receber ou aceitar promessa de benefício para tolerar a prática ilícita.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-09-a",
+      "card": 9,
+      "title": "Declaração técnica falsa remunerada",
+      "legalLabel": "Art. 9º, VI",
+      "legalText": "Receber vantagem econômica de qualquer natureza, direta ou indireta, para fazer declaração falsa sobre qualquer dado técnico que envolva obras públicas ou qualquer outro serviço ou sobre quantidade, peso, medida, qualidade ou característica de mercadorias ou bens fornecidos a qualquer das entidades referidas no art. 1º desta Lei.",
+      "question": "A recebe vantagem para declarar falsamente a qualidade de produto fornecido ao Estado. Qual conduta ocorre?",
+      "options": [
+        "Declaração técnica falsa em troca de vantagem econômica.",
+        "Erro técnico de boa-fé sem vantagem.",
+        "Avaliação correta acompanhada de fiscalização regular.",
+        "Participação em audiência de conciliação."
+      ],
+      "answer": 0,
+      "explanation": "Declaração técnica falsa em troca de vantagem econômica.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-10-a",
+      "card": 10,
+      "title": "Evolução patrimonial e origem lícita",
+      "legalLabel": "Art. 9º, VII",
+      "legalText": "Adquirir, para si ou para outrem, no exercício de mandato, de cargo, de emprego ou de função pública, e em razão deles, bens de qualquer natureza, decorrentes dos atos descritos no caput deste artigo, cujo valor seja desproporcional à evolução do patrimônio ou à renda do agente público, assegurada a demonstração pelo agente da licitude da origem dessa evolução.",
+      "question": "Um agente adquire bens muito acima da renda. O que o inciso VII assegura?",
+      "options": [
+        "Condenação automática pelo simples valor dos bens.",
+        "Possibilidade de demonstrar a origem lícita da evolução patrimonial, considerados os pressupostos do caput.",
+        "Presunção irrefutável de que todo bem é ilícito.",
+        "Obrigatoriedade de doar todos os bens ao Estado."
+      ],
+      "answer": 1,
+      "explanation": "Possibilidade de demonstrar a origem lícita da evolução patrimonial, considerados os pressupostos do caput.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-10-b",
+      "card": 10,
+      "title": "Evolução patrimonial e origem lícita",
+      "legalLabel": "Art. 9º, VII",
+      "legalText": "Adquirir, para si ou para outrem, no exercício de mandato, de cargo, de emprego ou de função pública, e em razão deles, bens de qualquer natureza, decorrentes dos atos descritos no caput deste artigo, cujo valor seja desproporcional à evolução do patrimônio ou à renda do agente público, assegurada a demonstração pelo agente da licitude da origem dessa evolução.",
+      "question": "Na evolução patrimonial desproporcional, o inciso VII assegura ao agente:",
+      "options": [
+        "A demonstração da licitude da origem da evolução.",
+        "Imunidade automática à investigação.",
+        "Presunção absoluta de dolo.",
+        "Dispensa de qualquer vínculo funcional."
+      ],
+      "answer": 0,
+      "explanation": "O texto preserva a possibilidade de demonstrar a origem lícita.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "improbidade-11-a",
+      "card": 11,
+      "title": "Consultoria para pessoa interessada",
+      "legalLabel": "Art. 9º, VIII",
+      "legalText": "Aceitar emprego, comissão ou exercer atividade de consultoria ou assessoramento para pessoa física ou jurídica que tenha interesse suscetível de ser atingido ou amparado por ação ou omissão decorrente das atribuições do agente público, durante a atividade.",
+      "question": "Qual situação corresponde ao art. 9º, VIII?",
+      "options": [
+        "Participar de curso público de capacitação.",
+        "Solicitar esclarecimentos ao superior hierárquico.",
+        "Aceitar consultoria ou emprego de interessado que pode ser afetado pelas atribuições do agente durante a atividade.",
+        "Realizar concurso público de ingresso."
+      ],
+      "answer": 2,
+      "explanation": "Aceitar consultoria ou emprego de interessado que pode ser afetado pelas atribuições do agente durante a atividade.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-12-a",
+      "card": 12,
+      "title": "Vantagem por intermediar verba pública",
+      "legalLabel": "Art. 9º, IX",
+      "legalText": "Perceber vantagem econômica para intermediar a liberação ou aplicação de verba pública de qualquer natureza.",
+      "question": "O que caracteriza a hipótese do inciso IX?",
+      "options": [
+        "Acompanhar transparência de repasses sem vantagem indevida.",
+        "Executar dotação orçamentária conforme as regras.",
+        "Solicitar prestação de contas legal.",
+        "Receber vantagem para intermediar liberação ou aplicação de verba pública."
+      ],
+      "answer": 3,
+      "explanation": "Receber vantagem para intermediar liberação ou aplicação de verba pública.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-13-a",
+      "card": 13,
+      "title": "Vantagem para omitir ato de ofício",
+      "legalLabel": "Art. 9º, X",
+      "legalText": "Receber vantagem econômica de qualquer natureza, direta ou indiretamente, para omitir ato de ofício, providência ou declaração a que esteja obrigado.",
+      "question": "A recebe dinheiro para não praticar ato de ofício obrigatório. Qual conduta ocorre?",
+      "options": [
+        "Vantagem econômica para omitir providência ou declaração devida.",
+        "Pedido legal de afastamento remunerado.",
+        "Atraso involuntário sem vantagem.",
+        "Notificação realizada no prazo."
+      ],
+      "answer": 0,
+      "explanation": "Vantagem econômica para omitir providência ou declaração devida.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-14-a",
+      "card": 14,
+      "title": "Incorporar bens e valores públicos",
+      "legalLabel": "Art. 9º, XI",
+      "legalText": "Incorporar, por qualquer forma, ao seu patrimônio bens, rendas, verbas ou valores integrantes do acervo patrimonial das entidades mencionadas no art. 1º desta lei.",
+      "question": "Qual verbo diferencia a conduta do inciso XI?",
+      "options": [
+        "Fiscalizar a utilização de equipamento.",
+        "Incorporar bens, rendas, verbas ou valores públicos ao patrimônio próprio.",
+        "Comunicar extravio de material.",
+        "Avaliar valor de mercado para licitação."
+      ],
+      "answer": 1,
+      "explanation": "Incorporar bens, rendas, verbas ou valores públicos ao patrimônio próprio.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-15-a",
+      "card": 15,
+      "title": "Usar bens e valores públicos em proveito próprio",
+      "legalLabel": "Art. 9º, XII",
+      "legalText": "Usar, em proveito próprio, bens, rendas, verbas ou valores integrantes do acervo patrimonial das entidades mencionadas no art. 1º desta lei.",
+      "question": "Qual situação corresponde ao inciso XII?",
+      "options": [
+        "Apenas registrar um bem em inventário público.",
+        "Prestar contas de recursos regularmente.",
+        "Usar em proveito próprio bens, rendas, verbas ou valores públicos.",
+        "Entregar bens no almoxarifado."
+      ],
+      "answer": 2,
+      "explanation": "Usar em proveito próprio bens, rendas, verbas ou valores públicos.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-16-a",
+      "card": 16,
+      "title": "Permitir uso por terceiro e lesão ao erário",
+      "legalLabel": "Art. 10, XIII — comparação",
+      "legalText": "Permitir que se utilize, em obra ou serviço particular, veículos, máquinas, equipamentos ou material de qualquer natureza, de propriedade ou à disposição de qualquer das entidades mencionadas no art. 1º desta lei, bem como o trabalho de servidor público, empregados ou terceiros contratados por essas entidades.",
+      "question": "A permite que B use máquina pública em atividade particular, causando perda patrimonial efetiva e comprovada. Qual distinção importa?",
+      "options": [
+        "Toda permissão se enquadra automaticamente em enriquecimento do agente.",
+        "Qualquer uso gera condenação sem prova de dano.",
+        "A lei trata 'utilizar' e 'permitir utilizar' sempre como expressões idênticas.",
+        "Permitir uso por terceiro remete ao art. 10, XIII, com dolo e dano comprovado, diferentemente do uso direto do art. 9º, IV."
+      ],
+      "answer": 3,
+      "explanation": "Permitir uso por terceiro remete ao art. 10, XIII, com dolo e dano comprovado, diferentemente do uso direto do art. 9º, IV.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-17-a",
+      "card": 17,
+      "title": "Declaração exigida na posse e no exercício",
+      "legalLabel": "Art. 13 — caput",
+      "legalText": "A posse e o exercício de agente público ficam condicionados à apresentação de declaração de imposto de renda e proventos de qualquer natureza, que tenha sido apresentada à Secretaria Especial da Receita Federal do Brasil, a fim de ser arquivada no serviço de pessoal competente.",
+      "question": "Qual documento é exigido para posse e exercício, conforme o art. 13?",
+      "options": [
+        "Declaração de imposto de renda e proventos apresentada à Receita Federal, para arquivamento no serviço de pessoal.",
+        "Somente extrato bancário do último mês.",
+        "Relatório de bens elaborado pelo empregador sem participação do agente.",
+        "Declaração voluntária do sindicato."
+      ],
+      "answer": 0,
+      "explanation": "Declaração de imposto de renda e proventos apresentada à Receita Federal, para arquivamento no serviço de pessoal.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-18-a",
+      "card": 18,
+      "title": "Parágrafos revogados",
+      "legalLabel": "Art. 13, §§ 1º e 4º",
+      "legalText": "§ 1º (Revogado).\n§ 4º (Revogado).",
+      "question": "Qual é a situação jurídica dos §§ 1º e 4º do art. 13 no material?",
+      "options": [
+        "Ambos exigem declaração semestral.",
+        "Ambos estão revogados.",
+        "Ambos criam multas proporcionais.",
+        "Ambos substituem a declaração tributária por relatório interno."
+      ],
+      "answer": 1,
+      "explanation": "Ambos estão revogados.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-19-a",
+      "card": 19,
+      "title": "Atualização anual e na saída da função",
+      "legalLabel": "Art. 13, § 2º",
+      "legalText": "A declaração de bens a que se refere o caput deste artigo será atualizada anualmente e na data em que o agente público deixar o exercício do mandato, do cargo, do emprego ou da função.",
+      "question": "Quando a declaração de bens deve ser atualizada?",
+      "options": [
+        "Somente a cada cinco anos.",
+        "Apenas na nomeação, sem atualização.",
+        "Anualmente e na data de saída do exercício do mandato, cargo, emprego ou função.",
+        "Somente se houver investigação."
+      ],
+      "answer": 2,
+      "explanation": "Anualmente e na data de saída do exercício do mandato, cargo, emprego ou função.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-19-b",
+      "card": 19,
+      "title": "Atualização anual e na saída da função",
+      "legalLabel": "Art. 13, § 2º",
+      "legalText": "A declaração de bens a que se refere o caput deste artigo será atualizada anualmente e na data em que o agente público deixar o exercício do mandato, do cargo, do emprego ou da função.",
+      "question": "Quando deve ser atualizada a declaração de bens, de acordo com a regra estudada?",
+      "options": [
+        "Só na nomeação.",
+        "Anualmente e ao deixar o exercício da função.",
+        "Somente a cada cinco anos.",
+        "Apenas quando houver investigação."
+      ],
+      "answer": 1,
+      "explanation": "O § 2º menciona os dois momentos.",
+      "origin": "detalhe do texto legal"
+    },
+    {
+      "id": "improbidade-20-a",
+      "card": 20,
+      "title": "Recusa ou falsidade e pena de demissão",
+      "legalLabel": "Art. 13, § 3º",
+      "legalText": "Será apenado com a pena de demissão, sem prejuízo de outras sanções cabíveis, o agente público que se recusar a prestar a declaração dos bens a que se refere o caput deste artigo dentro do prazo determinado ou que prestar declaração falsa.",
+      "question": "Qual consequência o art. 13, § 3º, prevê para recusa de declaração no prazo ou declaração falsa?",
+      "options": [
+        "Apenas advertência verbal.",
+        "Somente suspensão de férias.",
+        "Abono salarial obrigatório.",
+        "Demissão, sem prejuízo de outras sanções cabíveis."
+      ],
+      "answer": 3,
+      "explanation": "Demissão, sem prejuízo de outras sanções cabíveis.",
+      "origin": "recorte legal do módulo"
+    },
+    {
+      "id": "improbidade-20-b",
+      "card": 20,
+      "title": "Recusa ou falsidade e pena de demissão",
+      "legalLabel": "Art. 13, § 3º",
+      "legalText": "Será apenado com a pena de demissão, sem prejuízo de outras sanções cabíveis, o agente público que se recusar a prestar a declaração dos bens a que se refere o caput deste artigo dentro do prazo determinado ou que prestar declaração falsa.",
+      "question": "Agente público presta declaração patrimonial falsa. Qual sanção aparece expressamente no § 3º?",
+      "options": [
+        "Advertência verbal.",
+        "Suspensão de cinco dias.",
+        "Demissão, sem prejuízo de outras sanções cabíveis.",
+        "Apenas obrigação de retificar, sem consequência."
+      ],
+      "answer": 2,
+      "explanation": "O § 3º dispõe sobre a pena de demissão.",
+      "origin": "detalhe do texto legal"
+    }
+  ]
+}
