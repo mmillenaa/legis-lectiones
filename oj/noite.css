@@ -1,0 +1,62 @@
+/* Tema noturno exclusivo das páginas /oj/ — não modifica outros projetos. */
+:root{color-scheme:dark!important;--bg:#0d1118!important;--panel:#171f2a!important;--paper:#171f2a!important;--ink:#edf1f8!important;--muted:#afbed0!important;--line:#354354!important;--border:#354354!important;--accent:#ffab71!important;--accentsoft:#392a27!important;--cream:#2b2521!important;--navy:#0a111c!important;--shadow:0 12px 35px rgba(0,0,0,.23)!important}
+body{background:#0d1118!important;color:#edf1f8!important}
+.site-header,.top{background:#0a111c!important;color:#f3f6fa!important;border-bottom:1px solid #263344!important}
+.sidebar,.left,.paper,.chapter,.right>.sheet,.topic-panel,.folder,.stat,.searchwrap,.sheet{background:#171f2a!important;color:#edf1f8!important;border-color:#354354!important;box-shadow:0 14px 34px #0003!important}
+.sidebar h2,.left h2,.folder h2,.topic-panel h2,h1,.paper h2,.chapter h2,.heading h1,.folder-title{color:#f4f6fb!important}
+.context,.subhead,.lead,.tiny,.small,.hint,.side-note,.folder-bottom,.note,.topic-index,.path,.statline,.footer,.eyebrow,.group-heading,.sidebar .group-heading,.group-heading,.folder-num,.crumb{color:#adbacb!important}
+.sidebar .group{border-color:#344052!important}
+.nav-item,.unit,.topic-text,.topic-row,.folder,.back{color:#e0e9f6!important}
+.nav-item:hover,.unit:hover,.topic-row:hover{background:#253247!important}
+.nav-item[aria-current="step"],.unit.active{background:#39302b!important;color:#ffb783!important}
+.law{background:#202c3a!important;border-color:#7d9fbc!important;color:#f1f5fa!important}
+.law.concept{background:#2c2a2a!important;border-color:#bf946b!important}
+.example,.story,.trap{background:#292824!important;color:#e8e5dd!important;border-color:#67503a!important}
+.copy,.example p,.law,.story p,.rule p,.topic-text{color:#e8eff8!important}
+.illustration{background:#121720!important;border-color:#354354!important}
+.illustration summary{background:#222d3b!important;color:#e4eaf5!important}
+.illustration figcaption,.empty-img{color:#adbbca!important}
+.illustration figure{background:#161d26!important}
+.illustration img{background:#fff!important} /* preserve legibility of black-and-white comics */
+.pager button,.back,.side-btn,.stat,.topic-status,.number,.choice,.tab,.step,.secondary,button.article-step{background:#202b3a!important;color:#e2ebf6!important;border-color:#3f5065!important}
+.pager button:hover:not(:disabled),.back:hover,.side-btn:hover,.choice:hover{background:#304158!important;border-color:#9a7485!important}
+.stat strong,.rrow strong,.folder .ready{color:#c4f5dc!important}
+.folder:hover{border-color:#c7956f!important}
+.folder-symbol{background:#332c28!important;color:#f3b17a!important}
+.ready,.topic-row.active .topic-status{background:#1f3b34!important;border-color:#376c5a!important;color:#b5e9ca!important}
+.topic-row{background:#1c2633!important;border-color:#324153!important}
+.topic-row.active{background:#2b2928!important;border-color:#96714d!important}
+.searchwrap input,input,select,textarea{background:#151d28!important;color:#f2f5fa!important;border-color:#394759!important}
+.searchwrap input::placeholder,input::placeholder{color:#a1b0c1!important}
+.blank{background:#202938!important;color:#c0cad8!important;border-color:#455368!important}
+.section-label,.eyebrow,.overline{color:#ffac72!important}
+a{color:#a8d5ff}a:hover{color:#d2e7ff}
+.folder a,.folder:link,.folder:visited{color:#edf1f8}
+.top a,.site-header .back{color:#e5edf8!important}
+button:focus-visible,a:focus-visible,input:focus-visible{outline-color:#ffc082!important}
+/* Painel de questões */
+.quiz-card{border:1px solid #354354;border-radius:15px;background:#171f2a;padding:clamp(16px,3vw,28px)}
+.quiz-card h2{font:600 clamp(22px,3vw,30px)/1.3 Georgia,serif;color:#f4f7fa}
+.quiz-panel{max-width:950px;margin:auto}
+.quiz-overline{font-size:12px;letter-spacing:.13em;font-weight:800;color:#ffad78;text-transform:uppercase}
+.quiz-toolbar{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:16px 0}
+.quiz-toolbar select{border:1px solid #3b4b60;border-radius:10px;padding:11px;font-size:14px;max-width:100%}
+.quiz-option{display:flex;align-items:flex-start;gap:11px;text-align:left;width:100%;border-radius:11px;border:1px solid #39485b;color:#ecf2fa;background:#202c3b;padding:15px 16px;margin:9px 0;line-height:1.5}
+.quiz-option:hover:not(:disabled){background:#293a50;border-color:#7b9bb7}
+.quiz-option.selected{border-color:#e7a16d;background:#3b302a}
+.quiz-option.correct{border-color:#4db58a;background:#1d3d35}
+.quiz-option.incorrect{border-color:#d57878;background:#44282c}
+.quiz-letter{flex:none;display:grid;place-items:center;width:26px;height:26px;border-radius:7px;background:#344153;color:#f9fcff;font-weight:800;font-size:12px}
+.quiz-feedback{background:#182e2b;border:1px solid #346a5c;border-radius:11px;padding:16px;color:#e0f5ed;margin:14px 0}
+.quiz-feedback.incorrect{background:#35272c;border-color:#905b60;color:#fbe3e4}
+.quiz-feedback blockquote{white-space:pre-wrap;color:#cad8e8;margin:12px 0 0;padding:10px 14px;border-left:3px solid #6684a8;background:#172430}
+.quiz-progress{background:#293548;border-radius:10px;height:8px;overflow:hidden;margin:12px 0 22px}
+.quiz-progress span{display:block;height:100%;background:linear-gradient(90deg,#cc7b52,#ffb37d);transition:width .2s}
+.quiz-controls{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin:18px 0}
+.quiz-controls button,.quiz-action{padding:10px 16px;background:#27364b;color:#eef5ff;border:1px solid #496078;border-radius:11px;font-weight:700}
+.quiz-controls button.primary,.quiz-action.primary{background:#bd673b;border-color:#ce7547;color:#fff}
+.quiz-controls button:disabled,.quiz-action:disabled{opacity:.45}
+.quiz-filter{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.quiz-summary{border-top:1px solid #394658;margin-top:15px;padding:13px 0;color:#b6c4d5;font-size:13px}
+.quiz-lower{display:flex;flex-wrap:wrap;gap:13px;margin-top:13px}
+@media(max-width:650px){.quiz-toolbar{align-items:stretch;flex-direction:column}.quiz-filter select{width:100%}.quiz-option{padding:12px}}
