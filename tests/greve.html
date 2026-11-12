@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Greve · Legis Lectiones — Laboratório de revisão</title>
+<meta name="description" content="Revisão interativa de direito de greve: prazos, agentes, quórum, serviços essenciais, classificação, abuso e lockout. Questões baseadas em Sérgio Pinto Martins e na legislação atualizada.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<!-- Integração com a celebração de resultados do repositório, se disponível. -->
+<link rel="stylesheet" href="./result-celestial.css">
+<style>
+:root{color-scheme:dark;--bg:#070d19;--panel:#101a2a;--panel2:#111d30;--line:rgba(210,226,255,.14);--ink:#eff3fc;--muted:#aab5ca;--violet:#b5a0f8;--gold:#e9c384;--teal:#8edbc5;--rose:#ff9cae;--shadow:0 30px 90px rgba(0,0,0,.22)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'DM Sans',system-ui,-apple-system,sans-serif;margin:0;min-height:100vh;color:var(--ink);background:radial-gradient(ellipse 60% 36% at 82% 2%,rgba(108,91,184,.17),transparent 76%),radial-gradient(ellipse 50% 30% at 4% 45%,rgba(27,76,112,.16),transparent 77%),var(--bg)}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.15;background-image:radial-gradient(#dfd6ff 0.55px,transparent .55px);background-size:35px 35px;mask-image:linear-gradient(to bottom,#000,transparent 80%)}
+button,input{font:inherit}button{cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}a{color:var(--gold)}button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offset:4px}a:hover{text-decoration-color:var(--gold)}
+.shell{width:min(1080px,calc(100% - 36px));margin:0 auto;padding:23px 0 56px;position:relative;z-index:1}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:38px}.back-link{font-size:13px;color:var(--muted);text-decoration:none}.back-link:hover{color:#fff}.brand{letter-spacing:.2em;font-size:11px;text-transform:uppercase;color:#929eb2;font-weight:700}
+.eyebrow{font-size:11px;color:var(--violet);font-weight:700;letter-spacing:.17em;text-transform:uppercase}h1,h2,.serif{font-family:'Playfair Display',Georgia,serif;font-weight:500}h1{font-size:clamp(48px,7vw,77px);letter-spacing:-.045em;margin:5px 0 9px}.lead{max-width:740px;color:var(--muted);line-height:1.75;margin:0;font-size:15px}.hero{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:36px;align-items:center;margin-bottom:25px}.hero-art{height:168px;border:1px solid var(--line);border-radius:23px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.015));position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}.hero-art:before{content:"";position:absolute;width:220px;height:220px;border-radius:50%;border:1px dashed rgba(233,195,132,.25)}.hero-art:after{content:"";position:absolute;width:155px;height:155px;border-radius:50%;border:1px solid rgba(181,160,248,.26)}.dial{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:7px}.dial strong{font-family:Georgia,serif;font-weight:400;font-size:31px;color:var(--gold);letter-spacing:.01em}.dial small{font-size:10px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}.dial-divider{height:1px;background:rgba(255,255,255,.17);width:105px}.dial .dial-small{font-size:21px;color:var(--violet)}
+.memory-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:25px}.memory-card{background:rgba(17,28,45,.7);border:1px solid var(--line);border-radius:17px;padding:15px 16px;display:flex;align-items:center;gap:15px;min-height:87px}.memory-number{font:500 31px Georgia,serif;white-space:nowrap;letter-spacing:-.03em;color:var(--gold)}.memory-number.purple{color:var(--violet)}.memory-number.word{font-size:16px;letter-spacing:0;color:var(--teal)}.memory-card strong{font-size:13px;font-weight:700}.memory-card p{font-size:11px;line-height:1.5;color:var(--muted);margin:4px 0 0}.separator{height:1px;background:var(--line);margin:8px 0 24px}
+.dashboard-heading{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:13px}.dashboard-heading h2{font-size:27px;margin:0}.metric{font-size:12px;color:var(--muted)}.metric b{color:var(--teal);font-weight:700}
+.controls-home{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:25px}.btn{border:1px solid var(--line);background:rgba(255,255,255,.035);color:#e6eaf6;border-radius:13px;min-height:42px;padding:10px 16px;font-weight:700;font-size:13px;transition:background .15s,border-color .15s,transform .15s}.btn:hover:not(:disabled){background:rgba(255,255,255,.085);border-color:rgba(255,255,255,.29)}.btn.primary{background:rgba(181,160,248,.21);border-color:rgba(181,160,248,.5);color:#f7f0ff}.btn.primary:hover{background:rgba(181,160,248,.3)}.btn.quiet{font-weight:500}.btn.danger{color:#ebb9c1}.btn.large{min-height:46px}
+.track-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}.track-card{text-align:left;position:relative;min-height:154px;border-radius:18px;border:1px solid var(--line);padding:15px 13px;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.02));color:var(--ink)}.track-card:hover{border-color:rgba(181,160,248,.55);background:rgba(181,160,248,.065)}.track-motif{font:32px Georgia,serif;color:var(--gold);display:block;line-height:1;margin-bottom:12px}.track-card strong{font-size:12px;line-height:1.5;display:block;min-height:36px}.track-card small{color:var(--muted);font-size:11px;line-height:1.4;display:block;margin-top:6px}.track-progress{position:absolute;bottom:12px;right:13px;font-size:10px;color:var(--teal)}.track-card .bar-mini{width:calc(100% - 26px);position:absolute;bottom:8px;height:2px;background:rgba(255,255,255,.06);border-radius:9px;overflow:hidden}.track-card .bar-mini span{height:100%;width:0;display:block;background:var(--teal)}
+.reference-drawer{margin:23px 0;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.018);padding:14px 18px}.reference-drawer summary{list-style:none;cursor:pointer;color:#e4d9ff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:space-between}.reference-drawer summary::after{content:'+';color:var(--gold);font-size:20px}.reference-drawer[open] summary::after{content:'−'}.reference-drawer p{color:var(--muted);line-height:1.6;font-size:12px}.topic-list{display:flex;flex-wrap:wrap;gap:7px}.topic-list span{font-size:11px;color:#dce0ec;border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:50px;padding:6px 10px}
+#studyView[hidden],#homeView[hidden],#result[hidden],#quizCard[hidden]{display:none!important}.quiz-toolbar{display:flex;align-items:center;gap:18px;justify-content:space-between;flex-wrap:wrap;margin-bottom:14px;border-radius:14px;border:1px solid var(--line);padding:12px 16px;background:rgba(17,29,48,.72)}.quiz-info{flex:1;min-width:160px}.progress-meta{display:flex;justify-content:space-between;gap:9px;font-size:12px;color:var(--muted);margin-bottom:8px}.progress-meta strong{color:var(--ink)}.progress{height:5px;background:rgba(255,255,255,.07);border-radius:20px;overflow:hidden}.progress span{display:block;background:linear-gradient(90deg,var(--violet),var(--gold));height:100%;width:0;transition:width .25s}.small-btn{font-size:12px;background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:10px;padding:9px 11px}.small-btn:hover{color:white;background:rgba(255,255,255,.07)}
+.question-card{position:relative;overflow:hidden;border-radius:23px;border:1px solid var(--line);background:linear-gradient(138deg,rgba(23,35,56,.95),rgba(12,22,38,.96));box-shadow:var(--shadow);padding:29px clamp(16px,4vw,38px)}.qhead{display:flex;align-items:center;justify-content:space-between;gap:13px;margin-bottom:27px;flex-wrap:wrap}.section{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--violet);font-weight:700}.type{font-size:11px;color:var(--muted);border:1px solid var(--line);padding:6px 10px;border-radius:90px}.prompt{font-size:clamp(24px,3.4vw,33px);line-height:1.31;max-width:790px;margin:0 0 22px;letter-spacing:-.02em}.context{border-left:2px solid var(--gold);padding:3px 0 3px 14px;font-size:14px;color:var(--muted);line-height:1.6;margin:0 0 18px}.interactive{display:grid;gap:12px}.choice{width:100%;display:flex;gap:14px;align-items:center;text-align:left;color:var(--ink);padding:13px 15px;border:1px solid rgba(225,229,249,.13);background:rgba(6,12,24,.54);border-radius:13px;font-size:14px;line-height:1.5;min-height:57px}.choice:hover:not(:disabled),.choice.active{background:rgba(181,160,248,.11);border-color:rgba(181,160,248,.55)}.choice .choice-no{width:26px;height:26px;flex:0 0 26px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.2);border-radius:8px;color:var(--gold);font-size:12px;font-weight:700}.choice.correct{border-color:rgba(142,219,197,.55);background:rgba(142,219,197,.1)}.choice.incorrect{border-color:rgba(255,156,174,.65);background:rgba(255,156,174,.1)}
+.truth-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.truth-grid .choice{justify-content:center;text-align:center;font-size:16px;font-weight:700}.mini-note{color:var(--muted);font-size:12px;line-height:1.6;margin:0 0 5px}.row-label{font-size:13px;color:#edf1fa;line-height:1.5;margin:0 0 10px}.match-row{background:rgba(4,10,19,.38);border:1px solid var(--line);padding:13px;border-radius:14px}.chip-row{display:flex;flex-wrap:wrap;gap:8px}.chip{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:10px;color:#d8dfef;padding:9px 12px;text-align:left;font-size:12px;line-height:1.4}.chip:hover:not(:disabled){border-color:var(--violet)}.chip.selected{border-color:var(--gold);background:rgba(233,195,132,.11);color:#fff}.chip.is-right{border-color:var(--teal);background:rgba(142,219,197,.10)}.chip.is-wrong{border-color:var(--rose);background:rgba(255,156,174,.10)}.correct-note{font-size:11px;color:var(--teal);margin:9px 0 0}
+.order-wrap{display:grid;gap:15px}.order-rail{list-style:none;margin:0;padding:0;display:grid;gap:8px;counter-reset:steps}.order-rail li{display:flex;gap:12px;min-height:46px;align-items:center;padding:9px;border:1px dashed rgba(255,255,255,.15);border-radius:12px;background:rgba(4,10,19,.28);color:var(--muted);font-size:13px}.order-rail b{color:var(--gold);min-width:24px}.order-rail li.filled{border-style:solid;color:#f5f5fb}.order-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:8px}.order-tiles .chip{text-align:center;min-height:56px}.order-tiles .chip.used{opacity:.35}.order-actions{display:flex;justify-content:flex-end;gap:9px}
+.clock-scene{border:1px solid rgba(233,195,132,.28);border-radius:16px;min-height:119px;background:radial-gradient(circle at 90% 10%,rgba(233,195,132,.09),transparent 45%),rgba(6,12,22,.48);padding:16px 18px}.clock-scene small{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.1em}.clock-scene strong{display:block;font-family:Georgia,serif;color:var(--gold);font-size:clamp(20px,4vw,28px);font-weight:400;margin-top:8px}.clock-rail{height:2px;background:linear-gradient(90deg,var(--violet),rgba(233,195,132,.65));margin:19px 8px 6px;position:relative}.clock-rail::before,.clock-rail::after{content:'';position:absolute;top:-4px;border-radius:50%;width:10px;height:10px;background:var(--violet)}.clock-rail::before{left:0}.clock-rail::after{right:0;background:var(--gold)}.clock-labels{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:10px}.task-block{margin-top:9px}.task-block>strong{font-size:12px;color:var(--violet);display:block;margin-bottom:8px}.task-block .chip-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.task-block .chip{text-align:center;min-height:54px;display:flex;align-items:center;justify-content:center}
+.fill-line{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.fill-input{width:min(420px,100%);padding:13px 15px;border:1px solid var(--violet);color:white;background:rgba(5,9,18,.6);border-radius:12px;font-size:16px}.fill-hint{font-size:12px;color:var(--muted)}
+.feedback{border-radius:15px;border:1px solid var(--line);padding:17px 18px;margin-top:19px;background:rgba(4,9,18,.4);font-size:13px;line-height:1.7}.feedback.good{border-color:rgba(142,219,197,.44)}.feedback.bad{border-color:rgba(255,156,174,.42)}.feedback h3{font-size:15px;margin:0 0 6px;color:var(--teal)}.feedback.bad h3{color:var(--rose)}.feedback p{margin:6px 0}.feedback b{color:#f4f6ff}.feedback .trap{color:var(--gold)}.feedback .source{font-size:11px;color:var(--muted);border-top:1px solid var(--line);margin-top:13px;padding-top:9px}.feedback .source a{color:#d4bcf7}
+.controls{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:23px}.controls-right{display:flex;gap:9px;flex-wrap:wrap}.controls #checkBtn[hidden]{display:none}.answer-state{font-size:12px;color:var(--muted)}
+.result{margin:16px 0 24px;border:1px solid var(--line);border-radius:21px;background:linear-gradient(140deg,rgba(33,37,66,.85),rgba(11,23,38,.9));padding:38px 24px;text-align:center;overflow:hidden;position:relative}.result.show{display:block}.result h2{font-size:38px;margin:7px 0}.result .score{font:500 clamp(57px,9vw,94px)/1.2 Georgia,serif;color:var(--gold);margin:12px 0}.result p{color:var(--muted);line-height:1.6}.result-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:25px}.result-extra{font-size:13px;margin:18px auto 0;max-width:620px}
+.site-footer{margin-top:37px;border-top:1px solid var(--line);padding-top:20px;font-size:12px;color:#91a0b7;line-height:1.7}.site-footer strong{color:#d8dff0}.site-footer p{margin:7px 0}.footnote{font-size:11px;color:#8e9db0}
+@media(max-width:820px){.hero{grid-template-columns:1fr}.hero-art{height:106px}.hero-art:before{width:168px;height:168px}.hero-art:after{width:130px;height:130px}.dial{flex-direction:row;gap:10px}.dial .dial-small{font-size:21px}.dial strong{font-size:29px}.dial-divider{height:31px;width:1px}.track-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.track-card{min-height:144px}}
+@media(max-width:560px){.shell{width:min(100% - 25px,1080px);padding-top:17px}.topbar{margin-bottom:25px}.memory-strip{grid-template-columns:1fr}.memory-card{min-height:69px}.memory-number{min-width:66px}.hero{gap:18px;margin-bottom:18px}.lead{font-size:14px}.track-grid{grid-template-columns:1fr 1fr}.question-card{padding:20px 16px}.qhead{margin-bottom:17px}.controls{align-items:stretch}.controls-right{flex:1;justify-content:flex-end}.btn{padding:10px 12px}.task-block .chip-row{grid-template-columns:1fr}.order-tiles{grid-template-columns:1fr}.quiz-toolbar{padding:11px}.choice{padding:12px 13px}.track-card strong{min-height:0}.track-card{min-height:148px}.track-motif{margin-bottom:7px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+</style>
+<script src="./result-celestial.js" defer></script>
+</head>
+<body data-bank="greve">
+<div class="shell">
+<nav class="topbar" aria-label="Navegação">
+  <a class="back-link" href="./">← Direito do Trabalho</a>
+  <span class="brand">Legis Lectiones</span>
+</nav>
+<header class="hero">
+  <div>
+    <div class="eyebrow">Direito do Trabalho · Estudo por desafios</div>
+    <h1>Greve<span style="color:var(--gold)">.</span></h1>
+    <p class="lead">Menos decoreba de alternativas e mais decisões. Treine prazos e destinatários, identifique quem faz o quê e enfrente as pegadinhas do capítulo de Sérgio Pinto Martins.</p>
+  </div>
+  <div class="hero-art" role="img" aria-label="Ilustração geométrica com os prazos de 48 e 72 horas">
+    <div class="dial"><strong>48h</strong><small>regra geral</small><span class="dial-divider"></span><strong class="dial-small">72h</strong><small>essenciais</small></div>
+  </div>
+</header>
+<div class="memory-strip" aria-label="Três pontos para memorizar">
+  <div class="memory-card"><span class="memory-number">48h</span><div><strong>Atividade não essencial</strong><p>Aviso à parte patronal.</p></div></div>
+  <div class="memory-card"><span class="memory-number purple">72h</span><div><strong>Atividade essencial</strong><p>Aviso a empregadores e usuários.</p></div></div>
+  <div class="memory-card"><span class="memory-number word">Estatuto</span><div><strong>Quórum sindical</strong><p>A lei não fixa porcentagem geral.</p></div></div>
+</div>
+<main>
+  <section id="homeView" aria-labelledby="homeTitle">
+    <div class="separator"></div>
+    <div class="dashboard-heading"><h2 id="homeTitle">Escolha um percurso</h2><span id="globalMetric" class="metric">Progresso local</span></div>
+    <div class="controls-home">
+      <button type="button" class="btn primary large" id="quickBtn">Começar com 8 desafios</button>
+      <button type="button" class="btn" id="allBtn">Trilha completa</button>
+      <button type="button" class="btn quiet" id="reviewBtn" disabled>Sem erros pendentes</button>
+      <button type="button" class="btn quiet" id="resumeBtn" hidden>Continuar sessão</button>
+    </div>
+    <div class="track-grid" id="trackGrid" aria-label="Percursos temáticos"></div>
+    <details class="reference-drawer">
+      <summary>Os 13 temas do professor estão contemplados?</summary>
+      <p>Sim. As atividades cobrem o roteiro final do capítulo, distribuído pelas cinco trilhas:</p>
+      <div class="topic-list">
+        <span>01 Conceito</span><span>02 Constituição de 1937</span><span>03 Natureza jurídica</span><span>04 Classificações</span><span>05 Limitações</span><span>06 Titularidade e legitimidade</span><span>07 Interesses a defender</span><span>08 Quórum</span><span>09 Aviso-prévio</span><span>10 Efeitos contratuais</span><span>11 Lockout</span><span>12 Solidariedade</span><span>13 Greve de zelo</span>
+      </div>
+      <p>Nas questões doutrinárias, as interpretações do autor são sinalizadas. A legislação e as teses do STF aparecem em separado.</p>
+    </details>
+    <p class="footnote">As primeiras respostas alimentam o histórico; acertar depois corrige o ponto pendente, mas não apaga o primeiro resultado. Cada rodada é independente.</p>
+    <button type="button" class="small-btn" id="resetAllBtn">Apagar apenas o progresso deste laboratório</button>
+  </section>
+
+  <section id="studyView" hidden aria-label="Sessão de estudo">
+    <div class="quiz-toolbar">
+      <div class="quiz-info">
+        <div class="progress-meta"><strong id="sessionTitle">Sessão</strong><span id="counter">Desafio 1</span></div>
+        <div class="progress" aria-label="Progresso da sessão"><span id="progressBar"></span></div>
+        <div class="progress-meta" style="margin:8px 0 0"><span id="progressText">0 respondidos</span><span>1ª tentativa registrada</span></div>
+      </div>
+      <button class="small-btn" type="button" id="goHomeBtn">← Trilhas</button>
+      <button class="small-btn" type="button" id="finishBtn">Resultado</button>
+    </div>
+    <article id="quizCard" class="question-card">
+      <div class="qhead"><span id="sectionLabel" class="section"></span><span class="type" id="typeLabel"></span></div>
+      <h2 class="prompt" id="prompt"></h2>
+      <p id="qContext" class="context" hidden></p>
+      <div id="interactive" class="interactive" aria-live="off"></div>
+      <section id="feedback" class="feedback" aria-live="polite" role="status" hidden></section>
+      <div class="controls">
+        <button type="button" class="btn quiet" id="prevBtn">← Anterior</button>
+        <div class="controls-right">
+          <span class="answer-state" id="answerState"></span>
+          <button type="button" class="btn primary" id="checkBtn">Conferir</button>
+          <button type="button" class="btn" id="nextBtn">Próximo →</button>
+        </div>
+      </div>
+    </article>
+    <p class="footnote">Respostas comentadas com base legal, indicação de interpretação doutrinária e alerta sobre a pegadinha. Não há limite de tempo.</p>
+  </section>
+
+  <section id="result" class="result" hidden aria-labelledby="resultTitle">
+    <div class="eyebrow" id="resultCaption">Resultado da sessão</div>
+    <h2 id="resultTitle">Revisão da rodada</h2>
+    <div id="score" class="score" aria-live="polite">0%</div>
+    <p id="scoreDetail">0 acertos · 0 erros · 0 atividades</p>
+    <p id="resultExtra" class="result-extra"></p>
+    <div class="result-actions">
+      <button type="button" class="btn primary" id="reviewWrongBtn">Treinar erros</button>
+      <button type="button" class="btn" id="restartBtn">Repetir esta sessão</button>
+      <button type="button" class="btn quiet" id="resultHomeBtn">Escolher trilha</button>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <strong>Referências e critérios editoriais</strong>
+  <p>MARTINS, Sergio Pinto. <em>Manual de Direito do Trabalho</em>. 15. ed. São Paulo: Saraiva Jur, 2024. Capítulo “Greve”, inclusive as 13 questões finais. <a href="https://app.minhabiblioteca.com.br/reader/books/9786553628977" target="_blank" rel="noopener noreferrer">Minha Biblioteca</a>.</p>
+  <p>BRASIL. <a href="https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html" target="_blank" rel="noopener noreferrer">Lei nº 7.783/1989, texto atualizado</a>; <a href="https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" target="_blank" rel="noopener noreferrer">Constituição Federal</a>, arts. 9º, 37, VII, 142, § 3º, IV; STF, <a href="https://portal.stf.jus.br/jurisprudenciarepercussao/tema.asp?num=531" target="_blank" rel="noopener noreferrer">Tema 531</a> e <a href="https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=541" target="_blank" rel="noopener noreferrer">Tema 541</a>.</p>
+  <p class="footnote">Banco versão 3.0. Não carrega nem modifica o armazenamento das antigas 56 atividades. O progresso novo fica neste navegador.</p>
+</footer>
+</div>
+<audio id="sfxCorrect" preload="none" src="../civil-procedure/correct.mp3"></audio>
+<audio id="sfxWrong" preload="none" src="../civil-procedure/wrong.mp3"></audio>
+<!-- Analytics original preservado. -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"51f24d9a0ec840c5bcb40df413a4bf46"}'></script>
+<script id="bankData" type="application/json">{"meta": {"title": "Greve · Laboratório de revisão", "version": "3.0", "discipline": "Direito do Trabalho", "design": "Sessões curtas, alternativas próximas, associação, ordem, prazos em duas etapas, revisão de erros e fonte em cada correção.", "sourceNote": "Base principal: MARTINS, Sérgio Pinto, Manual de Direito do Trabalho, 15. ed. (2024), capítulo Greve, inclusive 13 questões finais. Conferência normativa: Lei 7.783/1989 (texto atualizado), CF/1988, STF Temas 531 e 541. Questões assinaladas como doutrinárias apresentam posição do autor.", "originalBank": "56 atividades; 40 múltipla escolha, 8 lacunas, 4 V/F, 4 associações. Esta é uma versão independente; não altera os registros do banco original.", "questionCount": 45, "counts": {"pick": 22, "order": 3, "match": 7, "truth": 7, "fill": 3, "clock": 3}}, "tracks": [{"id": "fundamentos", "label": "01 · Ideias que se confundem", "short": "Fundamentos", "subtitle": "História, conceito, natureza e classificações", "motif": "◇"}, {"id": "agentes", "label": "02 · Quem faz o quê?", "short": "Agentes", "subtitle": "Assembleia, quórum, sindicato e negociação", "motif": "◎"}, {"id": "prazos", "label": "03 · O relógio da greve", "short": "Prazos", "subtitle": "48/72 horas, destinatários e essenciais", "motif": "◷"}, {"id": "efeitos", "label": "04 · A greve em curso", "short": "Efeitos", "subtitle": "Piquetes, manutenção, abuso e lockout", "motif": "▧"}, {"id": "professor", "label": "05 · A prova do professor", "short": "Prova", "subtitle": "Exceções, doutrina e casos decisivos", "motif": "✦"}], "questions": [{"id": "GV3-001", "track": "fundamentos", "kind": "pick", "prompt": "Na Constituição brasileira de 1937, greve e lockout eram descritos como:", "options": ["Recursos antissociais e nocivos à produção.", "Direitos reconhecidos, dependentes de regulamentação legal.", "Recursos admitidos no setor privado e vedados em serviços públicos."], "answer": 0, "why": "A Carta de 1937 considerava ambos recursos antissociais, incompatíveis com os interesses da produção nacional.", "trap": "Não confunda com a Constituição de 1946, que reconheceu o direito de greve.", "source": "CF/1937, art. 139 · Martins, História da Greve", "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977"}, {"id": "GV3-002", "track": "fundamentos", "kind": "order", "prompt": "Organize a evolução predominante do tratamento da greve no Brasil, segundo Martins:", "items": ["Reconhecimento inicial como liberdade", "Criminalização em períodos posteriores", "Reconhecimento como direito constitucional"], "answer": [0, 1, 2], "why": "No Brasil, Martins não identifica a mesma cronologia europeia: a sequência é liberdade → delito → direito.", "trap": "No panorama mundial tradicional, a ordem apresentada é delito → liberdade → direito.", "source": "Martins, item 1.2 — No Brasil", "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977"}, {"id": "GV3-003", "track": "fundamentos", "kind": "pick", "prompt": "Qual conjunto reproduz os elementos do conceito legal de greve?", "options": ["Suspensão coletiva e pacífica, temporária, total ou parcial.", "Suspensão coletiva e pacífica, sempre total e com prazo certo.", "Redução coletiva e pacífica do ritmo, sem cessação dos serviços."], "answer": 0, "why": "O art. 2º admite suspensão coletiva, temporária, pacífica, total ou parcial da prestação pessoal de serviços.", "trap": "Suspender o trabalho não é o mesmo que apenas diminuir o ritmo.", "source": "Lei 7.783/89, art. 2º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-004", "track": "fundamentos", "kind": "pick", "prompt": "Quanto à natureza jurídica, qual descrição corresponde à abordagem do autor?", "options": ["É direito individual que admite exercício isolado, sem adesão coletiva.", "Tem decisão individual e dimensão coletiva de exercício.", "É faculdade do sindicato e independe da adesão de cada trabalhador."], "answer": 1, "why": "Martins destaca a decisão individual de aderir, ao lado da dimensão coletiva da greve como direito social.", "trap": "Não confunda titularidade do direito com a legitimação para organizar o movimento.", "source": "Martins, item 5 — Natureza jurídica", "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977", "authorView": true}, {"id": "GV3-005", "track": "fundamentos", "kind": "match", "prompt": "Classifique os movimentos observando se houve suspensão efetiva do trabalho:", "choices": ["É greve", "Não é greve no conceito do autor"], "rows": [{"text": "Empregados param de trabalhar, mas permanecem em seus postos. ", "answer": 0}, {"text": "Empregados seguem trabalhando em ritmo deliberadamente lento.", "answer": 1}, {"text": "Empregados cumprem minuciosamente cada regulamento, sem parar.", "answer": 1}], "why": "A greve de braços caídos ou branca envolve cessação da prestação; a operação tartaruga e a greve de zelo não, na concepção estudada.", "trap": "O nome “greve de zelo” não significa que ela preencha o conceito jurídico adotado pelo autor.", "source": "Martins, itens 4 e 6 — Conceito e classificações", "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977"}, {"id": "GV3-006", "track": "fundamentos", "kind": "truth", "prompt": "Uma paralisação de apenas um setor da empresa pode constituir greve mesmo que os demais continuem trabalhando.", "answer": true, "why": "O art. 2º admite paralisação total ou parcial. A coletividade não significa adesão de todos.", "trap": "Parcial não é sinônimo de individual.", "source": "Lei 7.783/89, art. 2º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-007", "track": "fundamentos", "kind": "match", "prompt": "Relacione cada modo de atuação à classificação doutrinária:", "choices": ["Rotativa", "Intermitente", "Estratégica"], "rows": [{"text": "Grupos se alternam na paralisação.", "answer": 0}, {"text": "O movimento para, recomeça e volta a parar.", "answer": 1}, {"text": "A paralisação atinge o núcleo central da produção.", "answer": 2}], "why": "A classificação se refere ao exercício e ao alcance funcional da paralisação, não apenas à sua duração.", "trap": "Intermitência e revezamento de grupos não são a mesma coisa.", "source": "Martins, item 6 — Classificação das greves", "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977"}, {"id": "GV3-008", "track": "fundamentos", "kind": "pick", "prompt": "Sobre a greve de solidariedade, qual afirmação reflete a posição de Martins?", "options": ["É vedada quando busca apoiar um colega da própria categoria.", "É possível se as reivindicações puderem ser dirigidas ao empregador.", "É admitida em qualquer hipótese, mesmo sem pauta perante o empregador."], "answer": 1, "why": "Para o autor, a solidariedade pode fundamentar o movimento quando as reivindicações atingem a relação laboral e podem ser atendidas pelo empregador.", "trap": "O capítulo também registra entendimentos judiciais mais amplos; esta é uma pergunta especificamente doutrinária.", "source": "Martins, item 10 — Interesses a defender", "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977", "authorView": true}, {"id": "GV3-009", "track": "agentes", "kind": "pick", "prompt": "Quem define a oportunidade da greve e os interesses que ela defenderá?", "options": ["A assembleia, como titular do direito.", "Os trabalhadores.", "O sindicato, com exclusividade."], "answer": 1, "why": "A Constituição atribui essa decisão aos trabalhadores. O sindicato tem funções de organização e representação.", "trap": "Titularidade não equivale a autorização judicial ou decisão patronal.", "source": "CF/1988, art. 9º; Lei 7.783/89, art. 1º", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"}, {"id": "GV3-010", "track": "agentes", "kind": "pick", "prompt": "Quem convoca, em regra, a assembleia de deliberação da greve?", "options": ["A entidade sindical da categoria.", "A comissão eleita, mesmo quando já há sindicato atuante.", "A federação, mesmo se existe sindicato representativo."], "answer": 0, "why": "É a entidade sindical correspondente que convoca a assembleia, na forma de seu estatuto.", "trap": "A assembleia não é convocada obrigatoriamente pelo Poder Público.", "source": "Lei 7.783/89, art. 4º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-011", "track": "agentes", "kind": "fill", "prompt": "O quórum para deflagrar e encerrar a greve sindical é definido no {{blank}} da entidade.", "answers": ["estatuto", "estatuto sindical", "estatuto da entidade sindical"], "why": "A Lei de Greve remete ao estatuto tanto as formalidades de convocação quanto o quórum.", "trap": "Os 2/3 ou 1/3 mencionados no capítulo pertencem à legislação anterior, não são a regra geral atual.", "source": "Lei 7.783/89, art. 4º, § 1º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-012", "track": "agentes", "kind": "pick", "prompt": "Segundo o autor, quem pode participar da assembleia de greve?", "options": ["Apenas associados que estejam em dia com as obrigações sindicais.", "Qualquer membro da categoria, ainda que não associado ao sindicato.", "Somente os diretores eleitos e convocados formalmente pelo sindicato."], "answer": 1, "why": "Martins sustenta a participação de membros da categoria inclusive não associados, diferenciando a assembleia de greve de regras aplicáveis a acordos e convenções.", "trap": "É distinção doutrinária do capítulo; o art. 4º não enumera uma lista de eleitores.", "source": "Martins, item 12 — Assembleia geral", "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977", "authorView": true}, {"id": "GV3-013", "track": "agentes", "kind": "order", "prompt": "Na ausência de entidade sindical, qual é o encadeamento previsto no art. 4º, § 2º?", "items": ["Assembleia dos trabalhadores interessados", "Deliberação das reivindicações e da paralisação", "Constituição de comissão de negociação"], "answer": [0, 1, 2], "why": "A própria assembleia dos interessados delibera e constitui a comissão para representá-los.", "trap": "A falta de sindicato não elimina, por si, o direito de greve.", "source": "Lei 7.783/89, arts. 4º, § 2º, e 5º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-014", "track": "agentes", "kind": "pick", "prompt": "Qual situação autoriza, em regra, a cessação coletiva do trabalho?", "options": ["Frustração da negociação ou impossibilidade da via arbitral.", "Frustração obrigatória tanto da negociação quanto da arbitragem.", "Frustração da negociação seguida de sentença judicial autorizativa."], "answer": 0, "why": "A lei enuncia negociação frustrada ou impossibilidade da via arbitral; não exige decisão judicial prévia como regra.", "trap": "Não some requisitos que a lei conecta por “ou”.", "source": "Lei 7.783/89, art. 3º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-015", "track": "agentes", "kind": "truth", "prompt": "Sem arbitragem concluída, a categoria jamais pode iniciar greve, mesmo se as negociações já fracassaram.", "answer": false, "why": "A negociação frustrada é hipótese legal suficiente; a norma não obriga esgotar simultaneamente ambas as vias.", "trap": "“Ou” não equivale a “e”.", "source": "Lei 7.783/89, art. 3º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-016", "track": "agentes", "kind": "match", "prompt": "Atribua a função ao agente ou instância responsável:", "choices": ["Trabalhadores", "Sindicato / comissão", "Assembleia geral"], "rows": [{"text": "Decidir sobre oportunidade e interesses da greve.", "answer": 0}, {"text": "Representar a categoria na negociação ou na Justiça.", "answer": 1}, {"text": "Definir reivindicações e deliberar sobre a paralisação.", "answer": 2}], "why": "Essas três atribuições se complementam: titularidade, representação e deliberação coletiva.", "trap": "O sindicato é representante; isso não o torna proprietário exclusivo do direito.", "source": "CF, art. 9º; Lei 7.783/89, arts. 1º, 4º e 5º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-017", "track": "prazos", "kind": "clock", "prompt": "Greve em fábrica não essencial: encontre o último aviso tempestivo e o destinatário.", "scenario": "Início: quarta-feira · 09h", "whenOptions": ["Segunda-feira · 09h", "Terça-feira · 09h", "Segunda-feira · 21h"], "whenAnswer": 0, "toOptions": ["Empregador ou entidade patronal", "Empregador e usuários", "Apenas Ministério Público"], "toAnswer": 0, "why": "De quarta 09h para segunda 09h há 48 horas. A notificação ordinária se dirige ao empregador ou à entidade patronal.", "trap": "O aviso é mínimo de 48h, não de um dia útil.", "source": "Lei 7.783/89, art. 3º, parágrafo único", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-018", "track": "prazos", "kind": "clock", "prompt": "Greve em hospital: identifique o momento e os destinatários.", "scenario": "Início: quinta-feira · 08h", "whenOptions": ["Segunda-feira · 08h", "Terça-feira · 08h", "Segunda-feira · 20h"], "whenAnswer": 0, "toOptions": ["Empregadores e usuários", "Somente sindicato patronal", "Somente empregadores"], "toAnswer": 0, "why": "São 72 horas antes da quinta-feira às 8h, e o aviso deve alcançar empregadores e usuários.", "trap": "Serviço essencial exige dois destinatários, não apenas prazo maior.", "source": "Lei 7.783/89, art. 13", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-019", "track": "prazos", "kind": "clock", "prompt": "Greve de trabalhadores portuários: calcule e enderece o aviso.", "scenario": "Início: sábado · 09h", "whenOptions": ["Quinta-feira · 09h", "Quarta-feira · 09h", "Quarta-feira · 21h"], "whenAnswer": 1, "toOptions": ["Empregadores e usuários", "Apenas usuários", "Apenas entidade patronal"], "toAnswer": 0, "why": "Atividade portuária é essencial: sábado 09h menos 72h = quarta 09h. Empregadores e usuários devem ser comunicados.", "trap": "A inclusão dos portos no rol legal impede aplicar automaticamente o prazo ordinário.", "source": "Lei 7.783/89, arts. 10, XV, e 13", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-020", "track": "prazos", "kind": "pick", "prompt": "No capítulo, a regra de publicação da sentença normativa é discutida diante da Lei nº 10.192/2001. Qual prazo consta do art. 12, § 2º?", "options": ["Publicação imediata após a decisão do Tribunal.", "Quinze dias, contados da decisão do Tribunal.", "Setenta e duas horas, contadas da publicação da pauta."], "answer": 1, "why": "O art. 12, § 2º, da Lei nº 10.192/2001 prevê publicação em até 15 dias da decisão. Martins assinala a derrogação da exigência de publicação imediata do art. 8º da Lei de Greve.", "trap": "Não confunda esse prazo de publicação judicial com 48/72 horas de aviso prévio de greve.", "source": "Lei 10.192/2001, art. 12, § 2º; Martins, item 21", "url": "https://www2.camara.leg.br/legin/fed/lei/2001/lei-10192-14-fevereiro-2001-365669-normaatualizada-pl.html"}, {"id": "GV3-021", "track": "prazos", "kind": "pick", "prompt": "Greve não essencial: o sindicato avisa apenas os clientes 48 horas antes. O problema é:", "options": ["Os destinatários: deveriam ser empregadores e usuários.", "O destinatário; deveria avisar a parte patronal.", "O prazo, pois qualquer greve depende de 72 horas de aviso."], "answer": 1, "why": "Na atividade não essencial o aviso se dirige à entidade patronal ou aos empregadores diretamente interessados.", "trap": "Não transfira a exigência de comunicar usuários da atividade essencial para toda greve.", "source": "Lei 7.783/89, art. 3º, parágrafo único", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-022", "track": "prazos", "kind": "truth", "prompt": "Em atividade essencial, avisar apenas o empregador 72 horas antes é suficiente para cumprir toda a obrigação de comunicação.", "answer": false, "why": "Também os usuários devem ser comunicados, no mesmo prazo mínimo de 72 horas.", "trap": "A pegadinha separa a variável “prazo” da variável “destinatários”.", "source": "Lei 7.783/89, art. 13", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-023", "track": "prazos", "kind": "match", "prompt": "Marque o enquadramento legal de cada atividade:", "choices": ["Essencial no rol expresso", "Fora do rol expresso, isoladamente"], "rows": [{"text": "Compensação bancária", "answer": 0}, {"text": "Ensino regular escolar", "answer": 1}, {"text": "Atividades portuárias", "answer": 0}, {"text": "Assistência médica e hospitalar", "answer": 0}], "why": "Compensação bancária (não toda operação comercial), portos e hospitais constam do rol legal; ensino escolar não consta isoladamente.", "trap": "Nunca conclua que todo serviço bancário é essencial só porque compensação bancária o é.", "source": "Lei 7.783/89, art. 10, II, XI e XV", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-024", "track": "prazos", "kind": "pick", "prompt": "Uma empresa afirma que toda greve essencial exige exatamente 30% dos empregados trabalhando. A lei determina:", "options": ["Percentual geral e invariável de 30%.", "Percentual obrigatório de 50%, salvo acordo.", "Serviços indispensáveis, sem percentual único geral."], "answer": 2, "why": "O art. 11 exige assegurar a prestação indispensável às necessidades inadiáveis, sem fixar taxa geral uniforme.", "trap": "Percentuais podem surgir de decisões e negociações concretas, não do número fixo que a questão inventou.", "source": "Lei 7.783/89, art. 11", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-025", "track": "prazos", "kind": "fill", "prompt": "As necessidades inadiáveis põem em perigo iminente sobrevivência, saúde ou {{blank}} da população.", "answers": ["segurança", "seguranca"], "why": "A definição legal exige perigo iminente à sobrevivência, saúde ou segurança da população.", "trap": "Prejuízo financeiro ao empresário, sozinho, não é o critério.", "source": "Lei 7.783/89, art. 11, parágrafo único", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-026", "track": "prazos", "kind": "pick", "prompt": "Em serviço essencial, as partes deixam de assegurar o atendimento indispensável. Quem providencia a prestação?", "options": ["A entidade sindical, com exclusividade, até cessar a greve.", "O Poder Público, na forma da lei.", "Os empregadores, sem qualquer atuação supletiva do Estado."], "answer": 1, "why": "A inobservância do art. 11 desloca ao Poder Público o dever de assegurar os serviços indispensáveis.", "trap": "Não confunda o dever inicial dos participantes com a atuação supletiva prevista no art. 12.", "source": "Lei 7.783/89, arts. 11 e 12", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-027", "track": "efeitos", "kind": "truth", "prompt": "Um piquete pacífico pode persuadir colegas a aderir, mas não impedir fisicamente a entrada de quem quer trabalhar.", "answer": true, "why": "O art. 6º protege persuasão pacífica e divulgação; proíbe ameaças, danos e impedimento de acesso.", "trap": "Piquete não é sinônimo de bloqueio coercitivo.", "source": "Lei 7.783/89, art. 6º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-028", "track": "efeitos", "kind": "pick", "prompt": "Grevistas impedem à força a entrada de não aderentes. Qual efeito jurídico é mais adequado?", "options": ["O piquete é regular se aprovado previamente em assembleia.", "Pode haver abuso e responsabilização pelos atos.", "Só há abuso se, além do bloqueio, ocorrer dano material."], "answer": 1, "why": "A greve não autoriza constranger direitos de terceiros, o que pode implicar responsabilidades conforme o caso.", "trap": "Não existe licença de coerção física por prazo curto.", "source": "Lei 7.783/89, arts. 6º e 15", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-029", "track": "efeitos", "kind": "match", "prompt": "Distingua as três situações e o agente envolvido:", "choices": ["Sindicato/comissão + empregador", "Empregador, na falta de acordo", "Poder Público"], "rows": [{"text": "Pactuar equipes para preservar máquinas e a retomada.", "answer": 0}, {"text": "Contratar diretamente serviços necessários para preservação sem acordo.", "answer": 1}, {"text": "Assegurar serviço essencial indispensável não prestado.", "answer": 2}], "why": "Art. 9º cuida da conservação de bens e retomada; art. 12 cuida do atendimento essencial à população.", "trap": "O empregador não obtém autorização geral para substituir toda a categoria.", "source": "Lei 7.783/89, arts. 9º e 12", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-030", "track": "efeitos", "kind": "pick", "prompt": "Durante greve regular, pode o empregador contratar livremente substitutos para todas as atividades?", "options": ["Sim, se contratar pessoal temporário apenas durante o movimento.", "Não, salvo exceções dos arts. 9º e 14.", "Sim, se a reposição de empregados não superar 30% do quadro."], "answer": 1, "why": "A regra é a vedação de substitutos, com exceções legais expressas.", "trap": "A exceção para manutenção de máquinas não autoriza substituição irrestrita.", "source": "Lei 7.783/89, art. 7º, parágrafo único", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-031", "track": "efeitos", "kind": "pick", "prompt": "Em regra, a participação em greve nos termos da lei produz qual efeito contratual?", "options": ["Interrupção, desde que a greve não seja considerada abusiva.", "Suspensão apenas depois de decisão expressa da Justiça do Trabalho.", "Suspensão do contrato de trabalho."], "answer": 2, "why": "O art. 7º prevê suspensão do contrato, e as obrigações do período são regidas pelos instrumentos ou decisões ali previstos.", "trap": "Suspensão contratual não é rescisão, nem salário automático.", "source": "Lei 7.783/89, art. 7º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-032", "track": "efeitos", "kind": "pick", "prompt": "Quanto aos salários dos dias parados em greve de empregados privados, qual é a leitura mais segura da Lei de Greve?", "options": ["Os dias devem ser pagos sempre que a greve não for abusiva.", "O pagamento não é automático; aplicam-se os instrumentos do art. 7º.", "Os dias nunca podem ser pagos enquanto houver suspensão do contrato."], "answer": 1, "why": "O art. 7º não institui pagamento automático dos dias parados; acordo, convenção, laudo arbitral ou decisão podem discipliná-los.", "trap": "Diferencie regra legal de suspensão de uma solução negociada ou judicial mais favorável.", "source": "Lei 7.783/89, art. 7º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-033", "track": "efeitos", "kind": "truth", "prompt": "A continuação da paralisação depois de acordo, convenção ou decisão da Justiça do Trabalho pode configurar abuso do direito de greve.", "answer": true, "why": "É hipótese expressa no art. 14, respeitadas as ressalvas do parágrafo único.", "trap": "Não transforme a regra em absoluta sem ler as exceções.", "source": "Lei 7.783/89, art. 14", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-034", "track": "efeitos", "kind": "pick", "prompt": "Há convenção coletiva vigente, mas o empregador descumpre cláusula. A categoria faz greve para exigir seu cumprimento. Nesse ponto:", "options": ["É abusiva sempre que ocorrer dentro da vigência da convenção.", "A lei ressalva a greve para exigir a cláusula vigente.", "A ressalva legal vale só para fato novo, não para cláusula descumprida."], "answer": 1, "why": "A exigência de cumprimento de cláusula ou condição vigente é ressalva expressa à abusividade pelo motivo invocado.", "trap": "Vigência da norma e descumprimento de sua cláusula não são o mesmo cenário.", "source": "Lei 7.783/89, art. 14, parágrafo único, I", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-035", "track": "efeitos", "kind": "truth", "prompt": "Fato novo e imprevisto que modifique substancialmente as relações de trabalho pode justificar greve durante a vigência de norma coletiva.", "answer": true, "why": "O art. 14, parágrafo único, II, traz essa ressalva.", "trap": "A exceção não dispensa os demais requisitos do movimento.", "source": "Lei 7.783/89, art. 14, parágrafo único, II", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-036", "track": "efeitos", "kind": "match", "prompt": "Aponte o efeito jurídico predominante em cada cenário:", "choices": ["Lockout; salários devidos", "Não caracteriza lockout pelo motivo narrado", "Greve de empregados; contrato suspenso em regra"], "rows": [{"text": "Empregador fecha a produção para frustrar reivindicações.", "answer": 0}, {"text": "Fábrica fecha por interdição de autoridade pública.", "answer": 1}, {"text": "Empregados param coletivamente em movimento regular.", "answer": 2}], "why": "Lockout é a paralisação patronal para pressionar ou frustrar a negociação e é vedado, com salários devidos.", "trap": "Fechamento patronal por falência ou ato governamental não é automaticamente lockout.", "source": "Lei 7.783/89, arts. 7º e 17; Martins, item 24 — Lockout", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-037", "track": "professor", "kind": "pick", "prompt": "Na revisão do autor, “greve branca” e “operação tartaruga” são equivalentes?", "options": ["Não: a primeira mantém o serviço, mas a segunda o suspende.", "Não: a primeira paralisa; a segunda reduz o ritmo sem parar.", "Sim, ambas seguem trabalhando, mas com motivações diferentes."], "answer": 1, "why": "Na greve branca o empregado permanece fisicamente no posto, mas cessa o serviço. Na operação tartaruga há trabalho lento.", "trap": "A armadilha é confundir permanência no local com permanência da prestação.", "source": "Martins, itens 4 e 6", "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977", "authorView": true}, {"id": "GV3-038", "track": "professor", "kind": "pick", "prompt": "Uma greve tem objetivo exclusivamente político, com exigências dirigidas ao governo. Qual leitura pertence especificamente a Martins?", "options": ["O autor restringe a greve sem reivindicação atendível pelo empregador.", "O autor admite greve política se não houver prejuízo patrimonial direto.", "O autor só admite greve política dirigida ao governo, não ao empregador."], "answer": 0, "why": "Martins condiciona os interesses trabalhistas à possibilidade de atendimento pelo empregador; o próprio capítulo registra posições judiciais distintas sobre protesto e greve política.", "trap": "Não transforme uma posição do autor em regra universal e incontroversa dos tribunais.", "source": "Martins, item 10 — Interesses a defender", "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977", "authorView": true}, {"id": "GV3-039", "track": "professor", "kind": "match", "prompt": "Associe a conduta ao campo principal de responsabilização:", "choices": ["Trabalhista", "Civil", "Penal"], "rows": [{"text": "Justa causa por falta grave efetivamente praticada no movimento.", "answer": 0}, {"text": "Reparação de dano material causado a terceiros.", "answer": 1}, {"text": "Lesão corporal praticada durante a paralisação.", "answer": 2}], "why": "Um ato ilícito no curso da greve pode gerar consequências trabalhistas, civis e/ou penais, segundo suas características.", "trap": "Participar da greve não basta para configurar falta grave.", "source": "Lei 7.783/89, art. 15; Martins, item 22", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-040", "track": "professor", "kind": "pick", "prompt": "Sobre os servidores civis em geral e os militares, assinale a distinção correta:", "options": ["Servidores civis e militares exercem greve sob os mesmos limites legais.", "Civis podem exercer sob limites legais; militares têm vedação constitucional.", "Militares têm direito de greve se forem mantidos os serviços indispensáveis."], "answer": 1, "why": "O art. 37, VII, prevê direito dos servidores civis nos limites legais; militares estão submetidos à vedação constitucional.", "trap": "O prazo de aviso de atividade essencial não afasta proibição constitucional.", "source": "CF/1988, arts. 37, VII, e 142, § 3º, IV", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"}, {"id": "GV3-041", "track": "professor", "kind": "truth", "prompt": "Segundo o STF (Tema 541), policiais civis podem exercer greve sempre que mantiverem 30% do efetivo.", "answer": false, "why": "O STF veda greve, sob qualquer forma ou modalidade, aos policiais civis e demais servidores diretamente ligados à segurança pública.", "trap": "Regras de serviço mínimo não são autorização para essas carreiras.", "source": "STF, Tema 541 — ARE 654.432", "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=4128634&numeroProcesso=654432&numeroTema=541"}, {"id": "GV3-042", "track": "professor", "kind": "pick", "prompt": "Para servidores públicos civis em geral, o STF (Tema 531) fixou que dias parados:", "options": ["Regra de desconto; acordo permite compensar, e ilícito estatal afasta o desconto.", "Não há desconto se greve for regular; a compensação exige sentença judicial.", "O desconto é obrigatório mesmo com acordo ou ilícito do Poder Público."], "answer": 0, "why": "A tese admite compensação em acordo e afasta desconto se a greve resultar de conduta ilícita do Poder Público.", "trap": "Não confunda a situação do servidor com pagamento de salários no lockout patronal.", "source": "STF, Tema 531 — RE 693.456", "url": "https://portal.stf.jus.br/jurisprudenciarepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4255687&numeroProcesso=693456&numeroTema=531"}, {"id": "GV3-043", "track": "professor", "kind": "pick", "prompt": "Quem pode provocar a Justiça do Trabalho para decidir reivindicações no conflito grevista, segundo o art. 8º?", "options": ["As partes envolvidas, mas não o Ministério Público do Trabalho.", "Qualquer das partes ou o Ministério Público do Trabalho.", "Só o sindicato profissional ou a comissão, excluído o empregador."], "answer": 1, "why": "A Justiça do Trabalho decide sobre reivindicações por iniciativa de qualquer das partes ou do Ministério Público do Trabalho.", "trap": "Compare a legitimação da comissão (art. 5º) e a do MPT no dissídio (art. 8º).", "source": "Lei 7.783/89, arts. 5º e 8º", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-044", "track": "professor", "kind": "order", "prompt": "Organize o roteiro didático básico do movimento, sem tratar a sequência como cronograma rígido de toda categoria:", "items": ["Tentativa de negociação e sua frustração", "Deliberação em assembleia", "Notificação com antecedência mínima", "Paralisação coletiva nos termos da lei"], "answer": [0, 1, 2, 3], "why": "O esquema sintetiza requisitos de negociação, deliberação e comunicação antes do início da paralisação.", "trap": "Não é necessária sentença judicial autorizativa antes de toda greve.", "source": "Lei 7.783/89, arts. 3º, 4º e 13", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}, {"id": "GV3-045", "track": "professor", "kind": "fill", "prompt": "No lockout proibido, a paralisação parte do {{blank}}, com salários devidos no período.", "answers": ["empregador", "patrão", "patrao"], "why": "O art. 17 proíbe a paralisação patronal destinada a frustrar negociações ou reivindicações e assegura salários.", "trap": "Lockout não é greve realizada pelos trabalhadores.", "source": "Lei 7.783/89, art. 17", "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7783-28-junho-1989-372139-normaatualizada-pl.html"}]}</script>
+<script>
+/* Legis Lectiones | Greve, laboratório v3: motor exclusivo, sem interferir em p2-quiz.js. */
+(() => {
+  'use strict';
+  const VERSION = '3.0';
+  const KEY = 'legis-lectiones:labour:greve:lab-v3';
+  const byId = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const norm = (s) => String(s ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim().toLowerCase().replace(/\s+/g,' ');
+  const staticBank = JSON.parse(byId('bankData').textContent);
+  let bank=staticBank, lookup=new Map(), state={version:VERSION, first:{}, latest:{}, session:null};
+  let draft={};
+  const $ = byId;
+  const kinds={pick:'Escolha estratégica',truth:'Veredito',match:'Associar agentes',order:'Ordenar etapas',clock:'Relógio jurídico',fill:'Memória ativa'};
+  const formatN = n => new Intl.NumberFormat('pt-BR').format(n);
+  const shuffle = a => {const z=[...a];for(let i=z.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[z[i],z[j]]=[z[j],z[i]];}return z;};
+  function has(obj,id) {return Object.prototype.hasOwnProperty.call(obj||{},id);}
+  function readState(){try{
+    const s=JSON.parse(localStorage.getItem(KEY));
+    if(s?.version===VERSION && s.first && s.latest && (!s.session || Array.isArray(s.session.ids))) {
+      state={version:VERSION,first:s.first,latest:s.latest,session:s.session};
+      if(state.session && state.session.ids.some(id=>!lookup.has(id))) state.session=null;
+    }
+  }catch(e){/* navegação privada não deve quebrar o estudo */}}
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){/* mantém progresso na aba */}}
+  function validate(b){
+    if(!Array.isArray(b.questions)||b.questions.length===0||!Array.isArray(b.tracks))throw Error('Banco sem atividades.');
+    const ids=new Set(),tracks=new Set(b.tracks.map(t=>t.id));
+    for(const q of b.questions){
+      if(!q.id||ids.has(q.id)||!tracks.has(q.track)||!q.prompt||!q.why||!q.source)throw Error('Atividade incompleta ou duplicada: '+q.id);
+      ids.add(q.id);
+      if(q.kind==='pick'&&(![2,3].includes(q.options?.length)||q.answer<0||q.answer>=q.options.length))throw Error('Opções inválidas: '+q.id);
+      if(q.kind==='truth' && typeof q.answer!=='boolean')throw Error('V/F inválido: '+q.id);
+      if(q.kind==='match'&&(!q.rows?.length || !q.choices?.length || q.rows.some(r=>r.answer<0||r.answer>=q.choices.length)))throw Error('Associação inválida: '+q.id);
+      if(q.kind==='order'&&(!q.items ||q.items.length<3))throw Error('Sequência inválida: '+q.id);
+      if(q.kind==='clock'&&(!q.whenOptions||!q.toOptions||!Number.isInteger(q.whenAnswer)||!Number.isInteger(q.toAnswer)))throw Error('Prazo inválido: '+q.id);
+      if(q.kind==='fill'&&(!q.answers?.length||!q.prompt.includes('{{blank}}')))throw Error('Lacuna inválida: '+q.id);
+      if(!kinds[q.kind])throw Error('Tipo desconhecido: '+q.id);
+    }
+    return true;
+  }
+  function show(name){
+    $('homeView').hidden=name!=='home'; $('studyView').hidden=name!=='study'; $('result').hidden=name!=='result';
+    $('result').classList.toggle('show',name==='result');
+    window.scrollTo?.({top:0,behavior:'instant'});
+  }
+  function home(){
+    const attempted=Object.keys(state.first).filter(id=>lookup.has(id)).length;
+    const right=Object.entries(state.first).filter(([id,v])=>lookup.has(id)&&v===true).length;
+    const outstanding=Object.entries(state.latest).filter(([id,v])=>lookup.has(id)&&v===false).length;
+    $('globalMetric').innerHTML=`<b>${attempted}/${bank.questions.length}</b> experimentadas na primeira tentativa · <b>${right}</b> acertos iniciais`;
+    $('reviewBtn').disabled=outstanding===0;
+    $('reviewBtn').textContent=outstanding?`Revisar ${outstanding} ponto${outstanding===1?'':'s'} de atenção`:'Sem erros pendentes';
+    $('resumeBtn').hidden=!state.session||Boolean(state.session.completed);
+    $('trackGrid').innerHTML=bank.tracks.map(t=>{
+      const list=bank.questions.filter(q=>q.track===t.id);
+      const done=list.filter(q=>has(state.first,q.id)).length;
+      return `<button class="track-card" type="button" data-track="${esc(t.id)}" aria-label="Estudar ${esc(t.short)}: ${done} de ${list.length} já respondidas">
+        <span class="track-motif" aria-hidden="true">${esc(t.motif)}</span><strong>${esc(t.label)}</strong><small>${esc(t.subtitle)}</small>
+        <span class="track-progress">${done}/${list.length}</span><span class="bar-mini"><span style="width:${Math.round(100*done/list.length)}%"></span></span></button>`;
+    }).join('');
+    $('trackGrid').querySelectorAll('[data-track]').forEach(btn=>btn.addEventListener('click',()=>start('track',bank.questions.filter(q=>q.track===btn.dataset.track).map(q=>q.id),btn.textContent.trim().split('\n')[0])));
+    show('home');
+  }
+  function start(mode,ids,label){
+    if(!ids.length)return;
+    state.session={mode,label,ids,pos:0,records:{},completed:false};
+    draft={};save();question();
+  }
+  function quick(){
+    const unseen=shuffle(bank.questions.filter(q=>!has(state.first,q.id)));
+    const pending=shuffle(bank.questions.filter(q=>state.latest[q.id]===false));
+    const rest=shuffle(bank.questions.filter(q=>has(state.first,q.id)&&state.latest[q.id]!==false));
+    const ids=[...unseen,...pending,...rest].slice(0,8).map(q=>q.id);
+    start('quick',ids,'Sessão curta · 8 desafios');
+  }
+  function resume(){if(!state.session)return;draft={};question();}
+  function answerStatus(q){return state.session.records[q.id] || null;}
+  function pendingFor(q){if(!has(draft,q.id)){
+    if(q.kind==='match')draft[q.id]=Array(q.rows.length).fill(null);
+    else if(q.kind==='order')draft[q.id]=[];
+    else if(q.kind==='clock')draft[q.id]={when:null,to:null};
+    else if(q.kind==='fill')draft[q.id]='';
+    else draft[q.id]=null;
+  }return draft[q.id];}
+  function complete(q,ans){
+    if(q.kind==='pick')return Number.isInteger(ans);
+    if(q.kind==='truth')return typeof ans==='boolean';
+    if(q.kind==='match')return Array.isArray(ans)&&ans.length===q.rows.length&&ans.every(Number.isInteger);
+    if(q.kind==='order')return Array.isArray(ans)&&ans.length===q.items.length;
+    if(q.kind==='clock')return Number.isInteger(ans.when)&&Number.isInteger(ans.to);
+    if(q.kind==='fill')return Boolean(String(ans).trim());
+    return false;
+  }
+  function evaluate(q,a){
+    if(q.kind==='pick'||q.kind==='truth')return a===q.answer;
+    if(q.kind==='match')return a.every((v,i)=>v===q.rows[i].answer);
+    if(q.kind==='order')return a.every((v,i)=>v===q.answer[i]);
+    if(q.kind==='clock')return a.when===q.whenAnswer && a.to===q.toAnswer;
+    if(q.kind==='fill')return q.answers.some(s=>norm(s)===norm(a));
+    return false;
+  }
+  function correctText(q){
+    if(q.kind==='pick')return q.options[q.answer];
+    if(q.kind==='truth')return q.answer?'Procede.':'Não procede.';
+    if(q.kind==='match')return q.rows.map(r=>`${r.text.trim()} → ${q.choices[r.answer]}`).join(' | ');
+    if(q.kind==='order')return q.items.join(' → ');
+    if(q.kind==='clock')return `${q.whenOptions[q.whenAnswer]} · ${q.toOptions[q.toAnswer]}`;
+    if(q.kind==='fill')return q.answers[0];
+  }
+  function audio(ok){const x=$(ok?'sfxCorrect':'sfxWrong');try{x?.play().catch(()=>{});}catch(e){}}
+  function submit(q,a){
+    if(answerStatus(q)||!complete(q,a))return;
+    const good=evaluate(q,a);
+    state.session.records[q.id]={correct:good,response:a};
+    if(!has(state.first,q.id))state.first[q.id]=good;
+    state.latest[q.id]=good;save();audio(good);
+    question();
+  }
+  function makeOption(text,i,answer,current,checked){
+    let cls='choice';
+    if(checked){if(i===answer)cls+=' correct';else if(i===current)cls+=' incorrect';}
+    else if(i===current)cls+=' active';
+    return `<button class="${cls}" type="button" data-choice="${i}" ${checked?'disabled':''}><span class="choice-no">${String.fromCharCode(65+i)}</span><span>${esc(text)}</span></button>`;
+  }
+  function renderPick(q,a,r,host){
+    host.innerHTML=q.options.map((o,i)=>makeOption(o,i,q.answer,a,r!==null)).join('');
+    if(!r)host.querySelectorAll('[data-choice]').forEach(btn=>btn.addEventListener('click',()=>submit(q,Number(btn.dataset.choice))));
+  }
+  function renderTruth(q,a,r,host){
+    const options=['Procede','Não procede'];
+    host.innerHTML='<p class="mini-note">Julgue a afirmação à luz da referência indicada.</p><div class="truth-grid">'+options.map((o,i)=>{
+      const v=i===0;
+      let cls='choice';if(r){if(v===q.answer)cls+=' correct';else if(v===a)cls+=' incorrect';}
+      return `<button class="${cls}" type="button" data-truth="${v}" ${r?'disabled':''}>${o}</button>`;
+    }).join('')+'</div>';
+    if(!r)host.querySelectorAll('[data-truth]').forEach(btn=>btn.addEventListener('click',()=>submit(q,btn.dataset.truth==='true')));
+  }
+  function renderMatch(q,a,r,host){
+    host.innerHTML='<p class="mini-note">Escolha uma categoria para cada situação. Não é necessário arrastar cartões.</p>'+q.rows.map((row,idx)=>{
+      const selected=a[idx];
+      const chips=q.choices.map((label,i)=>{
+        const cls='chip'+(selected===i?' selected':'')+(r&&i===row.answer?' is-right':'')+(r&&selected===i&&i!==row.answer?' is-wrong':'');
+        return `<button type="button" class="${cls}" data-row="${idx}" data-value="${i}" ${r?'disabled':''}>${esc(label)}</button>`;
+      }).join('');
+      return `<div class="match-row"><p class="row-label"><b>${String(idx+1).padStart(2,'0')}</b> &nbsp; ${esc(row.text)}</p><div class="chip-row">${chips}</div>${r&&selected!==row.answer?`<p class="correct-note">Correto: ${esc(q.choices[row.answer])}</p>`:''}</div>`;
+    }).join('');
+    if(!r)host.querySelectorAll('[data-row]').forEach(btn=>btn.addEventListener('click',()=>{
+      const v=[...pendingFor(q)];v[Number(btn.dataset.row)]=Number(btn.dataset.value);draft[q.id]=v;question(false);
+    }));
+  }
+  function renderOrder(q,a,r,host){
+    const placed=a||[];
+    const pool=q.items.map((label,i)=>({label,i})).sort((x,y)=>((x.i*3+1)%7)-((y.i*3+1)%7));
+    host.innerHTML='<p class="mini-note">Toque nos cartões em ordem. Use “desfazer” para corrigir antes de conferir.</p><div class="order-wrap"><ol class="order-rail">'+
+      q.items.map((_,i)=>`<li class="${i<placed.length?'filled':''}"><b>${i+1}.</b> ${i<placed.length?esc(q.items[placed[i]]):'Escolha a etapa'}</li>`).join('')+'</ol><div class="order-tiles">'+
+      pool.map(x=>`<button type="button" class="chip ${placed.includes(x.i)?'used':''}" data-order="${x.i}" ${r||placed.includes(x.i)?'disabled':''}>${esc(x.label)}</button>`).join('')+`</div><div class="order-actions"><button type="button" class="small-btn" id="undoOrder" ${r||!placed.length?'disabled':''}>Desfazer última</button><button type="button" class="small-btn" id="clearOrder" ${r||!placed.length?'disabled':''}>Limpar</button></div></div>`;
+    if(!r){host.querySelectorAll('[data-order]').forEach(btn=>btn.addEventListener('click',()=>{draft[q.id]=[...pendingFor(q),Number(btn.dataset.order)];question(false);}));
+      $('undoOrder').addEventListener('click',()=>{draft[q.id]=pendingFor(q).slice(0,-1);question(false)});
+      $('clearOrder').addEventListener('click',()=>{draft[q.id]=[];question(false)});
+    }
+  }
+  function renderClock(q,a,r,host){
+    function block(title,prop,opts,answer){return `<div class="task-block"><strong>${esc(title)}</strong><div class="chip-row">${opts.map((o,i)=>{
+      const cls='chip'+(a[prop]===i?' selected':'')+(r&&i===answer?' is-right':'')+(r&&a[prop]===i&&i!==answer?' is-wrong':'');
+      return `<button type="button" class="${cls}" data-clock="${prop}" data-value="${i}" ${r?'disabled':''}>${esc(o)}</button>`;
+    }).join('')}</div></div>`;}
+    host.innerHTML=`<div class="clock-scene"><small>Marco da paralisação</small><strong>${esc(q.scenario)}</strong><div class="clock-rail"></div><div class="clock-labels"><span>Aviso</span><span>Início da greve</span></div></div>`+
+      block('1 · Até quando avisar?', 'when',q.whenOptions,q.whenAnswer)+block('2 · A quem comunicar?','to',q.toOptions,q.toAnswer);
+    if(!r)host.querySelectorAll('[data-clock]').forEach(btn=>btn.addEventListener('click',()=>{
+      const v={...pendingFor(q)};v[btn.dataset.clock]=Number(btn.dataset.value);draft[q.id]=v;question(false);
+    }));
+  }
+  function renderFill(q,a,r,host){
+    const parts=q.prompt.split('{{blank}}');
+    host.innerHTML=`<p class="mini-note">Responda sem alternativas. Acentos e maiúsculas não fazem diferença.</p><div class="fill-line"><span>${esc(parts[0])}</span><input class="fill-input" id="fillInput" type="text" autocomplete="off" spellcheck="false" aria-label="Palavra da lacuna" ${r?'disabled':''} value="${esc(a)}"><span>${esc(parts.slice(1).join(' '))}</span></div>`;
+    if(!r){$('fillInput').addEventListener('input',e=>{draft[q.id]=e.target.value;$('checkBtn').disabled=!complete(q,draft[q.id])});
+      $('fillInput').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();const v=$('fillInput').value;draft[q.id]=v;submit(q,v);}});
+    }
+  }
+  function renderFeedback(q,r){
+    if(!r){$('feedback').hidden=true;$('feedback').innerHTML='';return;}
+    const c=r.correct?'good':'bad';
+    const link=q.url&&/^https:\/\//i.test(q.url)?`<a href="${esc(q.url)}" target="_blank" rel="noopener noreferrer">Consultar fonte</a>`:'';
+    $('feedback').hidden=false;$('feedback').className=`feedback ${c}`;
+    $('feedback').innerHTML=`<h3>${r.correct?'Acerto registrado.':'Pegadinha identificada.'}</h3>`+
+     (!r.correct?`<p><b>Resposta esperada:</b> ${esc(correctText(q))}</p>`:'')+`<p>${esc(q.why)}</p>`+
+     (q.trap?`<p class="trap"><b>Atenção à prova:</b> ${esc(q.trap)}</p>`:'')+
+     `<div class="source">${q.authorView?'<b>Posição doutrinária do autor.</b> ':''}${esc(q.source)} ${link}</div>`;
+  }
+  function question(scroll=true){
+    const s=state.session;if(!s){home();return;}
+    const q=lookup.get(s.ids[s.pos]);if(!q){home();return;}
+    const r=answerStatus(q),a=r?r.response:pendingFor(q);
+    $('sessionTitle').textContent=s.label;
+    $('counter').textContent=`Desafio ${s.pos+1} de ${s.ids.length}`;
+    const done=s.ids.filter(id=>has(s.records,id)).length;
+    $('progressText').textContent=`${done}/${s.ids.length} respondidos`;
+    $('progressBar').style.width=`${(done/s.ids.length)*100}%`;
+    $('sectionLabel').textContent=bank.tracks.find(t=>t.id===q.track)?.label||'';
+    $('typeLabel').textContent=kinds[q.kind];
+    $('prompt').textContent=q.kind==='fill'?'Complete a lacuna.':q.prompt;
+    $('qContext').hidden=!q.context;
+    $('qContext').textContent=q.context||'';
+    const host=$('interactive');host.innerHTML='';
+    if(q.kind==='pick')renderPick(q,a,r,host);
+    if(q.kind==='truth')renderTruth(q,a,r,host);
+    if(q.kind==='match')renderMatch(q,a,r,host);
+    if(q.kind==='order')renderOrder(q,a,r,host);
+    if(q.kind==='clock')renderClock(q,a,r,host);
+    if(q.kind==='fill')renderFill(q,a,r,host);
+    renderFeedback(q,r);
+    $('answerState').textContent=r?(r.correct?'✓ Registrado':'↻ Para revisar'):'Primeira escolha vale para a estatística';
+    $('checkBtn').hidden=Boolean(r)||['pick','truth'].includes(q.kind);
+    $('checkBtn').disabled=Boolean(r)||!complete(q,a);
+    $('prevBtn').disabled=s.pos===0;
+    $('nextBtn').textContent=s.pos===s.ids.length-1?'Ver resultado →':'Próximo →';
+    $('quizCard').dataset.questionId=q.id;
+    $('quizCard').dataset.questionType=q.kind;
+    $('quizCard').dataset.questionSection=q.track;
+    $('quizCard').dataset.questionPrompt=q.prompt;
+    showStudy(scroll);
+    if(scroll && s.pos>0)document.querySelector('.quiz-toolbar')?.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  function showStudy(scroll){
+    if($('studyView').hidden){show('study');} // não recomeça navegação quando apenas escolhe chips
+  }
+  function result(){
+    const s=state.session;if(!s)return;
+    s.completed=s.ids.every(id=>has(s.records,id));save();
+    const all=Object.values(s.records);const answered=all.length;const right=all.filter(v=>v.correct).length;
+    const wrong=answered-right;const total=s.ids.length;const ratio=Math.round((right/total)*100);
+    $('score').textContent=`${ratio}%`;
+    $('scoreDetail').textContent=`${right} acertos · ${wrong} erros · ${total-answered} não respondidas · ${total} atividades`;
+    $('resultCaption').textContent=s.label;
+    $('resultExtra').textContent=total-answered>0?
+      'A pontuação considera o total desta sessão, incluindo desafios não respondidos. Você pode continuar quando voltar à trilha.':
+      (wrong?'A primeira resposta ficou registrada. Os erros podem ser refeitos numa rodada própria, sem apagar o histórico.':'Todos os desafios desta sessão foram resolvidos.');
+    const toReview=s.ids.filter(id=>state.latest[id]===false);
+    $('reviewWrongBtn').disabled=!toReview.length;
+    $('reviewWrongBtn').textContent=toReview.length?`Treinar ${toReview.length} erro${toReview.length===1?'':'s'}`:'Sem erros nesta sessão';
+    show('result');
+    window.dispatchEvent(new CustomEvent('law-bank-result',{detail:{answered,total,complete:answered===total}}));
+  }
+  function review(){
+    const ids=bank.questions.filter(q=>state.latest[q.id]===false).map(q=>q.id);
+    if(!ids.length)return;
+    start('review',shuffle(ids),'Revisão inteligente · erros pendentes');
+  }
+  function bind(){
+    $('quickBtn').addEventListener('click',quick);
+    $('allBtn').addEventListener('click',()=>start('all',bank.questions.map(q=>q.id),'Trilha completa · 45 desafios'));
+    $('reviewBtn').addEventListener('click',review);
+    $('resumeBtn').addEventListener('click',resume);
+    $('goHomeBtn').addEventListener('click',home);
+    $('resultHomeBtn').addEventListener('click',home);
+    $('finishBtn').addEventListener('click',result);
+    $('reviewWrongBtn').addEventListener('click',review);
+    $('restartBtn').addEventListener('click',()=>{if(confirm('Reiniciar esta sessão? O histórico de primeiras tentativas permanecerá salvo.')){
+      const s=state.session;start(s.mode,s.ids,s.label);
+    }});
+    $('resetAllBtn').addEventListener('click',()=>{if(confirm('Apagar as tentativas e o progresso deste novo laboratório de Greve? O banco antigo permanecerá intacto.')){
+      state={version:VERSION,first:{},latest:{},session:null};draft={};save();home();
+    }});
+    $('checkBtn').addEventListener('click',()=>{
+      const q=lookup.get(state.session?.ids[state.session.pos]);if(q)submit(q,pendingFor(q));
+    });
+    $('prevBtn').addEventListener('click',()=>{const s=state.session;if(s.pos>0){s.pos--;save();question();}});
+    $('nextBtn').addEventListener('click',()=>{const s=state.session;if(!s)return;if(s.pos<s.ids.length-1){s.pos++;save();question();}else{result();}});
+  }
+  async function boot(){
+    // No GitHub Pages o JSON externo tem precedência. Em file://, o conteúdo embutido mantém a prévia funcional.
+    if(location.protocol!=='file:'){
+      try{const res=await fetch(new URL('greve.json',document.baseURI),{cache:'no-store'});
+        if(res.ok){const live=await res.json();validate(live);bank=live;}
+      }catch(e){console.warn('Usando cópia incorporada de Greve:',e);}
+    }
+    validate(bank);lookup=new Map(bank.questions.map(q=>[q.id,q]));readState();bind();home();
+  }
+  boot().catch(e=>{console.error(e);$('homeView').innerHTML=`<p role="alert">Não foi possível carregar o laboratório: ${esc(e.message)}</p>`;});
+})();
+
+</script>
+</body>
+</html>
