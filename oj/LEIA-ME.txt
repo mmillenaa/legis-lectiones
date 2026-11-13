@@ -29,6 +29,10 @@ MÓDULOS
 3. oj/cpc-jurisdicao.html + oj/cpc-jurisdicao.json
    30 cartões conforme o PDF, diferenciando conceitos doutrinários de
    transcrições e excertos normativos. Sem imagens genéricas.
+   CP001–CP018: ilustrações anteriores preservadas (WebP).
+   CP019–CP030: quatro pôsteres ilustrativos em preto e branco (SVG),
+   reaproveitados por tema em dpc-jurisdicao-11.svg até -14.svg.
+   Cada arquivo mostra três cenas, não há uma nova imagem por cartão.
 
 4. oj/improbidade.html + oj/improbidade.json
    20 cartões no recorte dos PDFs: dolo, comparação dos tipos estudados,

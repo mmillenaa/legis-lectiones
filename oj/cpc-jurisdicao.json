@@ -4,9 +4,9 @@
     "subtitle": "Direito Processual Civil · preparação OJ TJSP",
     "scope": "PDF específico: conceito, natureza, características, princípios, limites, arts. 17–27 e 36 conforme os recortes dos slides.",
     "sourceLegal": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm",
-    "version": 2,
+    "version": 3,
     "sourceScope": "Conceito, características, princípios, limites internacionais e cooperação conforme PDF de 11 páginas; sem preencher sequência de artigos ausentes.",
-    "sourceNote": "Textos normativos separados de comentários; excertos incompletos identificados, conceitos doutrinários não apresentados como lei. Sem ilustrações genéricas."
+    "sourceNote": "Textos normativos separados de comentários; excertos incompletos identificados, conceitos doutrinários não apresentados como lei. Ilustrações reunidas em quatro pôsteres preto e branco reutilizados entre os cartões CP019–CP030."
   },
   "groups": [
     {
@@ -499,7 +499,8 @@
       "source": "NEAF · Jurisdição, p. 8",
       "normLabel": "CPC, art. 21, incisos I–III",
       "normText": "Compete à autoridade judiciária brasileira processar e julgar as ações em que:\nI - o réu, qualquer que seja a sua nacionalidade, estiver domiciliado no Brasil;\nII - no Brasil tiver de ser cumprida a obrigação;\nIII - o fundamento seja fato ocorrido ou ato praticado no Brasil.",
-      "normKind": "transcrição do recorte normativo estudado"
+      "normKind": "transcrição do recorte normativo estudado",
+      "image": "./assets/dpc-jurisdicao-11.svg"
     },
     {
       "id": "CP020",
@@ -522,7 +523,8 @@
       "source": "NEAF · Jurisdição, p. 8",
       "normLabel": "CPC, art. 22, incisos I–III",
       "normText": "Compete, ainda, à autoridade judiciária brasileira processar e julgar as ações:\nI - de alimentos, quando o credor tiver domicílio ou residência no Brasil, ou o réu mantiver vínculos no Brasil [...];\nII - decorrentes de relações de consumo, quando o consumidor tiver domicílio ou residência no Brasil;\nIII - em que as partes, expressa ou tacitamente, se submeterem à jurisdição nacional.",
-      "normKind": "excerto identificado — texto integral no link oficial"
+      "normKind": "excerto identificado — texto integral no link oficial",
+      "image": "./assets/dpc-jurisdicao-11.svg"
     },
     {
       "id": "CP021",
@@ -545,7 +547,8 @@
       "source": "NEAF · Jurisdição, p. 8",
       "normLabel": "CPC, art. 24 (caput)",
       "normText": "A ação proposta perante tribunal estrangeiro não induz litispendência e não obsta a que a autoridade judiciária brasileira conheça da mesma causa e das que lhe são conexas, ressalvadas as disposições em contrário de tratados internacionais e acordos bilaterais em vigor no Brasil.",
-      "normKind": "transcrição do recorte normativo estudado"
+      "normKind": "transcrição do recorte normativo estudado",
+      "image": "./assets/dpc-jurisdicao-12.svg"
     },
     {
       "id": "CP022",
@@ -568,7 +571,8 @@
       "source": "NEAF · Jurisdição, p. 8",
       "normLabel": "CPC, art. 25 (caput)",
       "normText": "Não compete à autoridade judiciária brasileira o processamento e o julgamento da ação quando houver cláusula de eleição de foro exclusivo estrangeiro em contrato internacional, arguida pelo réu na contestação.",
-      "normKind": "transcrição do recorte normativo estudado"
+      "normKind": "transcrição do recorte normativo estudado",
+      "image": "./assets/dpc-jurisdicao-12.svg"
     },
     {
       "id": "CP023",
@@ -591,7 +595,8 @@
       "source": "NEAF · Jurisdição, p. 9",
       "normLabel": "CPC, art. 23, incisos I–III",
       "normText": "Compete à autoridade judiciária brasileira, com exclusão de qualquer outra:\nI - conhecer de ações relativas a imóveis situados no Brasil;\nII - em matéria de sucessão hereditária, proceder à confirmação de testamento particular e ao inventário e à partilha de bens situados no Brasil, ainda que o autor da herança seja de nacionalidade estrangeira ou tenha domicílio fora do território nacional;\nIII - em divórcio, separação judicial ou dissolução de união estável, proceder à partilha de bens situados no Brasil, ainda que o titular seja de nacionalidade estrangeira ou tenha domicílio fora do território nacional.",
-      "normKind": "transcrição do recorte normativo estudado"
+      "normKind": "transcrição do recorte normativo estudado",
+      "image": "./assets/dpc-jurisdicao-12.svg"
     },
     {
       "id": "CP024",
@@ -614,7 +619,8 @@
       "source": "NEAF · Jurisdição, p. 9",
       "normLabel": "Limites internos e subjetivos",
       "normText": null,
-      "normKind": "conceito doutrinário do PDF"
+      "normKind": "conceito doutrinário do PDF",
+      "image": "./assets/dpc-jurisdicao-13.svg"
     },
     {
       "id": "CP025",
@@ -637,7 +643,8 @@
       "source": "NEAF · Jurisdição, p. 9",
       "normLabel": "CPC, arts. 17 e 18",
       "normText": "Art. 17. Para postular em juízo é necessário ter interesse e legitimidade.\nArt. 18. Ninguém poderá pleitear direito alheio em nome próprio, salvo quando autorizado pelo ordenamento jurídico.\nParágrafo único. Havendo substituição processual, o substituído poderá intervir como assistente litisconsorcial.",
-      "normKind": "transcrição do recorte normativo estudado"
+      "normKind": "transcrição do recorte normativo estudado",
+      "image": "./assets/dpc-jurisdicao-13.svg"
     },
     {
       "id": "CP026",
@@ -660,7 +667,8 @@
       "source": "NEAF · Jurisdição, p. 10",
       "normLabel": "CPC, arts. 19 e 20",
       "normText": "Art. 19. O interesse do autor pode limitar-se à declaração:\nI - da existência, da inexistência ou do modo de ser de uma relação jurídica;\nII - da autenticidade ou da falsidade de documento.\nArt. 20. É admissível a ação meramente declaratória, ainda que tenha ocorrido a violação do direito.",
-      "normKind": "transcrição do recorte normativo estudado"
+      "normKind": "transcrição do recorte normativo estudado",
+      "image": "./assets/dpc-jurisdicao-13.svg"
     },
     {
       "id": "CP027",
@@ -683,7 +691,8 @@
       "source": "NEAF · Jurisdição, p. 10",
       "normLabel": "CPC, art. 26, incisos I–V",
       "normText": "A cooperação jurídica internacional será regida por tratado de que o Brasil faz parte e observará:\nI - o respeito às garantias do devido processo legal no Estado requerente;\nII - a igualdade de tratamento entre nacionais e estrangeiros [...] em relação ao acesso à justiça e à tramitação dos processos, assegurando-se assistência judiciária aos necessitados;\nIII - a publicidade processual, exceto nas hipóteses de sigilo [...];\nIV - a existência de autoridade central para recepção e transmissão dos pedidos de cooperação;\nV - a espontaneidade na transmissão de informações a autoridades estrangeiras.",
-      "normKind": "excerto identificado — texto integral no link oficial"
+      "normKind": "excerto identificado — texto integral no link oficial",
+      "image": "./assets/dpc-jurisdicao-14.svg"
     },
     {
       "id": "CP028",
@@ -706,7 +715,8 @@
       "source": "NEAF · Jurisdição, p. 10",
       "normLabel": "CPC, art. 26, §§ 1º–4º",
       "normText": "§ 1º Na ausência de tratado, a cooperação jurídica internacional poderá realizar-se com base em reciprocidade, manifestada por via diplomática.\n§ 2º Não se exigirá a reciprocidade referida no § 1º para homologação de sentença estrangeira.\n§ 3º Na cooperação jurídica internacional não será admitida a prática de atos que contrariem ou que produzam resultados incompatíveis com as normas fundamentais que regem o Estado brasileiro.\n§ 4º O Ministério da Justiça exercerá as funções de autoridade central na ausência de designação específica.",
-      "normKind": "transcrição do recorte normativo estudado"
+      "normKind": "transcrição do recorte normativo estudado",
+      "image": "./assets/dpc-jurisdicao-14.svg"
     },
     {
       "id": "CP029",
@@ -729,7 +739,8 @@
       "source": "NEAF · Jurisdição, p. 11",
       "normLabel": "CPC, art. 27, incisos I–VI",
       "normText": "A cooperação jurídica internacional terá por objeto:\nI - citação, intimação e notificação judicial e extrajudicial;\nII - colheita de provas e obtenção de informações;\nIII - homologação e cumprimento de decisão;\nIV - concessão de medida judicial de urgência;\nV - assistência jurídica internacional;\nVI - qualquer outra medida judicial ou extrajudicial não proibida pela lei brasileira.",
-      "normKind": "transcrição do recorte normativo estudado"
+      "normKind": "transcrição do recorte normativo estudado",
+      "image": "./assets/dpc-jurisdicao-14.svg"
     },
     {
       "id": "CP030",
@@ -752,7 +763,8 @@
       "source": "NEAF · Jurisdição, p. 11",
       "normLabel": "CPC, art. 36 e §§ 1º–2º",
       "normText": "O procedimento da carta rogatória perante o Superior Tribunal de Justiça é de jurisdição contenciosa e deve assegurar às partes as garantias do devido processo legal.\n§ 1º A defesa restringir-se-á à discussão quanto ao atendimento dos requisitos para que o pronunciamento judicial estrangeiro produza efeitos no Brasil.\n§ 2º Em qualquer hipótese, é vedada a revisão do mérito do pronunciamento judicial estrangeiro pela autoridade judiciária brasileira.",
-      "normKind": "transcrição do recorte normativo estudado"
+      "normKind": "transcrição do recorte normativo estudado",
+      "image": "./assets/dpc-jurisdicao-14.svg"
     }
   ]
 }
