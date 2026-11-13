@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Estabilidade e Garantias de Emprego · Legis Lectiones</title>
+<meta name="description" content="Laboratório interativo de estabilidade no emprego: prazos, sujeitos, jurisprudência do TST, garantias e casos práticos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<!-- Integração com a celebração de resultados do repositório, se disponível. -->
+<link rel="stylesheet" href="../labour-law/result-celestial.css">
+<style>
+:root{color-scheme:dark;--bg:#070d19;--panel:#101a2a;--panel2:#111d30;--line:rgba(210,226,255,.14);--ink:#eff3fc;--muted:#aab5ca;--violet:#b5a0f8;--gold:#e9c384;--teal:#8edbc5;--rose:#ff9cae;--shadow:0 30px 90px rgba(0,0,0,.22)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'DM Sans',system-ui,-apple-system,sans-serif;margin:0;min-height:100vh;color:var(--ink);background:radial-gradient(ellipse 60% 36% at 82% 2%,rgba(108,91,184,.17),transparent 76%),radial-gradient(ellipse 50% 30% at 4% 45%,rgba(27,76,112,.16),transparent 77%),var(--bg)}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.15;background-image:radial-gradient(#dfd6ff 0.55px,transparent .55px);background-size:35px 35px;mask-image:linear-gradient(to bottom,#000,transparent 80%)}
+button,input{font:inherit}button{cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}a{color:var(--gold)}button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offset:4px}a:hover{text-decoration-color:var(--gold)}
+.shell{width:min(1080px,calc(100% - 36px));margin:0 auto;padding:23px 0 56px;position:relative;z-index:1}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:38px}.back-link{font-size:13px;color:var(--muted);text-decoration:none}.back-link:hover{color:#fff}.brand{letter-spacing:.2em;font-size:11px;text-transform:uppercase;color:#929eb2;font-weight:700}
+.eyebrow{font-size:11px;color:var(--violet);font-weight:700;letter-spacing:.17em;text-transform:uppercase}h1,h2,.serif{font-family:'Playfair Display',Georgia,serif;font-weight:500}h1{font-size:clamp(48px,7vw,77px);letter-spacing:-.045em;margin:5px 0 9px}.lead{max-width:740px;color:var(--muted);line-height:1.75;margin:0;font-size:15px}.hero{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:36px;align-items:center;margin-bottom:25px}.hero-art{height:168px;border:1px solid var(--line);border-radius:23px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.015));position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}.hero-art:before{content:"";position:absolute;width:220px;height:220px;border-radius:50%;border:1px dashed rgba(233,195,132,.25)}.hero-art:after{content:"";position:absolute;width:155px;height:155px;border-radius:50%;border:1px solid rgba(181,160,248,.26)}.dial{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:7px}.dial strong{font-family:Georgia,serif;font-weight:400;font-size:31px;color:var(--gold);letter-spacing:.01em}.dial small{font-size:10px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}.dial-divider{height:1px;background:rgba(255,255,255,.17);width:105px}.dial .dial-small{font-size:21px;color:var(--violet)}
+.memory-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:25px}.memory-card{background:rgba(17,28,45,.7);border:1px solid var(--line);border-radius:17px;padding:15px 16px;display:flex;align-items:center;gap:15px;min-height:87px}.memory-number{font:500 31px Georgia,serif;white-space:nowrap;letter-spacing:-.03em;color:var(--gold)}.memory-number.purple{color:var(--violet)}.memory-number.word{font-size:16px;letter-spacing:0;color:var(--teal)}.memory-card strong{font-size:13px;font-weight:700}.memory-card p{font-size:11px;line-height:1.5;color:var(--muted);margin:4px 0 0}.separator{height:1px;background:var(--line);margin:8px 0 24px}
+.dashboard-heading{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:13px}.dashboard-heading h2{font-size:27px;margin:0}.metric{font-size:12px;color:var(--muted)}.metric b{color:var(--teal);font-weight:700}
+.controls-home{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:25px}.btn{border:1px solid var(--line);background:rgba(255,255,255,.035);color:#e6eaf6;border-radius:13px;min-height:42px;padding:10px 16px;font-weight:700;font-size:13px;transition:background .15s,border-color .15s,transform .15s}.btn:hover:not(:disabled){background:rgba(255,255,255,.085);border-color:rgba(255,255,255,.29)}.btn.primary{background:rgba(181,160,248,.21);border-color:rgba(181,160,248,.5);color:#f7f0ff}.btn.primary:hover{background:rgba(181,160,248,.3)}.btn.quiet{font-weight:500}.btn.danger{color:#ebb9c1}.btn.large{min-height:46px}
+.track-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}.track-card{text-align:left;position:relative;min-height:154px;border-radius:18px;border:1px solid var(--line);padding:15px 13px;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.02));color:var(--ink)}.track-card:hover{border-color:rgba(181,160,248,.55);background:rgba(181,160,248,.065)}.track-motif{font:32px Georgia,serif;color:var(--gold);display:block;line-height:1;margin-bottom:12px}.track-card strong{font-size:12px;line-height:1.5;display:block;min-height:36px}.track-card small{color:var(--muted);font-size:11px;line-height:1.4;display:block;margin-top:6px}.track-progress{position:absolute;bottom:12px;right:13px;font-size:10px;color:var(--teal)}.track-card .bar-mini{width:calc(100% - 26px);position:absolute;bottom:8px;height:2px;background:rgba(255,255,255,.06);border-radius:9px;overflow:hidden}.track-card .bar-mini span{height:100%;width:0;display:block;background:var(--teal)}
+.reference-drawer{margin:23px 0;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.018);padding:14px 18px}.reference-drawer summary{list-style:none;cursor:pointer;color:#e4d9ff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:space-between}.reference-drawer summary::after{content:'+';color:var(--gold);font-size:20px}.reference-drawer[open] summary::after{content:'−'}.reference-drawer p{color:var(--muted);line-height:1.6;font-size:12px}.topic-list{display:flex;flex-wrap:wrap;gap:7px}.topic-list span{font-size:11px;color:#dce0ec;border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:50px;padding:6px 10px}
+#studyView[hidden],#homeView[hidden],#result[hidden],#quizCard[hidden]{display:none!important}.quiz-toolbar{display:flex;align-items:center;gap:18px;justify-content:space-between;flex-wrap:wrap;margin-bottom:14px;border-radius:14px;border:1px solid var(--line);padding:12px 16px;background:rgba(17,29,48,.72)}.quiz-info{flex:1;min-width:160px}.progress-meta{display:flex;justify-content:space-between;gap:9px;font-size:12px;color:var(--muted);margin-bottom:8px}.progress-meta strong{color:var(--ink)}.progress{height:5px;background:rgba(255,255,255,.07);border-radius:20px;overflow:hidden}.progress span{display:block;background:linear-gradient(90deg,var(--violet),var(--gold));height:100%;width:0;transition:width .25s}.small-btn{font-size:12px;background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:10px;padding:9px 11px}.small-btn:hover{color:white;background:rgba(255,255,255,.07)}
+.question-card{position:relative;overflow:hidden;border-radius:23px;border:1px solid var(--line);background:linear-gradient(138deg,rgba(23,35,56,.95),rgba(12,22,38,.96));box-shadow:var(--shadow);padding:29px clamp(16px,4vw,38px)}.qhead{display:flex;align-items:center;justify-content:space-between;gap:13px;margin-bottom:27px;flex-wrap:wrap}.section{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--violet);font-weight:700}.type{font-size:11px;color:var(--muted);border:1px solid var(--line);padding:6px 10px;border-radius:90px}.prompt{font-size:clamp(24px,3.4vw,33px);line-height:1.31;max-width:790px;margin:0 0 22px;letter-spacing:-.02em}.context{border-left:2px solid var(--gold);padding:3px 0 3px 14px;font-size:14px;color:var(--muted);line-height:1.6;margin:0 0 18px}.interactive{display:grid;gap:12px}.choice{width:100%;display:flex;gap:14px;align-items:center;text-align:left;color:var(--ink);padding:13px 15px;border:1px solid rgba(225,229,249,.13);background:rgba(6,12,24,.54);border-radius:13px;font-size:14px;line-height:1.5;min-height:57px}.choice:hover:not(:disabled),.choice.active{background:rgba(181,160,248,.11);border-color:rgba(181,160,248,.55)}.choice .choice-no{width:26px;height:26px;flex:0 0 26px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.2);border-radius:8px;color:var(--gold);font-size:12px;font-weight:700}.choice.correct{border-color:rgba(142,219,197,.55);background:rgba(142,219,197,.1)}.choice.incorrect{border-color:rgba(255,156,174,.65);background:rgba(255,156,174,.1)}
+.truth-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.truth-grid .choice{justify-content:center;text-align:center;font-size:16px;font-weight:700}.mini-note{color:var(--muted);font-size:12px;line-height:1.6;margin:0 0 5px}.row-label{font-size:13px;color:#edf1fa;line-height:1.5;margin:0 0 10px}.match-row{background:rgba(4,10,19,.38);border:1px solid var(--line);padding:13px;border-radius:14px}.chip-row{display:flex;flex-wrap:wrap;gap:8px}.chip{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:10px;color:#d8dfef;padding:9px 12px;text-align:left;font-size:12px;line-height:1.4}.chip:hover:not(:disabled){border-color:var(--violet)}.chip.selected{border-color:var(--gold);background:rgba(233,195,132,.11);color:#fff}.chip.is-right{border-color:var(--teal);background:rgba(142,219,197,.10)}.chip.is-wrong{border-color:var(--rose);background:rgba(255,156,174,.10)}.correct-note{font-size:11px;color:var(--teal);margin:9px 0 0}
+.order-wrap{display:grid;gap:15px}.order-rail{list-style:none;margin:0;padding:0;display:grid;gap:8px;counter-reset:steps}.order-rail li{display:flex;gap:12px;min-height:46px;align-items:center;padding:9px;border:1px dashed rgba(255,255,255,.15);border-radius:12px;background:rgba(4,10,19,.28);color:var(--muted);font-size:13px}.order-rail b{color:var(--gold);min-width:24px}.order-rail li.filled{border-style:solid;color:#f5f5fb}.order-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:8px}.order-tiles .chip{text-align:center;min-height:56px}.order-tiles .chip.used{opacity:.35}.order-actions{display:flex;justify-content:flex-end;gap:9px}
+.clock-scene{border:1px solid rgba(233,195,132,.28);border-radius:16px;min-height:119px;background:radial-gradient(circle at 90% 10%,rgba(233,195,132,.09),transparent 45%),rgba(6,12,22,.48);padding:16px 18px}.clock-scene small{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.1em}.clock-scene strong{display:block;font-family:Georgia,serif;color:var(--gold);font-size:clamp(20px,4vw,28px);font-weight:400;margin-top:8px}.clock-rail{height:2px;background:linear-gradient(90deg,var(--violet),rgba(233,195,132,.65));margin:19px 8px 6px;position:relative}.clock-rail::before,.clock-rail::after{content:'';position:absolute;top:-4px;border-radius:50%;width:10px;height:10px;background:var(--violet)}.clock-rail::before{left:0}.clock-rail::after{right:0;background:var(--gold)}.clock-labels{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:10px}.task-block{margin-top:9px}.task-block>strong{font-size:12px;color:var(--violet);display:block;margin-bottom:8px}.task-block .chip-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.task-block .chip{text-align:center;min-height:54px;display:flex;align-items:center;justify-content:center}
+.fill-line{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.fill-input{width:min(420px,100%);padding:13px 15px;border:1px solid var(--violet);color:white;background:rgba(5,9,18,.6);border-radius:12px;font-size:16px}.fill-hint{font-size:12px;color:var(--muted)}
+.feedback{border-radius:15px;border:1px solid var(--line);padding:17px 18px;margin-top:19px;background:rgba(4,9,18,.4);font-size:13px;line-height:1.7}.feedback.good{border-color:rgba(142,219,197,.44)}.feedback.bad{border-color:rgba(255,156,174,.42)}.feedback h3{font-size:15px;margin:0 0 6px;color:var(--teal)}.feedback.bad h3{color:var(--rose)}.feedback p{margin:6px 0}.feedback b{color:#f4f6ff}.feedback .trap{color:var(--gold)}.feedback .source{font-size:11px;color:var(--muted);border-top:1px solid var(--line);margin-top:13px;padding-top:9px}.feedback .source a{color:#d4bcf7}
+.controls{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:23px}.controls-right{display:flex;gap:9px;flex-wrap:wrap}.controls #checkBtn[hidden]{display:none}.answer-state{font-size:12px;color:var(--muted)}
+.result{margin:16px 0 24px;border:1px solid var(--line);border-radius:21px;background:linear-gradient(140deg,rgba(33,37,66,.85),rgba(11,23,38,.9));padding:38px 24px;text-align:center;overflow:hidden;position:relative}.result.show{display:block}.result h2{font-size:38px;margin:7px 0}.result .score{font:500 clamp(57px,9vw,94px)/1.2 Georgia,serif;color:var(--gold);margin:12px 0}.result p{color:var(--muted);line-height:1.6}.result-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:25px}.result-extra{font-size:13px;margin:18px auto 0;max-width:620px}
+.site-footer{margin-top:37px;border-top:1px solid var(--line);padding-top:20px;font-size:12px;color:#91a0b7;line-height:1.7}.site-footer strong{color:#d8dff0}.site-footer p{margin:7px 0}.footnote{font-size:11px;color:#8e9db0}
+@media(max-width:820px){.hero{grid-template-columns:1fr}.hero-art{height:106px}.hero-art:before{width:168px;height:168px}.hero-art:after{width:130px;height:130px}.dial{flex-direction:row;gap:10px}.dial .dial-small{font-size:21px}.dial strong{font-size:29px}.dial-divider{height:31px;width:1px}.track-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.track-card{min-height:144px}}
+@media(max-width:560px){.shell{width:min(100% - 25px,1080px);padding-top:17px}.topbar{margin-bottom:25px}.memory-strip{grid-template-columns:1fr}.memory-card{min-height:69px}.memory-number{min-width:66px}.hero{gap:18px;margin-bottom:18px}.lead{font-size:14px}.track-grid{grid-template-columns:1fr 1fr}.question-card{padding:20px 16px}.qhead{margin-bottom:17px}.controls{align-items:stretch}.controls-right{flex:1;justify-content:flex-end}.btn{padding:10px 12px}.task-block .chip-row{grid-template-columns:1fr}.order-tiles{grid-template-columns:1fr}.quiz-toolbar{padding:11px}.choice{padding:12px 13px}.track-card strong{min-height:0}.track-card{min-height:148px}.track-motif{margin-bottom:7px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+</style>
+<script src="../labour-law/result-celestial.js" defer></script>
+</head>
+<body data-bank="greve">
+<div class="shell">
+<nav class="topbar" aria-label="Navegação">
+  <a class="back-link" href="../labour-law/">← Direito do Trabalho</a>
+  <span class="brand">Legis Lectiones</span>
+</nav>
+<header class="hero">
+  <div>
+    <div class="eyebrow">Direito do Trabalho · Estudo por desafios</div>
+    <h1>Estabilidade<span style="color:var(--gold)">.</span></h1>
+    <p class="lead">Marcos de proteção, sujeitos, prazos, exceções e diferenças entre a interpretação de Sérgio Pinto Martins e a jurisprudência. Estude em pequenas rodadas, com pegadinhas que exigem atenção aos detalhes.</p>
+  </div>
+  <div class="hero-art" role="img" aria-label="Ilustração com os períodos de um ano e cinco meses">
+    <div class="dial"><strong>1 ano</strong><small>após mandato</small><span class="dial-divider"></span><strong class="dial-small">5 meses</strong><small>após o parto</small></div>
+  </div>
+</header>
+<div class="memory-strip" aria-label="Três marcos para memorizar">
+  <div class="memory-card"><span class="memory-number">1 ano</span><div><strong>Proteções representativas</strong><p>Após mandato, nas hipóteses previstas.</p></div></div>
+  <div class="memory-card"><span class="memory-number purple">5 meses</span><div><strong>Gestante</strong><p>Após o parto, na regra do ADCT.</p></div></div>
+  <div class="memory-card"><span class="memory-number word">12 meses</span><div><strong>Acidentado</strong><p>Após cessar o benefício acidentário.</p></div></div>
+</div>
+<main>
+  <section id="homeView" aria-labelledby="homeTitle">
+    <div class="separator"></div>
+    <div class="dashboard-heading"><h2 id="homeTitle">Escolha um percurso</h2><span id="globalMetric" class="metric">Progresso local</span></div>
+    <div class="controls-home">
+      <a class="btn quiet" href="../labour-law/garantias-emprego.html" style="display:inline-flex;align-items:center">Banco clássico · 48 atividades</a>
+      <button type="button" class="btn primary large" id="quickBtn">Começar com 8 desafios</button>
+      <button type="button" class="btn" id="allBtn">Trilha completa · 42</button>
+      <button type="button" class="btn quiet" id="reviewBtn" disabled>Sem erros pendentes</button>
+      <button type="button" class="btn quiet" id="resumeBtn" hidden>Continuar sessão</button>
+    </div>
+    <div class="track-grid" id="trackGrid" aria-label="Percursos temáticos"></div>
+    <details class="reference-drawer">
+      <summary>Qual é a diferença entre a opinião do autor e o entendimento dos tribunais?</summary>
+      <p>Em algumas questões, Martins defende interpretação mais restritiva do que a jurisprudência do TST. As perguntas identificam expressamente quando cobram sua posição doutrinária, a lei ou uma súmula/tema do tribunal.</p>
+      <div class="topic-list"><span>Estabilidade decenal</span><span>Dirigente sindical</span><span>CIPA</span><span>Gestante</span><span>Acidentado</span><span>FGTS e CNPS</span><span>Comissões</span><span>PcD</span><span>Dispensa discriminatória</span><span>Reintegração</span></div>
+      <p>Exemplo: a garantia da gestante alcança contrato de experiência segundo o Tema 163 do TST (2025), embora o livro também exponha posição pessoal restritiva.</p>
+    </details>
+    <p class="footnote">As primeiras respostas alimentam o histórico; acertar depois corrige o ponto pendente, mas não apaga o primeiro resultado. Cada rodada é independente.</p>
+    <button type="button" class="small-btn" id="resetAllBtn">Apagar apenas o progresso deste laboratório</button>
+  </section>
+
+  <section id="studyView" hidden aria-label="Sessão de estudo">
+    <div class="quiz-toolbar">
+      <div class="quiz-info">
+        <div class="progress-meta"><strong id="sessionTitle">Sessão</strong><span id="counter">Desafio 1</span></div>
+        <div class="progress" aria-label="Progresso da sessão"><span id="progressBar"></span></div>
+        <div class="progress-meta" style="margin:8px 0 0"><span id="progressText">0 respondidos</span><span>1ª tentativa registrada</span></div>
+      </div>
+      <button class="small-btn" type="button" id="goHomeBtn">← Trilhas</button>
+      <button class="small-btn" type="button" id="finishBtn">Resultado</button>
+    </div>
+    <article id="quizCard" class="question-card">
+      <div class="qhead"><span id="sectionLabel" class="section"></span><span class="type" id="typeLabel"></span></div>
+      <h2 class="prompt" id="prompt"></h2>
+      <p id="qContext" class="context" hidden></p>
+      <div id="interactive" class="interactive" aria-live="off"></div>
+      <section id="feedback" class="feedback" aria-live="polite" role="status" hidden></section>
+      <div class="controls">
+        <button type="button" class="btn quiet" id="prevBtn">← Anterior</button>
+        <div class="controls-right">
+          <span class="answer-state" id="answerState"></span>
+          <button type="button" class="btn primary" id="checkBtn">Conferir</button>
+          <button type="button" class="btn" id="nextBtn">Próximo →</button>
+        </div>
+      </div>
+    </article>
+    <p class="footnote">Respostas com fonte e pegadinha. Nos casos de divergência, confira se a pergunta cobra doutrina ou jurisprudência. Sem limite de tempo.</p>
+  </section>
+
+  <section id="result" class="result" hidden aria-labelledby="resultTitle">
+    <div class="eyebrow" id="resultCaption">Resultado da sessão</div>
+    <h2 id="resultTitle">Revisão da rodada</h2>
+    <div id="score" class="score" aria-live="polite">0%</div>
+    <p id="scoreDetail">0 acertos · 0 erros · 0 atividades</p>
+    <p id="resultExtra" class="result-extra"></p>
+    <div class="result-actions">
+      <button type="button" class="btn primary" id="reviewWrongBtn">Treinar erros</button>
+      <button type="button" class="btn" id="restartBtn">Repetir esta sessão</button>
+      <button type="button" class="btn quiet" id="resultHomeBtn">Escolher trilha</button>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <strong>Referências e critérios editoriais</strong>
+  <p>MARTINS, Sergio Pinto. <em>Manual de Direito do Trabalho</em>. 15. ed. São Paulo: Saraiva Jur, 2024. Capítulo “Estabilidade e Garantias de Emprego”. <a href="https://app.minhabiblioteca.com.br/reader/books/9786553628977" target="_blank" rel="noopener noreferrer">Minha Biblioteca</a>.</p>
+  <p>BRASIL. <a href="https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" target="_blank" rel="noopener noreferrer">Constituição Federal e ADCT</a>; <a href="https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm" target="_blank" rel="noopener noreferrer">CLT</a>; <a href="https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm" target="_blank" rel="noopener noreferrer">Lei nº 8.213/1991</a>; <a href="https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm" target="_blank" rel="noopener noreferrer">Lei nº 8.036/1990</a>; <a href="https://www.tst.jus.br/documents/d/guest/irr163" target="_blank" rel="noopener noreferrer">TST, Tema 163</a>. Demais referências constam nas atividades.</p>
+  <p class="footnote">Banco versão 4.0. Não altera as 48 atividades do banco anterior de Garantias de Emprego, nem seu histórico. Progresso armazenado localmente neste navegador.</p>
+</footer>
+</div>
+<audio id="sfxCorrect" preload="none" src="../civil-procedure/correct.mp3"></audio>
+<audio id="sfxWrong" preload="none" src="../civil-procedure/wrong.mp3"></audio>
+
+<script id="bankData" type="application/json">{"meta":{"title":"Garantias de Emprego e Estabilidade — Laboratório","language":"pt-BR","version":"4.0","totalActivities":42,"typeCounts":{"pick":24,"order":1,"truth":4,"clock":8,"match":4,"fill":1},"sourceNote":"Fonte principal: capítulo enviado de Sérgio Pinto Martins. Jurisprudência e legislação discriminadas em cada atividade. Orientações divergentes do autor identificadas."},"tracks":[{"id":"fundamentos","label":"Fundamentos e história","short":"Fundamentos","subtitle":"Evolução da estabilidade, conceito e regime decenal","motif":"§"},{"id":"prazos","label":"Prazos e marcos","short":"Prazos","subtitle":"Candidatura, mandato, parto, auxílio e inquérito","motif":"12"},{"id":"agentes","label":"Agentes e procedimentos","short":"Agentes","subtitle":"Quem está protegido e quem apura a falta grave","motif":"◎"},{"id":"casos","label":"Casos e jurisprudência","short":"Casos","subtitle":"Gestante, acidentado, CIPA e reintegração","motif":"⚖"},{"id":"prova","label":"Miudezas de prova","short":"Prova","subtitle":"Percentuais, exceções e distinções finas","motif":"✦"}],"questions":[{"id":"EST4-001","track":"fundamentos","kind":"pick","prompt":"No sentido jurídico trabalhista, estabilidade significa:","options":["Direito à permanência no emprego, ressalvadas hipóteses admitidas.","Direito à indenização em qualquer encerramento de contrato.","A proibição de dispensa imotivada que permanece mesmo depois do período protegido."],"answer":0,"why":"A estabilidade jurídica restringe a dispensa a causas admitidas pelo ordenamento.","trap":"Não equivale a vínculo vitalício.","source":"Martins, itens 2 e 3 — Denominação e conceito","url":"https://app.minhabiblioteca.com.br/reader/books/9786553628977","authorView":true},{"id":"EST4-002","track":"fundamentos","kind":"pick","prompt":"Na distinção de Sérgio Pinto Martins, garantia de emprego é:","options":["Uma modalidade exclusiva de estabilidade decenal que alcança todos os contratos de trabalho.","Um gênero que inclui medidas amplas de proteção ao emprego.","Apenas a impossibilidade absoluta de despedida."],"answer":1,"why":"O conceito mais amplo alcança obtenção, manutenção e colocação no emprego; estabilidade é proteção mais específica.","trap":"O autor também diferencia garantia de emprego de garantia no emprego.","source":"Martins, itens 2 e 3","url":"https://app.minhabiblioteca.com.br/reader/books/9786553628977","authorView":true},{"id":"EST4-003","track":"fundamentos","kind":"pick","prompt":"Qual diploma foi marco da estabilidade no setor privado e da previdência ferroviária?","options":["A Lei nº 8.036, de 1990, que reorganizou o Fundo de Garantia do Tempo de Serviço.","A Constituição de 1988.","A Lei Eloy Chaves, de 1923."],"answer":2,"why":"O Decreto nº 4.682/1923 instituiu proteção aos ferroviários, marco histórico do regime privado.","trap":"O instituto havia surgido antes no setor público.","source":"Martins, item 1 — Histórico","url":"https://app.minhabiblioteca.com.br/reader/books/9786553628977"},{"id":"EST4-004","track":"fundamentos","kind":"order","prompt":"Coloque os três marcos em ordem cronológica:","items":["Lei Eloy Chaves: ferroviários e estabilidade (1923)","FGTS inaugura regime de opção (1966)","Constituição extingue a alternatividade para novos direitos (1988)"],"answer":[0,1,2],"why":"A trajetória apresentada pelo autor vai do regime de estabilidade decenal à opção pelo FGTS e à sistemática constitucional de 1988.","trap":"A Constituição de 1988 preservou direitos adquiridos.","source":"Martins, item 1 — Histórico","url":"https://app.minhabiblioteca.com.br/reader/books/9786553628977"},{"id":"EST4-005","track":"fundamentos","kind":"pick","prompt":"Na disciplina clássica do art. 492 da CLT, a estabilidade decenal exigia, em regra:","options":["Mais de dez anos de serviço na mesma empresa.","Cinco anos continuados de trabalho público, independentemente de concurso.","Três anos de exercício após concurso."],"answer":0,"why":"O art. 492 se refere ao empregado com mais de dez anos de serviço na mesma empresa.","trap":"O prazo de três anos pertence à estabilidade constitucional do servidor efetivo.","source":"CLT, art. 492; Martins, item 8","url":"https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"},{"id":"EST4-006","track":"fundamentos","kind":"truth","prompt":"Quem completou dez anos de emprego após 1988 adquiriu automaticamente a antiga estabilidade decenal da CLT.","answer":false,"why":"A transição constitucional preserva direitos adquiridos do antigo regime, mas não cria estabilidade decenal nova de forma geral.","trap":"Dez anos atualmente não bastam para reviver o regime extinto.","source":"Lei nº 8.036/1990, art. 14; Martins, item 8","url":"https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm"},{"id":"EST4-007","track":"fundamentos","kind":"pick","prompt":"O pedido de demissão do empregado estável, nos termos do art. 500 da CLT:","options":["É válido apenas com duas testemunhas.","Exige assistência sindical ou da autoridade indicada na falta de sindicato.","Depende de prévia sentença trabalhista, dispensada a assistência de qualquer sindicato."],"answer":1,"why":"O art. 500 estabelece assistência pelo sindicato ou, inexistindo sindicato, por autoridade local do Ministério do Trabalho ou da Justiça do Trabalho.","trap":"Formalidade especial não se confunde com aceitação patronal.","source":"CLT, art. 500","url":"https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"},{"id":"EST4-008","track":"fundamentos","kind":"truth","prompt":"A estabilidade jurídica necessariamente impede qualquer mudança de cargo ou local de trabalho.","answer":false,"why":"A proteção recai sobre a manutenção do vínculo, respeitadas as regras legais de alteração contratual e transferência.","trap":"Estabilidade não é inamovibilidade.","source":"Martins, itens 3 e 8; CLT, arts. 468 e 469","url":"https://app.minhabiblioteca.com.br/reader/books/9786553628977"},{"id":"EST4-009","track":"prazos","kind":"clock","prompt":"Para o dirigente sindical eleito, inclusive suplente, identifique os limites da proteção.","scenario":"Direção sindical","whenOptions":["Registro da candidatura","Data da eleição","Posse"],"whenAnswer":0,"toOptions":["Fim do mandato","Cinco meses após mandato","Um ano após o mandato"],"toAnswer":2,"labelWhen":"1 · Início da proteção","labelTo":"2 · Término da proteção","why":"A garantia começa no registro da candidatura e vai, para os eleitos, até um ano após o fim do mandato.","trap":"A posse não inaugura o período protegido.","source":"CF, art. 8º, VIII; CLT, art. 543","url":"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},{"id":"EST4-010","track":"prazos","kind":"pick","prompt":"O mandato do dirigente sindical termina em 30/06/2026. Até quando vai a garantia, em regra?","options":["Até 30/06/2027.","Até 30/11/2026.","Até 30/06/2028."],"answer":0,"why":"O período final se projeta por um ano após o término do mandato.","trap":"Cinco meses é prazo ligado à gestante após o parto, não à garantia sindical.","source":"CF, art. 8º, VIII","url":"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},{"id":"EST4-011","track":"prazos","kind":"clock","prompt":"Qual o início e o término da proteção do empregado eleito para a CIPA?","scenario":"CIPA · empregado eleito","whenOptions":["Posse no cargo","Registro da candidatura","Primeira reunião"],"whenAnswer":1,"toOptions":["Mandato encerrado","Um ano após o mandato","Dois anos após o mandato"],"toAnswer":1,"labelWhen":"1 · Início da proteção","labelTo":"2 · Término da proteção","why":"A proteção vai do registro de candidatura até um ano após o fim do mandato, abrangendo suplente eleito.","trap":"Não conte apenas os meses do mandato.","source":"ADCT, art. 10, II, a; TST, Súmula 339","url":"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},{"id":"EST4-012","track":"prazos","kind":"clock","prompt":"No regime constitucional da gestante, quais são os marcos de proteção?","scenario":"Gestação · ADCT","whenOptions":["Início da licença","Data do parto","Confirmação da gravidez"],"whenAnswer":2,"toOptions":["Cinco meses após o parto","120 dias após a concepção","Um ano após o parto"],"toAnswer":0,"labelWhen":"1 · Início da proteção","labelTo":"2 · Término da proteção","why":"A garantia constitucional começa na confirmação da gravidez e termina cinco meses após o parto.","trap":"A licença-maternidade e a estabilidade possuem marcos e durações distintos.","source":"ADCT, art. 10, II, b","url":"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},{"id":"EST4-013","track":"prazos","kind":"pick","prompt":"O empregado sofre acidente de trabalho. Após a cessação do benefício acidentário, a garantia do art. 118 dura, em regra:","options":["Seis meses.","Doze meses.","Vinte e quatro meses."],"answer":1,"why":"A norma garante manutenção do contrato por, no mínimo, doze meses após a cessação do auxílio-doença acidentário.","trap":"O marco não é automaticamente a data do acidente.","source":"Lei nº 8.213/1991, art. 118","url":"https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm"},{"id":"EST4-014","track":"prazos","kind":"match","prompt":"Indique a correspondência entre marcos e períodos previstos na legislação.","choices":["30 dias","12 meses","5 meses"],"rows":[{"text":"Prazo para ajuizar inquérito a partir da suspensão do empregado.","answer":0},{"text":"Garantia ordinária após cessação de auxílio-doença acidentário.","answer":1},{"text":"Intervalo constitucional após o parto.","answer":2}],"why":"As durações têm fatos geradores diferentes: suspensão, cessação de benefício e parto.","trap":"A pergunta cobra simultaneamente prazo e marco inicial.","source":"CLT, art. 853; Lei 8.213/1991, art. 118; ADCT, art. 10","url":"https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"},{"id":"EST4-015","track":"prazos","kind":"clock","prompt":"Representante dos trabalhadores no Conselho Curador do FGTS: qual intervalo?","scenario":"Conselho Curador do FGTS","whenOptions":["Registro de candidatura","Nomeação","Posse do conselho anterior"],"whenAnswer":1,"toOptions":["Fim do mandato","Um ano após o mandato","Cinco meses após o mandato"],"toAnswer":1,"labelWhen":"1 · Início da proteção","labelTo":"2 · Término da proteção","why":"Representantes dos trabalhadores, efetivos e suplentes, têm garantia da nomeação até um ano após o mandato.","trap":"A exigência de falta grave é por processo sindical no texto legal.","source":"Lei nº 8.036/1990, art. 3º, §9º","url":"https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm"},{"id":"EST4-016","track":"prazos","kind":"clock","prompt":"Representante dos trabalhadores no CNPS: identifique o intervalo.","scenario":"Conselho Nacional de Previdência Social","whenOptions":["Posse em sindicato","Registro da candidatura","Nomeação"],"whenAnswer":2,"toOptions":["Um ano após o mandato","Término do mandato","Dois anos após o mandato"],"toAnswer":0,"labelWhen":"1 · Início da proteção","labelTo":"2 · Término da proteção","why":"O CNPS também utiliza a nomeação como marco inicial, até um ano depois do mandato.","trap":"Ao contrário do Conselho Curador do FGTS, a lei menciona processo judicial para comprovação de falta grave.","source":"Lei nº 8.213/1991, art. 3º, §7º","url":"https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm"},{"id":"EST4-017","track":"prazos","kind":"clock","prompt":"Empregado eleito para a Comissão de Conciliação Prévia: identifique os limites.","scenario":"Comissão de Conciliação Prévia","whenOptions":["Registro da candidatura","Eleição","Primeira reunião"],"whenAnswer":1,"toOptions":["Fim do mandato","Cinco meses após o mandato","Um ano após o mandato"],"toAnswer":2,"labelWhen":"1 · Início da proteção","labelTo":"2 · Término da proteção","why":"A CLT atribui proteção aos representantes dos empregados, titulares e suplentes, desde a eleição até um ano após o término do mandato.","trap":"A data inicial não é o registro de candidatura nessa hipótese.","source":"CLT, art. 625-B, §1º","url":"https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"},{"id":"EST4-018","track":"prazos","kind":"clock","prompt":"Comissão de representantes dos empregados na empresa: duração e proteção posterior.","scenario":"CLT · art. 510-D","whenOptions":["Mandato de um ano","Mandato de dois anos","Mandato de três anos"],"whenAnswer":0,"toOptions":["Seis meses após mandato","Um ano após mandato","Dois anos após mandato"],"toAnswer":1,"labelWhen":"1 · Duração do mandato","labelTo":"2 · Proteção posterior","why":"O mandato é de um ano, e a proteção contra despedida arbitrária alcança um ano após seu término, iniciando-se no registro de candidatura.","trap":"Mandato e período protegido não são a mesma medida.","source":"CLT, art. 510-D","url":"https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"},{"id":"EST4-019","track":"prazos","kind":"pick","prompt":"A restrição eleitoral do art. 73, V, da Lei nº 9.504/1997 vai, em regra:","options":["Trabalhe em qualquer atividade, ainda que não corresponda à categoria representada.","Dois meses antes do pleito ao término da apuração.","Dos três meses anteriores ao pleito até a posse dos eleitos."],"answer":2,"why":"A lei eleitoral estabelece esse intervalo, sujeito às hipóteses e exceções específicas do dispositivo.","trap":"Não confunda com a estabilidade do art. 41 da Constituição.","source":"Lei nº 9.504/1997, art. 73, V","url":"https://www.planalto.gov.br/ccivil_03/leis/l9504.htm"},{"id":"EST4-020","track":"prazos","kind":"pick","prompt":"Servidor nomeado após concurso para cargo efetivo: o art. 41 da Constituição prevê estabilidade, em regra, após:","options":["Três anos de efetivo exercício e avaliação especial de desempenho.","Só tem garantia se substituir definitivamente o titular afastado durante o mandato.","Dois anos em cargo exclusivamente comissionado."],"answer":0,"why":"A regra exige três anos de efetivo exercício para cargo efetivo, mediante concurso, e avaliação especial de desempenho.","trap":"O art. 19 do ADCT possui hipótese transitória distinta.","source":"CF, art. 41","url":"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},{"id":"EST4-021","track":"agentes","kind":"match","prompt":"Relacione cada representante ou colegiado ao procedimento expressamente previsto.","choices":["Processo sindical","Processo judicial","Assistência do sindicato"],"rows":[{"text":"Falta grave de representante dos trabalhadores no Conselho Curador do FGTS.","answer":0},{"text":"Falta grave de representante dos trabalhadores no CNPS.","answer":1},{"text":"Pedido de demissão de empregado estável, como regra.","answer":2}],"why":"Os dois conselhos usam processos distintos no texto legal, enquanto o pedido de demissão tem exigência específica de assistência.","trap":"É uma pegadinha de agente e procedimento, não apenas de duração.","source":"Lei nº 8.036/1990, art. 3º, §9º; Lei nº 8.213/1991, art. 3º, §7º; CLT, art. 500","url":"https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm"},{"id":"EST4-022","track":"agentes","kind":"pick","prompt":"Quem NÃO tem garantia sindical apenas por sua função fiscalizadora?","options":["Suplente eleito para a direção.","Membro do conselho fiscal sindical.","Diretor sindical regularmente eleito."],"answer":1,"why":"Segundo a OJ 365, quem integra o conselho fiscal fiscaliza contas e não exerce a direção sindical tutelada pela norma.","trap":"Suplência de direção e conselho fiscal não são funções equivalentes.","source":"TST, OJ 365 da SBDI-1","url":"https://www.tst.jus.br/jurisprudencia"},{"id":"EST4-023","track":"agentes","kind":"pick","prompt":"O dirigente de categoria profissional diferenciada precisa, segundo a Súmula 369, III, que:","options":["Tem garantia igual à do diretor eleito, ainda que a lei não trate expressamente da suplência.","Seja eleito por votação de todos os empregados da empresa.","Exerça na empresa atividade correspondente à categoria representada."],"answer":2,"why":"O nexo entre a atividade efetiva e a categoria representada é requisito importante para essa garantia.","trap":"A eleição sindical isolada não resolve a situação da categoria diferenciada.","source":"TST, Súmula 369, III","url":"https://www.tst.jus.br/jurisprudencia"},{"id":"EST4-024","track":"agentes","kind":"pick","prompt":"Quanto ao suplente eleito para representação dos empregados na CIPA:","options":["É abrangido pela garantia reconhecida na jurisprudência.","Só tem garantia se substituir definitivamente o titular.","Não tem garantia porque não ocupa a presidência."],"answer":0,"why":"Súmula 339, I, do TST e Súmula 676 do STF reconhecem a garantia ao suplente.","trap":"A literalidade isolada do art. 165 da CLT é insuficiente.","source":"TST, Súmula 339, I; STF, Súmula 676","url":"https://www.tst.jus.br/jurisprudencia"},{"id":"EST4-025","track":"agentes","kind":"truth","prompt":"A mera indicação de representante patronal para a CIPA, sem eleição pelos empregados, gera automaticamente a garantia prevista no ADCT.","answer":false,"why":"A proteção constitucional ordinária estudada refere-se ao empregado eleito como representante dos trabalhadores.","trap":"O autor discute cenário peculiar de representante patronal eleito; isso não transforma indicação em eleição.","source":"ADCT, art. 10, II, a; Martins, item 11.2","url":"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},{"id":"EST4-026","track":"agentes","kind":"pick","prompt":"Segundo a OJ 253 da SBDI-1, o suplente de dirigente de sociedade cooperativa:","options":["Tem a mesma garantia do dirigente, em qualquer circunstância.","Não recebe essa garantia apenas por ser suplente.","Possui garantia por exatamente cinco meses após a eleição."],"answer":1,"why":"A OJ 253 restringe a garantia ao diretor de sociedade cooperativa nas condições legais.","trap":"Não transfira a regra do suplente da CIPA ou do sindicato para o suplente cooperativo.","source":"TST, OJ 253 da SBDI-1","url":"https://www.tst.jus.br/jurisprudencia"},{"id":"EST4-027","track":"agentes","kind":"match","prompt":"Associe as proteções a seus beneficiários.","choices":["Conselho Curador FGTS","Comissão de Conciliação Prévia","CIPA"],"rows":[{"text":"Representantes dos trabalhadores nomeados, titulares e suplentes.","answer":0},{"text":"Representantes dos empregados eleitos, titulares e suplentes.","answer":1},{"text":"Representantes dos empregados eleitos para prevenção de acidentes e assédio.","answer":2}],"why":"A titularidade dos cargos e a forma de investidura diferenciam os institutos.","trap":"Não memorize apenas um prazo de doze meses: memorize o agente e o marco.","source":"Leis nº 8.036/1990 e 8.213/1991; CLT","url":"https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"},{"id":"EST4-028","track":"agentes","kind":"pick","prompt":"O art. 19 do ADCT considerou estáveis determinados servidores públicos civis sem concurso, desde que contassem, na promulgação da Constituição, com:","options":["Três anos intercalados.","Dez anos de serviço no mesmo cargo, independentemente do órgão público de origem.","Cinco anos continuados de exercício."],"answer":2,"why":"É uma regra transitória para servidores civis nas condições e órgãos previstos no dispositivo.","trap":"Não se trata da mesma hipótese do art. 41, aplicável a titulares de cargos efetivos.","source":"ADCT, art. 19","url":"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},{"id":"EST4-029","track":"agentes","kind":"fill","prompt":"O prazo do art. 853 da CLT para ajuizar inquérito após a suspensão é de {{blank}} dias.","answers":["30","trinta"],"why":"O empregador conta trinta dias a partir da suspensão do empregado para a propositura do inquérito.","trap":"A pergunta não trata da duração de estabilidade.","source":"CLT, art. 853","url":"https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"},{"id":"EST4-030","track":"casos","kind":"pick","prompt":"A empresa é encerrada e deixa de existir a base de representação do dirigente sindical. A garantia, segundo a Súmula 369, IV:","options":["Prossegue por dez anos na nova empresa para a qual o empregado eventualmente seja transferido.","Não subsiste após a extinção da atividade empresarial pertinente.","Converte-se necessariamente em vitaliciedade."],"answer":1,"why":"A garantia protege a representação sindical na atividade empresarial.","trap":"Não é a mesma lógica aplicada à gestante diante do encerramento da empresa.","source":"TST, Súmula 369, IV","url":"https://www.tst.jus.br/jurisprudencia"},{"id":"EST4-031","track":"casos","kind":"pick","prompt":"O estabelecimento é extinto, não subsistindo a CIPA. Segundo a Súmula 339, II:","options":["Não há reintegração nem indenização do período remanescente por esse fato.","É sempre devida indenização em dobro até o fim do mandato.","O trabalhador deve ser transferido automaticamente para outro estabelecimento."],"answer":0,"why":"A garantia da CIPA não é vantagem pessoal: está ligada à existência de suas atividades no estabelecimento.","trap":"A extinção do local de trabalho deve ser diferenciada de uma dispensa arbitrária isolada.","source":"TST, Súmula 339, II","url":"https://www.tst.jus.br/jurisprudencia"},{"id":"EST4-032","track":"casos","kind":"pick","prompt":"A empregada estava grávida, mas o empregador não sabia ao dispensá-la. Segundo a Súmula 244, I:","options":["A proteção depende de comunicação formal anterior à dispensa, inclusive se a gestação começou antes.","O desconhecimento impede a reintegração e a indenização.","O desconhecimento não afasta o direito à indenização decorrente da estabilidade."],"answer":2,"why":"O TST adotou proteção objetiva quanto ao desconhecimento patronal da gravidez.","trap":"O livro também apresenta posição subjetiva do autor, contrária à tese predominante.","source":"TST, Súmula 244, I; Martins, item 11.3","url":"https://www.tst.jus.br/jurisprudencia"},{"id":"EST4-033","track":"casos","kind":"truth","prompt":"A confirmação da gravidez durante o aviso-prévio indenizado é irrelevante para a garantia gestacional.","answer":false,"why":"A CLT expressamente protege a confirmação ocorrida durante o contrato, inclusive aviso-prévio trabalhado ou indenizado.","trap":"A projeção do aviso-prévio pode ser determinante.","source":"CLT, art. 391-A","url":"https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"},{"id":"EST4-034","track":"casos","kind":"pick","prompt":"No contrato de experiência, a gestante tem proteção conforme a tese firmada no Tema 163 do TST?","options":["Não, a experiência sempre exclui a garantia, mesmo quando a gravidez ocorre durante o contrato.","Sim, a garantia também alcança essa modalidade de prazo determinado.","Somente mediante renovação para prazo indeterminado."],"answer":1,"why":"O TST firmou em 27/06/2025 a tese de que a garantia do ADCT cabe no contrato de experiência.","trap":"Martins apresenta posição restritiva no capítulo; não a confunda com a tese repetitiva do TST.","source":"TST, Tema 163 (2025)","url":"https://www.tst.jus.br/documents/d/guest/irr163"},{"id":"EST4-035","track":"casos","kind":"pick","prompt":"Após terminar o período de garantia da gestante, ela ajuíza ação dentro do prazo prescricional. Conforme a OJ 399:","options":["O ajuizamento tardio não é por si só abuso, e pode ser devida indenização.","A indenização é impossível depois do fim da garantia, ainda que a ação esteja dentro do prazo prescricional.","O prazo da garantia reinicia com a distribuição da ação."],"answer":0,"why":"A OJ 399 distingue o exercício do direito de ação, sujeito à prescrição, do fim da garantia para reintegração.","trap":"A posição pessoal do autor é mais restritiva; a jurisprudência segue outra orientação.","source":"TST, OJ 399 da SBDI-1","url":"https://www.tst.jus.br/jurisprudencia"},{"id":"EST4-036","track":"casos","kind":"pick","prompt":"Doença profissional relacionada ao trabalho constatada após a dispensa, sem benefício acidentário prévio:","options":["Nunca há garantia se não tiver sido concedido auxílio-doença acidentário antes da dispensa.","Garante estabilidade decenal em qualquer hipótese.","Pode atrair a exceção jurisprudencial se demonstrado nexo causal."],"answer":2,"why":"Súmula 378, II, prevê exceção quando constatada após a dispensa doença profissional relacionada ao contrato.","trap":"A ausência do benefício não é sempre fatal, mas o nexo causal é essencial.","source":"TST, Súmula 378, II","url":"https://www.tst.jus.br/jurisprudencia"},{"id":"EST4-037","track":"casos","kind":"pick","prompt":"O empregado sofre acidente de trabalho durante contrato por prazo determinado. Segundo a Súmula 378, III:","options":["O prazo determinado afasta toda garantia.","Há garantia provisória também no contrato a termo.","A garantia depende de contratação subsequente por prazo indeterminado."],"answer":1,"why":"A jurisprudência do TST reconhece a garantia acidentária também em contrato por prazo determinado.","trap":"O livro registra orientação pessoal mais restritiva.","source":"TST, Súmula 378, III","url":"https://www.tst.jus.br/jurisprudencia"},{"id":"EST4-038","track":"casos","kind":"pick","prompt":"A gestante dispensada irregularmente procura o Judiciário depois de finalizado o período estabilitário. A Súmula 244, II, prevê:","options":["Salários e direitos do período de garantia, sem reintegração após o término.","Reintegração obrigatória por mais cinco anos.","Extinção de qualquer pretensão indenizatória, ainda que o pedido ocorra dentro do prazo prescricional."],"answer":0,"why":"Quando já não cabe reintegração no período protegido, a tutela restringe-se à indenização correspondente.","trap":"Término da garantia não apaga necessariamente direitos da dispensa anterior.","source":"TST, Súmula 244, II","url":"https://www.tst.jus.br/jurisprudencia"},{"id":"EST4-039","track":"prova","kind":"match","prompt":"Qual é a escala legal de reserva de cargos para PcD/reabilitados?","choices":["2%","3%","4%","5%"],"rows":[{"text":"Empresas com 100 a 200 empregados.","answer":0},{"text":"201 a 500 empregados.","answer":1},{"text":"501 a 1.000 empregados.","answer":2},{"text":"1.001 ou mais empregados.","answer":3}],"why":"O art. 93 apresenta progressão de 2%, 3%, 4% e 5%, conforme o porte da empresa.","trap":"A faixa intermediária de 201 a 500 corresponde a 3%, não 4%.","source":"Lei nº 8.213/1991, art. 93","url":"https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm"},{"id":"EST4-040","track":"prova","kind":"pick","prompt":"Na hipótese do art. 93, §1º, a dispensa imotivada de trabalhador reabilitado em contrato indeterminado condiciona-se:","options":["À autorização judicial coletiva sempre que houver dispensa imotivada do empregado com deficiência.","Ao simples pagamento integral das verbas rescisórias.","À contratação de substituto com deficiência ou reabilitado em condição semelhante."],"answer":2,"why":"A norma exige contratação de substituto na hipótese especificada, além das demais condições legais.","trap":"É regra diferente de estabilidade por prazo fixo.","source":"Lei nº 8.213/1991, art. 93, §1º","url":"https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm"},{"id":"EST4-041","track":"prova","kind":"pick","prompt":"A dispensa de trabalhador com HIV ou doença grave que suscite estigma ou preconceito, segundo a Súmula 443:","options":["Presume-se discriminatória e pode gerar reintegração.","É livre desde que haja indenização de quarenta por cento do FGTS.","Só será discriminatória se houver confissão formal do empregador."],"answer":0,"why":"A Súmula 443 presume discriminatória a dispensa e considera inválido o ato, assegurando reintegração; entendimento reafirmado no Tema 254.","trap":"Presunção não é sinônimo de prova exclusivamente direta da intenção discriminatória.","source":"TST, Súmula 443 e Tema 254","url":"https://jurisprudencia-backend.tst.jus.br/rest/documentos/24"},{"id":"EST4-042","track":"prova","kind":"clock","prompt":"Diretor de cooperativa criada pelos empregados: identifique o intervalo de garantia indicado na lei.","scenario":"Direção de sociedade cooperativa","whenOptions":["Posse","Registro da candidatura","Primeiro ano de mandato"],"whenAnswer":1,"toOptions":["Um ano após o mandato","Fim do mandato","Cinco meses após o mandato"],"toAnswer":0,"labelWhen":"1 · Início da proteção","labelTo":"2 · Término da proteção","why":"O art. 55 da Lei 5.764/1971 remete às garantias do art. 543 da CLT para empregados eleitos diretores.","trap":"Não se estende automaticamente ao suplente (OJ 253).","source":"Lei nº 5.764/1971, art. 55; CLT, art. 543","url":"https://www.planalto.gov.br/ccivil_03/leis/l5764.htm"}]}</script>
+<script>
+/* Legis Lectiones | Estabilidade, laboratório v4: motor exclusivo, sem interferir em p2-quiz.js. */
+(() => {
+  'use strict';
+  const VERSION = '4.0';
+  const KEY = 'legis-lectiones:labour:estabilidade:lab-v4';
+  const byId = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const norm = (s) => String(s ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim().toLowerCase().replace(/\s+/g,' ');
+  const staticBank = JSON.parse(byId('bankData').textContent);
+  let bank=staticBank, lookup=new Map(), state={version:VERSION, first:{}, latest:{}, session:null};
+  let draft={};
+  const $ = byId;
+  const kinds={pick:'Escolha estratégica',truth:'Veredito',match:'Associar agentes',order:'Ordenar etapas',clock:'Mapa de marcos',fill:'Memória ativa'};
+  const formatN = n => new Intl.NumberFormat('pt-BR').format(n);
+  const shuffle = a => {const z=[...a];for(let i=z.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[z[i],z[j]]=[z[j],z[i]];}return z;};
+  function has(obj,id) {return Object.prototype.hasOwnProperty.call(obj||{},id);}
+  function readState(){try{
+    const s=JSON.parse(localStorage.getItem(KEY));
+    if(s?.version===VERSION && s.first && s.latest && (!s.session || Array.isArray(s.session.ids))) {
+      state={version:VERSION,first:s.first,latest:s.latest,session:s.session};
+      if(state.session && state.session.ids.some(id=>!lookup.has(id))) state.session=null;
+    }
+  }catch(e){/* navegação privada não deve quebrar o estudo */}}
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){/* mantém progresso na aba */}}
+  function validate(b){
+    if(!Array.isArray(b.questions)||b.questions.length===0||!Array.isArray(b.tracks))throw Error('Banco sem atividades.');
+    const ids=new Set(),tracks=new Set(b.tracks.map(t=>t.id));
+    for(const q of b.questions){
+      if(!q.id||ids.has(q.id)||!tracks.has(q.track)||!q.prompt||!q.why||!q.source)throw Error('Atividade incompleta ou duplicada: '+q.id);
+      ids.add(q.id);
+      if(q.kind==='pick'&&(![2,3].includes(q.options?.length)||q.answer<0||q.answer>=q.options.length))throw Error('Opções inválidas: '+q.id);
+      if(q.kind==='truth' && typeof q.answer!=='boolean')throw Error('V/F inválido: '+q.id);
+      if(q.kind==='match'&&(!q.rows?.length || !q.choices?.length || q.rows.some(r=>r.answer<0||r.answer>=q.choices.length)))throw Error('Associação inválida: '+q.id);
+      if(q.kind==='order'&&(!q.items ||q.items.length<3))throw Error('Sequência inválida: '+q.id);
+      if(q.kind==='clock'&&(!q.whenOptions||!q.toOptions||!Number.isInteger(q.whenAnswer)||!Number.isInteger(q.toAnswer)))throw Error('Prazo inválido: '+q.id);
+      if(q.kind==='fill'&&(!q.answers?.length||!q.prompt.includes('{{blank}}')))throw Error('Lacuna inválida: '+q.id);
+      if(!kinds[q.kind])throw Error('Tipo desconhecido: '+q.id);
+    }
+    return true;
+  }
+  function show(name){
+    $('homeView').hidden=name!=='home'; $('studyView').hidden=name!=='study'; $('result').hidden=name!=='result';
+    $('result').classList.toggle('show',name==='result');
+    window.scrollTo?.({top:0,behavior:'instant'});
+  }
+  function home(){
+    const attempted=Object.keys(state.first).filter(id=>lookup.has(id)).length;
+    const right=Object.entries(state.first).filter(([id,v])=>lookup.has(id)&&v===true).length;
+    const outstanding=Object.entries(state.latest).filter(([id,v])=>lookup.has(id)&&v===false).length;
+    $('globalMetric').innerHTML=`<b>${attempted}/${bank.questions.length}</b> experimentadas na primeira tentativa · <b>${right}</b> acertos iniciais`;
+    $('reviewBtn').disabled=outstanding===0;
+    $('reviewBtn').textContent=outstanding?`Revisar ${outstanding} ponto${outstanding===1?'':'s'} de atenção`:'Sem erros pendentes';
+    $('resumeBtn').hidden=!state.session||Boolean(state.session.completed);
+    $('trackGrid').innerHTML=bank.tracks.map(t=>{
+      const list=bank.questions.filter(q=>q.track===t.id);
+      const done=list.filter(q=>has(state.first,q.id)).length;
+      return `<button class="track-card" type="button" data-track="${esc(t.id)}" aria-label="Estudar ${esc(t.short)}: ${done} de ${list.length} já respondidas">
+        <span class="track-motif" aria-hidden="true">${esc(t.motif)}</span><strong>${esc(t.label)}</strong><small>${esc(t.subtitle)}</small>
+        <span class="track-progress">${done}/${list.length}</span><span class="bar-mini"><span style="width:${Math.round(100*done/list.length)}%"></span></span></button>`;
+    }).join('');
+    $('trackGrid').querySelectorAll('[data-track]').forEach(btn=>btn.addEventListener('click',()=>start('track',bank.questions.filter(q=>q.track===btn.dataset.track).map(q=>q.id),btn.textContent.trim().split('\n')[0])));
+    show('home');
+  }
+  function start(mode,ids,label){
+    if(!ids.length)return;
+    state.session={mode,label,ids,pos:0,records:{},completed:false};
+    draft={};save();question();
+  }
+  function quick(){
+    const unseen=shuffle(bank.questions.filter(q=>!has(state.first,q.id)));
+    const pending=shuffle(bank.questions.filter(q=>state.latest[q.id]===false));
+    const rest=shuffle(bank.questions.filter(q=>has(state.first,q.id)&&state.latest[q.id]!==false));
+    const ids=[...unseen,...pending,...rest].slice(0,8).map(q=>q.id);
+    start('quick',ids,'Sessão curta · 8 desafios');
+  }
+  function resume(){if(!state.session)return;draft={};question();}
+  function answerStatus(q){return state.session.records[q.id] || null;}
+  function pendingFor(q){if(!has(draft,q.id)){
+    if(q.kind==='match')draft[q.id]=Array(q.rows.length).fill(null);
+    else if(q.kind==='order')draft[q.id]=[];
+    else if(q.kind==='clock')draft[q.id]={when:null,to:null};
+    else if(q.kind==='fill')draft[q.id]='';
+    else draft[q.id]=null;
+  }return draft[q.id];}
+  function complete(q,ans){
+    if(q.kind==='pick')return Number.isInteger(ans);
+    if(q.kind==='truth')return typeof ans==='boolean';
+    if(q.kind==='match')return Array.isArray(ans)&&ans.length===q.rows.length&&ans.every(Number.isInteger);
+    if(q.kind==='order')return Array.isArray(ans)&&ans.length===q.items.length;
+    if(q.kind==='clock')return Number.isInteger(ans.when)&&Number.isInteger(ans.to);
+    if(q.kind==='fill')return Boolean(String(ans).trim());
+    return false;
+  }
+  function evaluate(q,a){
+    if(q.kind==='pick'||q.kind==='truth')return a===q.answer;
+    if(q.kind==='match')return a.every((v,i)=>v===q.rows[i].answer);
+    if(q.kind==='order')return a.every((v,i)=>v===q.answer[i]);
+    if(q.kind==='clock')return a.when===q.whenAnswer && a.to===q.toAnswer;
+    if(q.kind==='fill')return q.answers.some(s=>norm(s)===norm(a));
+    return false;
+  }
+  function correctText(q){
+    if(q.kind==='pick')return q.options[q.answer];
+    if(q.kind==='truth')return q.answer?'Procede.':'Não procede.';
+    if(q.kind==='match')return q.rows.map(r=>`${r.text.trim()} → ${q.choices[r.answer]}`).join(' | ');
+    if(q.kind==='order')return q.items.join(' → ');
+    if(q.kind==='clock')return `${q.whenOptions[q.whenAnswer]} · ${q.toOptions[q.toAnswer]}`;
+    if(q.kind==='fill')return q.answers[0];
+  }
+  function audio(ok){const x=$(ok?'sfxCorrect':'sfxWrong');try{x?.play().catch(()=>{});}catch(e){}}
+  function submit(q,a){
+    if(answerStatus(q)||!complete(q,a))return;
+    const good=evaluate(q,a);
+    state.session.records[q.id]={correct:good,response:a};
+    if(!has(state.first,q.id))state.first[q.id]=good;
+    state.latest[q.id]=good;save();audio(good);
+    question();
+  }
+  function makeOption(text,i,answer,current,checked){
+    let cls='choice';
+    if(checked){if(i===answer)cls+=' correct';else if(i===current)cls+=' incorrect';}
+    else if(i===current)cls+=' active';
+    return `<button class="${cls}" type="button" data-choice="${i}" ${checked?'disabled':''}><span class="choice-no">${String.fromCharCode(65+i)}</span><span>${esc(text)}</span></button>`;
+  }
+  function renderPick(q,a,r,host){
+    host.innerHTML=q.options.map((o,i)=>makeOption(o,i,q.answer,a,r!==null)).join('');
+    if(!r)host.querySelectorAll('[data-choice]').forEach(btn=>btn.addEventListener('click',()=>submit(q,Number(btn.dataset.choice))));
+  }
+  function renderTruth(q,a,r,host){
+    const options=['Procede','Não procede'];
+    host.innerHTML='<p class="mini-note">Julgue a afirmação à luz da referência indicada.</p><div class="truth-grid">'+options.map((o,i)=>{
+      const v=i===0;
+      let cls='choice';if(r){if(v===q.answer)cls+=' correct';else if(v===a)cls+=' incorrect';}
+      return `<button class="${cls}" type="button" data-truth="${v}" ${r?'disabled':''}>${o}</button>`;
+    }).join('')+'</div>';
+    if(!r)host.querySelectorAll('[data-truth]').forEach(btn=>btn.addEventListener('click',()=>submit(q,btn.dataset.truth==='true')));
+  }
+  function renderMatch(q,a,r,host){
+    host.innerHTML='<p class="mini-note">Escolha uma categoria para cada situação. Não é necessário arrastar cartões.</p>'+q.rows.map((row,idx)=>{
+      const selected=a[idx];
+      const chips=q.choices.map((label,i)=>{
+        const cls='chip'+(selected===i?' selected':'')+(r&&i===row.answer?' is-right':'')+(r&&selected===i&&i!==row.answer?' is-wrong':'');
+        return `<button type="button" class="${cls}" data-row="${idx}" data-value="${i}" ${r?'disabled':''}>${esc(label)}</button>`;
+      }).join('');
+      return `<div class="match-row"><p class="row-label"><b>${String(idx+1).padStart(2,'0')}</b> &nbsp; ${esc(row.text)}</p><div class="chip-row">${chips}</div>${r&&selected!==row.answer?`<p class="correct-note">Correto: ${esc(q.choices[row.answer])}</p>`:''}</div>`;
+    }).join('');
+    if(!r)host.querySelectorAll('[data-row]').forEach(btn=>btn.addEventListener('click',()=>{
+      const v=[...pendingFor(q)];v[Number(btn.dataset.row)]=Number(btn.dataset.value);draft[q.id]=v;question(false);
+    }));
+  }
+  function renderOrder(q,a,r,host){
+    const placed=a||[];
+    const pool=q.items.map((label,i)=>({label,i})).sort((x,y)=>((x.i*3+1)%7)-((y.i*3+1)%7));
+    host.innerHTML='<p class="mini-note">Toque nos cartões em ordem. Use “desfazer” para corrigir antes de conferir.</p><div class="order-wrap"><ol class="order-rail">'+
+      q.items.map((_,i)=>`<li class="${i<placed.length?'filled':''}"><b>${i+1}.</b> ${i<placed.length?esc(q.items[placed[i]]):'Escolha a etapa'}</li>`).join('')+'</ol><div class="order-tiles">'+
+      pool.map(x=>`<button type="button" class="chip ${placed.includes(x.i)?'used':''}" data-order="${x.i}" ${r||placed.includes(x.i)?'disabled':''}>${esc(x.label)}</button>`).join('')+`</div><div class="order-actions"><button type="button" class="small-btn" id="undoOrder" ${r||!placed.length?'disabled':''}>Desfazer última</button><button type="button" class="small-btn" id="clearOrder" ${r||!placed.length?'disabled':''}>Limpar</button></div></div>`;
+    if(!r){host.querySelectorAll('[data-order]').forEach(btn=>btn.addEventListener('click',()=>{draft[q.id]=[...pendingFor(q),Number(btn.dataset.order)];question(false);}));
+      $('undoOrder').addEventListener('click',()=>{draft[q.id]=pendingFor(q).slice(0,-1);question(false)});
+      $('clearOrder').addEventListener('click',()=>{draft[q.id]=[];question(false)});
+    }
+  }
+  function renderClock(q,a,r,host){
+    function block(title,prop,opts,answer){return `<div class="task-block"><strong>${esc(title)}</strong><div class="chip-row">${opts.map((o,i)=>{
+      const cls='chip'+(a[prop]===i?' selected':'')+(r&&i===answer?' is-right':'')+(r&&a[prop]===i&&i!==answer?' is-wrong':'');
+      return `<button type="button" class="${cls}" data-clock="${prop}" data-value="${i}" ${r?'disabled':''}>${esc(o)}</button>`;
+    }).join('')}</div></div>`;}
+    host.innerHTML=`<div class="clock-scene"><small>Período de proteção</small><strong>${esc(q.scenario)}</strong><div class="clock-rail"></div><div class="clock-labels"><span>Marco inicial</span><span>Marco final</span></div></div>`+
+      block(q.labelWhen||'1 · Marco inicial', 'when',q.whenOptions,q.whenAnswer)+block(q.labelTo||'2 · Marco final','to',q.toOptions,q.toAnswer);
+    if(!r)host.querySelectorAll('[data-clock]').forEach(btn=>btn.addEventListener('click',()=>{
+      const v={...pendingFor(q)};v[btn.dataset.clock]=Number(btn.dataset.value);draft[q.id]=v;question(false);
+    }));
+  }
+  function renderFill(q,a,r,host){
+    const parts=q.prompt.split('{{blank}}');
+    host.innerHTML=`<p class="mini-note">Responda sem alternativas. Acentos e maiúsculas não fazem diferença.</p><div class="fill-line"><span>${esc(parts[0])}</span><input class="fill-input" id="fillInput" type="text" autocomplete="off" spellcheck="false" aria-label="Palavra da lacuna" ${r?'disabled':''} value="${esc(a)}"><span>${esc(parts.slice(1).join(' '))}</span></div>`;
+    if(!r){$('fillInput').addEventListener('input',e=>{draft[q.id]=e.target.value;$('checkBtn').disabled=!complete(q,draft[q.id])});
+      $('fillInput').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();const v=$('fillInput').value;draft[q.id]=v;submit(q,v);}});
+    }
+  }
+  function renderFeedback(q,r){
+    if(!r){$('feedback').hidden=true;$('feedback').innerHTML='';return;}
+    const c=r.correct?'good':'bad';
+    const link=q.url&&/^https:\/\//i.test(q.url)?`<a href="${esc(q.url)}" target="_blank" rel="noopener noreferrer">Consultar fonte</a>`:'';
+    $('feedback').hidden=false;$('feedback').className=`feedback ${c}`;
+    $('feedback').innerHTML=`<h3>${r.correct?'Acerto registrado.':'Pegadinha identificada.'}</h3>`+
+     (!r.correct?`<p><b>Resposta esperada:</b> ${esc(correctText(q))}</p>`:'')+`<p>${esc(q.why)}</p>`+
+     (q.trap?`<p class="trap"><b>Atenção à prova:</b> ${esc(q.trap)}</p>`:'')+
+     `<div class="source">${q.authorView?'<b>Posição doutrinária do autor.</b> ':''}${esc(q.source)} ${link}</div>`;
+  }
+  function question(scroll=true){
+    const s=state.session;if(!s){home();return;}
+    const q=lookup.get(s.ids[s.pos]);if(!q){home();return;}
+    const r=answerStatus(q),a=r?r.response:pendingFor(q);
+    $('sessionTitle').textContent=s.label;
+    $('counter').textContent=`Desafio ${s.pos+1} de ${s.ids.length}`;
+    const done=s.ids.filter(id=>has(s.records,id)).length;
+    $('progressText').textContent=`${done}/${s.ids.length} respondidos`;
+    $('progressBar').style.width=`${(done/s.ids.length)*100}%`;
+    $('sectionLabel').textContent=bank.tracks.find(t=>t.id===q.track)?.label||'';
+    $('typeLabel').textContent=kinds[q.kind];
+    $('prompt').textContent=q.kind==='fill'?'Complete a lacuna.':q.prompt;
+    $('qContext').hidden=!q.context;
+    $('qContext').textContent=q.context||'';
+    const host=$('interactive');host.innerHTML='';
+    if(q.kind==='pick')renderPick(q,a,r,host);
+    if(q.kind==='truth')renderTruth(q,a,r,host);
+    if(q.kind==='match')renderMatch(q,a,r,host);
+    if(q.kind==='order')renderOrder(q,a,r,host);
+    if(q.kind==='clock')renderClock(q,a,r,host);
+    if(q.kind==='fill')renderFill(q,a,r,host);
+    renderFeedback(q,r);
+    $('answerState').textContent=r?(r.correct?'✓ Registrado':'↻ Para revisar'):'Primeira escolha vale para a estatística';
+    $('checkBtn').hidden=Boolean(r)||['pick','truth'].includes(q.kind);
+    $('checkBtn').disabled=Boolean(r)||!complete(q,a);
+    $('prevBtn').disabled=s.pos===0;
+    $('nextBtn').textContent=s.pos===s.ids.length-1?'Ver resultado →':'Próximo →';
+    $('quizCard').dataset.questionId=q.id;
+    $('quizCard').dataset.questionType=q.kind;
+    $('quizCard').dataset.questionSection=q.track;
+    $('quizCard').dataset.questionPrompt=q.prompt;
+    showStudy(scroll);
+    if(scroll && s.pos>0)document.querySelector('.quiz-toolbar')?.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  function showStudy(scroll){
+    if($('studyView').hidden){show('study');} // não recomeça navegação quando apenas escolhe chips
+  }
+  function result(){
+    const s=state.session;if(!s)return;
+    s.completed=s.ids.every(id=>has(s.records,id));save();
+    const all=Object.values(s.records);const answered=all.length;const right=all.filter(v=>v.correct).length;
+    const wrong=answered-right;const total=s.ids.length;const ratio=Math.round((right/total)*100);
+    $('score').textContent=`${ratio}%`;
+    $('scoreDetail').textContent=`${right} acertos · ${wrong} erros · ${total-answered} não respondidas · ${total} atividades`;
+    $('resultCaption').textContent=s.label;
+    $('resultExtra').textContent=total-answered>0?
+      'A pontuação considera o total desta sessão, incluindo desafios não respondidos. Você pode continuar quando voltar à trilha.':
+      (wrong?'A primeira resposta ficou registrada. Os erros podem ser refeitos numa rodada própria, sem apagar o histórico.':'Todos os desafios desta sessão foram resolvidos.');
+    const toReview=s.ids.filter(id=>state.latest[id]===false);
+    $('reviewWrongBtn').disabled=!toReview.length;
+    $('reviewWrongBtn').textContent=toReview.length?`Treinar ${toReview.length} erro${toReview.length===1?'':'s'}`:'Sem erros nesta sessão';
+    show('result');
+    window.dispatchEvent(new CustomEvent('law-bank-result',{detail:{answered,total,complete:answered===total}}));
+  }
+  function review(){
+    const ids=bank.questions.filter(q=>state.latest[q.id]===false).map(q=>q.id);
+    if(!ids.length)return;
+    start('review',shuffle(ids),'Revisão inteligente · erros pendentes');
+  }
+  function bind(){
+    $('quickBtn').addEventListener('click',quick);
+    $('allBtn').addEventListener('click',()=>start('all',bank.questions.map(q=>q.id),`Trilha completa · ${bank.questions.length} desafios`));
+    $('reviewBtn').addEventListener('click',review);
+    $('resumeBtn').addEventListener('click',resume);
+    $('goHomeBtn').addEventListener('click',home);
+    $('resultHomeBtn').addEventListener('click',home);
+    $('finishBtn').addEventListener('click',result);
+    $('reviewWrongBtn').addEventListener('click',review);
+    $('restartBtn').addEventListener('click',()=>{if(confirm('Reiniciar esta sessão? O histórico de primeiras tentativas permanecerá salvo.')){
+      const s=state.session;start(s.mode,s.ids,s.label);
+    }});
+    $('resetAllBtn').addEventListener('click',()=>{if(confirm('Apagar as tentativas e o progresso deste novo laboratório de Estabilidade? O banco antigo permanecerá intacto.')){
+      state={version:VERSION,first:{},latest:{},session:null};draft={};save();home();
+    }});
+    $('checkBtn').addEventListener('click',()=>{
+      const q=lookup.get(state.session?.ids[state.session.pos]);if(q)submit(q,pendingFor(q));
+    });
+    $('prevBtn').addEventListener('click',()=>{const s=state.session;if(s.pos>0){s.pos--;save();question();}});
+    $('nextBtn').addEventListener('click',()=>{const s=state.session;if(!s)return;if(s.pos<s.ids.length-1){s.pos++;save();question();}else{result();}});
+  }
+  async function boot(){
+    // No GitHub Pages o JSON externo tem precedência. Em file://, o conteúdo embutido mantém a prévia funcional.
+    if(location.protocol!=='file:'){
+      try{const res=await fetch(new URL('estabilidade.json',document.baseURI),{cache:'no-store'});
+        if(res.ok){const live=await res.json();validate(live);bank=live;}
+      }catch(e){console.warn('Usando cópia incorporada de Estabilidade:',e);}
+    }
+    validate(bank);lookup=new Map(bank.questions.map(q=>[q.id,q]));readState();bind();home();
+  }
+  boot().catch(e=>{console.error(e);$('homeView').innerHTML=`<p role="alert">Não foi possível carregar o laboratório: ${esc(e.message)}</p>`;});
+})();
+
+</script>
+</body>
+</html>

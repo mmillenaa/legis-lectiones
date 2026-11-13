@@ -1,0 +1,841 @@
+{
+  "meta": {
+    "title": "Garantias de Emprego e Estabilidade — Laboratório",
+    "language": "pt-BR",
+    "version": "4.0",
+    "totalActivities": 42,
+    "typeCounts": {
+      "pick": 24,
+      "order": 1,
+      "truth": 4,
+      "clock": 8,
+      "match": 4,
+      "fill": 1
+    },
+    "sourceNote": "Fonte principal: capítulo enviado de Sérgio Pinto Martins. Jurisprudência e legislação discriminadas em cada atividade. Orientações divergentes do autor identificadas."
+  },
+  "tracks": [
+    {
+      "id": "fundamentos",
+      "label": "Fundamentos e história",
+      "short": "Fundamentos",
+      "subtitle": "Evolução da estabilidade, conceito e regime decenal",
+      "motif": "§"
+    },
+    {
+      "id": "prazos",
+      "label": "Prazos e marcos",
+      "short": "Prazos",
+      "subtitle": "Candidatura, mandato, parto, auxílio e inquérito",
+      "motif": "12"
+    },
+    {
+      "id": "agentes",
+      "label": "Agentes e procedimentos",
+      "short": "Agentes",
+      "subtitle": "Quem está protegido e quem apura a falta grave",
+      "motif": "◎"
+    },
+    {
+      "id": "casos",
+      "label": "Casos e jurisprudência",
+      "short": "Casos",
+      "subtitle": "Gestante, acidentado, CIPA e reintegração",
+      "motif": "⚖"
+    },
+    {
+      "id": "prova",
+      "label": "Miudezas de prova",
+      "short": "Prova",
+      "subtitle": "Percentuais, exceções e distinções finas",
+      "motif": "✦"
+    }
+  ],
+  "questions": [
+    {
+      "id": "EST4-001",
+      "track": "fundamentos",
+      "kind": "pick",
+      "prompt": "No sentido jurídico trabalhista, estabilidade significa:",
+      "options": [
+        "Direito à permanência no emprego, ressalvadas hipóteses admitidas.",
+        "Direito à indenização em qualquer encerramento de contrato.",
+        "A proibição de dispensa imotivada que permanece mesmo depois do período protegido."
+      ],
+      "answer": 0,
+      "why": "A estabilidade jurídica restringe a dispensa a causas admitidas pelo ordenamento.",
+      "trap": "Não equivale a vínculo vitalício.",
+      "source": "Martins, itens 2 e 3 — Denominação e conceito",
+      "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977",
+      "authorView": true
+    },
+    {
+      "id": "EST4-002",
+      "track": "fundamentos",
+      "kind": "pick",
+      "prompt": "Na distinção de Sérgio Pinto Martins, garantia de emprego é:",
+      "options": [
+        "Uma modalidade exclusiva de estabilidade decenal que alcança todos os contratos de trabalho.",
+        "Um gênero que inclui medidas amplas de proteção ao emprego.",
+        "Apenas a impossibilidade absoluta de despedida."
+      ],
+      "answer": 1,
+      "why": "O conceito mais amplo alcança obtenção, manutenção e colocação no emprego; estabilidade é proteção mais específica.",
+      "trap": "O autor também diferencia garantia de emprego de garantia no emprego.",
+      "source": "Martins, itens 2 e 3",
+      "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977",
+      "authorView": true
+    },
+    {
+      "id": "EST4-003",
+      "track": "fundamentos",
+      "kind": "pick",
+      "prompt": "Qual diploma foi marco da estabilidade no setor privado e da previdência ferroviária?",
+      "options": [
+        "A Lei nº 8.036, de 1990, que reorganizou o Fundo de Garantia do Tempo de Serviço.",
+        "A Constituição de 1988.",
+        "A Lei Eloy Chaves, de 1923."
+      ],
+      "answer": 2,
+      "why": "O Decreto nº 4.682/1923 instituiu proteção aos ferroviários, marco histórico do regime privado.",
+      "trap": "O instituto havia surgido antes no setor público.",
+      "source": "Martins, item 1 — Histórico",
+      "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977"
+    },
+    {
+      "id": "EST4-004",
+      "track": "fundamentos",
+      "kind": "order",
+      "prompt": "Coloque os três marcos em ordem cronológica:",
+      "items": [
+        "Lei Eloy Chaves: ferroviários e estabilidade (1923)",
+        "FGTS inaugura regime de opção (1966)",
+        "Constituição extingue a alternatividade para novos direitos (1988)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "why": "A trajetória apresentada pelo autor vai do regime de estabilidade decenal à opção pelo FGTS e à sistemática constitucional de 1988.",
+      "trap": "A Constituição de 1988 preservou direitos adquiridos.",
+      "source": "Martins, item 1 — Histórico",
+      "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977"
+    },
+    {
+      "id": "EST4-005",
+      "track": "fundamentos",
+      "kind": "pick",
+      "prompt": "Na disciplina clássica do art. 492 da CLT, a estabilidade decenal exigia, em regra:",
+      "options": [
+        "Mais de dez anos de serviço na mesma empresa.",
+        "Cinco anos continuados de trabalho público, independentemente de concurso.",
+        "Três anos de exercício após concurso."
+      ],
+      "answer": 0,
+      "why": "O art. 492 se refere ao empregado com mais de dez anos de serviço na mesma empresa.",
+      "trap": "O prazo de três anos pertence à estabilidade constitucional do servidor efetivo.",
+      "source": "CLT, art. 492; Martins, item 8",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+    },
+    {
+      "id": "EST4-006",
+      "track": "fundamentos",
+      "kind": "truth",
+      "prompt": "Quem completou dez anos de emprego após 1988 adquiriu automaticamente a antiga estabilidade decenal da CLT.",
+      "answer": false,
+      "why": "A transição constitucional preserva direitos adquiridos do antigo regime, mas não cria estabilidade decenal nova de forma geral.",
+      "trap": "Dez anos atualmente não bastam para reviver o regime extinto.",
+      "source": "Lei nº 8.036/1990, art. 14; Martins, item 8",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm"
+    },
+    {
+      "id": "EST4-007",
+      "track": "fundamentos",
+      "kind": "pick",
+      "prompt": "O pedido de demissão do empregado estável, nos termos do art. 500 da CLT:",
+      "options": [
+        "É válido apenas com duas testemunhas.",
+        "Exige assistência sindical ou da autoridade indicada na falta de sindicato.",
+        "Depende de prévia sentença trabalhista, dispensada a assistência de qualquer sindicato."
+      ],
+      "answer": 1,
+      "why": "O art. 500 estabelece assistência pelo sindicato ou, inexistindo sindicato, por autoridade local do Ministério do Trabalho ou da Justiça do Trabalho.",
+      "trap": "Formalidade especial não se confunde com aceitação patronal.",
+      "source": "CLT, art. 500",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+    },
+    {
+      "id": "EST4-008",
+      "track": "fundamentos",
+      "kind": "truth",
+      "prompt": "A estabilidade jurídica necessariamente impede qualquer mudança de cargo ou local de trabalho.",
+      "answer": false,
+      "why": "A proteção recai sobre a manutenção do vínculo, respeitadas as regras legais de alteração contratual e transferência.",
+      "trap": "Estabilidade não é inamovibilidade.",
+      "source": "Martins, itens 3 e 8; CLT, arts. 468 e 469",
+      "url": "https://app.minhabiblioteca.com.br/reader/books/9786553628977"
+    },
+    {
+      "id": "EST4-009",
+      "track": "prazos",
+      "kind": "clock",
+      "prompt": "Para o dirigente sindical eleito, inclusive suplente, identifique os limites da proteção.",
+      "scenario": "Direção sindical",
+      "whenOptions": [
+        "Registro da candidatura",
+        "Data da eleição",
+        "Posse"
+      ],
+      "whenAnswer": 0,
+      "toOptions": [
+        "Fim do mandato",
+        "Cinco meses após mandato",
+        "Um ano após o mandato"
+      ],
+      "toAnswer": 2,
+      "labelWhen": "1 · Início da proteção",
+      "labelTo": "2 · Término da proteção",
+      "why": "A garantia começa no registro da candidatura e vai, para os eleitos, até um ano após o fim do mandato.",
+      "trap": "A posse não inaugura o período protegido.",
+      "source": "CF, art. 8º, VIII; CLT, art. 543",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    {
+      "id": "EST4-010",
+      "track": "prazos",
+      "kind": "pick",
+      "prompt": "O mandato do dirigente sindical termina em 30/06/2026. Até quando vai a garantia, em regra?",
+      "options": [
+        "Até 30/06/2027.",
+        "Até 30/11/2026.",
+        "Até 30/06/2028."
+      ],
+      "answer": 0,
+      "why": "O período final se projeta por um ano após o término do mandato.",
+      "trap": "Cinco meses é prazo ligado à gestante após o parto, não à garantia sindical.",
+      "source": "CF, art. 8º, VIII",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    {
+      "id": "EST4-011",
+      "track": "prazos",
+      "kind": "clock",
+      "prompt": "Qual o início e o término da proteção do empregado eleito para a CIPA?",
+      "scenario": "CIPA · empregado eleito",
+      "whenOptions": [
+        "Posse no cargo",
+        "Registro da candidatura",
+        "Primeira reunião"
+      ],
+      "whenAnswer": 1,
+      "toOptions": [
+        "Mandato encerrado",
+        "Um ano após o mandato",
+        "Dois anos após o mandato"
+      ],
+      "toAnswer": 1,
+      "labelWhen": "1 · Início da proteção",
+      "labelTo": "2 · Término da proteção",
+      "why": "A proteção vai do registro de candidatura até um ano após o fim do mandato, abrangendo suplente eleito.",
+      "trap": "Não conte apenas os meses do mandato.",
+      "source": "ADCT, art. 10, II, a; TST, Súmula 339",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    {
+      "id": "EST4-012",
+      "track": "prazos",
+      "kind": "clock",
+      "prompt": "No regime constitucional da gestante, quais são os marcos de proteção?",
+      "scenario": "Gestação · ADCT",
+      "whenOptions": [
+        "Início da licença",
+        "Data do parto",
+        "Confirmação da gravidez"
+      ],
+      "whenAnswer": 2,
+      "toOptions": [
+        "Cinco meses após o parto",
+        "120 dias após a concepção",
+        "Um ano após o parto"
+      ],
+      "toAnswer": 0,
+      "labelWhen": "1 · Início da proteção",
+      "labelTo": "2 · Término da proteção",
+      "why": "A garantia constitucional começa na confirmação da gravidez e termina cinco meses após o parto.",
+      "trap": "A licença-maternidade e a estabilidade possuem marcos e durações distintos.",
+      "source": "ADCT, art. 10, II, b",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    {
+      "id": "EST4-013",
+      "track": "prazos",
+      "kind": "pick",
+      "prompt": "O empregado sofre acidente de trabalho. Após a cessação do benefício acidentário, a garantia do art. 118 dura, em regra:",
+      "options": [
+        "Seis meses.",
+        "Doze meses.",
+        "Vinte e quatro meses."
+      ],
+      "answer": 1,
+      "why": "A norma garante manutenção do contrato por, no mínimo, doze meses após a cessação do auxílio-doença acidentário.",
+      "trap": "O marco não é automaticamente a data do acidente.",
+      "source": "Lei nº 8.213/1991, art. 118",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm"
+    },
+    {
+      "id": "EST4-014",
+      "track": "prazos",
+      "kind": "match",
+      "prompt": "Indique a correspondência entre marcos e períodos previstos na legislação.",
+      "choices": [
+        "30 dias",
+        "12 meses",
+        "5 meses"
+      ],
+      "rows": [
+        {
+          "text": "Prazo para ajuizar inquérito a partir da suspensão do empregado.",
+          "answer": 0
+        },
+        {
+          "text": "Garantia ordinária após cessação de auxílio-doença acidentário.",
+          "answer": 1
+        },
+        {
+          "text": "Intervalo constitucional após o parto.",
+          "answer": 2
+        }
+      ],
+      "why": "As durações têm fatos geradores diferentes: suspensão, cessação de benefício e parto.",
+      "trap": "A pergunta cobra simultaneamente prazo e marco inicial.",
+      "source": "CLT, art. 853; Lei 8.213/1991, art. 118; ADCT, art. 10",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+    },
+    {
+      "id": "EST4-015",
+      "track": "prazos",
+      "kind": "clock",
+      "prompt": "Representante dos trabalhadores no Conselho Curador do FGTS: qual intervalo?",
+      "scenario": "Conselho Curador do FGTS",
+      "whenOptions": [
+        "Registro de candidatura",
+        "Nomeação",
+        "Posse do conselho anterior"
+      ],
+      "whenAnswer": 1,
+      "toOptions": [
+        "Fim do mandato",
+        "Um ano após o mandato",
+        "Cinco meses após o mandato"
+      ],
+      "toAnswer": 1,
+      "labelWhen": "1 · Início da proteção",
+      "labelTo": "2 · Término da proteção",
+      "why": "Representantes dos trabalhadores, efetivos e suplentes, têm garantia da nomeação até um ano após o mandato.",
+      "trap": "A exigência de falta grave é por processo sindical no texto legal.",
+      "source": "Lei nº 8.036/1990, art. 3º, §9º",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm"
+    },
+    {
+      "id": "EST4-016",
+      "track": "prazos",
+      "kind": "clock",
+      "prompt": "Representante dos trabalhadores no CNPS: identifique o intervalo.",
+      "scenario": "Conselho Nacional de Previdência Social",
+      "whenOptions": [
+        "Posse em sindicato",
+        "Registro da candidatura",
+        "Nomeação"
+      ],
+      "whenAnswer": 2,
+      "toOptions": [
+        "Um ano após o mandato",
+        "Término do mandato",
+        "Dois anos após o mandato"
+      ],
+      "toAnswer": 0,
+      "labelWhen": "1 · Início da proteção",
+      "labelTo": "2 · Término da proteção",
+      "why": "O CNPS também utiliza a nomeação como marco inicial, até um ano depois do mandato.",
+      "trap": "Ao contrário do Conselho Curador do FGTS, a lei menciona processo judicial para comprovação de falta grave.",
+      "source": "Lei nº 8.213/1991, art. 3º, §7º",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm"
+    },
+    {
+      "id": "EST4-017",
+      "track": "prazos",
+      "kind": "clock",
+      "prompt": "Empregado eleito para a Comissão de Conciliação Prévia: identifique os limites.",
+      "scenario": "Comissão de Conciliação Prévia",
+      "whenOptions": [
+        "Registro da candidatura",
+        "Eleição",
+        "Primeira reunião"
+      ],
+      "whenAnswer": 1,
+      "toOptions": [
+        "Fim do mandato",
+        "Cinco meses após o mandato",
+        "Um ano após o mandato"
+      ],
+      "toAnswer": 2,
+      "labelWhen": "1 · Início da proteção",
+      "labelTo": "2 · Término da proteção",
+      "why": "A CLT atribui proteção aos representantes dos empregados, titulares e suplentes, desde a eleição até um ano após o término do mandato.",
+      "trap": "A data inicial não é o registro de candidatura nessa hipótese.",
+      "source": "CLT, art. 625-B, §1º",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+    },
+    {
+      "id": "EST4-018",
+      "track": "prazos",
+      "kind": "clock",
+      "prompt": "Comissão de representantes dos empregados na empresa: duração e proteção posterior.",
+      "scenario": "CLT · art. 510-D",
+      "whenOptions": [
+        "Mandato de um ano",
+        "Mandato de dois anos",
+        "Mandato de três anos"
+      ],
+      "whenAnswer": 0,
+      "toOptions": [
+        "Seis meses após mandato",
+        "Um ano após mandato",
+        "Dois anos após mandato"
+      ],
+      "toAnswer": 1,
+      "labelWhen": "1 · Duração do mandato",
+      "labelTo": "2 · Proteção posterior",
+      "why": "O mandato é de um ano, e a proteção contra despedida arbitrária alcança um ano após seu término, iniciando-se no registro de candidatura.",
+      "trap": "Mandato e período protegido não são a mesma medida.",
+      "source": "CLT, art. 510-D",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+    },
+    {
+      "id": "EST4-019",
+      "track": "prazos",
+      "kind": "pick",
+      "prompt": "A restrição eleitoral do art. 73, V, da Lei nº 9.504/1997 vai, em regra:",
+      "options": [
+        "Trabalhe em qualquer atividade, ainda que não corresponda à categoria representada.",
+        "Dois meses antes do pleito ao término da apuração.",
+        "Dos três meses anteriores ao pleito até a posse dos eleitos."
+      ],
+      "answer": 2,
+      "why": "A lei eleitoral estabelece esse intervalo, sujeito às hipóteses e exceções específicas do dispositivo.",
+      "trap": "Não confunda com a estabilidade do art. 41 da Constituição.",
+      "source": "Lei nº 9.504/1997, art. 73, V",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm"
+    },
+    {
+      "id": "EST4-020",
+      "track": "prazos",
+      "kind": "pick",
+      "prompt": "Servidor nomeado após concurso para cargo efetivo: o art. 41 da Constituição prevê estabilidade, em regra, após:",
+      "options": [
+        "Três anos de efetivo exercício e avaliação especial de desempenho.",
+        "Só tem garantia se substituir definitivamente o titular afastado durante o mandato.",
+        "Dois anos em cargo exclusivamente comissionado."
+      ],
+      "answer": 0,
+      "why": "A regra exige três anos de efetivo exercício para cargo efetivo, mediante concurso, e avaliação especial de desempenho.",
+      "trap": "O art. 19 do ADCT possui hipótese transitória distinta.",
+      "source": "CF, art. 41",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    {
+      "id": "EST4-021",
+      "track": "agentes",
+      "kind": "match",
+      "prompt": "Relacione cada representante ou colegiado ao procedimento expressamente previsto.",
+      "choices": [
+        "Processo sindical",
+        "Processo judicial",
+        "Assistência do sindicato"
+      ],
+      "rows": [
+        {
+          "text": "Falta grave de representante dos trabalhadores no Conselho Curador do FGTS.",
+          "answer": 0
+        },
+        {
+          "text": "Falta grave de representante dos trabalhadores no CNPS.",
+          "answer": 1
+        },
+        {
+          "text": "Pedido de demissão de empregado estável, como regra.",
+          "answer": 2
+        }
+      ],
+      "why": "Os dois conselhos usam processos distintos no texto legal, enquanto o pedido de demissão tem exigência específica de assistência.",
+      "trap": "É uma pegadinha de agente e procedimento, não apenas de duração.",
+      "source": "Lei nº 8.036/1990, art. 3º, §9º; Lei nº 8.213/1991, art. 3º, §7º; CLT, art. 500",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm"
+    },
+    {
+      "id": "EST4-022",
+      "track": "agentes",
+      "kind": "pick",
+      "prompt": "Quem NÃO tem garantia sindical apenas por sua função fiscalizadora?",
+      "options": [
+        "Suplente eleito para a direção.",
+        "Membro do conselho fiscal sindical.",
+        "Diretor sindical regularmente eleito."
+      ],
+      "answer": 1,
+      "why": "Segundo a OJ 365, quem integra o conselho fiscal fiscaliza contas e não exerce a direção sindical tutelada pela norma.",
+      "trap": "Suplência de direção e conselho fiscal não são funções equivalentes.",
+      "source": "TST, OJ 365 da SBDI-1",
+      "url": "https://www.tst.jus.br/jurisprudencia"
+    },
+    {
+      "id": "EST4-023",
+      "track": "agentes",
+      "kind": "pick",
+      "prompt": "O dirigente de categoria profissional diferenciada precisa, segundo a Súmula 369, III, que:",
+      "options": [
+        "Tem garantia igual à do diretor eleito, ainda que a lei não trate expressamente da suplência.",
+        "Seja eleito por votação de todos os empregados da empresa.",
+        "Exerça na empresa atividade correspondente à categoria representada."
+      ],
+      "answer": 2,
+      "why": "O nexo entre a atividade efetiva e a categoria representada é requisito importante para essa garantia.",
+      "trap": "A eleição sindical isolada não resolve a situação da categoria diferenciada.",
+      "source": "TST, Súmula 369, III",
+      "url": "https://www.tst.jus.br/jurisprudencia"
+    },
+    {
+      "id": "EST4-024",
+      "track": "agentes",
+      "kind": "pick",
+      "prompt": "Quanto ao suplente eleito para representação dos empregados na CIPA:",
+      "options": [
+        "É abrangido pela garantia reconhecida na jurisprudência.",
+        "Só tem garantia se substituir definitivamente o titular.",
+        "Não tem garantia porque não ocupa a presidência."
+      ],
+      "answer": 0,
+      "why": "Súmula 339, I, do TST e Súmula 676 do STF reconhecem a garantia ao suplente.",
+      "trap": "A literalidade isolada do art. 165 da CLT é insuficiente.",
+      "source": "TST, Súmula 339, I; STF, Súmula 676",
+      "url": "https://www.tst.jus.br/jurisprudencia"
+    },
+    {
+      "id": "EST4-025",
+      "track": "agentes",
+      "kind": "truth",
+      "prompt": "A mera indicação de representante patronal para a CIPA, sem eleição pelos empregados, gera automaticamente a garantia prevista no ADCT.",
+      "answer": false,
+      "why": "A proteção constitucional ordinária estudada refere-se ao empregado eleito como representante dos trabalhadores.",
+      "trap": "O autor discute cenário peculiar de representante patronal eleito; isso não transforma indicação em eleição.",
+      "source": "ADCT, art. 10, II, a; Martins, item 11.2",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    {
+      "id": "EST4-026",
+      "track": "agentes",
+      "kind": "pick",
+      "prompt": "Segundo a OJ 253 da SBDI-1, o suplente de dirigente de sociedade cooperativa:",
+      "options": [
+        "Tem a mesma garantia do dirigente, em qualquer circunstância.",
+        "Não recebe essa garantia apenas por ser suplente.",
+        "Possui garantia por exatamente cinco meses após a eleição."
+      ],
+      "answer": 1,
+      "why": "A OJ 253 restringe a garantia ao diretor de sociedade cooperativa nas condições legais.",
+      "trap": "Não transfira a regra do suplente da CIPA ou do sindicato para o suplente cooperativo.",
+      "source": "TST, OJ 253 da SBDI-1",
+      "url": "https://www.tst.jus.br/jurisprudencia"
+    },
+    {
+      "id": "EST4-027",
+      "track": "agentes",
+      "kind": "match",
+      "prompt": "Associe as proteções a seus beneficiários.",
+      "choices": [
+        "Conselho Curador FGTS",
+        "Comissão de Conciliação Prévia",
+        "CIPA"
+      ],
+      "rows": [
+        {
+          "text": "Representantes dos trabalhadores nomeados, titulares e suplentes.",
+          "answer": 0
+        },
+        {
+          "text": "Representantes dos empregados eleitos, titulares e suplentes.",
+          "answer": 1
+        },
+        {
+          "text": "Representantes dos empregados eleitos para prevenção de acidentes e assédio.",
+          "answer": 2
+        }
+      ],
+      "why": "A titularidade dos cargos e a forma de investidura diferenciam os institutos.",
+      "trap": "Não memorize apenas um prazo de doze meses: memorize o agente e o marco.",
+      "source": "Leis nº 8.036/1990 e 8.213/1991; CLT",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+    },
+    {
+      "id": "EST4-028",
+      "track": "agentes",
+      "kind": "pick",
+      "prompt": "O art. 19 do ADCT considerou estáveis determinados servidores públicos civis sem concurso, desde que contassem, na promulgação da Constituição, com:",
+      "options": [
+        "Três anos intercalados.",
+        "Dez anos de serviço no mesmo cargo, independentemente do órgão público de origem.",
+        "Cinco anos continuados de exercício."
+      ],
+      "answer": 2,
+      "why": "É uma regra transitória para servidores civis nas condições e órgãos previstos no dispositivo.",
+      "trap": "Não se trata da mesma hipótese do art. 41, aplicável a titulares de cargos efetivos.",
+      "source": "ADCT, art. 19",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    {
+      "id": "EST4-029",
+      "track": "agentes",
+      "kind": "fill",
+      "prompt": "O prazo do art. 853 da CLT para ajuizar inquérito após a suspensão é de {{blank}} dias.",
+      "answers": [
+        "30",
+        "trinta"
+      ],
+      "why": "O empregador conta trinta dias a partir da suspensão do empregado para a propositura do inquérito.",
+      "trap": "A pergunta não trata da duração de estabilidade.",
+      "source": "CLT, art. 853",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+    },
+    {
+      "id": "EST4-030",
+      "track": "casos",
+      "kind": "pick",
+      "prompt": "A empresa é encerrada e deixa de existir a base de representação do dirigente sindical. A garantia, segundo a Súmula 369, IV:",
+      "options": [
+        "Prossegue por dez anos na nova empresa para a qual o empregado eventualmente seja transferido.",
+        "Não subsiste após a extinção da atividade empresarial pertinente.",
+        "Converte-se necessariamente em vitaliciedade."
+      ],
+      "answer": 1,
+      "why": "A garantia protege a representação sindical na atividade empresarial.",
+      "trap": "Não é a mesma lógica aplicada à gestante diante do encerramento da empresa.",
+      "source": "TST, Súmula 369, IV",
+      "url": "https://www.tst.jus.br/jurisprudencia"
+    },
+    {
+      "id": "EST4-031",
+      "track": "casos",
+      "kind": "pick",
+      "prompt": "O estabelecimento é extinto, não subsistindo a CIPA. Segundo a Súmula 339, II:",
+      "options": [
+        "Não há reintegração nem indenização do período remanescente por esse fato.",
+        "É sempre devida indenização em dobro até o fim do mandato.",
+        "O trabalhador deve ser transferido automaticamente para outro estabelecimento."
+      ],
+      "answer": 0,
+      "why": "A garantia da CIPA não é vantagem pessoal: está ligada à existência de suas atividades no estabelecimento.",
+      "trap": "A extinção do local de trabalho deve ser diferenciada de uma dispensa arbitrária isolada.",
+      "source": "TST, Súmula 339, II",
+      "url": "https://www.tst.jus.br/jurisprudencia"
+    },
+    {
+      "id": "EST4-032",
+      "track": "casos",
+      "kind": "pick",
+      "prompt": "A empregada estava grávida, mas o empregador não sabia ao dispensá-la. Segundo a Súmula 244, I:",
+      "options": [
+        "A proteção depende de comunicação formal anterior à dispensa, inclusive se a gestação começou antes.",
+        "O desconhecimento impede a reintegração e a indenização.",
+        "O desconhecimento não afasta o direito à indenização decorrente da estabilidade."
+      ],
+      "answer": 2,
+      "why": "O TST adotou proteção objetiva quanto ao desconhecimento patronal da gravidez.",
+      "trap": "O livro também apresenta posição subjetiva do autor, contrária à tese predominante.",
+      "source": "TST, Súmula 244, I; Martins, item 11.3",
+      "url": "https://www.tst.jus.br/jurisprudencia"
+    },
+    {
+      "id": "EST4-033",
+      "track": "casos",
+      "kind": "truth",
+      "prompt": "A confirmação da gravidez durante o aviso-prévio indenizado é irrelevante para a garantia gestacional.",
+      "answer": false,
+      "why": "A CLT expressamente protege a confirmação ocorrida durante o contrato, inclusive aviso-prévio trabalhado ou indenizado.",
+      "trap": "A projeção do aviso-prévio pode ser determinante.",
+      "source": "CLT, art. 391-A",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+    },
+    {
+      "id": "EST4-034",
+      "track": "casos",
+      "kind": "pick",
+      "prompt": "No contrato de experiência, a gestante tem proteção conforme a tese firmada no Tema 163 do TST?",
+      "options": [
+        "Não, a experiência sempre exclui a garantia, mesmo quando a gravidez ocorre durante o contrato.",
+        "Sim, a garantia também alcança essa modalidade de prazo determinado.",
+        "Somente mediante renovação para prazo indeterminado."
+      ],
+      "answer": 1,
+      "why": "O TST firmou em 27/06/2025 a tese de que a garantia do ADCT cabe no contrato de experiência.",
+      "trap": "Martins apresenta posição restritiva no capítulo; não a confunda com a tese repetitiva do TST.",
+      "source": "TST, Tema 163 (2025)",
+      "url": "https://www.tst.jus.br/documents/d/guest/irr163"
+    },
+    {
+      "id": "EST4-035",
+      "track": "casos",
+      "kind": "pick",
+      "prompt": "Após terminar o período de garantia da gestante, ela ajuíza ação dentro do prazo prescricional. Conforme a OJ 399:",
+      "options": [
+        "O ajuizamento tardio não é por si só abuso, e pode ser devida indenização.",
+        "A indenização é impossível depois do fim da garantia, ainda que a ação esteja dentro do prazo prescricional.",
+        "O prazo da garantia reinicia com a distribuição da ação."
+      ],
+      "answer": 0,
+      "why": "A OJ 399 distingue o exercício do direito de ação, sujeito à prescrição, do fim da garantia para reintegração.",
+      "trap": "A posição pessoal do autor é mais restritiva; a jurisprudência segue outra orientação.",
+      "source": "TST, OJ 399 da SBDI-1",
+      "url": "https://www.tst.jus.br/jurisprudencia"
+    },
+    {
+      "id": "EST4-036",
+      "track": "casos",
+      "kind": "pick",
+      "prompt": "Doença profissional relacionada ao trabalho constatada após a dispensa, sem benefício acidentário prévio:",
+      "options": [
+        "Nunca há garantia se não tiver sido concedido auxílio-doença acidentário antes da dispensa.",
+        "Garante estabilidade decenal em qualquer hipótese.",
+        "Pode atrair a exceção jurisprudencial se demonstrado nexo causal."
+      ],
+      "answer": 2,
+      "why": "Súmula 378, II, prevê exceção quando constatada após a dispensa doença profissional relacionada ao contrato.",
+      "trap": "A ausência do benefício não é sempre fatal, mas o nexo causal é essencial.",
+      "source": "TST, Súmula 378, II",
+      "url": "https://www.tst.jus.br/jurisprudencia"
+    },
+    {
+      "id": "EST4-037",
+      "track": "casos",
+      "kind": "pick",
+      "prompt": "O empregado sofre acidente de trabalho durante contrato por prazo determinado. Segundo a Súmula 378, III:",
+      "options": [
+        "O prazo determinado afasta toda garantia.",
+        "Há garantia provisória também no contrato a termo.",
+        "A garantia depende de contratação subsequente por prazo indeterminado."
+      ],
+      "answer": 1,
+      "why": "A jurisprudência do TST reconhece a garantia acidentária também em contrato por prazo determinado.",
+      "trap": "O livro registra orientação pessoal mais restritiva.",
+      "source": "TST, Súmula 378, III",
+      "url": "https://www.tst.jus.br/jurisprudencia"
+    },
+    {
+      "id": "EST4-038",
+      "track": "casos",
+      "kind": "pick",
+      "prompt": "A gestante dispensada irregularmente procura o Judiciário depois de finalizado o período estabilitário. A Súmula 244, II, prevê:",
+      "options": [
+        "Salários e direitos do período de garantia, sem reintegração após o término.",
+        "Reintegração obrigatória por mais cinco anos.",
+        "Extinção de qualquer pretensão indenizatória, ainda que o pedido ocorra dentro do prazo prescricional."
+      ],
+      "answer": 0,
+      "why": "Quando já não cabe reintegração no período protegido, a tutela restringe-se à indenização correspondente.",
+      "trap": "Término da garantia não apaga necessariamente direitos da dispensa anterior.",
+      "source": "TST, Súmula 244, II",
+      "url": "https://www.tst.jus.br/jurisprudencia"
+    },
+    {
+      "id": "EST4-039",
+      "track": "prova",
+      "kind": "match",
+      "prompt": "Qual é a escala legal de reserva de cargos para PcD/reabilitados?",
+      "choices": [
+        "2%",
+        "3%",
+        "4%",
+        "5%"
+      ],
+      "rows": [
+        {
+          "text": "Empresas com 100 a 200 empregados.",
+          "answer": 0
+        },
+        {
+          "text": "201 a 500 empregados.",
+          "answer": 1
+        },
+        {
+          "text": "501 a 1.000 empregados.",
+          "answer": 2
+        },
+        {
+          "text": "1.001 ou mais empregados.",
+          "answer": 3
+        }
+      ],
+      "why": "O art. 93 apresenta progressão de 2%, 3%, 4% e 5%, conforme o porte da empresa.",
+      "trap": "A faixa intermediária de 201 a 500 corresponde a 3%, não 4%.",
+      "source": "Lei nº 8.213/1991, art. 93",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm"
+    },
+    {
+      "id": "EST4-040",
+      "track": "prova",
+      "kind": "pick",
+      "prompt": "Na hipótese do art. 93, §1º, a dispensa imotivada de trabalhador reabilitado em contrato indeterminado condiciona-se:",
+      "options": [
+        "À autorização judicial coletiva sempre que houver dispensa imotivada do empregado com deficiência.",
+        "Ao simples pagamento integral das verbas rescisórias.",
+        "À contratação de substituto com deficiência ou reabilitado em condição semelhante."
+      ],
+      "answer": 2,
+      "why": "A norma exige contratação de substituto na hipótese especificada, além das demais condições legais.",
+      "trap": "É regra diferente de estabilidade por prazo fixo.",
+      "source": "Lei nº 8.213/1991, art. 93, §1º",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm"
+    },
+    {
+      "id": "EST4-041",
+      "track": "prova",
+      "kind": "pick",
+      "prompt": "A dispensa de trabalhador com HIV ou doença grave que suscite estigma ou preconceito, segundo a Súmula 443:",
+      "options": [
+        "Presume-se discriminatória e pode gerar reintegração.",
+        "É livre desde que haja indenização de quarenta por cento do FGTS.",
+        "Só será discriminatória se houver confissão formal do empregador."
+      ],
+      "answer": 0,
+      "why": "A Súmula 443 presume discriminatória a dispensa e considera inválido o ato, assegurando reintegração; entendimento reafirmado no Tema 254.",
+      "trap": "Presunção não é sinônimo de prova exclusivamente direta da intenção discriminatória.",
+      "source": "TST, Súmula 443 e Tema 254",
+      "url": "https://jurisprudencia-backend.tst.jus.br/rest/documentos/24"
+    },
+    {
+      "id": "EST4-042",
+      "track": "prova",
+      "kind": "clock",
+      "prompt": "Diretor de cooperativa criada pelos empregados: identifique o intervalo de garantia indicado na lei.",
+      "scenario": "Direção de sociedade cooperativa",
+      "whenOptions": [
+        "Posse",
+        "Registro da candidatura",
+        "Primeiro ano de mandato"
+      ],
+      "whenAnswer": 1,
+      "toOptions": [
+        "Um ano após o mandato",
+        "Fim do mandato",
+        "Cinco meses após o mandato"
+      ],
+      "toAnswer": 0,
+      "labelWhen": "1 · Início da proteção",
+      "labelTo": "2 · Término da proteção",
+      "why": "O art. 55 da Lei 5.764/1971 remete às garantias do art. 543 da CLT para empregados eleitos diretores.",
+      "trap": "Não se estende automaticamente ao suplente (OJ 253).",
+      "source": "Lei nº 5.764/1971, art. 55; CLT, art. 543",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l5764.htm"
+    }
+  ]
+}
